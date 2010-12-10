@@ -1,0 +1,15 @@
+<game>
+  <campaign 
+    name="Descent into Darkness 2" 
+    src="campaigns/Descent_into_Darkness_2/campaign.xml"
+  />
+  <campaign 
+    name="Ars Nova" 
+    src="campaigns/Descent_into_Darkness_2/campaign.xml"
+  />
+  <campaign 
+    name="The Dark Woods" 
+    src="campaigns/The_Dark_Woods/campaign.xml"
+  />
+</game>
+
