@@ -1,0 +1,88 @@
+<html>
+
+  <head>
+
+    <title>Ancient &amp; Deadly</title>
+
+    <link rel="stylesheet" type="text/css" href="game.css">
+
+    <!-- 
+      Game.js creates the singleton Game object that all Ancient & Deadly
+      classes, functions and variables attach themselves to. This avoids
+      creating a bunch of global variables that could conflict with names
+      built into the browser or javascript.
+    -->
+    <script type="text/javascript" src="js/Game.js"></script>
+    <!--
+      These scripts define classes within the Game object. 
+      For example, Character.js defines a class called Game.Character.
+      To create an object of this class: var hero = new Game.Character();
+    -->
+    <script type="text/javascript" src="js/Area.js"></script>
+    <script type="text/javascript" src="js/BattleCommand.js"></script>
+    <script type="text/javascript" src="js/BattleMenu.js"></script>
+    <script type="text/javascript" src="js/Character.js"></script>
+    <script type="text/javascript" src="js/Encounter.js"></script>
+    <script type="text/javascript" src="js/ImageLoader.js"></script>
+    <script type="text/javascript" src="js/Map.js"></script>
+    <script type="text/javascript" src="js/Path.js"></script>
+    <script type="text/javascript" src="js/Slide.js"></script>
+
+  </head>
+
+  <body>
+
+    <!-- this element contains all of the user account controls -->
+    <div id="userForm">
+      <!-- default (logged out) -->
+      <span id="defaultUserForm">
+        <input type="submit" value="log in" id="showLogin"/>
+        <input type="submit" value="register" id="showRegister"/>
+      </span>
+      <!-- login form -->
+      <span id="loginUserForm">
+        <input type="text" placeholder="username" id="loginUserName"/>
+        <input type="password" placeholder="password" id="loginPassword"/>
+        <input type="submit" value="log in" id="login"/>
+        <input type="submit" value="cancel" id="cancelLogin"/>
+      </span>
+      <!-- register form -->
+      <span id="registerUserForm">
+        <input type="text" placeholder="new username" id="registerUserName"/>
+        <input type="password" placeholder="new password" id="registerPassword"/>
+        <input type="password" placeholder="type new password again" id="registerRetype"/>
+        <input type="submit" value="register" id="register"/>
+        <input type="submit" value="cancel" id="cancelRegister"/>
+      </span>
+      <!-- default (logged in) -->
+      <span id="loggedInUserForm">
+        <input type="submit" value="log out" id="logout"/>
+        <input type="submit" value="account options" id="showAccountOptions"/>
+      </span>
+      <!-- account options -->
+      <span id="optionsUserForm">
+        <input type="submit" value="change password" id="showChangePassword"/>
+        <input type="submit" value="delete my account" id="showDeleteUser"/>
+        <input type="submit" value="cancel" id="cancelAccountOptions"/>
+      </span>
+      <!-- change password -->
+      <span id="passwordUserForm">
+        <input type="password" placeholder="old password" id="passwordOld"/>
+        <input type="password" placeholder="new password" id="passwordNew"/>
+        <input type="password" placeholder="type new password again" id="passwordRetype"/>
+        <input type="submit" value="change password" id="changePassword"/>
+        <input type="submit" value="cancel" id="cancelChangePassword"/>
+      </span>
+      <!-- delete this account -->
+      <span id="deleteUserForm">
+        Are you sure you want to delete your account?
+        This operation cannot be undone. All your saved games will be lost.
+        <input type="submit" value="delete my account" id="deleteUser"/>
+        <input type="submit" value="cancel" id="cancelDeleteUser"/>
+      </span>
+    </div>
+
+  </body>
+
+</html>
+
