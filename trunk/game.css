@@ -86,4 +86,6 @@
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
 }
-
+.imageLoader {
+  color: white;
+}
