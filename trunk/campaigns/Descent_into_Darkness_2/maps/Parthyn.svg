@@ -1,0 +1,1531 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2233"
+   height="1547"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="Parthyn.svg"
+   inkscape:export-filename="/home/seth/ancientanddeadly/campaigns/Descent_into_Darkness_2/maps/Parthyn.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   style="display:inline;enable-background:new">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective2961"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3059"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3193"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3288"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3614"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3685"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3795"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3866"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4033"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4125"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4214"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4342"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4542"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4634"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4870"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4941"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5012"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5083"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5316"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5405"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5476"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5583"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5654"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5725"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5796"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5867"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5938"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective6051"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective6136"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective6207"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective6278"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective6428"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective6895"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective6966"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective7145"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective7216"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective7287"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective7358"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective7429"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective7539"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective7623"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective7694"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective7765"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective7930"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8019"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8090"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8359"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8538"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8681"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8752"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8823"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective9059"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective9130"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective9201"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective9400"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective9475"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective9711"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective9782"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective9853"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10194"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10265"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10336"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10407"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10478"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10549"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10620"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10773"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10844"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10915"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10986"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective11354"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective11464"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective11592"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective11663"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective11734"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective11857"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3055"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3604"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3675"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3746"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3817"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3888"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4739"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4810"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4938"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5030"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.99834532"
+     inkscape:cx="847.52558"
+     inkscape:cy="279.59187"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="748"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2816"
+       empspacing="9"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid2839"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       spacingx="54px"
+       spacingy="36px"
+       color="#ff0000"
+       opacity="0.1254902"
+       empcolor="#ff0000"
+       empopacity="0.25098039" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="ruined"
+     sodipodi:insensitive="true"
+     style="display:inline">
+    <image
+       y="0"
+       x="0"
+       id="image11859"
+       height="1547"
+       width="2233"
+       xlink:href="file:///home/seth/ancientanddeadly/campaigns/Descent_into_Darkness_2/maps/Parthyn_background.png" />
+  </g>
+  <g
+     inkscape:label="props"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,494.63782)"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <image
+       y="-162.63782"
+       x="1764"
+       id="image7842"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/gate-rusty-se.png" />
+    <image
+       y="-396.63782"
+       x="1539"
+       id="image5478"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/rock-cairn.png" />
+    <image
+       y="-495.63782"
+       x="819"
+       id="image7781"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/gate-rusty-se.png" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/gate-rusty-se.png"
+       width="72"
+       height="72"
+       id="image7783"
+       x="864"
+       y="-522.63782" />
+    <image
+       y="-351.63782"
+       x="1017"
+       id="image4636"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/gate-rusty-sw.png" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/gate-rusty-sw.png"
+       width="72"
+       height="72"
+       id="image5956"
+       x="1656"
+       y="-468.63782" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png"
+       width="72"
+       height="72"
+       id="image5980"
+       x="1143"
+       y="-405.63782" />
+    <image
+       y="-378.63782"
+       x="1125"
+       id="image5982"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png" />
+    <image
+       y="-432.63782"
+       x="1089"
+       id="image5014"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png"
+       width="72"
+       height="72"
+       id="image5976"
+       x="1071"
+       y="-405.63782" />
+    <image
+       y="-378.63782"
+       x="1053"
+       id="image5978"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png" />
+    <image
+       y="-189.63782"
+       x="1809"
+       id="image5966"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/gate-rusty-se.png" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/gate-rusty-se.png"
+       width="72"
+       height="72"
+       id="image5968"
+       x="1836"
+       y="-207.63782" />
+    <image
+       y="-531.63782"
+       x="1548"
+       id="image5972"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/gate-rusty-sw.png" />
+    <image
+       y="476.36218"
+       x="1953"
+       id="image3195"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/tent.png" />
+    <image
+       y="512.36218"
+       x="2025"
+       id="image3290"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/tent2.png"
+       inkscape:transform-center-x="-36"
+       inkscape:transform-center-y="36" />
+    <image
+       y="368.36218"
+       x="2079"
+       id="image3616"
+       height="216"
+       width="180"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/village/hut.png" />
+    <image
+       y="350.36218"
+       x="1962"
+       id="image3687"
+       height="216"
+       width="180"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/village/hut2.png" />
+    <image
+       y="485.36218"
+       x="1926"
+       id="image3797"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/barrel.png" />
+    <image
+       y="764.36218"
+       x="243"
+       id="image4216"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/tent-ruin-1.png" />
+    <image
+       y="-351.63782"
+       x="-162"
+       id="image4344"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/mine-abandoned.png"
+       transform="scale(-1,1)" />
+    <image
+       y="404.36218"
+       x="198"
+       id="image4872"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/rubble.png" />
+    <image
+       y="422.36218"
+       x="1323"
+       id="image4943"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/signpost.png" />
+    <image
+       y="-234.63782"
+       x="1539"
+       id="image5085"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/temple1.png" />
+    <image
+       y="368.36218"
+       x="1593"
+       id="image5318"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/tent-fancy-red.png" />
+    <image
+       y="746.36218"
+       x="1071"
+       id="image8361"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/book1.png" />
+    <image
+       y="674.36218"
+       x="1035"
+       id="image5407"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/tent-shop-weapons.png" />
+    <image
+       y="647.36218"
+       x="1593"
+       id="image5585"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/trapdoor-open.png" />
+    <image
+       y="926.36218"
+       x="828"
+       id="image5656"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/trash.png" />
+    <image
+       y="626.36218"
+       x="459"
+       id="image5727"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/village-human-burned1.png" />
+    <image
+       y="514.36218"
+       x="299"
+       id="image5798"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/village-human-burned2.png" />
+    <image
+       y="439.36218"
+       x="81"
+       id="image5869"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/village-human-burned3.png" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/village-human-burned1.png"
+       width="72"
+       height="72"
+       id="image5944"
+       x="513"
+       y="806.36218" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/village-human-burned1.png"
+       width="72"
+       height="72"
+       id="image5946"
+       x="1323"
+       y="-237.63782" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/village-human-burned3.png"
+       width="72"
+       height="72"
+       id="image5950"
+       x="1001"
+       y="-316.63782" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/village-human-burned4.png"
+       width="72"
+       height="72"
+       id="image5952"
+       x="1866"
+       y="-168.63782" />
+    <image
+       y="-279.63782"
+       x="1269"
+       id="image5960"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/gate-rusty-sw.png" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/gate-rusty-se.png"
+       width="72"
+       height="72"
+       id="image6057"
+       x="1296"
+       y="-279.63782" />
+    <g
+       id="g7551"
+       transform="translate(0,-2.6171874e-6)">
+      <image
+         y="-459.63782"
+         x="1107"
+         id="image6061"
+         height="72"
+         width="72"
+         xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png" />
+    </g>
+    <image
+       y="-486.63782"
+       x="1125"
+       id="image6063"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png" />
+    <image
+       y="746.36218"
+       x="1890"
+       id="image6138"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/well.png" />
+    <image
+       y="80.362183"
+       x="1809"
+       id="image6209"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/whirlpool.png" />
+    <image
+       y="-423.63782"
+       x="1809"
+       id="image6430"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/village/human-hills-tile.png" />
+    <image
+       y="-258.63782"
+       x="561"
+       id="image6897"
+       height="78"
+       width="78"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/village/log-cabin.png" />
+    <image
+       y="152.36218"
+       x="1800"
+       id="image6968"
+       height="216"
+       width="180"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/village/swampwater.png" />
+    <image
+       y="98.362183"
+       x="1737"
+       id="image7147"
+       height="216"
+       width="180"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/village/swampwater2.png" />
+    <image
+       y="188.36218"
+       x="1161"
+       id="image7218"
+       height="216"
+       width="180"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/village/human.png" />
+    <image
+       y="548.36218"
+       x="1809"
+       id="image7289"
+       height="216"
+       width="180"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/village/human2.png" />
+    <image
+       y="296.36218"
+       x="1215"
+       id="image7360"
+       height="216"
+       width="180"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/village/human3.png" />
+    <image
+       y="152.36218"
+       x="675"
+       id="image7431"
+       height="216"
+       width="180"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/village/human4.png" />
+    <image
+       y="-468.63782"
+       x="1620"
+       id="image7541"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/monolith1.png" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png"
+       width="72"
+       height="72"
+       id="image7545"
+       x="1017"
+       y="-432.63782" />
+    <image
+       y="-405.63782"
+       x="999"
+       id="image7547"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png" />
+    <image
+       y="-459.63782"
+       x="1035"
+       id="image7549"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png" />
+    <g
+       transform="translate(-54,-27.000003)"
+       id="g7554">
+      <image
+         xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png"
+         width="72"
+         height="72"
+         id="image7556"
+         x="1107"
+         y="-459.63782" />
+    </g>
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/gate-rusty-sw.png"
+       width="72"
+       height="72"
+       id="image5970"
+       x="1503"
+       y="-135.63782" />
+    <image
+       y="-108.63782"
+       x="1719"
+       id="image7625"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/monolith2.png" />
+    <image
+       y="-81.637817"
+       x="1638"
+       id="image7696"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/monolith3.png" />
+    <image
+       y="-495.63782"
+       x="1566"
+       id="image7767"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/monolith4.png" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/gate-rusty-sw.png"
+       width="72"
+       height="72"
+       id="image7771"
+       x="972"
+       y="-378.63782" />
+    <image
+       y="-441.63782"
+       x="1701"
+       id="image7773"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/gate-rusty-sw.png" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/gate-rusty-sw.png"
+       width="72"
+       height="72"
+       id="image7779"
+       x="837"
+       y="-468.63782" />
+    <image
+       y="-459.63782"
+       x="963"
+       id="image7785"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png"
+       width="72"
+       height="72"
+       id="image7787"
+       x="981"
+       y="-486.63782" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png"
+       width="72"
+       height="72"
+       id="image7828"
+       x="909"
+       y="-486.63782" />
+    <image
+       y="-108.63782"
+       x="1548"
+       id="image7840"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/gate-rusty-sw.png" />
+    <image
+       y="-180.63782"
+       x="1575"
+       id="image7932"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/altar.png" />
+    <image
+       y="467.36218"
+       x="1539"
+       id="image8021"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/archery-target-right.png" />
+    <image
+       y="701.36218"
+       x="972"
+       id="image8092"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/armor.png" />
+    <image
+       y="773.36218"
+       x="1089"
+       id="image8683"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/book4.png" />
+    <image
+       y="755.36218"
+       x="1026"
+       id="image8754"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/book2.png" />
+    <image
+       y="719.36218"
+       x="981"
+       id="image9061"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/buckler.png" />
+    <image
+       y="710.36218"
+       x="954"
+       id="image9132"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/bow.png" />
+    <image
+       y="-432.63782"
+       x="1404"
+       id="image9402"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/coffin-closed.png" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/coffin-closed.png"
+       width="72"
+       height="72"
+       id="image9406"
+       x="1440"
+       y="-459.63782" />
+    <image
+       y="-486.63782"
+       x="1476"
+       id="image9408"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/coffin-closed.png" />
+    <image
+       y="467.36218"
+       x="1647"
+       id="image9477"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/dummy.png" />
+    <image
+       y="692.36218"
+       x="1062"
+       id="image9713"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/leather-pack.png" />
+    <image
+       y="773.36218"
+       x="1053"
+       id="image9855"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/ornate2.png" />
+    <image
+       y="773.36218"
+       x="1035"
+       id="image9784"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/ornate1.png" />
+    <image
+       y="737.36218"
+       x="1125"
+       id="image10196"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/potion-blue.png" />
+    <image
+       y="746.36218"
+       x="1134"
+       id="image10267"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/potion-green.png" />
+    <image
+       y="764.36218"
+       x="990"
+       id="image10338"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/potion-grey.png" />
+    <image
+       y="755.36218"
+       x="1116"
+       id="image10409"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/potion-poison.png" />
+    <image
+       y="701.36218"
+       x="1098"
+       id="image10480"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/potion-red.png" />
+    <image
+       y="710.36218"
+       x="1107"
+       id="image10551"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/potion-yellow.png" />
+    <image
+       y="296.36218"
+       x="1053"
+       id="image10622"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/scarecrow.png" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/box.png"
+       width="72"
+       height="72"
+       id="image10626"
+       x="1017"
+       y="800.36218" />
+    <image
+       y="-360.63782"
+       x="1512"
+       id="image10775"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/stone-tablet.png" />
+    <image
+       y="368.36218"
+       x="765"
+       id="image10846"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/straw-bale1.png" />
+    <image
+       y="350.36218"
+       x="693"
+       id="image10917"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/straw-bale2.png" />
+    <image
+       y="467.36218"
+       x="747"
+       id="image10988"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/grain-sheaf.png" />
+    <image
+       y="404.36218"
+       x="1755"
+       id="image11594"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/chest.png" />
+    <image
+       y="404.36218"
+       x="1431"
+       id="image11665"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/chest-plain-open.png" />
+    <image
+       y="431.36218"
+       x="1701"
+       id="image11736"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/chest-plain-closed.png" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/barrel.png"
+       width="72"
+       height="72"
+       id="image11742"
+       x="1485"
+       y="359.36218" />
+    <image
+       y="-405.63782"
+       x="927"
+       id="image11863"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/gate-rusty-sw.png" />
+    <image
+       y="-549.63782"
+       x="909"
+       id="image11865"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/gate-rusty-se.png" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/box.png"
+       width="72"
+       height="72"
+       id="image11869"
+       x="2115"
+       y="503.36218" />
+    <image
+       y="593.36218"
+       x="1980"
+       id="image4127"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/leanto.png" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="animations"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline;enable-background:new"
+       y="458.36218"
+       x="2079"
+       id="image4035"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/fire1.png" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline;enable-background:new"
+       y="404.36218"
+       x="684"
+       id="image6280"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/windmill-01.png" />
+    <image
+       style="display:inline;enable-background:new"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/brazier-lit1.png"
+       width="72"
+       height="72"
+       id="image9207"
+       x="1107"
+       y="602" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="paths"
+     style="display:inline">
+    <path
+       style="fill:none;stroke:#dddddd;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 549,1259 819,1439 927,1367 927,1295"
+       id="path3126"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#111111;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 1359,1007 1197,971 1062,1061 783,1106 549,1259"
+       id="path3157"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;stroke:#cccccc;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 1206,1259 1359,1223 1359,1007"
+       id="path3117"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 549,1259 603,1205 603,1079 711,1007"
+       id="path3119"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#222222;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 1359,1007 1467,1007 1575,935 1629,962"
+       id="path3121"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#444444;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 1629,962 1800,854 1845,746"
+       id="path3153" />
+    <path
+       style="fill:none;stroke:#aaaaaa;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 1629,1178 1521,1043 1521,971 1575,935 1629,962"
+       id="path3123" />
+    <path
+       style="fill:none;stroke:#333333;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 1629,962 1800,854 1845,890 1845,971 1989,1070 2061,998"
+       id="path3125"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:none;stroke:#999999;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 2061,998 2178,1115 2178,1331 2061,1403 1953,1322"
+       id="path3127"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;stroke:#888888;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 1575,206 1710,125 1791,134"
+       id="path3137"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 612,224 549,251 549,314 495,359 288,359 126,224"
+       id="path3141"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:none;stroke:#666666;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 1575,206 1467,152 1314,215 1071,161 918,71 900,116 756,116 612,224"
+       id="path3133"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       style="fill:none;stroke:#eeeeee;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 333,1259 450,1187 549,1259"
+       id="path3128"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#555555;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 1845,746 1899,692 1791,638 1737,485 1575,206"
+       id="path3129"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;stroke:#bbbbbb;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 1152,791 1197,836 1197,881 1359,1007"
+       id="path3159"
+       sodipodi:nodetypes="cccc" />
+  </g>
+</svg>

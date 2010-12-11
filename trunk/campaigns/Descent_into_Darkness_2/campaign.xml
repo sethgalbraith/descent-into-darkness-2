@@ -1,0 +1,11 @@
+<campaign name="Descent into Darkness 2">
+  <map name="Parthyn" src="campaigns/Descent_into_Darkness_2/maps/Parthyn.xml"/>
+  <map name="Emetria" src="campaigns/Descent_into_Darkness_2/maps/Emetria.xml"/>
+  <map name="Lair of Mal Keshar" src="campaigns/Descent_into_Darkness_2/maps/Lair_of_Mal_Keshar.xml"/>
+  <map name="Parthyn Necropolis" src="campaigns/Descent_into_Darkness_2/maps/Parthyn_Necropolis.xml"/>
+  <map name="effects" src="campaigns/Descent_into_Darkness_2/maps/test_effects.xml"/>
+  <map name="characters" src="campaigns/Descent_into_Darkness_2/maps/test_characters.xml"/>
+  <map name="monsters" src="campaigns/Descent_into_Darkness_2/maps/test_monsters.xml"/>
+  <stylesheet>campaigns/Descent_into_Darkness_2/style.css</stylesheet>
+</campaign>
+

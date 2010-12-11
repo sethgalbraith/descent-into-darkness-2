@@ -1,0 +1,2394 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2233"
+   height="1547"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="Parthyn_Mac.svg"
+   inkscape:export-filename="/Users/sethgalbraith/AncientAndDeadly/campaign/Descent_into_Darkness_2/maps/Parthyn_chapter_4.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   style="display:inline;enable-background:new">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective2961"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3059"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3193"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3288"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3614"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3685"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3795"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3866"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4033"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4125"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4214"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4342"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4542"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4634"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4870"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4941"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5012"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5083"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5316"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5405"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5476"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5583"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5654"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5725"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5796"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5867"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5938"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective6051"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective6136"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective6207"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective6278"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective6428"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective6895"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective6966"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective7145"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective7216"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective7287"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective7358"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective7429"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective7539"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective7623"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective7694"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective7765"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective7930"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8019"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8090"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8359"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8538"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8681"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8752"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8823"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective9059"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective9130"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective9201"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective9400"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective9475"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective9711"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective9782"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective9853"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10194"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10265"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10336"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10407"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10478"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10549"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10620"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10773"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10844"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10915"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10986"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective11354"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective11464"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective11592"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective11663"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective11734"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective11857"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3055"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3604"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3675"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3746"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3817"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3888"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4739"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4810"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4938"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5030"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0480041"
+     inkscape:cx="1525.5407"
+     inkscape:cy="303.43713"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="true"
+     inkscape:window-width="1020"
+     inkscape:window-height="556"
+     inkscape:window-x="4"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2816"
+       empspacing="9"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid2839"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       spacingx="54px"
+       spacingy="36px"
+       color="#ff0000"
+       opacity="0.1254902"
+       empcolor="#ff0000"
+       empopacity="0.25098039" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="ruined"
+     sodipodi:insensitive="true"
+     style="display:inline">
+    <image
+       y="0"
+       x="0"
+       id="image11859"
+       height="1547"
+       width="2233"
+       xlink:href="file:///Users/sethgalbraith/AncientAndDeadly/campaign/Descent_into_Darkness_2/maps/Parthyn_ruined.png" />
+  </g>
+  <g
+     inkscape:label="chapter 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,494.63782)"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <image
+       y="-162.63782"
+       x="1764"
+       id="image7842"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-se.png" />
+    <image
+       y="-396.63782"
+       x="1539"
+       id="image5478"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/rock-cairn.png" />
+    <image
+       y="-495.63782"
+       x="819"
+       id="image7781"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-se.png" />
+    <image
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-se.png"
+       width="72"
+       height="72"
+       id="image7783"
+       x="864"
+       y="-522.63782" />
+    <image
+       y="-351.63782"
+       x="1017"
+       id="image4636"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-sw.png" />
+    <image
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-sw.png"
+       width="72"
+       height="72"
+       id="image5956"
+       x="1656"
+       y="-468.63782" />
+    <image
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png"
+       width="72"
+       height="72"
+       id="image5980"
+       x="1143"
+       y="-405.63782" />
+    <image
+       y="-378.63782"
+       x="1125"
+       id="image5982"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png" />
+    <image
+       y="-432.63782"
+       x="1089"
+       id="image5014"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png" />
+    <image
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png"
+       width="72"
+       height="72"
+       id="image5976"
+       x="1071"
+       y="-405.63782" />
+    <image
+       y="-378.63782"
+       x="1053"
+       id="image5978"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png" />
+    <image
+       y="-189.63782"
+       x="1809"
+       id="image5966"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-se.png" />
+    <image
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-se.png"
+       width="72"
+       height="72"
+       id="image5968"
+       x="1836"
+       y="-207.63782" />
+    <image
+       y="-531.63782"
+       x="1548"
+       id="image5972"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-sw.png" />
+    <image
+       y="476.36218"
+       x="1953"
+       id="image3195"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/terrain/tent.png" />
+    <image
+       y="512.36218"
+       x="2025"
+       id="image3290"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/terrain/tent2.png"
+       inkscape:transform-center-x="-36"
+       inkscape:transform-center-y="36" />
+    <image
+       y="368.36218"
+       x="2079"
+       id="image3616"
+       height="216"
+       width="180"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/terrain/village/hut.png" />
+    <image
+       y="350.36218"
+       x="1962"
+       id="image3687"
+       height="216"
+       width="180"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/terrain/village/hut2.png" />
+    <image
+       y="485.36218"
+       x="1926"
+       id="image3797"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/barrel.png" />
+    <image
+       y="764.36218"
+       x="243"
+       id="image4216"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/tent-ruin-1.png" />
+    <image
+       y="-351.63782"
+       x="-162"
+       id="image4344"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/mine-abandoned.png"
+       transform="scale(-1,1)" />
+    <image
+       y="404.36218"
+       x="198"
+       id="image4872"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/rubble.png" />
+    <image
+       y="422.36218"
+       x="1323"
+       id="image4943"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/signpost.png" />
+    <image
+       y="-234.63782"
+       x="1539"
+       id="image5085"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/temple1.png" />
+    <image
+       y="368.36218"
+       x="1593"
+       id="image5318"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/tent-fancy-red.png" />
+    <image
+       y="746.36218"
+       x="1071"
+       id="image8361"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/book1.png" />
+    <image
+       y="674.36218"
+       x="1035"
+       id="image5407"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/tent-shop-weapons.png" />
+    <image
+       y="647.36218"
+       x="1593"
+       id="image5585"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/trapdoor-open.png" />
+    <image
+       y="926.36218"
+       x="828"
+       id="image5656"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/trash.png" />
+    <image
+       y="626.36218"
+       x="459"
+       id="image5727"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/village-human-burned1.png" />
+    <image
+       y="514.36218"
+       x="299"
+       id="image5798"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/village-human-burned2.png" />
+    <image
+       y="439.36218"
+       x="81"
+       id="image5869"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/village-human-burned3.png" />
+    <image
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/village-human-burned1.png"
+       width="72"
+       height="72"
+       id="image5944"
+       x="513"
+       y="806.36218" />
+    <image
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/village-human-burned1.png"
+       width="72"
+       height="72"
+       id="image5946"
+       x="1323"
+       y="-237.63782" />
+    <image
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/village-human-burned3.png"
+       width="72"
+       height="72"
+       id="image5950"
+       x="1001"
+       y="-316.63782" />
+    <image
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/village-human-burned4.png"
+       width="72"
+       height="72"
+       id="image5952"
+       x="1866"
+       y="-168.63782" />
+    <image
+       y="-279.63782"
+       x="1269"
+       id="image5960"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-sw.png" />
+    <image
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-se.png"
+       width="72"
+       height="72"
+       id="image6057"
+       x="1296"
+       y="-279.63782" />
+    <g
+       id="g7551"
+       transform="translate(0,-2.6171874e-6)">
+      <image
+         y="-459.63782"
+         x="1107"
+         id="image6061"
+         height="72"
+         width="72"
+         xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png" />
+    </g>
+    <image
+       y="-486.63782"
+       x="1125"
+       id="image6063"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png" />
+    <image
+       y="746.36218"
+       x="1890"
+       id="image6138"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/well.png" />
+    <image
+       y="80.362183"
+       x="1809"
+       id="image6209"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/whirlpool.png" />
+    <image
+       y="-423.63782"
+       x="1809"
+       id="image6430"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/terrain/village/human-hills-tile.png" />
+    <image
+       y="-258.63782"
+       x="561"
+       id="image6897"
+       height="78"
+       width="78"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/terrain/village/log-cabin.png" />
+    <image
+       y="152.36218"
+       x="1800"
+       id="image6968"
+       height="216"
+       width="180"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/terrain/village/swampwater.png" />
+    <image
+       y="98.362183"
+       x="1737"
+       id="image7147"
+       height="216"
+       width="180"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/terrain/village/swampwater2.png" />
+    <image
+       y="188.36218"
+       x="1161"
+       id="image7218"
+       height="216"
+       width="180"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/terrain/village/human.png" />
+    <image
+       y="548.36218"
+       x="1809"
+       id="image7289"
+       height="216"
+       width="180"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/terrain/village/human2.png" />
+    <image
+       y="296.36218"
+       x="1215"
+       id="image7360"
+       height="216"
+       width="180"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/terrain/village/human3.png" />
+    <image
+       y="152.36218"
+       x="675"
+       id="image7431"
+       height="216"
+       width="180"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/terrain/village/human4.png" />
+    <image
+       y="-468.63782"
+       x="1620"
+       id="image7541"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/monolith1.png" />
+    <image
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png"
+       width="72"
+       height="72"
+       id="image7545"
+       x="1017"
+       y="-432.63782" />
+    <image
+       y="-405.63782"
+       x="999"
+       id="image7547"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png" />
+    <image
+       y="-459.63782"
+       x="1035"
+       id="image7549"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png" />
+    <g
+       transform="translate(-54,-27.000003)"
+       id="g7554">
+      <image
+         xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png"
+         width="72"
+         height="72"
+         id="image7556"
+         x="1107"
+         y="-459.63782" />
+    </g>
+    <image
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-sw.png"
+       width="72"
+       height="72"
+       id="image5970"
+       x="1503"
+       y="-135.63782" />
+    <image
+       y="-108.63782"
+       x="1719"
+       id="image7625"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/monolith2.png" />
+    <image
+       y="-81.637817"
+       x="1638"
+       id="image7696"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/monolith3.png" />
+    <image
+       y="-495.63782"
+       x="1566"
+       id="image7767"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/monolith4.png" />
+    <image
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-sw.png"
+       width="72"
+       height="72"
+       id="image7771"
+       x="972"
+       y="-378.63782" />
+    <image
+       y="-441.63782"
+       x="1701"
+       id="image7773"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-sw.png" />
+    <image
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-sw.png"
+       width="72"
+       height="72"
+       id="image7779"
+       x="837"
+       y="-468.63782" />
+    <image
+       y="-459.63782"
+       x="963"
+       id="image7785"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png" />
+    <image
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png"
+       width="72"
+       height="72"
+       id="image7787"
+       x="981"
+       y="-486.63782" />
+    <image
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png"
+       width="72"
+       height="72"
+       id="image7828"
+       x="909"
+       y="-486.63782" />
+    <image
+       y="-108.63782"
+       x="1548"
+       id="image7840"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-sw.png" />
+    <image
+       y="-180.63782"
+       x="1575"
+       id="image7932"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/altar.png" />
+    <image
+       y="467.36218"
+       x="1539"
+       id="image8021"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/archery-target-right.png" />
+    <image
+       y="701.36218"
+       x="972"
+       id="image8092"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/armor.png" />
+    <image
+       y="773.36218"
+       x="1089"
+       id="image8683"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/book4.png" />
+    <image
+       y="755.36218"
+       x="1026"
+       id="image8754"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/book2.png" />
+    <image
+       y="719.36218"
+       x="981"
+       id="image9061"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/buckler.png" />
+    <image
+       y="710.36218"
+       x="954"
+       id="image9132"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/bow.png" />
+    <image
+       y="-432.63782"
+       x="1404"
+       id="image9402"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/coffin-closed.png" />
+    <image
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/coffin-closed.png"
+       width="72"
+       height="72"
+       id="image9406"
+       x="1440"
+       y="-459.63782" />
+    <image
+       y="-486.63782"
+       x="1476"
+       id="image9408"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/coffin-closed.png" />
+    <image
+       y="467.36218"
+       x="1647"
+       id="image9477"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/dummy.png" />
+    <image
+       y="692.36218"
+       x="1062"
+       id="image9713"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/leather-pack.png" />
+    <image
+       y="773.36218"
+       x="1053"
+       id="image9855"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/ornate2.png" />
+    <image
+       y="773.36218"
+       x="1035"
+       id="image9784"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/ornate1.png" />
+    <image
+       y="737.36218"
+       x="1125"
+       id="image10196"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/potion-blue.png" />
+    <image
+       y="746.36218"
+       x="1134"
+       id="image10267"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/potion-green.png" />
+    <image
+       y="764.36218"
+       x="990"
+       id="image10338"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/potion-grey.png" />
+    <image
+       y="755.36218"
+       x="1116"
+       id="image10409"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/potion-poison.png" />
+    <image
+       y="701.36218"
+       x="1098"
+       id="image10480"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/potion-red.png" />
+    <image
+       y="710.36218"
+       x="1107"
+       id="image10551"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/potion-yellow.png" />
+    <image
+       y="296.36218"
+       x="1053"
+       id="image10622"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/scarecrow.png" />
+    <image
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/box.png"
+       width="72"
+       height="72"
+       id="image10626"
+       x="1017"
+       y="800.36218" />
+    <image
+       y="-360.63782"
+       x="1512"
+       id="image10775"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/stone-tablet.png" />
+    <image
+       y="368.36218"
+       x="765"
+       id="image10846"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/straw-bale1.png" />
+    <image
+       y="350.36218"
+       x="693"
+       id="image10917"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/straw-bale2.png" />
+    <image
+       y="467.36218"
+       x="747"
+       id="image10988"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/grain-sheaf.png" />
+    <image
+       y="404.36218"
+       x="1755"
+       id="image11594"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/chest.png" />
+    <image
+       y="404.36218"
+       x="1431"
+       id="image11665"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/chest-plain-open.png" />
+    <image
+       y="431.36218"
+       x="1701"
+       id="image11736"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/chest-plain-closed.png" />
+    <image
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/barrel.png"
+       width="72"
+       height="72"
+       id="image11742"
+       x="1485"
+       y="359.36218" />
+    <image
+       y="-405.63782"
+       x="927"
+       id="image11863"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-sw.png" />
+    <image
+       y="-549.63782"
+       x="909"
+       id="image11865"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-se.png" />
+    <image
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/box.png"
+       width="72"
+       height="72"
+       id="image11869"
+       x="2115"
+       y="503.36218" />
+    <image
+       y="593.36218"
+       x="1980"
+       id="image4127"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/leanto.png" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="chapter 1 animations"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline;enable-background:new"
+       y="458.36218"
+       x="2079"
+       id="image4035"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/fire1.png" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline;enable-background:new"
+       y="404.36218"
+       x="684"
+       id="image6280"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/windmill-01.png" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline;enable-background:new"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/brazier-lit1.png"
+       width="72"
+       height="72"
+       id="image9207"
+       x="1107"
+       y="116.36218" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="necropolis"
+     sodipodi:insensitive="true"
+     style="display:inline">
+    <image
+       y="0"
+       x="0"
+       id="image3057"
+       height="1547"
+       width="2233"
+       xlink:href="file:///Users/sethgalbraith/AncientAndDeadly/campaign/Descent_into_Darkness_2/maps/Parthyn_necropolis.png" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="chapter 4"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-se.png"
+       width="72"
+       height="72"
+       id="image3062"
+       x="1764"
+       y="-162.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/rock-cairn.png"
+       width="72"
+       height="72"
+       id="image3064"
+       x="1539"
+       y="-396.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-se.png"
+       width="72"
+       height="72"
+       id="image3066"
+       x="819"
+       y="-495.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       y="-522.63782"
+       x="864"
+       id="image3068"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-se.png" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-sw.png"
+       width="72"
+       height="72"
+       id="image3070"
+       x="1017"
+       y="-351.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       y="-468.63782"
+       x="1656"
+       id="image3072"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-sw.png" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       y="-405.63782"
+       x="1143"
+       id="image3074"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png"
+       width="72"
+       height="72"
+       id="image3076"
+       x="1125"
+       y="-378.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png"
+       width="72"
+       height="72"
+       id="image3078"
+       x="1089"
+       y="-432.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       y="-405.63782"
+       x="1071"
+       id="image3080"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png"
+       width="72"
+       height="72"
+       id="image3082"
+       x="1053"
+       y="-378.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-se.png"
+       width="72"
+       height="72"
+       id="image3084"
+       x="1809"
+       y="-189.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       y="-207.63782"
+       x="1836"
+       id="image3086"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-se.png" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-sw.png"
+       width="72"
+       height="72"
+       id="image3088"
+       x="1548"
+       y="-531.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/terrain/tent.png"
+       width="72"
+       height="72"
+       id="image3090"
+       x="1953"
+       y="476.36218" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       inkscape:transform-center-y="36"
+       inkscape:transform-center-x="-36"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/terrain/tent2.png"
+       width="72"
+       height="72"
+       id="image3092"
+       x="2025"
+       y="512.36218" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/terrain/village/hut.png"
+       width="180"
+       height="216"
+       id="image3094"
+       x="2079"
+       y="368.36218" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/terrain/village/hut2.png"
+       width="180"
+       height="216"
+       id="image3096"
+       x="1962"
+       y="350.36218" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/barrel.png"
+       width="72"
+       height="72"
+       id="image3098"
+       x="1926"
+       y="485.36218" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/tent-ruin-1.png"
+       width="72"
+       height="72"
+       id="image3102"
+       x="243"
+       y="764.36218" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/rubble.png"
+       width="72"
+       height="72"
+       id="image3106"
+       x="198"
+       y="404.36218" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/signpost.png"
+       width="72"
+       height="72"
+       id="image3108"
+       x="1323"
+       y="422.36218" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/temple1.png"
+       width="72"
+       height="72"
+       id="image3110"
+       x="1539"
+       y="-234.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/tent-shop-weapons.png"
+       width="72"
+       height="72"
+       id="image3116"
+       x="1035"
+       y="674.36218" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/village-human-burned1.png"
+       width="72"
+       height="72"
+       id="image3122"
+       x="459"
+       y="626.36218" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/village-human-burned2.png"
+       width="72"
+       height="72"
+       id="image3124"
+       x="299"
+       y="514.36218" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/village-human-burned3.png"
+       width="72"
+       height="72"
+       id="image3126"
+       x="81"
+       y="439.36218" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       y="806.36218"
+       x="513"
+       id="image3128"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/village-human-burned1.png" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       y="-237.63782"
+       x="1323"
+       id="image3130"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/village-human-burned1.png" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       y="-316.63782"
+       x="1001"
+       id="image3132"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/village-human-burned3.png" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       y="-168.63782"
+       x="1866"
+       id="image3134"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/village-human-burned4.png" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-sw.png"
+       width="72"
+       height="72"
+       id="image3136"
+       x="1269"
+       y="-279.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       y="-279.63782"
+       x="1296"
+       id="image3138"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-se.png" />
+    <g
+       style="display:inline"
+       transform="translate(0,494.63782)"
+       id="g3140">
+      <image
+         xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png"
+         width="72"
+         height="72"
+         id="image3142"
+         x="1107"
+         y="-459.63782" />
+    </g>
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png"
+       width="72"
+       height="72"
+       id="image3144"
+       x="1125"
+       y="-486.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/well.png"
+       width="72"
+       height="72"
+       id="image3146"
+       x="1890"
+       y="746.36218" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/terrain/village/human-hills-tile.png"
+       width="72"
+       height="72"
+       id="image3152"
+       x="1809"
+       y="-423.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/terrain/village/log-cabin.png"
+       width="78"
+       height="78"
+       id="image3154"
+       x="561"
+       y="-258.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/terrain/village/swampwater.png"
+       width="180"
+       height="216"
+       id="image3156"
+       x="1800"
+       y="152.36218" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/terrain/village/swampwater2.png"
+       width="180"
+       height="216"
+       id="image3158"
+       x="1737"
+       y="98.362183" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/terrain/village/human4.png"
+       width="180"
+       height="216"
+       id="image3166"
+       x="675"
+       y="152.36218" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/monolith1.png"
+       width="72"
+       height="72"
+       id="image3168"
+       x="1620"
+       y="-468.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       y="-432.63782"
+       x="1017"
+       id="image3170"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png"
+       width="72"
+       height="72"
+       id="image3172"
+       x="999"
+       y="-405.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png"
+       width="72"
+       height="72"
+       id="image3174"
+       x="1035"
+       y="-459.63782" />
+    <g
+       style="display:inline"
+       id="g3176"
+       transform="translate(-54,467.63782)">
+      <image
+         y="-459.63782"
+         x="1107"
+         id="image3178"
+         height="72"
+         width="72"
+         xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png" />
+    </g>
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       y="-135.63782"
+       x="1503"
+       id="image3180"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-sw.png" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/monolith2.png"
+       width="72"
+       height="72"
+       id="image3182"
+       x="1719"
+       y="-108.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/monolith3.png"
+       width="72"
+       height="72"
+       id="image3184"
+       x="1638"
+       y="-81.637817" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/monolith4.png"
+       width="72"
+       height="72"
+       id="image3186"
+       x="1566"
+       y="-495.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       y="-378.63782"
+       x="972"
+       id="image3188"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-sw.png" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-sw.png"
+       width="72"
+       height="72"
+       id="image3190"
+       x="1701"
+       y="-441.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       y="-468.63782"
+       x="837"
+       id="image3192"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-sw.png" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png"
+       width="72"
+       height="72"
+       id="image3194"
+       x="963"
+       y="-459.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       y="-486.63782"
+       x="981"
+       id="image3196"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       y="-486.63782"
+       x="909"
+       id="image3198"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/slab1.png" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-sw.png"
+       width="72"
+       height="72"
+       id="image3200"
+       x="1548"
+       y="-108.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/armor.png"
+       width="72"
+       height="72"
+       id="image3206"
+       x="972"
+       y="701.36218" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/book2.png"
+       width="72"
+       height="72"
+       id="image3210"
+       x="1026"
+       y="755.36218" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/buckler.png"
+       width="72"
+       height="72"
+       id="image3212"
+       x="981"
+       y="719.36218" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/bow.png"
+       width="72"
+       height="72"
+       id="image3214"
+       x="954"
+       y="710.36218" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/coffin-closed.png"
+       width="72"
+       height="72"
+       id="image3218"
+       x="1404"
+       y="-432.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       y="-459.63782"
+       x="1440"
+       id="image3220"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/coffin-closed.png" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/coffin-closed.png"
+       width="72"
+       height="72"
+       id="image3222"
+       x="1476"
+       y="-486.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/leather-pack.png"
+       width="72"
+       height="72"
+       id="image3226"
+       x="1062"
+       y="692.36218" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/ornate2.png"
+       width="72"
+       height="72"
+       id="image3228"
+       x="1053"
+       y="773.36218" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/ornate1.png"
+       width="72"
+       height="72"
+       id="image3230"
+       x="1035"
+       y="773.36218" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/potion-grey.png"
+       width="72"
+       height="72"
+       id="image3236"
+       x="990"
+       y="764.36218" />
+    <image
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/potion-poison.png"
+       width="72"
+       height="72"
+       id="image3238"
+       x="1026"
+       y="1214" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/scarecrow.png"
+       width="72"
+       height="72"
+       id="image3244"
+       x="1053"
+       y="296.36218" />
+    <image
+       style="display:inline"
+       y="1250"
+       x="1107"
+       id="image3246"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/box.png" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/stone-tablet.png"
+       width="72"
+       height="72"
+       id="image3248"
+       x="1512"
+       y="-360.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/straw-bale1.png"
+       width="72"
+       height="72"
+       id="image3250"
+       x="765"
+       y="368.36218" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/straw-bale2.png"
+       width="72"
+       height="72"
+       id="image3252"
+       x="693"
+       y="350.36218" />
+    <image
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/grain-sheaf.png"
+       width="72"
+       height="72"
+       id="image3254"
+       x="738"
+       y="953" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/campaigns/Son_Of_The_Black_Eye/images/items/barrel-floating.png"
+       width="72"
+       height="72"
+       id="image3256"
+       x="1764"
+       y="251.36218" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-sw.png"
+       width="72"
+       height="72"
+       id="image3268"
+       x="927"
+       y="-405.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/gate-rusty-se.png"
+       width="72"
+       height="72"
+       id="image3270"
+       x="909"
+       y="-549.63782" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       y="503.36218"
+       x="2115"
+       id="image3274"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/box.png" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/leanto.png"
+       width="72"
+       height="72"
+       id="image3276"
+       x="1980"
+       y="593.36218" />
+    <image
+       y="854"
+       x="1593"
+       id="image3495"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/whirlpool.png"
+       style="display:inline" />
+    <image
+       y="314"
+       x="1575"
+       id="image3606"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/altar-evil.png" />
+    <image
+       y="1097"
+       x="351"
+       id="image3677"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/bonestack.png" />
+    <image
+       y="611"
+       x="1107"
+       id="image3748"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/brazier.png" />
+    <image
+       y="1205"
+       x="468"
+       id="image3819"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/bones.png" />
+    <image
+       y="1124"
+       x="576"
+       id="image3890"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/burial.png" />
+    <image
+       y="143"
+       x="90"
+       id="image4741"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/dwarven-doors-closed.png" />
+    <image
+       y="1142"
+       x="1593"
+       id="image4812"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/trapdoor-closed.png" />
+    <image
+       y="761"
+       x="1215"
+       id="image4816"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/village-human-burned1.png"
+       style="display:inline" />
+    <image
+       y="865"
+       x="1271"
+       id="image4818"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/village-human-burned2.png"
+       style="display:inline" />
+    <image
+       y="1114"
+       x="1865"
+       id="image4820"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/village-human-burned3.png"
+       style="display:inline" />
+    <image
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/chest.png"
+       width="72"
+       height="72"
+       id="image4822"
+       x="1071"
+       y="1223" />
+    <image
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/chest-plain-open.png"
+       width="72"
+       height="72"
+       id="image4824"
+       x="990"
+       y="1151" />
+    <image
+       style="display:inline"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/chest-plain-closed.png"
+       width="72"
+       height="72"
+       id="image4826"
+       x="1044"
+       y="1124" />
+    <image
+       y="1187"
+       x="1098"
+       id="image4940"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/items/book5.png" />
+    <image
+       y="1232"
+       x="1107"
+       id="image5032"
+       height="72"
+       width="72"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/units/random-dice.png" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="chapter 4 animations"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline;enable-background:new"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/fire1.png"
+       width="72"
+       height="72"
+       id="image3100"
+       x="2079"
+       y="458.36218" />
+    <image
+       transform="translate(0,494.63782)"
+       style="display:inline;enable-background:new"
+       xlink:href="file:///Applications/Wesnoth.app/Contents/Resources/data/core/images/scenery/windmill-01.png"
+       width="72"
+       height="72"
+       id="image3150"
+       x="684"
+       y="404.36218" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="chapter 4 paths">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1206,1259 108,0 45,-27 0,-225 -162,-36 -162,90 -216,36 -252,144 243,207 117,-81 0,-72"
+       id="path3117"
+       sodipodi:nodetypes="ccccccccccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 567,1241 0,-144 126,-108"
+       id="path3119"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1359,1007 63,-36 45,36 108,-72 54,27"
+       id="path3121"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1629,1178 -108,-135 0,-72 54,-36 54,27 108,-63 108,-153"
+       id="path3123"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1629,962 108,-63 54,-45 54,36 63,126 81,54 72,-72"
+       id="path3125"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 2061,998 117,117 0,216 -117,72 -108,-81"
+       id="path3127"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1530,197 180,-72 90,0"
+       id="path3137" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1845,746 -63,-18 0,-153 -63,-135 -135,-207 -54,-36"
+       id="path3129" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 612,224 -486,0"
+       id="path3141" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 1530.5284,196.81441 1314,215 1071,161 918,71 900,116 756,116 612,224"
+       id="path3133" />
+  </g>
+</svg>
