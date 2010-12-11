@@ -1,0 +1,348 @@
+<map name="Lair of Mal Keshar" background="campaigns/Descent_into_Darkness_2/maps/Lair_of_Mal_Keshar.jpg">
+
+  <!-- animated brazier props -->
+  <character x="1386" y="2871">
+    <sequence action="stand">
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit1.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit4.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit5.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit6.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit7.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit8.png</frame>
+    </sequence>
+  </character>
+  <character x="630" y="1206">
+    <sequence action="stand">
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit1.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit4.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit5.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit6.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit7.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit8.png</frame>
+    </sequence>
+  </character>
+  <character x="846" y="1350">
+    <sequence action="stand">
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit1.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit4.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit5.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit6.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit7.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit8.png</frame>
+    </sequence>
+  </character>
+
+  <!-- animated firepit prop -->
+  <character x="1710" y="2151">
+    <sequence action="stand">
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire1.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire4.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire5.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire6.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire7.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire8.png</frame>
+    </sequence>
+  </character>
+
+  <!-- animated swamp gas prop -->
+  <character x="360" y="2601">
+    <sequence action="idle">
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/flame-burst-1.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/flame-burst-2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/flame-burst-3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/flame-burst-4.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/flame-burst-5.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/flame-burst-6.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/flame-burst-7.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/flame-burst-8.png</frame>
+    </sequence>
+  </character>
+
+  <!-- PC -->
+  <character x="1305" y="378" yOffset="-18" location="entrance" type="PC">
+    <sequence action="stand">
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer.png</frame>
+    </sequence>
+    <sequence action="move">
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer-moving.png</frame>
+    </sequence>
+  </character>
+
+  <!-- paths -->
+  <path from="entrance" to="bridge" direction="west">
+    <p x="1305" y="378" />
+    <p x="1044" y="513" />
+    <p x="918" y="477" />
+    <p x="882" y="387" />
+    <p x="828" y="342" />
+    <p x="756" y="342" />
+    <p x="684" y="378" />
+    <p x="630" y="360" />
+    <p x="576" y="396" />
+    <p x="468" y="324" />
+    <p x="360" y="396" />
+    <p x="243" y="315" />
+  </path>
+  <path from="bridge" to="entrance" direction="east">
+    <p x="243" y="315" />
+    <p x="360" y="396" />
+    <p x="468" y="324" />
+    <p x="576" y="396" />
+    <p x="630" y="360" />
+    <p x="684" y="378" />
+    <p x="756" y="342" />
+    <p x="828" y="342" />
+    <p x="882" y="387" />
+    <p x="918" y="477" />
+    <p x="1044" y="513" />
+    <p x="1305" y="378" />
+  </path>
+  <path from="bridge" to="throne" direction="south">
+    <p x="243" y="315" />
+    <p x="360" y="396" />
+    <p x="252" y="459" />
+    <p x="252" y="621" />
+    <p x="315" y="657" />
+    <p x="315" y="711" />
+    <p x="198" y="792" />
+    <p x="198" y="864" />
+    <p x="252" y="900" />
+    <p x="360" y="1188" />
+    <p x="360" y="1260" />
+    <p x="414" y="1350" />
+    <p x="477" y="1386" />
+    <p x="576" y="1377" />
+  </path>
+  <path from="throne" to="bridge" direction="west">
+    <p x="576" y="1377" />
+    <p x="477" y="1386" />
+    <p x="414" y="1350" />
+    <p x="360" y="1260" />
+    <p x="360" y="1188" />
+    <p x="252" y="900" />
+    <p x="198" y="864" />
+    <p x="198" y="792" />
+    <p x="315" y="711" />
+    <p x="315" y="657" />
+    <p x="252" y="621" />
+    <p x="252" y="459" />
+    <p x="360" y="396" />
+    <p x="243" y="315" />
+  </path>
+  <path from="entrance" to="throne" direction="south">
+    <p x="1305" y="378" />
+    <p x="1116" y="522" />
+    <p x="1044" y="657" />
+    <p x="1044" y="720" />
+    <p x="1089" y="828" />
+    <p x="1017" y="990" />
+    <p x="792" y="1170" />
+    <p x="720" y="1305" />
+    <p x="576" y="1377" />
+  </path>
+  <path from="throne" to="entrance" direction="north">
+    <p x="576" y="1377" />
+    <p x="720" y="1305" />
+    <p x="792" y="1170" />
+    <p x="1017" y="990" />
+    <p x="1089" y="828" />
+    <p x="1044" y="720" />
+    <p x="1044" y="657" />
+    <p x="1116" y="522" />
+    <p x="1305" y="378" />
+  </path>
+  <path from="village" to="cliff" direction="south">
+    <p x="1602" y="2160" />
+    <p x="1548" y="2196" />
+    <p x="1548" y="2268" />
+    <p x="1602" y="2313" />
+    <p x="1620" y="2412" />
+    <p x="1602" y="2448" />
+    <p x="1548" y="2484" />
+    <p x="1494" y="2448" />
+    <p x="1440" y="2484" />
+    <p x="1440" y="2538" />
+    <p x="1386" y="2610" />
+    <p x="1386" y="2745" />
+    <p x="1440" y="2853" />
+    <p x="1440" y="2916" />
+  </path>
+  <path from="cliff" to="village" direction="north">
+    <p x="1440" y="2916" />
+    <p x="1440" y="2853" />
+    <p x="1386" y="2745" />
+    <p x="1386" y="2610" />
+    <p x="1440" y="2538" />
+    <p x="1440" y="2484" />
+    <p x="1494" y="2448" />
+    <p x="1548" y="2484" />
+    <p x="1602" y="2448" />
+    <p x="1620" y="2412" />
+    <p x="1602" y="2313" />
+    <p x="1548" y="2268" />
+    <p x="1548" y="2196" />
+    <p x="1602" y="2160" />
+  </path>
+  <path from="throne" to="village" direction="east">
+    <p x="576" y="1377" />
+    <p x="666" y="1386" />
+    <p x="882" y="1530" />
+    <p x="954" y="1530" />
+    <p x="990" y="1566" />
+    <p x="1008" y="1638" />
+    <p x="1062" y="1656" />
+    <p x="1170" y="1584" />
+    <p x="1278" y="1584" />
+    <p x="1350" y="1638" />
+    <p x="1386" y="1710" />
+    <p x="1386" y="1872" />
+    <p x="1458" y="1926" />
+    <p x="1566" y="1944" />
+    <p x="1602" y="1998" />
+    <p x="1602" y="2160" />
+  </path>
+  <path from="village" to="throne" direction="north">
+    <p x="1602" y="2160" />
+    <p x="1602" y="1998" />
+    <p x="1566" y="1944" />
+    <p x="1458" y="1926" />
+    <p x="1386" y="1872" />
+    <p x="1386" y="1710" />
+    <p x="1350" y="1638" />
+    <p x="1278" y="1584" />
+    <p x="1170" y="1584" />
+    <p x="1062" y="1656" />
+    <p x="1008" y="1638" />
+    <p x="990" y="1566" />
+    <p x="954" y="1530" />
+    <p x="882" y="1530" />
+    <p x="666" y="1386" />
+    <p x="576" y="1377" />
+  </path>
+  <path from="cliff" to="intersection" direction="west">
+    <p x="1440" y="2916" />
+    <p x="1386" y="2952" />
+    <p x="1116" y="2772" />
+  </path>
+  <path from="intersection" to="cliff" direction="east">
+    <p x="1116" y="2772" />
+    <p x="1386" y="2952" />
+    <p x="1440" y="2916" />
+  </path>
+  <path from="intersection" to="altar" direction="south">
+    <p x="1116" y="2772" />
+    <p x="1116" y="3276" />
+    <p x="1080" y="3348" />
+    <p x="1008" y="3366" />
+    <p x="747" y="3276" />
+    <p x="666" y="3276" />
+    <p x="459" y="3420" />
+    <p x="306" y="3447" />
+  </path>
+  <path from="altar" to="intersection" direction="east">
+    <p x="306" y="3447" />
+    <p x="459" y="3420" />
+    <p x="666" y="3276" />
+    <p x="747" y="3276" />
+    <p x="1008" y="3366" />
+    <p x="1080" y="3348" />
+    <p x="1116" y="3276" />
+    <p x="1116" y="2772" />
+  </path>
+  <path from="intersection" to="lake" direction="west">
+    <p x="1116" y="2772" />
+    <p x="864" y="2943" />
+    <p x="612" y="2943" />
+    <p x="522" y="2880" />
+    <p x="522" y="2736" />
+    <p x="468" y="2700" />
+    <p x="414" y="2736" />
+  </path>
+  <path from="lake" to="intersection" direction="south">
+    <p x="414" y="2736" />
+    <p x="468" y="2700" />
+    <p x="522" y="2736" />
+    <p x="522" y="2880" />
+    <p x="612" y="2943" />
+    <p x="864" y="2943" />
+    <p x="1116" y="2772" />
+  </path>
+  <path from="intersection" to="lava" direction="north">
+    <p x="1116" y="2772" />
+    <p x="1116" y="2628" />
+    <p x="1062" y="2511" />
+    <p x="1062" y="2331" />
+    <p x="1116" y="2259" />
+  </path>
+  <path from="lava" to="intersection" direction="south">
+    <p x="1116" y="2259" />
+    <p x="1062" y="2331" />
+    <p x="1062" y="2511" />
+    <p x="1116" y="2628" />
+    <p x="1116" y="2772" />
+  </path>
+  <path from="lava" to="fork" direction="north">
+    <p x="1116" y="2259" />
+    <p x="1044" y="2286" />
+    <p x="909" y="2205" />
+    <p x="891" y="2115" />
+    <p x="747" y="2025" />
+    <p x="729" y="1944" />
+    <p x="639" y="1863" />
+  </path>
+  <path from="fork" to="lava" direction="east">
+    <p x="639" y="1863" />
+    <p x="729" y="1944" />
+    <p x="747" y="2025" />
+    <p x="891" y="2115" />
+    <p x="909" y="2205" />
+    <p x="1044" y="2286" />
+    <p x="1116" y="2259" />
+  </path>
+  <path from="throne" to="fork" direction="south">
+    <p x="576" y="1377" />
+    <p x="639" y="1431" />
+    <p x="639" y="1863" />
+  </path>
+  <path from="fork" to="throne" direction="north">
+    <p x="639" y="1863" />
+    <p x="639" y="1431" />
+    <p x="576" y="1377" />
+  </path>
+  <path from="lake" to="fork" direction="north">
+    <p x="414" y="2736" />
+    <p x="468" y="2700" />
+    <p x="576" y="2772" />
+    <p x="630" y="2736" />
+    <p x="630" y="2448" />
+    <p x="522" y="2376" />
+    <p x="522" y="2304" />
+    <p x="576" y="2268" />
+    <p x="576" y="1980" />
+    <p x="621" y="1935" />
+    <p x="639" y="1863" />
+  </path>
+  <path from="fork" to="lake" direction="south">
+    <p x="639" y="1863" />
+    <p x="621" y="1935" />
+    <p x="576" y="1980" />
+    <p x="576" y="2268" />
+    <p x="522" y="2304" />
+    <p x="522" y="2376" />
+    <p x="630" y="2448" />
+    <p x="630" y="2736" />
+    <p x="576" y="2772" />
+    <p x="468" y="2700" />
+    <p x="414" y="2736" />
+  </path>
+
+</map>
+

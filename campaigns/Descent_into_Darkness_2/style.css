@@ -1,0 +1,89 @@
+body {
+  background: black;
+  color: silver;
+  cursor: url(images/cursors/normal.png);
+}
+
+/* regular button */
+.button {
+  background-image: url(images/buttons/button.png);
+  width: 114px;
+  height: 17px;
+  text-align: center;
+  padding: 6px 0 8px 0;
+  font-size: 17px;
+  cursor: url(images/cursors/attack.png);
+}
+.largeButton:hover {
+  background-image: url(images/buttons/button-active.png);
+}
+
+/* large button with fancy border */
+.largeButton {
+  background-image: url(images/buttons/large-button.png);
+  width: 114px;
+  height: 17px;
+  text-align: center;
+  padding: 6px 0 8px 0;
+  font-size: 17px;
+  cursor: url(images/cursors/attack.png);
+}
+.largeButton:hover {
+  background-image: url(images/buttons/large-button-active.png);
+}
+
+/* resizeable button with a fancy border */
+.fancyLargeButton {
+  border-width: 7px 6px;
+  border-image: url(images/buttons/large-button.png) 7 6 7 6 stretch stretch;
+  -webkit-border-image: url(images/buttons/large-button.png) 7 6 7 6 stretch stretch;
+  -moz-border-image: url(images/buttons/large-button.png) 7 6 7 6 stretch stretch;
+  -o-border-image: url(images/buttons/large-button.png) 7 6 7 6 stretch stretch;
+}
+.fancyLargeButton:hover {
+  border-image: url(images/buttons/large-button-active.png) 7 6 7 6 stretch stretch;
+  -webkit-border-image: url(images/buttons/large-button-active.png) 7 6 7 6 stretch stretch;
+  -moz-border-image: url(images/buttons/large-button-active.png) 7 6 7 6 stretch stretch;
+  -o-border-image: url(images/buttons/large-button-active.png) 7 6 7 6 stretch stretch;
+}
+
+/* movement controls */
+#up, #left, #right, #down {
+  width: 72px;
+  height: 72px;
+  cursor: url(images/cursors/move.png);
+  background-image: url(images/misc/attack-indicator-n.png);
+}
+#up {
+  left: 0;
+  top: -72px;
+}
+#left {
+  left: -72px;
+  top: 0;
+}
+#right {
+  right: -72px;
+  top: 0;
+}
+#down {
+  left: 0;
+  bottom: -72px;
+}
+#up:hover {
+  opacity: 1;
+}
+#left:hover {
+  opacity: 1;
+}
+#right:hover {
+  opacity: 1;
+}
+#down:hover {
+  opacity: 1;
+}
+.moving div #up {display:none;}
+.moving div #down {display:none;}
+.moving div #left {display:none;}
+.moving div #right {display:none;}
+
