@@ -82,11 +82,10 @@ Game.Character.prototype._loadImage = function (xmlElement, offset, action) {
 };
 
 Game.Character.prototype._makeImage = function (url, offset, rotate, scale, opacity) {
-  var image = Game.loader.load(url);
-  image.onload = function () {
+  var image = Game.loader.load(url, function () {
     image.style.marginLeft = (offset.x - image.width / 2) + "px";
     image.style.marginTop = (offset.y - image.height / 2) + "px";
-  }
+  });
   image.style.visibility = "hidden";
   if (opacity) {
     image.style.opacity = opacity;

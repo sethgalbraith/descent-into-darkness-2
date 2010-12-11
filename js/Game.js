@@ -9,16 +9,15 @@ var Game = {
 
   mode: "map",
   currentSlide: [],
-
   encounters: [],
   currentEncounter: null,
-
   turn: 0,
   selectedAction: null,
   selectedTargets: [],
-
   maps: [],
   currentMap: null,
+  animationInterval: null,
+  movementInterval: null,
 
   // Game.paths is an array containing Game.Path objects
   // which are created in Game.extractXMLPaths().
@@ -33,9 +32,6 @@ var Game = {
   // Game.characters whose <character> element had the attribute type="PC"
   // TODO: add the ability to recruit PCs into the party.
   party: [],
-
-  animationInterval: null,
-  movementInterval: null,
 
   // Game.loader is a Game.ImageLoader object created in an anonymous function
   // within Game.loadMap() after the map XML file is done loading.
@@ -180,6 +176,7 @@ var Game = {
         }
         // Start character animation and movement.
         Game.resume();
+
       });
       var mapElement = ajax.responseXML.documentElement;
       var backgroundImage = mapElement.getAttribute("background");
@@ -282,8 +279,8 @@ var Game = {
     for (var i = 0; i < Game.characters.length; i++) {
       Game.characters[i].move();
     }
-    document.body.scrollLeft = Game.party[0].x - Game.width / 2;
-    document.body.scrollTop = Game.party[0].y - Game.height / 2;
+    document.body.scrollLeft = Game.party[0].x - innerWidth / 2;
+    document.body.scrollTop = Game.party[0].y - innerHeight / 2;
     Game.showHideMovementButtons(Game.party[0]);
   },
 
@@ -542,9 +539,6 @@ addEventListener('load', function () {
   // variables that point to elements of the user interface
   Game.userForm = document.getElementById("userForm");
   Game.menu = Game.createElement("div", {className: "menu"}, Game.frame);
-  var style = getComputedStyle(parent.document.getElementById("game"), null);
-  Game.width = parseInt(style.width);
-  Game.height = parseInt(style.height);
 
   // initialize account management menu
   Game.initializeUserForm();
@@ -569,14 +563,17 @@ addEventListener('load', function () {
 
   // listen for keyboard events in the main window and game frame
   addEventListener("keydown", Game.keyDown, false);
-//  Game.frame.contentWindow.addEventListener("keydown", Game.keyDown, false);
+  if (window != parent) {
+    parent.addEventListener("keydown", Game.keyDown, false);
+  }
 
+/*
   // pause the game when the window loses focus
   addEventListener("blur", Game.pause, false);
   addEventListener("focus", Game.resume, false);
 //  Game.frame.contentWindow.addEventListener("blur", Game.pause, false);
 //  Game.frame.contentWindow.addEventListener("focus", Game.resume, false);
-
+*/
 }, true);
 
   
