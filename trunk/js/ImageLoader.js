@@ -10,11 +10,11 @@
  * @param callback the function to call when all of the images are done loading.
  */
 Game.ImageLoader = function(callback) {
-  this.count = 0; // number of images that are not loaded yet
+  this.done = 0; // number of images that have finished loading
   this.total = 0; // number of images that have started loading
   this.callback = callback; // function to call when all images are loaded
   this.element = Game.createElement("div", {className:"imageLoader"}, document.body);
-  this.element.innerText = "loading images: " + this.count + " / " + this.total;
+  this._update();
 };
 
 /**
@@ -24,10 +24,8 @@ Game.ImageLoader = function(callback) {
  * @return the new HTML image element that is being loaded.
  */
 Game.ImageLoader.prototype.load = function (url, perImageCallback) {
-  this.count++; // Another image needs to be loaded.
   this.total++; // We have started loading another image.
-
-  this.element.innerHTML = "loading images: " + this.count + " / " + this.total;
+  this._update();
 
   // The image onload event listener will not remember the current value
   // of the global variable this, so we save it in the local variable self.
@@ -50,11 +48,19 @@ Game.ImageLoader.prototype.load = function (url, perImageCallback) {
  * of the images are done loading.
  */
 Game.ImageLoader.prototype._onload = function(url) {
-  this.count--; // One less image needs to be loaded.
-  if (this.count == 0) {
+  this.done++; // One more image has been loaded.
+  if (this.done == this.total) {
     // All of the images are loaded, so call the function now.
     this.callback();
   }
-  this.element.innerHTML = "loading images: " + this.count + " / " + this.total;
+  this._update();
+};
+
+/**
+ * Update the ImageLoader's progress indicator. This private function
+ * is called by the ImageLoader whenever count or total is modified.
+ */
+Game.ImageLoader.prototype._update = function() {
+  this.element.innerHTML = this.done + " / " + this.total + " images loaded";
 };
 

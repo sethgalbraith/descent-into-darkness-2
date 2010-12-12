@@ -1,6 +1,7 @@
 <map name="test" background="campaigns/Descent_into_Darkness_2/maps/Emetria.jpg">
 
   <!-- Dela Keshar -->
+  <text x="20" y="142">Dela Keshar</text>
   <character x="65" y="75">
     <sequence action="stand">
       <frame scale="0.65">campaigns/Descent_into_Darkness_2/images/portraits/dela.png</frame>

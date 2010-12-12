@@ -183,6 +183,7 @@ var Game = {
       var background = Game.loader.load(backgroundImage);
       Game.extractXMLPaths(mapElement);
       Game.extractXMLCharacters(mapElement);
+      Game.extractXMLText(mapElement);
       Game.createMovementButtons(Game.party[0]);
     });
   },
@@ -210,8 +211,8 @@ var Game = {
   extractXMLPaths: function (mapElement) {
     Game.paths = {};
     var pathElements = mapElement.getElementsByTagName("path");
-    for (var j = 0; j < pathElements.length; j++) {
-      var path = new Game.Path(pathElements[j]);
+    for (var i = 0; i < pathElements.length; i++) {
+      var path = new Game.Path(pathElements[i]);
       // Make sure that Game.paths has a variable named for the path origin,
       // and that the value of the variable is an object. This object can have
       // up to four variables: one named after each direction.
@@ -220,6 +221,27 @@ var Game = {
       }
       // Make the path the official path in this direction from that origin.
       Game.paths[path.from][path.direction] = path;
+    }
+  },
+
+  /**
+   * Create a div for each <text> element in the map.
+   * @param mapElement the top level element of an XML map.
+   */ 
+  extractXMLText: function (mapElement) {
+    var textElements = mapElement.getElementsByTagName("text");
+    for (var i = 0; i < textElements.length; i++) {
+      var dialog = Game.createElement("div", {className: "dialog"}, document.body);
+      var x = textElements[i].getAttribute("x");
+      var y = textElements[i].getAttribute("y");
+      var width = textElements[i].getAttribute("width");
+      var height = textElements[i].getAttribute("height");
+      if (x) dialog.style.left = x + "px";
+      if (y) dialog.style.top = y + "px";
+      if (width) dialog.style.width = width + "px";
+      if (height) dialog.style.height = height + "px";
+      var text = Game.createElement("div", {className: "text"}, dialog);
+      text.innerText = textElements[i].textContent;
     }
   },
 
@@ -282,6 +304,15 @@ var Game = {
     document.body.scrollLeft = Game.party[0].x - innerWidth / 2;
     document.body.scrollTop = Game.party[0].y - innerHeight / 2;
     Game.showHideMovementButtons(Game.party[0]);
+    Game.measurePerformance();
+  },
+
+  measurePerformance: function () {
+    Game.fpsQueue.shift();
+    Game.fpsQueue.push((new Date()).getTime());
+    var total = Game.fpsQueue[Game.fpsQueue.length - 1] - Game.fpsQueue[0];
+    var hertz = 1000 * Game.fpsQueue.length / total;
+    Game.fpsMeter.innerText = Math.round(hertz) + " FPS";
   },
 
   /**
@@ -589,6 +620,11 @@ addEventListener('load', function () {
 //  Game.frame.contentWindow.addEventListener("blur", Game.pause, false);
 //  Game.frame.contentWindow.addEventListener("focus", Game.resume, false);
 */
+
+  // create frames-per-second meter
+  Game.fpsMeter = Game.createElement("div", {className: "fps"}, document.body);
+  Game.fpsQueue = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+
 }, true);
 
   
