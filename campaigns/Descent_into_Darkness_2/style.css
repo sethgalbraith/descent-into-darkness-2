@@ -4,6 +4,29 @@ body {
   cursor: url(images/cursors/normal.png);
 }
 
+/* text box. */
+.dialog {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-width: 5px 8px 8px 5px;
+  border-image: url(images/border.png) 5 8 8 5 repeat repeat;
+  -moz-border-image: url(images/border.png) 5 8 8 5 repeat repeat;
+  -webkit-border-image: url(images/border.png) 5 8 8 5 repeat repeat;
+  -o-border-image: url(images/border.png) 5 8 8 5 repeat repeat;
+}
+/* Leave enough padding around text for portraits. */
+.text {padding: 0.1em 0.2em;}
+.text-left {padding: 0.5em 260px 0.5em 0.5em;}
+.text-right {padding: 0.5em 0.5em 0.5em 270px;}
+.text, .text-left, .text-right {
+  background-image: url(images/translucent65-background.png);
+  font-family: sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
 /* regular button */
 .button {
   background-image: url(images/buttons/button.png);
