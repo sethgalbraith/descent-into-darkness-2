@@ -25,3 +25,21 @@ body {
   margin: 0 auto;
   border: 0;
 }
+
+/* help menu (about, license, help) */
+#helpMenu {
+  text-align: center;
+}
+
+/* help window */
+#help {
+  background: silver;
+  color: black;
+  position: relative;
+  width: 600px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  border: 0;
+}
+
