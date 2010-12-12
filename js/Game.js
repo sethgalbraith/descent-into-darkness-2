@@ -536,14 +536,14 @@ var Game = {
 
 addEventListener('load', function () {
 
-  // variables that point to elements of the user interface
+  // Variables that point to elements of the user interface.
   Game.userForm = document.getElementById("userForm");
   Game.menu = Game.createElement("div", {className: "menu"}, Game.frame);
 
-  // initialize account management menu
+  // Initialize account management menu.
   Game.initializeUserForm();
 
-  // parse URL arguments
+  // Parse URL arguments.
   Game.arguments = {};
   var args = parent.location.search.slice(1).split("&");
   for (var i = 0; i < args.length; i++) {
@@ -553,7 +553,7 @@ addEventListener('load', function () {
     Game.arguments[key] = value;
   }
 
-  // load the first campaign in the campaign list
+  // Load the first campaign in the campaign list.
   Game.ajaxRequest("game.xml", {}, function (ajax) {
     var campaigns = ajax.responseXML.getElementsByTagName("campaign");
     var campaign = campaigns[0];
@@ -561,11 +561,26 @@ addEventListener('load', function () {
     Game.loadCampaign(campaign.getAttribute("src"));
   });
 
-  // listen for keyboard events in the main window and game frame
+  // Listen for keyboard events in the main window and game frame.
   addEventListener("keydown", Game.keyDown, false);
   if (window != parent) {
     parent.addEventListener("keydown", Game.keyDown, false);
   }
+
+  // Disable dragging and selecting images.
+  onmousedown = function (e) {
+    // Firefox provides the event as a parameter,
+    // but other browsers use the global event variable.
+    if (!e) {
+      e = event;
+    }
+    // Ignore the mouse down event if this is not an input element.
+    if (e.target.tagName != "INPUT") {
+      // Returning false prevents the default behavior.
+      return false;
+    }
+  };
+//  onselectstart = function () {return false;};
 
 /*
   // pause the game when the window loses focus
