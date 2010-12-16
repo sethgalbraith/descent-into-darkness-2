@@ -181,7 +181,9 @@
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/elves-wood/captain-defend-ff8000.png</frame>
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/elves-wood/captain-ff8000.png</frame>
       <!-- lead -->
+      <frame>campaigns/Descent_into_Darkness_2/images/units/elves-wood/captain-defend-ff8000.png</frame>
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/elves-wood/captain-leading-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/elves-wood/captain-defend-ff8000.png</frame>
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/elves-wood/captain-ff8000.png</frame>
       <!-- sword -->
       <frame>campaigns/Descent_into_Darkness_2/images/units/elves-wood/captain-melee-2-ff8000.png</frame>
@@ -2273,6 +2275,38 @@
       <frame scale="0.5">campaigns/Descent_into_Darkness_2/images/portraits/kalenz.png</frame>
     </sequence>
   </character>
+  <character x="1050" y="1050" yOffset="-18">
+    <sequence action="stand">
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/elves-wood/high-lord-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/elves-wood/high-lord-defend-1-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/elves-wood/high-lord-defend-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/elves-wood/high-lord-defend-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/elves-wood/high-lord-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/elves-wood/high-lord-magic-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/elves-wood/high-lord-magic-defend-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/elves-wood/high-lord-magic-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/elves-wood/high-lord-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/elves-wood/high-lord-magic-ff8000.png</frame>
+      <frame duration="5">campaigns/Descent_into_Darkness_2/images/units/elves-wood/high-lord-magic-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/elves-wood/high-lord-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/elves-wood/high-lord-attack-sword-1-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/elves-wood/high-lord-attack-sword-2-ff8000.png</frame>
+    </sequence>
+  </character>
+  <character x="1050" y="1050" yOffset="-18">
+    <sequence action="stand">
+      <frame duration="20"></frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/elven/faerie-fire-halo1.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/elven/faerie-fire-halo2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/elven/faerie-fire-halo3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/elven/faerie-fire-halo4.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/elven/faerie-fire-halo5.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/elven/faerie-fire-halo6.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/elven/faerie-fire-halo7.png</frame>
+      <frame duration="7"></frame>
+    </sequence>
+  </character>
+
 
   <!-- NPC ELVES -->
 
