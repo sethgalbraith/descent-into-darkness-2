@@ -4364,7 +4364,6 @@
   <character name="ghost" yOffset="-18">
     <portrait scale="0.5">campaigns/Descent_into_Darkness_2/images/portraits/undead/transparent/ghost.png</portrait>
     <sequence action="stand">
-    <sequence action="stand">
       <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-1-ff8000.png</frame>
       <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-2-ff8000.png</frame>
       <frame duration="2" opacity="0.5">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-3-ff8000.png</frame>
