@@ -1,0 +1,27 @@
+<html>
+ <head>
+  <title>team color test</title>
+  <script type="text/javascript" src="TeamSprite.js"></script>
+  <script type="text/javascript">
+var sprite = null;
+function update() {
+  if (sprite) {
+    document.body.removeChild(sprite.canvas);
+  }
+  sprite = new TeamSprite(document.getElementById("url").value);
+  sprite.red = parseInt(document.getElementById("red").value);
+  sprite.green = parseInt(document.getElementById("green").value);
+  sprite.blue = parseInt(document.getElementById("blue").value);
+  document.body.appendChild(sprite.canvas);
+}
+onload = update;
+  </script>
+ </head>
+ <body>
+  <div><input onchange="update()" type="text" value="arbiter-blade-s-4.png" id="url"/>image</div>
+  <div><input onchange="update()" type="text" value="0" id="red"/>red</div>
+  <div><input onchange="update()" type="text" value="0" id="green"/>green</div>
+  <div><input onchange="update()" type="text" value="0" id="blue"/>blue</div>
+ </body>
+
+</html>
