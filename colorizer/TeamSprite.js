@@ -1,7 +1,5 @@
 function TeamSprite(imageURL) {
-  this.image = new Image();
   this.canvas = document.createElement("canvas");
-  this.context = this.canvas.getContext("2d");
   this.loaded = false;
   this.palette = []; // colorized palette that replaces team colors
   this.indices = []; // index of each pixel for each team color
@@ -20,20 +18,55 @@ function TeamSprite(imageURL) {
 
   // Get information that is only available after the image loads.
   var self = this;
-  this.image.src = imageURL;
-  this.image.onload = function () {
+  var image = new Image();
+  image.src = imageURL;
+  image.onload = function () {
     self.loaded = true;
-    // make the canvas the same size as the image
-    self.canvas.width = self.image.width;
-    self.canvas.height = self.image.height;
-    // draw the image on the canvas
-    self.context.drawImage(self.image, 0, 0);
+    // crop empty space out of image
+    var left = image.width;
+    var right = 0;
+    var top = image.height;
+    var bottom = 0;    
+    var tempCanvas = document.createElement("canvas");
+    tempCanvas.width = image.width;
+    tempCanvas.height = image.height;
+    var context = tempCanvas.getContext("2d");
+    context.drawImage(image, 0, 0);
+    var data = context.getImageData(0, 0, image.width, image.height);
+    for (var y = 0; y < data.height; y++) {
+      for (var x = 0; x < data.width; x++) {
+        if (data.data[(y * data.width + x) * 4 + 3] != 0) {
+          if (x < left) left = x;
+          if (x > right) right = x;
+          if (y < top) top = y;
+          if (y > bottom) bottom = y;
+        }
+      }
+    }
+
+    // draw the visible part of the sprite on the canvas
+    var width = right - left;
+    var height = bottom - top;
+    self.canvas.width = right - left;
+    self.canvas.height = bottom - top;
+    context = self.canvas.getContext("2d");
+    context.drawImage(image, left, top, width, height, 0, 0, width, height);
+
+    // Set negative CSS margins so that canvas is effectively 0 pixels wide
+    // and tall, and positioned from the center of the original image.
+    // This helps position the image using the left or right and bottom or top
+    // CSS properties.
+    self.canvas.style.marginLeft   = -(image.width  / 2 - left) + "px";
+    self.canvas.style.marginTop    = -(image.height / 2 - top) + "px";
+    self.canvas.style.marginRight  = -(image.width  / 2 - right) + "px";
+    self.canvas.style.marginBottom = -(image.height / 2 - bottom) + "px";
+
     // get the indices of the pixels that are team colors
-    self.data = self.context.getImageData(0, 0, self.canvas.width, self.canvas.height);
-    for (var i = 0, j = 0; i < self.data.width * self.data.height; i++, j += 4) {
-      var r = self.data.data[j];
-      var g = self.data.data[j + 1];
-      var b = self.data.data[j + 2];
+    var data = context.getImageData(0, 0, width, height);
+    for (var i = 0; i < width * height; i++) {
+      var r = data.data[i * 4];
+      var g = data.data[i * 4 + 1];
+      var b = data.data[i * 4 + 2];
       var packed = 65536 * r + 256 * g + b;
       var color = map[packed];
       if (typeof(color) != "undefined") {
@@ -55,6 +88,8 @@ TeamSprite.TEAM_COLORS = [
 ];
 
 TeamSprite.prototype.colorize = function () {
+  var context = this.canvas.getContext("2d");
+  var data = context.getImageData(0, 0, this.canvas.width, this.canvas.height);
   for (var color = 0; color < this.indices.length; color++) {
     var pixels = this.indices[color];
     var r = this.palette[color][0];
@@ -62,12 +97,12 @@ TeamSprite.prototype.colorize = function () {
     var b = this.palette[color][2];
     for (var i = 0; i < pixels.length; i++) {
       var j = pixels[i] * 4;
-      this.data.data[j]     = r;
-      this.data.data[j + 1] = g;
-      this.data.data[j + 2] = b;
+      data.data[j]     = r;
+      data.data[j + 1] = g;
+      data.data[j + 2] = b;
     }
   }
-  this.context.putImageData(this.data, 0, 0);
+  context.putImageData(data, 0, 0);
 };
 
 TeamSprite.prototype.setChannel = function (channel, value) {

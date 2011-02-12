@@ -3,25 +3,111 @@
   <title>team color test</title>
   <script type="text/javascript" src="TeamSprite.js"></script>
   <script type="text/javascript">
-var sprite = null;
-function update() {
-  if (sprite) {
-    document.body.removeChild(sprite.canvas);
-  }
-  sprite = new TeamSprite(document.getElementById("url").value);
-  sprite.red = parseInt(document.getElementById("red").value);
-  sprite.green = parseInt(document.getElementById("green").value);
-  sprite.blue = parseInt(document.getElementById("blue").value);
-  document.body.appendChild(sprite.canvas);
+onload = function () {
+  // get HTML elements
+  var red = document.getElementById("red");
+  var green = document.getElementById("green");
+  var blue = document.getElementById("blue");
+  var container = document.getElementById("container");
+
+  // create the sprite
+  var sprite = new TeamSprite("arbiter-blade-s-4.png");
+  sprite.red = parseInt(red.value);
+  sprite.green = parseInt(green.value);
+  sprite.blue = parseInt(blue.value);
+  sprite.canvas.id = "sprite";
+  container.appendChild(sprite.canvas);
+
+  // attach event handlers
+  red.onchange = function () {sprite.red = parseInt(red.value)};
+  green.onchange = function () {sprite.green = parseInt(green.value)};
+  blue.onchange = function () {sprite.blue = parseInt(blue.value)};
 }
-onload = update;
   </script>
+  <style type="text/css">
+#container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+#sprite {
+  position: absolute;
+  top: 150px;
+  left: 150px;
+}
+
+#NW, #NE, #SW, #SE {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+}
+
+#NW {
+  background-color: red;
+  top: 0;
+  left: 0;
+}
+
+#NE {
+  background-color: green;
+  top: 0;
+  right: 0;
+}
+
+#SW {
+  background-color: blue;
+  bottom: 0;
+  left: 0;
+}
+
+#SE {
+  background-color: yellow;
+  bottom: 0;
+  right: 0;
+}
+  </style>
  </head>
  <body>
-  <div><input onchange="update()" type="text" value="arbiter-blade-s-4.png" id="url"/>image</div>
-  <div><input onchange="update()" type="text" value="0" id="red"/>red</div>
-  <div><input onchange="update()" type="text" value="0" id="green"/>green</div>
-  <div><input onchange="update()" type="text" value="0" id="blue"/>blue</div>
+  <div>
+   <select id="red">
+    <option value="0">0%</option>
+    <option value="51">20%</option>
+    <option value="102">40%</option>
+    <option value="153">60%</option>
+    <option value="204">80%</option>
+    <option value="255">100%</option>
+   </select>
+   red
+  </div>
+  <div>
+   <select id="green">
+    <option value="0">0%</option>
+    <option value="51">20%</option>
+    <option value="102">40%</option>
+    <option value="153">60%</option>
+    <option value="204">80%</option>
+    <option value="255">100%</option>
+   </select>
+   green
+  </div>
+  <div>
+   <select id="blue">
+    <option value="0">0%</option>
+    <option value="51">20%</option>
+    <option value="102">40%</option>
+    <option value="153">60%</option>
+    <option value="204">80%</option>
+    <option value="255">100%</option>
+   </select>
+   blue
+  </div>
+  <div id="container">
+    <div id="NW"></div>
+    <div id="NE"></div>
+    <div id="SW"></div>
+    <div id="SE"></div>
+  </div>
  </body>
 
 </html>
