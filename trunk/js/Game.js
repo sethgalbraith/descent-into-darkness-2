@@ -50,15 +50,11 @@ var Game = {
    *                          element of this parent element.
    * 
    * @return the new element.
-   *
-   * Attribute names are usually the same in javascript and HTML,
-   * but you should use "className" instead of the "class" attribute
-   * and "htmlFor" instead of the "for" attribute.\
    */
   createElement: function (tagName, attributes, parentElement) {
     var newElement = document.createElement(tagName);
     for (attributeName in attributes) {
-       newElement[attributeName] = attributes[attributeName];
+       newElement.setAttribute(attributeName, attributes[attributeName]);
     }
     if (parentElement) {
       parentElement.appendChild(newElement);
@@ -301,8 +297,8 @@ var Game = {
     for (var i = 0; i < Game.characters.length; i++) {
       Game.characters[i].move();
     }
-    document.body.scrollLeft = Game.party[0].x - innerWidth / 2;
-    document.body.scrollTop = Game.party[0].y - innerHeight / 2;
+    document.body.scrollLeft = Game.party[0].getX() - innerWidth / 2;
+    document.body.scrollTop = Game.party[0].getY() - innerHeight / 2;
     Game.showHideMovementButtons(Game.party[0]);
     Game.measurePerformance();
   },
@@ -569,7 +565,7 @@ addEventListener('load', function () {
 
   // Variables that point to elements of the user interface.
   Game.userForm = document.getElementById("userForm");
-  Game.menu = Game.createElement("div", {className: "menu"}, Game.frame);
+  Game.menu = Game.createElement("div", {'class': "menu"}, Game.frame);
 
   // Initialize account management menu.
   Game.initializeUserForm();
@@ -622,7 +618,7 @@ addEventListener('load', function () {
 */
 
   // create frames-per-second meter
-  Game.fpsMeter = Game.createElement("div", {className: "fps"}, document.body);
+  Game.fpsMeter = Game.createElement("div", {'class': "fps"}, document.body);
   Game.fpsQueue = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 }, true);
