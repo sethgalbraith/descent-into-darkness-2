@@ -75,12 +75,12 @@
   width: 72px;
   height: 72px;
 }
-.character div img {
+.character div canvas {
   position: absolute;
   left: 36px;
   top: 36px;
 }
-.character .left img {
+.character .left canvas {
   transform: scaleX(-1);
   -webkit-transform: scaleX(-1);
   -moz-transform: scaleX(-1);

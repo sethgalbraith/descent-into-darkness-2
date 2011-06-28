@@ -9,58 +9,59 @@
  * Create a new ImageLoader.
  * @param callback the function to call when all of the images are done loading.
  */
-Game.ImageLoader = function(callback) {
+Game.ImageLoader = function (callback) {
   this.done = 0; // number of images that have finished loading
   this.total = 0; // number of images that have started loading
   this.callback = callback; // function to call when all images are loaded
-  this.element = Game.createElement("div", {className:"imageLoader"}, document.body);
+  this.element = Game.createElement("div", {"class": "imageLoader"}, document.body);
   this._update();
 };
 
-/**
- * Start loading an image.
- * @param url the address of the image to load.
- * @param perImageCallback (optional) a function called when this image is loaded.
- * @return the new HTML image element that is being loaded.
- */
-Game.ImageLoader.prototype.load = function (url, perImageCallback) {
-  this.total++; // We have started loading another image.
-  this._update();
+Game.ImageLoader.prototype = {
+  /**
+   * Start loading an image.
+   * @param url the address of the image to load.
+   * @param perImageCallback (optional) a function called when this image is loaded.
+   * @return the new HTML image element that is being loaded.
+   */
+  load: function (url, perImageCallback) {
+    this.total++; // We have started loading another image.
+    this._update();
 
-  // The image onload event listener will not remember the current value
-  // of the global variable this, so we save it in the local variable self.
-  var self = this;
-  var newImage = new Image();
-  newImage.src = url;
-  newImage.onload = function () {
-    self._onload(url);
-    if (perImageCallback) {
-      perImageCallback();
+    // The image onload event listener will not remember the current value
+    // of the global variable this, so we save it in the local variable self.
+    var self = this;
+    var newImage = new Image();
+      newImage.src = url;
+      newImage.onload = function () {
+        self._onload(url);
+        if (perImageCallback) perImageCallback();
+      };
+    return newImage;
+  },
+
+  /**
+   * Finish loading an image. This is a private function called from
+   * the onload event listener of each image this image loader loads.
+   * It decrements the count and calls the callback function if all
+   * of the images are done loading.
+   */
+  _onload: function (url) {
+    this.done++; // One more image has been loaded.
+    if (this.done == this.total) {
+      // All of the images are loaded, so call the function now.
+      this.callback();
     }
-  };
-  return newImage;
-};
+    this._update();
+  },
 
-/**
- * Finish loading an image. This is a private function called from
- * the onload event listener of each image this image loader loads.
- * It decrements the count and calls the callback function if all
- * of the images are done loading.
- */
-Game.ImageLoader.prototype._onload = function(url) {
-  this.done++; // One more image has been loaded.
-  if (this.done == this.total) {
-    // All of the images are loaded, so call the function now.
-    this.callback();
-  }
-  this._update();
-};
+  /**
+   * Update the ImageLoader's progress indicator. This private function
+   * is called by the ImageLoader whenever count or total is modified.
+   */
+  _update: function () {
+    this.element.innerHTML = this.done + " / " + this.total + " images loaded";
+  },
 
-/**
- * Update the ImageLoader's progress indicator. This private function
- * is called by the ImageLoader whenever count or total is modified.
- */
-Game.ImageLoader.prototype._update = function() {
-  this.element.innerHTML = this.done + " / " + this.total + " images loaded";
-};
+}
 
