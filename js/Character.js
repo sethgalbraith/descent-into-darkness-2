@@ -54,7 +54,13 @@ Game.Character = function (xmlElement) {
     if (node.nodeType == node.ELEMENT_NODE) {
       if (node.tagName == 'sequence') {
         var actionName = node.getAttribute("action");
-        this.sequences[actionName] = [];
+        this.sequences[actionName] = {
+          action: actionName,
+          name: node.hasAttribute("name") ? node.getAttribute("name") : actionName,
+          loop: node.hasAttribute("loop") ? node.getAttribute("loop") : "none",
+          next: node.hasAttribute("next") ? node.getAttribute("next") : "stand",
+          frames: [],
+        };
         var frameElements = node.getElementsByTagName("frame");
         for (var j = 0; j < node.childNodes.length; j++) {
           if (node.childNodes[j].nodeType == node.ELEMENT_NODE) {
@@ -117,7 +123,7 @@ Game.Character.prototype = {
     var durationString = xmlElement.getAttribute("duration");
     var duration = durationString ? parseInt(durationString) : 1;
     for (var i = 0; i < duration; i++) {
-      this.sequences[action].push(image);
+      this.sequences[action].frames.push(image);
     }
     this.container.appendChild(image);
   },
@@ -155,13 +161,13 @@ Game.Character.prototype = {
 
   _hideCurrentFrame: function () {
     if (this.sequences[this._action]) {
-      this.sequences[this._action][this._frame].style.visibility = "hidden";
+      this.sequences[this._action].frames[this._frame].style.visibility = "hidden";
     }
   },
 
   _showCurrentFrame: function () {
     if (this.sequences[this._action]) {
-      this.sequences[this._action][this._frame].style.visibility = "visible";
+      this.sequences[this._action].frames[this._frame].style.visibility = "visible";
     }
   },
 
@@ -188,17 +194,23 @@ Game.Character.prototype = {
   getFrame: function() {return this._frame;},
   setFrame: function(value) {
     this._hideCurrentFrame();
-    // Set the frame to 0 in case the sequence does not exist
-    // or does not contain enough frames.
-    this._frame = 0;
     // Set the frame to value only when the sequence exists
     // and the sequence contains enough frames.
-    if (this.sequences[this._action]) {
-      if (value < this.sequences[this._action].length) {
+    var sequence = this.sequences[this._action];
+    if (sequence) {
+      if (value < sequence.frames.length) {
         this._frame = value;
       }
-      else if (this._action == "fall") {
-        this._frame = this.sequences[this._action].length - 1;
+      else if (sequence.loop == "stay") {
+        this._frame = sequence.frames.length - 1;
+      }
+      else if (sequence.loop == "none") {
+        this._frame = 0;
+        this._action = sequence.next;
+        this.scheduleIdleAnimation();
+      }
+      else if (sequence.loop == "loop") {
+        this._frame = 0;
       }
     }
     this._showCurrentFrame();
@@ -210,10 +222,8 @@ Game.Character.prototype = {
     this._action = value;
     // Set the frame to 0 if the sequence does not exist
     // or does not contain enough frames.
-    if (!this.sequences[this._action]) {
-      this._frame = 0;
-    }
-    else if (this._frame >= this.sequences[this._action].length) {
+    var sequence = this.sequences[this._action];
+    if (!sequence || this._frame >= sequence.frames.length) {
       this._frame = 0;
     }
     this._showCurrentFrame();
@@ -223,7 +233,8 @@ Game.Character.prototype = {
 
   scheduleIdleAnimation: function () {
     var range = this.idleMax - this.idleMin;
-    this.nextIdleFrame = this.idleMin + Math.floor(range * Math.random());
+    // add 1 because this.animate() will subtract 1 as soon as we start
+    this.nextIdleFrame = this.idleMin + Math.floor(range * Math.random()) + 1;
   },
 
   animate: function () {
@@ -239,11 +250,6 @@ Game.Character.prototype = {
       this.setAction("stand");
     }
   */
-  //  else if (this.getAction() == "idle" && this.getFrame() == 0) {
-    else if (this.getAction() != "move" && this.getAction() != "stand" && this.getFrame() == 0) {
-      this.setAction("stand");
-      this.scheduleIdleAnimation();
-    }
     else if (this.getAction() == "stand" && this.sequences["idle"]) {
       this.nextIdleFrame--;
       if (this.nextIdleFrame == 0) {

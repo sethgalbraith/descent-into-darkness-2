@@ -43,6 +43,10 @@ Game.TeamSprite = function (imageURL, loader, callback) {
       }
     }
 
+    // convert maximum x and y to right and bottom edge coordinates
+    right += 1;
+    bottom += 1;
+
     // draw the visible part of the sprite on the canvas
     var width = right - left;
     var height = bottom - top;
