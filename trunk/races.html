@@ -112,6 +112,7 @@ function showUnit(unit, main) {
       function (x) {
         return function () {
           unit.setAction(x);
+          unit.setFrame(0);
           return false;
         };
       }
