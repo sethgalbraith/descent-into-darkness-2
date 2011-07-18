@@ -16,6 +16,19 @@
   left: 33%;
   width: 65%;
 }
+.portrait {
+  width: 144px;
+  margin-top: -18px;
+  margin-bottom: -54px;
+  transition: width 0.2s ease-in-out;
+  -moz-transition: width 0.2s ease-in-out;
+  -ms-transition: width 0.2s ease-in-out;
+  -o-transition: width 0.2s ease-in-out;
+  -webkit-transition: width 0.2s ease-in-out;
+}
+.portrait:hover {
+  width: 288px;
+}
     </style>
     <!-- <script type="text/javascript" src="js/Game.js"></script> -->
     <script type="text/javascript">
@@ -101,7 +114,11 @@ function showUnit(unit, main) {
       + " " + unit.abilities[i].name
       + ": " + unit.abilities[i].description;
   }
-  cells[1].appendChild(unit.portrait);
+  for (var j = 0; j < unit.portraits.length; j++) {
+    var div = Game.createElement('div', {"class": "portraitContainer"}, cells[1]);
+    div.appendChild(unit.portraits[j]);
+    unit.portraits[j].className = "portrait";
+  }
   var rel = Game.createElement('div', {'style': 'position: relative'}, cells[2]);
   rel.appendChild(unit.element);
   for (var action in unit.sequences) {
