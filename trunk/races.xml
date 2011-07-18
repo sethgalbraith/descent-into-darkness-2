@@ -3086,6 +3086,7 @@
 				<ability level="1" name="shooting" description="throw spear"/>
 				<ability level="2" name="quickness" description=""/>
 				<portrait scale="0.5">data/core/images/portraits/goblins/transparent/spearman.png</portrait>
+				<portrait scale="0.5">data/core/images/portraits/goblins/transparent/spearman-2.png</portrait>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/goblins/spearman-attack-n1.png</frame>
 					<frame>data/core/images/units/goblins/spearman-attack-n2.png</frame>
@@ -3112,9 +3113,6 @@
 					<frame>data/core/images/units/goblins/spearman-ne.png</frame>
 					<frame>data/core/images/units/goblins/spearman.png</frame>
 				</sequence>
-			</unit>
-			<unit name="(alternate portrait)" yOffset="-18">
-				<portrait scale="0.5">data/core/images/portraits/goblins/transparent/spearman-2.png</portrait>
 			</unit>
 			<unit name="Goblin Impaler" yOffset="-18">
 				<ability level="3" name="toughness" description=""/>
@@ -3149,6 +3147,7 @@
 				<ability level="4" name="fighting" description="spear"/>
 				<ability level="2" name="quickness" description=""/>
 				<portrait scale="0.5">data/core/images/portraits/goblins/transparent/rouser.png</portrait>
+				<portrait scale="0.5">data/core/images/portraits/goblins/transparent/rouser-2.png</portrait>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/goblins/rouser-attack1.png</frame>
 					<frame>data/core/images/units/goblins/rouser-attack3.png</frame>
@@ -3164,9 +3163,6 @@
 					<frame>data/core/images/units/goblins/rouser-ne.png</frame>
 					<frame>data/core/images/units/goblins/rouser.png</frame>
 				</sequence>
-			</unit>
-			<unit name="(alternate portrait)" yOffset="-18">
-				<portrait scale="0.5">data/core/images/portraits/goblins/transparent/rouser-2.png</portrait>
 			</unit>
 		</class>
 		<class name="Wolf Rider">
@@ -3795,6 +3791,7 @@
 					<ability level="" name="fighting" description="sword"/>
 					<ability level="" name="blasting" description="paladin magic"/>
 					<portrait scale="0.5">data/core/images/portraits/humans/transparent/grand-knight.png</portrait>
+					<portrait scale="0.5">data/core/images/portraits/humans/transparent/grand-knight-2.png</portrait>
 					<sequence action="stand" loop="loop">
 						<frame>data/core/images/units/human-loyalists/grand-knight.png</frame>
 					</sequence>
@@ -3812,9 +3809,6 @@
 					<sequence action="move" loop="loop">
 						<frame>data/core/images/units/human-loyalists/grand-knight-moving.png</frame>
 					</sequence>
-				</unit>
-				<unit name="(alternate portrait)" yOffset="-18">
-					<portrait scale="0.5">data/core/images/portraits/humans/transparent/grand-knight-2.png</portrait>
 				</unit>
 			</branch>
 			<branch name="lance focus">
@@ -4925,6 +4919,8 @@
 					<ability level="" name="shooting" description="throw spear"/>
 					<ability level="" name="toughness" description="armor, shield"/>
 					<portrait scale="0.5">data/core/images/portraits/humans/transparent/swordsman.png</portrait>
+					<portrait scale="0.5">data/core/images/portraits/humans/transparent/swordsman-2.png</portrait>
+					<portrait scale="0.5">data/core/images/portraits/humans/transparent/swordsman-3.png</portrait>
 					<sequence action="stand" loop="loop">
 						<frame>data/core/images/units/human-loyalists/swordsman.png</frame>
 					</sequence>
@@ -4955,12 +4951,6 @@
 						<frame>data/core/images/units/human-loyalists/swordsman-idle-2.png</frame>
 						<frame>data/core/images/units/human-loyalists/swordsman-idle-1.png</frame>
 					</sequence>
-				</unit>
-				<unit name="(alternate portrait)" yOffset="-18">
-					<portrait scale="0.5">data/core/images/portraits/humans/transparent/swordsman-2.png</portrait>
-				</unit>
-				<unit name="(alternate portrait)" yOffset="-18">
-					<portrait scale="0.5">data/core/images/portraits/humans/transparent/swordsman-3.png</portrait>
 				</unit>
 				<unit name="Royal Guard" yOffset="-18">
 					<ability level="" name="fighting" description="spear, sword"/>
@@ -6200,6 +6190,11 @@
 				<ability level="" name="toughness" description=""/>
 				<ability level="" name="fighting" description="sword"/>
 				<portrait scale="0.5">data/core/images/portraits/orcs/transparent/grunt.png</portrait>
+				<portrait scale="0.5">data/core/images/portraits/orcs/transparent/grunt-2.png</portrait>
+				<portrait scale="0.5">data/core/images/portraits/orcs/transparent/grunt-3.png</portrait>
+				<portrait scale="0.5">data/core/images/portraits/orcs/transparent/grunt-4.png</portrait>
+				<portrait scale="0.5">data/core/images/portraits/orcs/transparent/grunt-5.png</portrait>
+				<portrait scale="0.5">data/core/images/portraits/orcs/transparent/grunt-6.png</portrait>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/orcs/grunt-attack-1.png</frame>
 					<frame>data/core/images/units/orcs/grunt-attack-2.png</frame>
@@ -6218,21 +6213,6 @@
 					<frame>data/core/images/units/orcs/grunt-die-8.png</frame>
 					<frame>data/core/images/units/orcs/grunt.png</frame>
 				</sequence>
-			</unit>
-			<unit name="(alternate portrait)" yOffset="-18">
-				<portrait scale="0.5">data/core/images/portraits/orcs/transparent/grunt-2.png</portrait>
-			</unit>
-			<unit name="(alternate portrait)" yOffset="-18">
-				<portrait scale="0.5">data/core/images/portraits/orcs/transparent/grunt-3.png</portrait>
-			</unit>
-			<unit name="(alternate portrait)" yOffset="-18">
-				<portrait scale="0.5">data/core/images/portraits/orcs/transparent/grunt-4.png</portrait>
-			</unit>
-			<unit name="(alternate portrait)" yOffset="-18">
-				<portrait scale="0.5">data/core/images/portraits/orcs/transparent/grunt-5.png</portrait>
-			</unit>
-			<unit name="(alternate portrait)" yOffset="-18">
-				<portrait scale="0.5">data/core/images/portraits/orcs/transparent/grunt-6.png</portrait>
 			</unit>
 			<unit name="Orcish Warrior" yOffset="-18">
 				<ability level="" name="toughness" description=""/>
@@ -6277,6 +6257,7 @@
 				<ability level="" name="toughness" description=""/>
 				<ability level="" name="fighting" description="sword"/>
 				<portrait scale="0.5">data/core/images/portraits/orcs/transparent/leader.png</portrait>
+				<portrait scale="0.5">data/core/images/portraits/orcs/transparent/leader-2.png</portrait>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/orcs/leader-attack-1.png</frame>
 					<frame>data/core/images/units/orcs/leader-attack-2.png</frame>
@@ -6293,9 +6274,6 @@
 					<frame>data/core/images/units/orcs/leader-ranged-defend.png</frame>
 					<frame>data/core/images/units/orcs/leader-ranged.png</frame>
 				</sequence>
-			</unit>
-			<unit name="(alternate portrait)" yOffset="-18">
-				<portrait scale="0.5">data/core/images/portraits/orcs/transparent/leader-2.png</portrait>
 			</unit>
 			<unit name="Orcish Ruler" yOffset="-18">
 				<ability level="" name="toughness" description=""/>
@@ -6459,7 +6437,7 @@
 					<frame>data/core/images/units/saurians/oracle/oracle-se-bob5.png</frame>
 					<frame>data/core/images/units/saurians/oracle/oracle-se-bob6.png</frame>
 					<frame>data/core/images/units/saurians/oracle/oracle-se-defend1.png</frame>
-					<frame>data/core/images/units/saurians/oracle/oracle-se-defend2.png</frame>
+p					<frame>data/core/images/units/saurians/oracle/oracle-se-defend2.png</frame>
 					<frame>data/core/images/units/saurians/oracle/oracle-se-die1.png</frame>
 					<frame>data/core/images/units/saurians/oracle/oracle-se-die2.png</frame>
 					<frame>data/core/images/units/saurians/oracle/oracle-se-die3.png</frame>
@@ -7465,6 +7443,7 @@
 					<ability level="" name="toughness" description="shield"/>
 					<ability level="" name="swimming" description="submerge"/>
 					<portrait scale="0.5">data/core/images/portraits/undead/transparent/draug.png</portrait>
+					<portrait scale="0.5">data/core/images/portraits/undead/transparent/draug-2.png</portrait>
 					<sequence action="stand" loop="loop">
 						<frame>data/core/images/units/undead-skeletal/draug.png</frame>
 					</sequence>
@@ -7478,9 +7457,6 @@
 						<frame duration="3">data/core/images/units/undead-skeletal/draug-defend-2.png</frame>
 						<frame>data/core/images/units/undead-skeletal/draug-defend-1.png</frame>
 					</sequence>
-				</unit>
-				<unit name="(alternate portrait)" yOffset="-18">
-					<portrait scale="0.5">data/core/images/portraits/undead/transparent/draug-2.png</portrait>
 				</unit>
 			</branch>
 		</class>

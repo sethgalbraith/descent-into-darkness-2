@@ -14,6 +14,7 @@ Game.Character = function (xmlElement) {
   this.sequences = {};
   this.nextIdleFrame = -1;
   this.abilities = [];
+  this.portraits = [];
 
   // Get settings from the XML element.
   this.name = xmlElement.getAttribute("name");
@@ -25,7 +26,10 @@ Game.Character = function (xmlElement) {
       'description': abilityElements[j].getAttribute('description'),
     });
   }
-  this.portrait = this._loadPortrait(xmlElement);
+  var portraitElements = xmlElement.getElementsByTagName("portrait");
+  for (var i = 0; i < portraitElements.length; i++) {
+    this._loadPortrait(portraitElements[i]);
+  }
   this.setX(parseInt(xmlElement.getAttribute("x")));
   this.setY(parseInt(xmlElement.getAttribute("y")));
   this.location = xmlElement.getAttribute("location");
@@ -83,19 +87,17 @@ Game.Character.prototype = {
 
   // PRIVATE METHODS
 
-  _loadPortrait: function (xmlElement) {
-    var portraits = xmlElement.getElementsByTagName("portrait");
-    if (portraits.length == 0) return Game.createElement("div");
-    var opacity = portraits[0].getAttribute("opacity");
-    var scale = portraits[0].getAttribute("scale");
-    var url = portraits[0].textContent;
+  _loadPortrait: function (portraitElement) {
+    var opacity = portraitElement.getAttribute("opacity");
+    var scale = portraitElement.getAttribute("scale");
+    var url = portraitElement.textContent;
     var image = Game.loader.load(url, function () {
       if (opacity) image.style.opacity = opacity;
       if (scale)  image.width *= parseFloat(scale);
       image.style.display = 'inline';
     });
     image.style.display = 'none';
-    return image;
+    this.portraits.push(image);
   },
 
   _loadFrame: function (xmlElement, offset, action) {
