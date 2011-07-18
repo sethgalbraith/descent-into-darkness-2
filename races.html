@@ -137,9 +137,24 @@ function showUnit(unit, main) {
   }
 }
 
+var names = [];
 function Class(xml) {
   this.name = xml.getAttribute('name');
   this.elements = xml.getElementsByTagName('unit');
+
+for (var i = 0; i < this.elements.length; i++) {
+  var xmlElement = this.elements[i]
+  if (xmlElement.getElementsByTagName("sequence").length == 1
+   && xmlElement.getElementsByTagName("frame").length != 1)
+    names.push(xmlElement.getAttribute("name"));
+}
+/*
+for (var i = 0; i < this.elements.length; i++) {
+  var xmlElement = this.elements[i]
+  if (xmlElement.getElementsByTagName("frame").length == 0)
+    alert(xmlElement.getAttribute("name"));
+}
+*/
 }
 Class.prototype = {
   show: function (menu, main) {
@@ -191,6 +206,7 @@ function createRaces(xml) {
   for (var i = 0; i < raceElements.length; i++) {
     races.push(new Race(raceElements[i]));
   }
+//alert(names);
   return races;
 }
 
