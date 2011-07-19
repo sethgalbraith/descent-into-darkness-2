@@ -8,6 +8,7 @@ Game.Character = function (xmlElement) {
   this._facing = "right";
   this._action = "stand";
   this._frame = 0;
+  this._visible = true;
   this.location = "start";
   this.path = null;
   this.pathStep = 0;
@@ -65,8 +66,8 @@ Game.Character = function (xmlElement) {
           loop: node.hasAttribute("loop") ? node.getAttribute("loop") : "none",
           next: node.hasAttribute("next") ? node.getAttribute("next") : "stand",
           frames: [],
+          effects: [],
         };
-        var frameElements = node.getElementsByTagName("frame");
         for (var j = 0; j < node.childNodes.length; j++) {
           if (node.childNodes[j].nodeType == node.ELEMENT_NODE) {
             if (node.childNodes[j].tagName == 'frame') {
@@ -76,6 +77,14 @@ Game.Character = function (xmlElement) {
               // TODO: implement effects
             }
           }
+        }
+        var effectElements = node.getElementsByTagName("effect");
+        for (var k = 0; k < effectElements.length; k++) {
+          var effect = new Game.Character(effectElements[k]);
+          this.sequences[actionName].effects.push(effect);
+//          this.container.appendChild(effect.element);
+          this.element.appendChild(effect.element);
+          effect.hide();
         }
       }
     }    
@@ -174,6 +183,27 @@ Game.Character.prototype = {
     }
   },
 
+  _hideCurrentEffects: function () {
+    var effects = this.sequences[this._action].effects;
+    for (var i = 0; i < effects.length; i++) {
+      effects[i].hide();
+    }
+  },
+
+  _showCurrentEffects: function () {
+    var effects = this.sequences[this._action].effects;
+    for (var i = 0; i < effects.length; i++) {
+      effects[i].show();
+    }
+  },
+
+  _animateEffects: function () {
+    var effects = this.sequences[this._action].effects;
+    for (var i = 0; i < effects.length; i++) {
+      effects[i].setFrame(this._frame);
+    }
+  },
+
   // ACCESSORS
 
   getX: function() {return this._x;},
@@ -209,18 +239,24 @@ Game.Character.prototype = {
       }
       else if (sequence.loop == "none") {
         this._frame = 0;
-        this._action = sequence.next;
+        this.setAction(sequence.next);
         this.scheduleIdleAnimation();
       }
       else if (sequence.loop == "loop") {
         this._frame = 0;
       }
+      else if (sequence.loop == "hide") {
+        this.hide();
+        return;
+      }
     }
+    this._animateEffects();
     this._showCurrentFrame();
   },
 
   getAction: function() {return this._action;},
   setAction: function(value) {
+    this._hideCurrentEffects();
     this._hideCurrentFrame();
     this._action = value;
     // Set the frame to 0 if the sequence does not exist
@@ -230,6 +266,7 @@ Game.Character.prototype = {
       this._frame = 0;
     }
     this._showCurrentFrame();
+    this._showCurrentEffects();
   },
 
   // PUBLIC METHODS
@@ -241,6 +278,8 @@ Game.Character.prototype = {
   },
 
   animate: function () {
+    if (!this._visible) return;
+
     this.setFrame(this.getFrame() + 1);
     if (this.type == "shooter") {
       this.animateShooter();
@@ -351,6 +390,16 @@ Game.Character.prototype = {
   },
 
   move: function () {this.moveRecursive(this.speed);},
+
+  hide: function () {
+    this._visible = false;
+    this._hideCurrentFrame();
+  },
+
+  show: function () {
+    this._visible = false;
+    this._showCurrentFrame();
+  },
 
 }
 
