@@ -70,6 +70,14 @@
   left: 0px;
   top: 0px;
 }
+.character .character {
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  margin: 0px;
+  left: 0px;
+  top: 0px;
+}
 .character div {
   position: relative;
   width: 72px;

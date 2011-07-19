@@ -2088,10 +2088,14 @@
 				<ability level="4" name="knockout" description="axe"/>
 				<ability level="3" name="shooting" description="throw axe"/>
 				<sequence action="stand" loop="loop">
+					<frame>data/core/images/units/dwarves/scout.png</frame>
+				</sequence>
+				<sequence action="pain">
 					<frame>data/core/images/units/dwarves/scout-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/dwarves/scout-defend-2.png</frame>
 					<frame>data/core/images/units/dwarves/scout-defend-1.png</frame>
-
+				</sequence>
+				<sequence action="knockout">
 					<frame>data/core/images/units/dwarves/scout-melee-1.png</frame>
 					<frame>data/core/images/units/dwarves/scout-melee-2.png</frame>
 					<frame>data/core/images/units/dwarves/scout-melee-3.png</frame>
@@ -2100,11 +2104,10 @@
 					<frame>data/core/images/units/dwarves/scout-melee-6.png</frame>
 					<frame>data/core/images/units/dwarves/scout-melee-7.png</frame>
 					<frame>data/core/images/units/dwarves/scout-melee-8.png</frame>
-
-					<frame>data/core/images/units/dwarves/scout.png</frame>
-
-					<frame>data/core/images/units/dwarves/scout-ranged-1.png</frame>
-					<frame>data/core/images/units/dwarves/scout-ranged-2.png</frame>
+				</sequence>
+				<sequence action="shooting">
+					<frame duration="2">data/core/images/units/dwarves/scout-ranged-1.png</frame>
+					<frame duration="3">data/core/images/units/dwarves/scout-ranged-2.png</frame>
 					<frame>data/core/images/units/dwarves/scout-ranged-3.png</frame>
 				</sequence>
 			</unit>
@@ -2114,43 +2117,62 @@
 					<ability level="5" name="knockout" description="axe"/>
 					<ability level="5" name="shooting" description="throw axe"/>
 					<sequence action="stand" loop="loop">
-						<frame>data/core/images/units/dwarves/pathfinder-idle-1.png</frame>
-						<frame>data/core/images/units/dwarves/pathfinder-idle-2.png</frame>
-						<frame>data/core/images/units/dwarves/pathfinder-idle-3.png</frame>
-						<frame>data/core/images/units/dwarves/pathfinder-idle-4.png</frame>
-						<frame>data/core/images/units/dwarves/pathfinder-idle-5.png</frame>
-						<frame>data/core/images/units/dwarves/pathfinder-idle-6.png</frame>
-						<frame>data/core/images/units/dwarves/pathfinder-idle-7.png</frame>
-						<frame>data/core/images/units/dwarves/pathfinder-idle-8.png</frame>
-						<frame>data/core/images/units/dwarves/pathfinder-idle-9.png</frame>
-						<frame>data/core/images/units/dwarves/pathfinder-idle-10.png</frame>
-						<frame>data/core/images/units/dwarves/pathfinder-idle-11.png</frame>
-						<frame>data/core/images/units/dwarves/pathfinder-idle-12.png</frame>
-						<frame>data/core/images/units/dwarves/pathfinder-idle-13.png</frame>
-						<frame>data/core/images/units/dwarves/pathfinder-idle-14.png</frame>
-
+						<frame>data/core/images/units/dwarves/pathfinder.png</frame>
+					</sequence>
+					<sequence action="pain">
+						<frame>data/core/images/units/dwarves/pathfinder-melee-defend-1.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/pathfinder-melee-defend-2.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-melee-defend-1.png</frame>
+					</sequence>
+					<sequence action="pain2">
+						<frame>data/core/images/units/dwarves/pathfinder-ranged-defend-1.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/pathfinder-ranged-defend-2.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-ranged-defend-1.png</frame>
+					</sequence>
+					<sequence action="knockout">
+						<frame>data/core/images/units/dwarves/pathfinder-melee.png</frame>
 						<frame>data/core/images/units/dwarves/pathfinder-melee-1.png</frame>
 						<frame>data/core/images/units/dwarves/pathfinder-melee-2.png</frame>
 						<frame>data/core/images/units/dwarves/pathfinder-melee-3.png</frame>
 						<frame>data/core/images/units/dwarves/pathfinder-melee-4.png</frame>
 						<frame>data/core/images/units/dwarves/pathfinder-melee-5.png</frame>
 						<frame>data/core/images/units/dwarves/pathfinder-melee-6.png</frame>
-
-						<frame>data/core/images/units/dwarves/pathfinder-melee-defend-1.png</frame>
-						<frame duration="3">data/core/images/units/dwarves/pathfinder-melee-defend-2.png</frame>
-						<frame>data/core/images/units/dwarves/pathfinder-melee-defend-1.png</frame>
-
-						<frame>data/core/images/units/dwarves/pathfinder-melee.png</frame>
-
-						<frame>data/core/images/units/dwarves/pathfinder.png</frame>
-
-						<frame>data/core/images/units/dwarves/pathfinder-ranged-1.png</frame>
-						<frame>data/core/images/units/dwarves/pathfinder-ranged-2.png</frame>
+					</sequence>
+					<sequence action="shooting">
+						<frame duration="2">data/core/images/units/dwarves/pathfinder-ranged-1.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/pathfinder-ranged-2.png</frame>
 						<frame>data/core/images/units/dwarves/pathfinder-ranged-3.png</frame>
-
-						<frame>data/core/images/units/dwarves/pathfinder-ranged-defend-1.png</frame>
-						<frame duration="3">data/core/images/units/dwarves/pathfinder-ranged-defend-2.png</frame>
-						<frame>data/core/images/units/dwarves/pathfinder-ranged-defend-1.png</frame>
+					</sequence>
+					<sequence action="idle">
+						<frame>data/core/images/units/dwarves/pathfinder-idle-1.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-2.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-3.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-4.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-5.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-6.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/pathfinder-idle-7.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-8.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/pathfinder-idle-9.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-10.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-11.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-12.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-13.png</frame>
+						<frame duration="4">data/core/images/units/dwarves/pathfinder-idle-14.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-13.png</frame>
+						<frame duration="4">data/core/images/units/dwarves/pathfinder-idle-14.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-13.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-12.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-11.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-10.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-9.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-8.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-7.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-6.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-5.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-4.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-3.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-2.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-1.png</frame>
 					</sequence>
 				</unit>
 				<unit name="Dwarvish Explorer" yOffset="-18">
@@ -2159,21 +2181,24 @@
 					<ability level="6" name="knockout" description="axe"/>
 					<ability level="7" name="shooting" description="throw axe"/>
 					<sequence action="stand" loop="loop">
+						<frame>data/core/images/units/dwarves/explorer.png</frame>
+					</sequence>
+					<sequence action="pain">
 						<frame>data/core/images/units/dwarves/explorer-defend-1.png</frame>
 						<frame duration="3">data/core/images/units/dwarves/explorer-defend-2.png</frame>
 						<frame>data/core/images/units/dwarves/explorer-defend-1.png</frame>
-
+					</sequence>
+					<sequence action="knockout">
 						<frame>data/core/images/units/dwarves/explorer-melee-1.png</frame>
 						<frame>data/core/images/units/dwarves/explorer-melee-2.png</frame>
 						<frame>data/core/images/units/dwarves/explorer-melee-3.png</frame>
 						<frame>data/core/images/units/dwarves/explorer-melee-4.png</frame>
 						<frame>data/core/images/units/dwarves/explorer-melee-5.png</frame>
 						<frame>data/core/images/units/dwarves/explorer-melee-6.png</frame>
-
-						<frame>data/core/images/units/dwarves/explorer.png</frame>
-
-						<frame>data/core/images/units/dwarves/explorer-ranged-1.png</frame>
-						<frame>data/core/images/units/dwarves/explorer-ranged-2.png</frame>
+					</sequence>
+					<sequence action="shooting">
+						<frame duration="2">data/core/images/units/dwarves/explorer-ranged-1.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/explorer-ranged-2.png</frame>
 						<frame>data/core/images/units/dwarves/explorer-ranged-3.png</frame>
 					</sequence>
 				</unit>
@@ -2184,6 +2209,9 @@
 					<ability level="5" name="toughness" description=""/>
 					<ability level="3" name="knockout" description="axe"/>
 					<sequence action="stand" loop="loop">
+						<frame>data/core/images/units/dwarves/ulfserker.png</frame>
+					</sequence>
+					<sequence action="knockout">
 						<frame>data/core/images/units/dwarves/ulfserker-attack-1.png</frame>
 						<frame>data/core/images/units/dwarves/ulfserker-attack-2.png</frame>
 						<frame>data/core/images/units/dwarves/ulfserker-attack-3.png</frame>
@@ -2192,24 +2220,50 @@
 						<frame>data/core/images/units/dwarves/ulfserker-attack-6.png</frame>
 						<frame>data/core/images/units/dwarves/ulfserker-attack-7.png</frame>
 						<frame>data/core/images/units/dwarves/ulfserker-attack-8.png</frame>
-
+						<frame>data/core/images/units/dwarves/ulfserker-attack-1.png</frame>
+					</sequence>
+					<sequence action="idle">
 						<frame>data/core/images/units/dwarves/ulfserker-idle-1.png</frame>
 						<frame>data/core/images/units/dwarves/ulfserker-idle-2.png</frame>
-						<frame>data/core/images/units/dwarves/ulfserker-idle-3.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/ulfserker-idle-3.png</frame>
 						<frame>data/core/images/units/dwarves/ulfserker-idle-4.png</frame>
 						<frame>data/core/images/units/dwarves/ulfserker-idle-5.png</frame>
-						<frame>data/core/images/units/dwarves/ulfserker-idle-6.png</frame>
-
-						<frame>data/core/images/units/dwarves/ulfserker-laugh-1.png</frame>
-						<frame>data/core/images/units/dwarves/ulfserker-laugh-2.png</frame>
-
-						<frame>data/core/images/units/dwarves/ulfserker.png</frame>
+						<frame duration="4">data/core/images/units/dwarves/ulfserker-idle-6.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/ulfserker-idle-3.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/ulfserker-idle-5.png</frame>
+						<frame duration="4">data/core/images/units/dwarves/ulfserker-idle-6.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/ulfserker-idle-3.png</frame>
+						<frame>data/core/images/units/dwarves/ulfserker-idle-2.png</frame>
+						<frame>data/core/images/units/dwarves/ulfserker-idle-1.png</frame>
+					</sequence>
+					<sequence action="laugh">
+						<frame duration="5">data/core/images/units/dwarves/ulfserker-laugh-1.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/ulfserker-laugh-2.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/ulfserker-laugh-1.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/ulfserker-laugh-2.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/ulfserker-laugh-1.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/ulfserker-laugh-2.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/ulfserker-laugh-1.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/ulfserker-laugh-2.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/ulfserker-laugh-1.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/ulfserker-laugh-2.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/ulfserker-laugh-1.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/ulfserker-laugh-2.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/ulfserker-laugh-1.png</frame>
 					</sequence>
 				</unit>
 				<unit name="Dwarvish Berserker" yOffset="-18">
 					<ability level="8" name="toughness" description=""/>
 					<ability level="6" name="knockout" description="axe"/>
 					<sequence action="stand" loop="loop">
+						<frame>data/core/images/units/dwarves/berserker.png</frame>
+					</sequence>
+					<sequence action="pain">
+						<frame>data/core/images/units/dwarves/berserker-defend-1.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/berserker-defend-2.png</frame>
+						<frame>data/core/images/units/dwarves/berserker-defend-1.png</frame>
+					</sequence>
+					<sequence action="knockout">
 						<frame>data/core/images/units/dwarves/berserker-attack-1.png</frame>
 						<frame>data/core/images/units/dwarves/berserker-attack-2.png</frame>
 						<frame>data/core/images/units/dwarves/berserker-attack-3.png</frame>
@@ -2218,32 +2272,47 @@
 						<frame>data/core/images/units/dwarves/berserker-attack-6.png</frame>
 						<frame>data/core/images/units/dwarves/berserker-attack-7.png</frame>
 						<frame>data/core/images/units/dwarves/berserker-attack-8.png</frame>
-
-						<frame>data/core/images/units/dwarves/berserker-defend-1.png</frame>
-						<frame duration="3">data/core/images/units/dwarves/berserker-defend-2.png</frame>
-						<frame>data/core/images/units/dwarves/berserker-defend-1.png</frame>
-
+						<frame>data/core/images/units/dwarves/berserker-attack-1.png</frame>
+					</sequence>
+					<sequence action="idle">
 						<frame>data/core/images/units/dwarves/berserker-idle-1.png</frame>
 						<frame>data/core/images/units/dwarves/berserker-idle-2.png</frame>
 						<frame>data/core/images/units/dwarves/berserker-idle-3.png</frame>
 						<frame>data/core/images/units/dwarves/berserker-idle-4.png</frame>
-						<frame>data/core/images/units/dwarves/berserker-idle-5.png</frame>
+						<frame duration="8">data/core/images/units/dwarves/berserker-idle-5.png</frame>
 						<frame>data/core/images/units/dwarves/berserker-idle-6.png</frame>
 						<frame>data/core/images/units/dwarves/berserker-idle-7.png</frame>
 						<frame>data/core/images/units/dwarves/berserker-idle-8.png</frame>
-						<frame>data/core/images/units/dwarves/berserker-idle-9.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/berserker-idle-9.png</frame>
+						<frame>data/core/images/units/dwarves/berserker-idle-10.png</frame>
+						<frame duration="4">data/core/images/units/dwarves/berserker-idle-9.png</frame>
 						<frame>data/core/images/units/dwarves/berserker-idle-10.png</frame>
 						<frame>data/core/images/units/dwarves/berserker-idle-11.png</frame>
-						<frame>data/core/images/units/dwarves/berserker-idle-12.png</frame>
+						<frame duration="5">data/core/images/units/dwarves/berserker-idle-12.png</frame>
+						<frame>data/core/images/units/dwarves/berserker-idle-11.png</frame>
 						<frame>data/core/images/units/dwarves/berserker-idle-13.png</frame>
+						<frame duration="7">data/core/images/units/dwarves/berserker-idle-15.png</frame>
 						<frame>data/core/images/units/dwarves/berserker-idle-14.png</frame>
-						<frame>data/core/images/units/dwarves/berserker-idle-15.png</frame>
 						<frame>data/core/images/units/dwarves/berserker-idle-16.png</frame>
-
-						<frame>data/core/images/units/dwarves/berserker-laugh-1.png</frame>
-						<frame>data/core/images/units/dwarves/berserker-laugh-2.png</frame>
-
-						<frame>data/core/images/units/dwarves/berserker.png</frame>
+						<frame>data/core/images/units/dwarves/berserker-idle-2.png</frame>
+						<frame>data/core/images/units/dwarves/berserker-idle-1.png</frame>
+					</sequence>
+					<sequence action="laugh">
+						<frame duration="5">data/core/images/units/dwarves/berserker-laugh-1.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/berserker-laugh-2.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/berserker-laugh-1.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/berserker-laugh-2.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/berserker-laugh-1.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/berserker-laugh-2.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/berserker-laugh-1.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/berserker-laugh-2.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/berserker-laugh-1.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/berserker-laugh-2.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/berserker-laugh-1.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/berserker-laugh-2.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/berserker-laugh-1.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/berserker-laugh-2.png</frame>
+						<frame duration="3">data/core/images/units/dwarves/berserker-laugh-1.png</frame>
 					</sequence>
 				</unit>
 			</branch>
@@ -2255,40 +2324,55 @@
 				<ability level="4" name="shooting" description="gun"/>
 				<ability level="2" name="fighting" description="sword"/>
 				<sequence action="stand" loop="loop">
-					<frame>data/core/images/units/dwarves/thunderer-attack-ne.png</frame>
-
-					<frame>data/core/images/units/dwarves/thunderer-attack-n.png</frame>
-
-					<frame>data/core/images/units/dwarves/thunderer-attack-se.png</frame>
-
-					<frame>data/core/images/units/dwarves/thunderer-attack-s.png</frame>
-
+					<frame>data/core/images/units/dwarves/thunderer.png</frame>
+				</sequence>
+				<sequence action="pain">
+					<frame>data/core/images/units/dwarves/thunderer-blade-defend-1.png</frame>
+					<frame duration="3">data/core/images/units/dwarves/thunderer-blade-defend-2.png</frame>
+					<frame>data/core/images/units/dwarves/thunderer-blade-defend-1.png</frame>
+				</sequence>
+				<sequence action="pain2">
+					<frame duration="4">data/core/images/units/dwarves/thunderer-defend.png</frame>
+				</sequence>
+				<sequence action="shooting">
+					<frame duration="5">data/core/images/units/dwarves/thunderer-attack-se.png</frame>
+				</sequence>
+				<sequence action="shooting S">
+					<frame duration="5">data/core/images/units/dwarves/thunderer-attack-s.png</frame>
+				</sequence>
+				<sequence action="shooting NE">
+					<frame duration="5">data/core/images/units/dwarves/thunderer-attack-ne.png</frame>
+				</sequence>
+				<sequence action="shooting N">
+					<frame duration="5">data/core/images/units/dwarves/thunderer-attack-n.png</frame>
+				</sequence>
+				<sequence action="fighting">
+					<frame>data/core/images/units/dwarves/thunderer-blade.png</frame>
 					<frame>data/core/images/units/dwarves/thunderer-blade-1.png</frame>
 					<frame>data/core/images/units/dwarves/thunderer-blade-2.png</frame>
 					<frame>data/core/images/units/dwarves/thunderer-blade-3.png</frame>
 					<frame>data/core/images/units/dwarves/thunderer-blade-4.png</frame>
 					<frame>data/core/images/units/dwarves/thunderer-blade-5.png</frame>
-
-					<frame>data/core/images/units/dwarves/thunderer-blade-defend-1.png</frame>
-					<frame duration="3">data/core/images/units/dwarves/thunderer-blade-defend-2.png</frame>
-					<frame>data/core/images/units/dwarves/thunderer-blade-defend-1.png</frame>
-
-					<frame>data/core/images/units/dwarves/thunderer-blade.png</frame>
-
-					<frame>data/core/images/units/dwarves/thunderer-defend.png</frame>
-
-					<frame>data/core/images/units/dwarves/thunderer-die1.png</frame>
-					<frame>data/core/images/units/dwarves/thunderer-die2.png</frame>
-					<frame>data/core/images/units/dwarves/thunderer-die3.png</frame>
-
+				</sequence>
+				<sequence action="fall" loop="stay">
+					<frame duration="3">data/core/images/units/dwarves/thunderer-die1.png</frame>
+					<frame duration="3">data/core/images/units/dwarves/thunderer-die2.png</frame>
+					<frame duration="3">data/core/images/units/dwarves/thunderer-die3.png</frame>
+				</sequence>
+				<sequence action="idle">
 					<frame>data/core/images/units/dwarves/thunderer-idle-1.png</frame>
 					<frame>data/core/images/units/dwarves/thunderer-idle-2.png</frame>
 					<frame>data/core/images/units/dwarves/thunderer-idle-3.png</frame>
-					<frame>data/core/images/units/dwarves/thunderer-idle-4.png</frame>
-					<frame>data/core/images/units/dwarves/thunderer-idle-5.png</frame>
-					<frame>data/core/images/units/dwarves/thunderer-idle-6.png</frame>
-
-					<frame>data/core/images/units/dwarves/thunderer.png</frame>
+					<frame duration="11">data/core/images/units/dwarves/thunderer-idle-4.png</frame>
+					<frame duration="3">data/core/images/units/dwarves/thunderer-idle-5.png</frame>
+					<frame duration="4">data/core/images/units/dwarves/thunderer-idle-6.png</frame>
+					<frame duration="3">data/core/images/units/dwarves/thunderer-idle-5.png</frame>
+					<frame duration="4">data/core/images/units/dwarves/thunderer-idle-6.png</frame>
+					<frame duration="3">data/core/images/units/dwarves/thunderer-idle-5.png</frame>
+					<frame duration="3">data/core/images/units/dwarves/thunderer-idle-6.png</frame>
+					<frame duration="7">data/core/images/units/dwarves/thunderer-idle-4.png</frame>
+					<frame>data/core/images/units/dwarves/thunderer-idle-2.png</frame>
+					<frame>data/core/images/units/dwarves/thunderer-idle-1.png</frame>
 				</sequence>
 			</unit>
 			<unit name="Dwarvish Thunderguard" yOffset="-18">
@@ -2296,29 +2380,35 @@
 				<ability level="6" name="shooting" description="gun"/>
 				<ability level="4" name="fighting" description="sword"/>
 				<sequence action="stand" loop="loop">
-					<frame>data/core/images/units/dwarves/thunderguard-attack-ranged-ne.png</frame>
-
-					<frame>data/core/images/units/dwarves/thunderguard-attack-ranged-n.png</frame>
-
-					<frame>data/core/images/units/dwarves/thunderguard-attack-ranged-se.png</frame>
-
-					<frame>data/core/images/units/dwarves/thunderguard-attack-ranged-s.png</frame>
-
+					<frame>data/core/images/units/dwarves/thunderguard.png</frame>
+				</sequence>
+				<sequence action="pain">
+					<frame>data/core/images/units/dwarves/thunderguard-blade-defend-1.png</frame>
+					<frame duration="3">data/core/images/units/dwarves/thunderguard-blade-defend-2.png</frame>
+					<frame>data/core/images/units/dwarves/thunderguard-blade-defend-1.png</frame>
+				</sequence>
+				<sequence action="pain2">
+					<frame duration="4">data/core/images/units/dwarves/thunderguard-defend.png</frame>
+				</sequence>
+				<sequence action="shooting">
+					<frame duration="5">data/core/images/units/dwarves/thunderguard-attack-ranged-se.png</frame>
+				</sequence>
+				<sequence action="shooting S">
+					<frame duration="5">data/core/images/units/dwarves/thunderguard-attack-ranged-s.png</frame>
+				</sequence>
+				<sequence action="shooting NE">
+					<frame duration="5">data/core/images/units/dwarves/thunderguard-attack-ranged-ne.png</frame>
+				</sequence>
+				<sequence action="shooting N">
+					<frame duration="5">data/core/images/units/dwarves/thunderguard-attack-ranged-n.png</frame>
+				</sequence>
+				<sequence action="fighting">
+					<frame>data/core/images/units/dwarves/thunderguard-blade.png</frame>
 					<frame>data/core/images/units/dwarves/thunderguard-blade-1.png</frame>
 					<frame>data/core/images/units/dwarves/thunderguard-blade-2.png</frame>
 					<frame>data/core/images/units/dwarves/thunderguard-blade-3.png</frame>
 					<frame>data/core/images/units/dwarves/thunderguard-blade-4.png</frame>
 					<frame>data/core/images/units/dwarves/thunderguard-blade-5.png</frame>
-
-					<frame>data/core/images/units/dwarves/thunderguard-blade-defend-1.png</frame>
-					<frame duration="3">data/core/images/units/dwarves/thunderguard-blade-defend-2.png</frame>
-					<frame>data/core/images/units/dwarves/thunderguard-blade-defend-1.png</frame>
-
-					<frame>data/core/images/units/dwarves/thunderguard-blade.png</frame>
-
-					<frame>data/core/images/units/dwarves/thunderguard-defend.png</frame>
-
-					<frame>data/core/images/units/dwarves/thunderguard.png</frame>
 				</sequence>
 			</unit>
 			<unit name="Dwarvish Dragonguard" yOffset="-18">
@@ -2327,29 +2417,35 @@
 				<ability level="8" name="shooting" description="gun"/>
 				<ability level="5" name="fighting" description="sword"/>
 				<sequence action="stand" loop="loop">
-					<frame>data/core/images/units/dwarves/dragonguard-attack-ranged-ne.png</frame>
-
-					<frame>data/core/images/units/dwarves/dragonguard-attack-ranged-n.png</frame>
-
-					<frame>data/core/images/units/dwarves/dragonguard-attack-ranged-se.png</frame>
-
-					<frame>data/core/images/units/dwarves/dragonguard-attack-ranged-s.png</frame>
-
+					<frame>data/core/images/units/dwarves/dragonguard.png</frame>
+				</sequence>
+				<sequence action="pain">
+					<frame>data/core/images/units/dwarves/dragonguard-blade-defend-1.png</frame>
+					<frame duration="3">data/core/images/units/dwarves/dragonguard-blade-defend-2.png</frame>
+					<frame>data/core/images/units/dwarves/dragonguard-blade-defend-1.png</frame>
+				</sequence>
+				<sequence action="pain2">
+					<frame duration="4">data/core/images/units/dwarves/dragonguard-defend.png</frame>
+				</sequence>
+				<sequence action="shooting">
+					<frame duration="5">data/core/images/units/dwarves/dragonguard-attack-ranged-se.png</frame>
+				</sequence>
+				<sequence action="shooting S">
+					<frame duration="5">data/core/images/units/dwarves/dragonguard-attack-ranged-s.png</frame>
+				</sequence>
+				<sequence action="shooting NE">
+					<frame duration="5">data/core/images/units/dwarves/dragonguard-attack-ranged-ne.png</frame>
+				</sequence>
+				<sequence action="shooting N">
+					<frame duration="5">data/core/images/units/dwarves/dragonguard-attack-ranged-n.png</frame>
+				</sequence>
+				<sequence action="fighting">
+					<frame>data/core/images/units/dwarves/dragonguard-blade.png</frame>
 					<frame>data/core/images/units/dwarves/dragonguard-blade-1.png</frame>
 					<frame>data/core/images/units/dwarves/dragonguard-blade-2.png</frame>
 					<frame>data/core/images/units/dwarves/dragonguard-blade-3.png</frame>
 					<frame>data/core/images/units/dwarves/dragonguard-blade-4.png</frame>
 					<frame>data/core/images/units/dwarves/dragonguard-blade-5.png</frame>
-
-					<frame>data/core/images/units/dwarves/dragonguard-blade-defend-1.png</frame>
-					<frame duration="3">data/core/images/units/dwarves/dragonguard-blade-defend-2.png</frame>
-					<frame>data/core/images/units/dwarves/dragonguard-blade-defend-1.png</frame>
-
-					<frame>data/core/images/units/dwarves/dragonguard-blade.png</frame>
-
-					<frame>data/core/images/units/dwarves/dragonguard-defend.png</frame>
-
-					<frame>data/core/images/units/dwarves/dragonguard.png</frame>
 				</sequence>
 			</unit>
 		</class>
@@ -2360,16 +2456,27 @@
 				<ability level="5" name="knockout" description="beak and talons"/>
 				<ability level="8" name="flying" description=""/>
 				<sequence action="stand" loop="loop">
-					<frame>data/core/images/units/dwarves/gryphon-rider-flying-1.png</frame>
-					<frame>data/core/images/units/dwarves/gryphon-rider-flying-2.png</frame>
-					<frame>data/core/images/units/dwarves/gryphon-rider-flying-3.png</frame>
-					<frame>data/core/images/units/dwarves/gryphon-rider-flying-4.png</frame>
-					<frame>data/core/images/units/dwarves/gryphon-rider-flying-5.png</frame>
-					<frame>data/core/images/units/dwarves/gryphon-rider-flying-6.png</frame>
-					<frame>data/core/images/units/dwarves/gryphon-rider-flying-7.png</frame>
-					<frame>data/core/images/units/dwarves/gryphon-rider-flying-8.png</frame>
-
 					<frame>data/core/images/units/dwarves/gryphon-rider.png</frame>
+				</sequence>
+				<sequence action="move" loop="loop">
+					<frame duration="2">data/core/images/units/dwarves/gryphon-rider-flying-1.png</frame>
+					<frame duration="2">data/core/images/units/dwarves/gryphon-rider-flying-2.png</frame>
+					<frame duration="2">data/core/images/units/dwarves/gryphon-rider-flying-3.png</frame>
+					<frame duration="2">data/core/images/units/dwarves/gryphon-rider-flying-4.png</frame>
+					<frame duration="2">data/core/images/units/dwarves/gryphon-rider-flying-5.png</frame>
+					<frame duration="2">data/core/images/units/dwarves/gryphon-rider-flying-6.png</frame>
+					<frame duration="2">data/core/images/units/dwarves/gryphon-rider-flying-7.png</frame>
+					<frame duration="2">data/core/images/units/dwarves/gryphon-rider-flying-8.png</frame>
+				</sequence>
+				<sequence action="pain">
+					<frame>data/core/images/units/dwarves/gryphon-rider-flying-5.png</frame>
+					<frame duration="3">data/core/images/units/dwarves/gryphon-rider-flying-4.png</frame>
+					<frame>data/core/images/units/dwarves/gryphon-rider-flying-5.png</frame>
+				</sequence>
+				<sequence action="knockout">
+					<frame>data/core/images/units/dwarves/gryphon-rider-flying-5.png</frame>
+					<frame duration="3">data/core/images/units/dwarves/gryphon-rider-flying-4.png</frame>
+					<frame>data/core/images/units/dwarves/gryphon-rider-flying-5.png</frame>
 				</sequence>
 			</unit>
 			<unit name="Gryphon Master" yOffset="-18">
@@ -2377,16 +2484,27 @@
 				<ability level="6" name="knockout" description="beak and talons"/>
 				<ability level="12" name="flying" description=""/>
 				<sequence action="stand" loop="loop">
-					<frame>data/core/images/units/dwarves/gryphon-master-flying-1.png</frame>
-					<frame>data/core/images/units/dwarves/gryphon-master-flying-2.png</frame>
-					<frame>data/core/images/units/dwarves/gryphon-master-flying-3.png</frame>
-					<frame>data/core/images/units/dwarves/gryphon-master-flying-4.png</frame>
-					<frame>data/core/images/units/dwarves/gryphon-master-flying-5.png</frame>
-					<frame>data/core/images/units/dwarves/gryphon-master-flying-6.png</frame>
-					<frame>data/core/images/units/dwarves/gryphon-master-flying-7.png</frame>
-					<frame>data/core/images/units/dwarves/gryphon-master-flying-8.png</frame>
-
 					<frame>data/core/images/units/dwarves/gryphon-master.png</frame>
+				</sequence>
+				<sequence action="move" loop="loop">
+					<frame duration="2">data/core/images/units/dwarves/gryphon-master-flying-1.png</frame>
+					<frame duration="2">data/core/images/units/dwarves/gryphon-master-flying-2.png</frame>
+					<frame duration="2">data/core/images/units/dwarves/gryphon-master-flying-3.png</frame>
+					<frame duration="2">data/core/images/units/dwarves/gryphon-master-flying-4.png</frame>
+					<frame duration="2">data/core/images/units/dwarves/gryphon-master-flying-5.png</frame>
+					<frame duration="2">data/core/images/units/dwarves/gryphon-master-flying-6.png</frame>
+					<frame duration="2">data/core/images/units/dwarves/gryphon-master-flying-7.png</frame>
+					<frame duration="2">data/core/images/units/dwarves/gryphon-master-flying-8.png</frame>
+				</sequence>
+				<sequence action="pain">
+					<frame>data/core/images/units/dwarves/gryphon-master-flying-4.png</frame>
+					<frame duration="3">data/core/images/units/dwarves/gryphon-master-flying-5.png</frame>
+					<frame>data/core/images/units/dwarves/gryphon-master-flying-4.png</frame>
+				</sequence>
+				<sequence action="knockout">
+					<frame>data/core/images/units/dwarves/gryphon-master-flying-4.png</frame>
+					<frame duration="3">data/core/images/units/dwarves/gryphon-master-flying-5.png</frame>
+					<frame>data/core/images/units/dwarves/gryphon-master-flying-4.png</frame>
 				</sequence>
 			</unit>
 		</class>
@@ -2484,24 +2602,27 @@
 					<ability level="3" name="fighting" description="sword"/>
 					<ability level="4" name="acrobatics" description=""/>
 					<sequence action="stand" loop="loop">
+						<frame>data/core/images/units/elves-wood/sharpshooter+female.png</frame>
+					</sequence>
+					<sequence action="pain">
+						<frame duration="4">data/core/images/units/elves-wood/sharpshooter+female-bow-defend.png</frame>
+					</sequence>
+					<sequence action="pain2">
+						<frame duration="4">data/core/images/units/elves-wood/sharpshooter+female-sword-defend.png</frame>
+					</sequence>
+					<sequence name="bow" action="shooting">
+						<frame>data/core/images/units/elves-wood/sharpshooter+female-bow.png</frame>
 						<frame>data/core/images/units/elves-wood/sharpshooter+female-bow-attack1.png</frame>
 						<frame>data/core/images/units/elves-wood/sharpshooter+female-bow-attack2.png</frame>
 						<frame>data/core/images/units/elves-wood/sharpshooter+female-bow-attack3.png</frame>
-						<frame>data/core/images/units/elves-wood/sharpshooter+female-bow-attack4.png</frame>
-						<frame>data/core/images/units/elves-wood/sharpshooter+female-bow-attack5.png</frame>
-
-						<frame>data/core/images/units/elves-wood/sharpshooter+female-bow-defend.png</frame>
-
-						<frame>data/core/images/units/elves-wood/sharpshooter+female-bow.png</frame>
-
-						<frame>data/core/images/units/elves-wood/sharpshooter+female.png</frame>
-
+						<frame duration="2">data/core/images/units/elves-wood/sharpshooter+female-bow-attack4.png</frame>
+						<frame duration="2">data/core/images/units/elves-wood/sharpshooter+female-bow-attack5.png</frame>
+					</sequence>
+					<sequence name="sword" action="fighting">
+						<frame>data/core/images/units/elves-wood/sharpshooter+female-sword.png</frame>
 						<frame>data/core/images/units/elves-wood/sharpshooter+female-sword-1.png</frame>
-						<frame>data/core/images/units/elves-wood/sharpshooter+female-sword-2.png</frame>
+						<frame duration="2">data/core/images/units/elves-wood/sharpshooter+female-sword-2.png</frame>
 						<frame>data/core/images/units/elves-wood/sharpshooter+female-sword-3.png</frame>
-
-						<frame>data/core/images/units/elves-wood/sharpshooter+female-sword-defend.png</frame>
-
 						<frame>data/core/images/units/elves-wood/sharpshooter+female-sword.png</frame>
 					</sequence>
 				</unit>
@@ -2514,21 +2635,24 @@
 					<ability level="4" name="acrobatics" description=""/>
 					<portrait scale="0.5">data/core/images/portraits/elves/transparent/ranger+female.png</portrait>
 					<sequence action="stand" loop="loop">
+						<frame>data/core/images/units/elves-wood/ranger+female.png</frame>
+					</sequence>
+					<sequence action="pain">
+						<frame duration="4">data/core/images/units/elves-wood/ranger+female-bow-defend.png</frame>
+					</sequence>
+					<sequence name="bow" action="shooting">
+						<frame>data/core/images/units/elves-wood/ranger+female-bow.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger+female-bow-attack1.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger+female-bow-attack2.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger+female-bow-attack3.png</frame>
-						<frame>data/core/images/units/elves-wood/ranger+female-bow-attack4.png</frame>
-
-						<frame>data/core/images/units/elves-wood/ranger+female-bow-defend.png</frame>
-
+						<frame duration="2">data/core/images/units/elves-wood/ranger+female-bow-attack4.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger+female-bow.png</frame>
-
-						<frame>data/core/images/units/elves-wood/ranger+female.png</frame>
-
+					</sequence>
+					<sequence name="sword" action="fighting">
+						<frame>data/core/images/units/elves-wood/ranger+female-sword.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger+female-sword-1.png</frame>
-						<frame>data/core/images/units/elves-wood/ranger+female-sword-2.png</frame>
+						<frame duration="2">data/core/images/units/elves-wood/ranger+female-sword-2.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger+female-sword-3.png</frame>
-
 						<frame>data/core/images/units/elves-wood/ranger+female-sword.png</frame>
 					</sequence>
 				</unit>
@@ -2582,36 +2706,52 @@
 				<ability level="4" name="acrobatics" description=""/>
 				<portrait scale="0.5">data/core/images/portraits/elves/transparent/archer.png</portrait>
 				<sequence action="stand" loop="loop">
+					<frame>data/core/images/units/elves-wood/archer.png</frame>
+				</sequence>
+				<sequence action="pain">
+					<frame duration="4">data/core/images/units/elves-wood/archer-bow-defend.png</frame>
+				</sequence>
+				<sequence action="pain2">
+					<frame duration="4">data/core/images/units/elves-wood/archer-sword-defend.png</frame>
+				</sequence>
+				<sequence action="shooting">
+					<frame>data/core/images/units/elves-wood/archer-bow.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-bow-attack1.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-bow-attack2.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-bow-attack3.png</frame>
-					<frame>data/core/images/units/elves-wood/archer-bow-attack4.png</frame>
-
-					<frame>data/core/images/units/elves-wood/archer-bow-defend.png</frame>
-
+					<frame duration="2">data/core/images/units/elves-wood/archer-bow-attack4.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-bow.png</frame>
-
+				</sequence>
+				<sequence action="fall" loop="stay">
 					<frame>data/core/images/units/elves-wood/archer-die1.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-die2.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-die3.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-die4.png</frame>
-
+				</sequence>
+				<sequence action="idle">
 					<frame>data/core/images/units/elves-wood/archer-idle-1.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-idle-2.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-idle-3.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-idle-4.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-idle-5.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-idle-6.png</frame>
-
-					<frame>data/core/images/units/elves-wood/archer.png</frame>
-
+					<frame>data/core/images/units/elves-wood/archer-idle-3.png</frame>
+					<frame>data/core/images/units/elves-wood/archer-idle-4.png</frame>
+					<frame>data/core/images/units/elves-wood/archer-idle-5.png</frame>
+					<frame>data/core/images/units/elves-wood/archer-idle-6.png</frame>
+					<frame>data/core/images/units/elves-wood/archer-idle-3.png</frame>
+					<frame>data/core/images/units/elves-wood/archer-idle-4.png</frame>
+					<frame>data/core/images/units/elves-wood/archer-idle-5.png</frame>
+					<frame>data/core/images/units/elves-wood/archer-idle-6.png</frame>
+					<frame>data/core/images/units/elves-wood/archer-idle-2.png</frame>
+					<frame>data/core/images/units/elves-wood/archer-idle-1.png</frame>
+				</sequence>
+				<sequence action="fighting">
+					<frame>data/core/images/units/elves-wood/archer-sword.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-sword-1.png</frame>
-					<frame>data/core/images/units/elves-wood/archer-sword-2.png</frame>
+					<frame duration="2">data/core/images/units/elves-wood/archer-sword-2.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-sword-3.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-sword-4.png</frame>
-
-					<frame>data/core/images/units/elves-wood/archer-sword-defend.png</frame>
-
 					<frame>data/core/images/units/elves-wood/archer-sword.png</frame>
 				</sequence>
 			</unit>
@@ -2664,29 +2804,33 @@
 					<ability level="3" name="fighting" description="sword"/>
 					<ability level="4" name="acrobatics" description=""/>
 					<sequence action="stand" loop="loop">
+						<frame>data/core/images/units/elves-wood/sharpshooter.png</frame>
+					</sequence>
+					<sequence action="pain">
+						<frame duration="4">data/core/images/units/elves-wood/sharpshooter-bow-defend.png</frame>
+					</sequence>
+					<sequence action="pain2">
+						<frame duration="4">data/core/images/units/elves-wood/sharpshooter-sword-defend.png</frame>
+					</sequence>
+					<sequence name="bow" action="shooting">
+						<frame>data/core/images/units/elves-wood/sharpshooter-bow.png</frame>
 						<frame>data/core/images/units/elves-wood/sharpshooter-bow-attack1.png</frame>
 						<frame>data/core/images/units/elves-wood/sharpshooter-bow-attack2.png</frame>
 						<frame>data/core/images/units/elves-wood/sharpshooter-bow-attack3.png</frame>
-						<frame>data/core/images/units/elves-wood/sharpshooter-bow-attack4.png</frame>
-						<frame>data/core/images/units/elves-wood/sharpshooter-bow-attack5.png</frame>
-
-						<frame>data/core/images/units/elves-wood/sharpshooter-bow-defend.png</frame>
-
-						<frame>data/core/images/units/elves-wood/sharpshooter-bow.png</frame>
-
+						<frame duration="2">data/core/images/units/elves-wood/sharpshooter-bow-attack4.png</frame>
+						<frame duration="2">data/core/images/units/elves-wood/sharpshooter-bow-attack5.png</frame>
+					</sequence>
+					<sequence action="fall" loop="stay">
 						<frame>data/core/images/units/elves-wood/sharpshooter-die1.png</frame>
 						<frame>data/core/images/units/elves-wood/sharpshooter-die2.png</frame>
 						<frame>data/core/images/units/elves-wood/sharpshooter-die3.png</frame>
 						<frame>data/core/images/units/elves-wood/sharpshooter-die4.png</frame>
-
-						<frame>data/core/images/units/elves-wood/sharpshooter.png</frame>
-
+					</sequence>
+					<sequence name="sword" action="fighting">
+						<frame>data/core/images/units/elves-wood/sharpshooter-sword.png</frame>
 						<frame>data/core/images/units/elves-wood/sharpshooter-sword-1.png</frame>
-						<frame>data/core/images/units/elves-wood/sharpshooter-sword-2.png</frame>
+						<frame duration="2">data/core/images/units/elves-wood/sharpshooter-sword-2.png</frame>
 						<frame>data/core/images/units/elves-wood/sharpshooter-sword-3.png</frame>
-
-						<frame>data/core/images/units/elves-wood/sharpshooter-sword-defend.png</frame>
-
 						<frame>data/core/images/units/elves-wood/sharpshooter-sword.png</frame>
 					</sequence>
 				</unit>
@@ -2699,28 +2843,33 @@
 					<ability level="4" name="acrobatics" description=""/>
 					<portrait scale="0.5">data/core/images/portraits/elves/transparent/ranger.png</portrait>
 					<sequence action="stand" loop="loop">
+						<frame>data/core/images/units/elves-wood/ranger.png</frame>
+					</sequence>
+					<sequence action="pain">
+						<frame duration="4">data/core/images/units/elves-wood/ranger-bow-defend.png</frame>
+					</sequence>
+					<sequence action="pain2">
+						<frame duration="4">data/core/images/units/elves-wood/ranger-sword-defend.png</frame>
+					</sequence>
+					<sequence name="bow" action="shooting">
+						<frame>data/core/images/units/elves-wood/ranger-bow.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger-bow-attack1.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger-bow-attack2.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger-bow-attack3.png</frame>
-						<frame>data/core/images/units/elves-wood/ranger-bow-attack4.png</frame>
-
-						<frame>data/core/images/units/elves-wood/ranger-bow-defend.png</frame>
-
+						<frame duration="2">data/core/images/units/elves-wood/ranger-bow-attack4.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger-bow.png</frame>
-
+					</sequence>
+					<sequence action="fall" loop="stay">
 						<frame>data/core/images/units/elves-wood/ranger-die1.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger-die2.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger-die3.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger-die4.png</frame>
-
-						<frame>data/core/images/units/elves-wood/ranger.png</frame>
-
+					</sequence>
+					<sequence name="sword" action="fighting">
+						<frame>data/core/images/units/elves-wood/ranger-sword.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger-sword-1.png</frame>
-						<frame>data/core/images/units/elves-wood/ranger-sword-2.png</frame>
+						<frame duration="2">data/core/images/units/elves-wood/ranger-sword-2.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger-sword-3.png</frame>
-
-						<frame>data/core/images/units/elves-wood/ranger-sword-defend.png</frame>
-
 						<frame>data/core/images/units/elves-wood/ranger-sword.png</frame>
 					</sequence>
 				</unit>
@@ -2845,7 +2994,7 @@
 						<frame>data/core/images/units/elves-wood/captain-defend.png</frame>
 						<frame duration="4">data/core/images/units/elves-wood/captain-leading.png</frame>
 						<frame>data/core/images/units/elves-wood/captain-defend.png</frame>
-						</sequence>
+					</sequence>
 					<sequence name="sword" action="fighting">
 						<frame>data/core/images/units/elves-wood/captain-melee-2.png</frame>
 						<frame duration="2">data/core/images/units/elves-wood/captain-melee-1.png</frame>
@@ -2859,23 +3008,29 @@
 					<ability level="8" name="command" description="leadership"/>
 					<ability level="2" name="acrobatics" description=""/>
 					<sequence action="stand" loop="loop">
+						<frame>data/core/images/units/elves-wood/marshal.png</frame>
+					</sequence>
+					<sequence action="pain">
+						<frame duration="4">data/core/images/units/elves-wood/marshal-defend.png</frame>
+					</sequence>
+					<sequence action="pain2">
+						<frame duration="4">data/core/images/units/elves-wood/marshal-bow-defend.png</frame>
+					</sequence>
+					<sequence action="lead">
+						<frame duration="8">data/core/images/units/elves-wood/marshal-leading.png</frame>
+					</sequence>
+					<sequence name="sword" action="fighting">
+						<frame>data/core/images/units/elves-wood/marshal-melee-2.png</frame>
+						<frame duration="2">data/core/images/units/elves-wood/marshal-melee-1.png</frame>
+						<frame>data/core/images/units/elves-wood/marshal-melee-2.png</frame>
+					</sequence>
+					<sequence name="bow" action="shooting">
+						<frame>data/core/images/units/elves-wood/marshal-bow.png</frame>
 						<frame>data/core/images/units/elves-wood/marshal-bow-attack1.png</frame>
 						<frame>data/core/images/units/elves-wood/marshal-bow-attack2.png</frame>
 						<frame>data/core/images/units/elves-wood/marshal-bow-attack3.png</frame>
-						<frame>data/core/images/units/elves-wood/marshal-bow-attack4.png</frame>
-
-						<frame>data/core/images/units/elves-wood/marshal-bow-defend.png</frame>
-
+						<frame duration="2">data/core/images/units/elves-wood/marshal-bow-attack4.png</frame>
 						<frame>data/core/images/units/elves-wood/marshal-bow.png</frame>
-
-						<frame>data/core/images/units/elves-wood/marshal-defend.png</frame>
-
-						<frame>data/core/images/units/elves-wood/marshal-leading.png</frame>
-
-						<frame>data/core/images/units/elves-wood/marshal-melee-1.png</frame>
-						<frame>data/core/images/units/elves-wood/marshal-melee-2.png</frame>
-
-						<frame>data/core/images/units/elves-wood/marshal.png</frame>
 					</sequence>
 				</unit>
 			</branch>
@@ -2887,23 +3042,28 @@
 					<ability level="2" name="acrobatics" description=""/>
 					<portrait scale="0.5">data/core/images/portraits/elves/transparent/hero.png</portrait>
 					<sequence action="stand" loop="loop">
+						<frame>data/core/images/units/elves-wood/hero.png</frame>
+					</sequence>
+					<sequence action="pain">
+						<frame duration="4">data/core/images/units/elves-wood/hero-bow-defend.png</frame>
+					</sequence>
+					<sequence action="pain2">
+						<frame duration="4">data/core/images/units/elves-wood/hero-defend.png</frame>
+					</sequence>
+					<sequence name="bow" action="shooting">
+						<frame>data/core/images/units/elves-wood/hero-bow.png</frame>
 						<frame>data/core/images/units/elves-wood/hero-bow-attack1.png</frame>
 						<frame>data/core/images/units/elves-wood/hero-bow-attack2.png</frame>
 						<frame>data/core/images/units/elves-wood/hero-bow-attack3.png</frame>
-						<frame>data/core/images/units/elves-wood/hero-bow-attack4.png</frame>
-
-						<frame>data/core/images/units/elves-wood/hero-bow-defend.png</frame>
-
+						<frame duration="2">data/core/images/units/elves-wood/hero-bow-attack4.png</frame>
 						<frame>data/core/images/units/elves-wood/hero-bow.png</frame>
-
-						<frame>data/core/images/units/elves-wood/hero-defend.png</frame>
-
+					</sequence>
+					<sequence name="sword" action="fighting">
 						<frame>data/core/images/units/elves-wood/hero-melee-1.png</frame>
 						<frame>data/core/images/units/elves-wood/hero-melee-2.png</frame>
-						<frame>data/core/images/units/elves-wood/hero-melee-3.png</frame>
+						<frame duration="2">data/core/images/units/elves-wood/hero-melee-3.png</frame>
 						<frame>data/core/images/units/elves-wood/hero-melee-4.png</frame>
-
-						<frame>data/core/images/units/elves-wood/hero.png</frame>
+						<frame>data/core/images/units/elves-wood/hero-defend.png</frame>
 					</sequence>
 				</unit>
 				<unit name="Elvish Champion" yOffset="-18">
@@ -2996,17 +3156,24 @@
 				<ability level="4" name="fighting" description="sword"/>
 				<ability level="4" name="shooting" description="bow"/>
 				<sequence action="stand" loop="loop">
-					<frame>data/core/images/units/elves-wood/rider-attack1.png</frame>
-					<frame>data/core/images/units/elves-wood/rider-attack2.png</frame>
-
-					<frame>data/core/images/units/elves-wood/rider-defend.png</frame>
-
-					<frame>data/core/images/units/elves-wood/rider-melee-1.png</frame>
-					<frame>data/core/images/units/elves-wood/rider-melee-2.png</frame>
-
-					<frame>data/core/images/units/elves-wood/rider-moving.png</frame>
-
 					<frame>data/core/images/units/elves-wood/rider.png</frame>
+				</sequence>
+				<sequence name="rear" action="pain">
+					<frame duration="4">data/core/images/units/elves-wood/rider-defend.png</frame>
+				</sequence>
+				<sequence name="bow" action="shooting">
+					<frame>data/core/images/units/elves-wood/rider-attack1.png</frame>
+					<frame duration="3">data/core/images/units/elves-wood/rider-attack2.png</frame>
+					<frame>data/core/images/units/elves-wood/rider-attack1.png</frame>
+					<frame duration="2">data/core/images/units/elves-wood/rider-moving.png</frame>
+				</sequence>
+				<sequence name="sword" action="fighting">
+					<frame>data/core/images/units/elves-wood/rider-melee-2.png</frame>
+					<frame duration="3">data/core/images/units/elves-wood/rider-melee-1.png</frame>
+					<frame>data/core/images/units/elves-wood/rider-moving.png</frame>
+				</sequence>
+				<sequence action="move" loop="loop">
+					<frame>data/core/images/units/elves-wood/rider-moving.png</frame>
 				</sequence>
 			</unit>
 			<unit name="Elvish Outrider" yOffset="-18">
@@ -3015,17 +3182,24 @@
 				<ability level="6" name="fighting" description="sword"/>
 				<ability level="5" name="shooting" description="bow"/>
 				<sequence action="stand" loop="loop">
-					<frame>data/core/images/units/elves-wood/outrider-attack1.png</frame>
-					<frame>data/core/images/units/elves-wood/outrider-attack2.png</frame>
-
-					<frame>data/core/images/units/elves-wood/outrider-defend.png</frame>
-
-					<frame>data/core/images/units/elves-wood/outrider-melee-1.png</frame>
-					<frame>data/core/images/units/elves-wood/outrider-melee-2.png</frame>
-
-					<frame>data/core/images/units/elves-wood/outrider-moving.png</frame>
-
 					<frame>data/core/images/units/elves-wood/outrider.png</frame>
+				</sequence>
+				<sequence name="rear" action="pain">
+					<frame duration="4">data/core/images/units/elves-wood/outrider-defend.png</frame>
+				</sequence>
+				<sequence name="bow" action="shooting">
+					<frame>data/core/images/units/elves-wood/outrider-attack1.png</frame>
+					<frame duration="3">data/core/images/units/elves-wood/outrider-attack2.png</frame>
+					<frame>data/core/images/units/elves-wood/outrider-attack1.png</frame>
+					<frame duration="2">data/core/images/units/elves-wood/outrider-moving.png</frame>
+				</sequence>
+				<sequence name="sword" action="fighting">
+					<frame>data/core/images/units/elves-wood/outrider-melee-2.png</frame>
+					<frame duration="3">data/core/images/units/elves-wood/outrider-melee-1.png</frame>
+					<frame>data/core/images/units/elves-wood/outrider-moving.png</frame>
+				</sequence>
+				<sequence action="move" loop="loop">
+					<frame>data/core/images/units/elves-wood/outrider-moving.png</frame>
 				</sequence>
 			</unit>
 		</class>
@@ -3037,17 +3211,33 @@
 				<ability level="4" name="acrobatics" description=""/>
 				<portrait scale="0.5">data/core/images/portraits/elves/transparent/lord.png</portrait>
 				<sequence action="stand" loop="loop">
-					<frame>data/core/images/units/elves-wood/lord-defend.png</frame>
-
-					<frame>data/core/images/units/elves-wood/lord-magic-1.png</frame>
-
-					<frame>data/core/images/units/elves-wood/lord-magic-defend.png</frame>
-
-					<frame>data/core/images/units/elves-wood/lord-magic.png</frame>
-
-					<frame>data/core/images/units/elves-wood/lord-melee.png</frame>
-
 					<frame>data/core/images/units/elves-wood/lord.png</frame>
+				</sequence>
+				<sequence name="block" action="defend">
+					<frame duration="4">data/core/images/units/elves-wood/lord-defend.png</frame>
+				</sequence>
+				<sequence action="pain">
+					<frame>data/core/images/units/elves-wood/lord-magic.png</frame>
+					<frame duration="3">data/core/images/units/elves-wood/lord-magic-defend.png</frame>
+					<frame>data/core/images/units/elves-wood/lord-magic.png</frame>
+				</sequence>
+				<sequence name="faerie fire" action="blasting">
+					<frame duration="2">data/core/images/units/elves-wood/lord-magic.png</frame>
+					<frame duration="5">data/core/images/units/elves-wood/lord-magic-1.png</frame>
+					<effect yOffset="-18">
+						<sequence action="stand" loop="hide">
+							<frame>data/core/images/halo/elven/faerie-fire-halo1.png</frame>
+							<frame>data/core/images/halo/elven/faerie-fire-halo2.png</frame>
+							<frame>data/core/images/halo/elven/faerie-fire-halo3.png</frame>
+							<frame>data/core/images/halo/elven/faerie-fire-halo4.png</frame>
+							<frame>data/core/images/halo/elven/faerie-fire-halo5.png</frame>
+							<frame>data/core/images/halo/elven/faerie-fire-halo6.png</frame>
+							<frame>data/core/images/halo/elven/faerie-fire-halo7.png</frame>
+						</sequence>
+					</effect>
+				</sequence>
+				<sequence name="sword" action="fighting">
+					<frame duration="3">data/core/images/units/elves-wood/lord-melee.png</frame>
 				</sequence>
 			</unit>
 			<unit name="Elvish High Lord" yOffset="-18">
@@ -3073,7 +3263,7 @@
 					<frame duration="2">data/core/images/units/elves-wood/high-lord-magic.png</frame>
 					<frame duration="5">data/core/images/units/elves-wood/high-lord-magic-1.png</frame>
 					<effect yOffset="-18">
-						<sequence action="stand" loop="loop">
+						<sequence action="stand" loop="hide">
 							<frame>data/core/images/halo/elven/faerie-fire-halo1.png</frame>
 							<frame>data/core/images/halo/elven/faerie-fire-halo2.png</frame>
 							<frame>data/core/images/halo/elven/faerie-fire-halo3.png</frame>
@@ -3107,13 +3297,13 @@
 				<ability level="4" name="flying" description="floating"/>
 				<portrait scale="0.5">data/core/images/portraits/elves/transparent/sylph.png</portrait>
 				<sequence action="stand" loop="loop">
+					<frame>data/core/images/units/elves-wood/sylph.png</frame>
+
 					<frame>data/core/images/units/elves-wood/sylph-defend.png</frame>
 
 					<frame>data/core/images/units/elves-wood/sylph-magic.png</frame>
 
 					<frame>data/core/images/units/elves-wood/sylph-melee.png</frame>
-
-					<frame>data/core/images/units/elves-wood/sylph.png</frame>
 				</sequence>
 			</unit>
 		</class>
@@ -3128,14 +3318,14 @@
 					<frame>data/core/images/units/elves-wood/shaman.png</frame>
 				</sequence>
 				<sequence name="staff" action="wrestling">
-					<frame duration="2">data/core/images/units/elves-wood/shaman-attack.png</frame>
+					<frame duration="3">data/core/images/units/elves-wood/shaman-attack.png</frame>
 				</sequence>
 				<sequence name="entangle" action="wrestling2">
 					<frame duration="3">data/core/images/units/elves-wood/shaman.png</frame>
 					<frame duration="3">data/core/images/units/elves-wood/shaman-attack2.png</frame>
 					<frame duration="2">data/core/images/units/elves-wood/shaman.png</frame>
 					<effect yOffset="-18">
-						<sequence action="stand" loop="loop">
+						<sequence action="stand" loop="hide">
 							<frame>data/core/images/halo/elven/nature-halo1.png</frame>
 							<frame>data/core/images/halo/elven/nature-halo2.png</frame>
 							<frame>data/core/images/halo/elven/nature-halo3.png</frame>
@@ -3203,7 +3393,7 @@
 						<frame>data/core/images/units/elves-wood/druid-magic-2.png</frame>
 						<frame>data/core/images/units/elves-wood/druid-magic-1.png</frame>
 						<effect yOffset="-18">
-							<sequence action="stand" loop="loop">
+							<sequence action="stand" loop="hide">
 								<frame>data/core/images/halo/elven/druid-healing1.png</frame>
 								<frame>data/core/images/halo/elven/druid-healing2.png</frame>
 								<frame>data/core/images/halo/elven/druid-healing3.png</frame>
@@ -3225,7 +3415,7 @@
 						<frame>data/core/images/units/elves-wood/druid-magic-2.png</frame>
 						<frame>data/core/images/units/elves-wood/druid-magic-1.png</frame>
 						<effect yOffset="-18">
-							<sequence action="stand" loop="loop">
+							<sequence action="stand" loop="hide">
 								<frame>data/core/images/halo/elven/nature-halo1.png</frame>
 								<frame>data/core/images/halo/elven/nature-halo2.png</frame>
 								<frame>data/core/images/halo/elven/nature-halo3.png</frame>
@@ -3247,7 +3437,7 @@
 						<frame>data/core/images/units/elves-wood/druid-magic-2.png</frame>
 						<frame>data/core/images/units/elves-wood/druid-magic-1.png</frame>
 						<effect yOffset="-18">
-							<sequence action="stand" loop="loop">
+							<sequence action="stand" loop="hide">
 								<frame>data/core/images/halo/elven/nature-halo1.png</frame>
 								<frame>data/core/images/halo/elven/nature-halo2.png</frame>
 								<frame>data/core/images/halo/elven/nature-halo3.png</frame>
@@ -3313,7 +3503,7 @@
 						<frame>data/core/images/units/elves-wood/sorceress-magic-2.png</frame>
 						<frame>data/core/images/units/elves-wood/sorceress-magic-1.png</frame>
 						<effect yOffset="-18">
-							<sequence action="stand" loop="loop">
+							<sequence action="stand" loop="hide">
 								<frame>data/core/images/halo/elven/faerie-fire-halo1.png</frame>
 								<frame>data/core/images/halo/elven/faerie-fire-halo2.png</frame>
 								<frame>data/core/images/halo/elven/faerie-fire-halo3.png</frame>
@@ -3331,7 +3521,7 @@
 						<frame>data/core/images/units/elves-wood/sorceress-magic-2.png</frame>
 						<frame>data/core/images/units/elves-wood/sorceress-magic-1.png</frame>
 					<effect yOffset="-18">
-							<sequence action="stand" loop="loop">
+							<sequence action="stand" loop="hide">
 								<frame>data/core/images/halo/elven/nature-halo1.png</frame>
 								<frame>data/core/images/halo/elven/nature-halo2.png</frame>
 								<frame>data/core/images/halo/elven/nature-halo3.png</frame>
@@ -4494,7 +4684,7 @@
 					<frame duration="6">data/core/images/units/human-magi/mage+female-attack-magic2.png</frame>
 					<frame duration="2">data/core/images/units/human-magi/mage+female-attack-magic1.png</frame>
 					<effect xOffset="11" yOffset="-38">
-						<sequence action="stand" loop="loop">
+						<sequence action="stand" loop="hide">
 							<frame>data/core/images/halo/mage-preparation-halo1.png</frame>
 							<frame>data/core/images/halo/mage-preparation-halo2.png</frame>
 							<frame>data/core/images/halo/mage-preparation-halo3.png</frame>
@@ -4584,7 +4774,7 @@
 						<frame duration="6">data/core/images/units/human-magi/silver-mage+female-attack-magic2.png</frame>
 						<frame duration="2">data/core/images/units/human-magi/silver-mage+female-attack-magic1.png</frame>
 						<effect xOffset="11" yOffset="-38">
-							<sequence action="stand" loop="loop">
+							<sequence action="stand" loop="hide">
 								<frame>data/core/images/halo/mage-preparation-halo1.png</frame>
 								<frame>data/core/images/halo/mage-preparation-halo2.png</frame>
 								<frame>data/core/images/halo/mage-preparation-halo3.png</frame>
@@ -4625,7 +4815,7 @@
 						<frame duration="2">data/core/images/units/human-magi/silver-mage+female-teleport-1.png</frame>
 						<frame duration="2">data/core/images/units/human-magi/silver-mage+female.png</frame>
 						<effect xOffset="-10" yOffset="2">
-							<sequence action="stand" loop="loop">
+							<sequence action="stand" loop="hide">
 								<frame>data/core/images/halo/teleport-9.png</frame>
 								<frame y="-6">data/core/images/halo/teleport-8.png</frame>
 								<frame y="-12">data/core/images/halo/teleport-1.png</frame>
@@ -4913,7 +5103,7 @@
 						<frame duration="6">data/core/images/units/human-magi/silver-mage-attack-magic2.png</frame>
 						<frame duration="2">data/core/images/units/human-magi/silver-mage-attack-magic1.png</frame>
 						<effect xOffset="11" yOffset="-38">
-							<sequence action="stand" loop="loop">
+							<sequence action="stand" loop="hide">
 								<frame>data/core/images/halo/mage-preparation-halo1.png</frame>
 								<frame>data/core/images/halo/mage-preparation-halo2.png</frame>
 								<frame>data/core/images/halo/mage-preparation-halo3.png</frame>
@@ -4954,7 +5144,7 @@
 						<frame duration="2">data/core/images/units/human-magi/silver-mage-teleport-1.png</frame>
 						<frame duration="2">data/core/images/units/human-magi/silver-mage.png</frame>
 						<effect xOffset="-10" yOffset="2">
-							<sequence action="stand" loop="loop">
+							<sequence action="stand" loop="hide">
 								<frame>data/core/images/halo/teleport-9.png</frame>
 								<frame y="-6">data/core/images/halo/teleport-8.png</frame>
 								<frame y="-12">data/core/images/halo/teleport-1.png</frame>
