@@ -2090,6 +2090,8 @@
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/dwarves/scout-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/dwarves/scout-defend-2.png</frame>
+					<frame>data/core/images/units/dwarves/scout-defend-1.png</frame>
+
 					<frame>data/core/images/units/dwarves/scout-melee-1.png</frame>
 					<frame>data/core/images/units/dwarves/scout-melee-2.png</frame>
 					<frame>data/core/images/units/dwarves/scout-melee-3.png</frame>
@@ -2098,7 +2100,9 @@
 					<frame>data/core/images/units/dwarves/scout-melee-6.png</frame>
 					<frame>data/core/images/units/dwarves/scout-melee-7.png</frame>
 					<frame>data/core/images/units/dwarves/scout-melee-8.png</frame>
+
 					<frame>data/core/images/units/dwarves/scout.png</frame>
+
 					<frame>data/core/images/units/dwarves/scout-ranged-1.png</frame>
 					<frame>data/core/images/units/dwarves/scout-ranged-2.png</frame>
 					<frame>data/core/images/units/dwarves/scout-ranged-3.png</frame>
@@ -2110,11 +2114,6 @@
 					<ability level="5" name="knockout" description="axe"/>
 					<ability level="5" name="shooting" description="throw axe"/>
 					<sequence action="stand" loop="loop">
-						<frame>data/core/images/units/dwarves/pathfinder-idle-10.png</frame>
-						<frame>data/core/images/units/dwarves/pathfinder-idle-11.png</frame>
-						<frame>data/core/images/units/dwarves/pathfinder-idle-12.png</frame>
-						<frame>data/core/images/units/dwarves/pathfinder-idle-13.png</frame>
-						<frame>data/core/images/units/dwarves/pathfinder-idle-14.png</frame>
 						<frame>data/core/images/units/dwarves/pathfinder-idle-1.png</frame>
 						<frame>data/core/images/units/dwarves/pathfinder-idle-2.png</frame>
 						<frame>data/core/images/units/dwarves/pathfinder-idle-3.png</frame>
@@ -2124,21 +2123,34 @@
 						<frame>data/core/images/units/dwarves/pathfinder-idle-7.png</frame>
 						<frame>data/core/images/units/dwarves/pathfinder-idle-8.png</frame>
 						<frame>data/core/images/units/dwarves/pathfinder-idle-9.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-10.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-11.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-12.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-13.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-idle-14.png</frame>
+
 						<frame>data/core/images/units/dwarves/pathfinder-melee-1.png</frame>
 						<frame>data/core/images/units/dwarves/pathfinder-melee-2.png</frame>
 						<frame>data/core/images/units/dwarves/pathfinder-melee-3.png</frame>
 						<frame>data/core/images/units/dwarves/pathfinder-melee-4.png</frame>
 						<frame>data/core/images/units/dwarves/pathfinder-melee-5.png</frame>
 						<frame>data/core/images/units/dwarves/pathfinder-melee-6.png</frame>
+
 						<frame>data/core/images/units/dwarves/pathfinder-melee-defend-1.png</frame>
 						<frame duration="3">data/core/images/units/dwarves/pathfinder-melee-defend-2.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-melee-defend-1.png</frame>
+
 						<frame>data/core/images/units/dwarves/pathfinder-melee.png</frame>
+
 						<frame>data/core/images/units/dwarves/pathfinder.png</frame>
+
 						<frame>data/core/images/units/dwarves/pathfinder-ranged-1.png</frame>
 						<frame>data/core/images/units/dwarves/pathfinder-ranged-2.png</frame>
 						<frame>data/core/images/units/dwarves/pathfinder-ranged-3.png</frame>
+
 						<frame>data/core/images/units/dwarves/pathfinder-ranged-defend-1.png</frame>
 						<frame duration="3">data/core/images/units/dwarves/pathfinder-ranged-defend-2.png</frame>
+						<frame>data/core/images/units/dwarves/pathfinder-ranged-defend-1.png</frame>
 					</sequence>
 				</unit>
 				<unit name="Dwarvish Explorer" yOffset="-18">
@@ -2149,13 +2161,17 @@
 					<sequence action="stand" loop="loop">
 						<frame>data/core/images/units/dwarves/explorer-defend-1.png</frame>
 						<frame duration="3">data/core/images/units/dwarves/explorer-defend-2.png</frame>
+						<frame>data/core/images/units/dwarves/explorer-defend-1.png</frame>
+
 						<frame>data/core/images/units/dwarves/explorer-melee-1.png</frame>
 						<frame>data/core/images/units/dwarves/explorer-melee-2.png</frame>
 						<frame>data/core/images/units/dwarves/explorer-melee-3.png</frame>
 						<frame>data/core/images/units/dwarves/explorer-melee-4.png</frame>
 						<frame>data/core/images/units/dwarves/explorer-melee-5.png</frame>
 						<frame>data/core/images/units/dwarves/explorer-melee-6.png</frame>
+
 						<frame>data/core/images/units/dwarves/explorer.png</frame>
+
 						<frame>data/core/images/units/dwarves/explorer-ranged-1.png</frame>
 						<frame>data/core/images/units/dwarves/explorer-ranged-2.png</frame>
 						<frame>data/core/images/units/dwarves/explorer-ranged-3.png</frame>
@@ -2176,14 +2192,17 @@
 						<frame>data/core/images/units/dwarves/ulfserker-attack-6.png</frame>
 						<frame>data/core/images/units/dwarves/ulfserker-attack-7.png</frame>
 						<frame>data/core/images/units/dwarves/ulfserker-attack-8.png</frame>
+
 						<frame>data/core/images/units/dwarves/ulfserker-idle-1.png</frame>
 						<frame>data/core/images/units/dwarves/ulfserker-idle-2.png</frame>
 						<frame>data/core/images/units/dwarves/ulfserker-idle-3.png</frame>
 						<frame>data/core/images/units/dwarves/ulfserker-idle-4.png</frame>
 						<frame>data/core/images/units/dwarves/ulfserker-idle-5.png</frame>
 						<frame>data/core/images/units/dwarves/ulfserker-idle-6.png</frame>
+
 						<frame>data/core/images/units/dwarves/ulfserker-laugh-1.png</frame>
 						<frame>data/core/images/units/dwarves/ulfserker-laugh-2.png</frame>
+
 						<frame>data/core/images/units/dwarves/ulfserker.png</frame>
 					</sequence>
 				</unit>
@@ -2199,15 +2218,11 @@
 						<frame>data/core/images/units/dwarves/berserker-attack-6.png</frame>
 						<frame>data/core/images/units/dwarves/berserker-attack-7.png</frame>
 						<frame>data/core/images/units/dwarves/berserker-attack-8.png</frame>
+
 						<frame>data/core/images/units/dwarves/berserker-defend-1.png</frame>
 						<frame duration="3">data/core/images/units/dwarves/berserker-defend-2.png</frame>
-						<frame>data/core/images/units/dwarves/berserker-idle-10.png</frame>
-						<frame>data/core/images/units/dwarves/berserker-idle-11.png</frame>
-						<frame>data/core/images/units/dwarves/berserker-idle-12.png</frame>
-						<frame>data/core/images/units/dwarves/berserker-idle-13.png</frame>
-						<frame>data/core/images/units/dwarves/berserker-idle-14.png</frame>
-						<frame>data/core/images/units/dwarves/berserker-idle-15.png</frame>
-						<frame>data/core/images/units/dwarves/berserker-idle-16.png</frame>
+						<frame>data/core/images/units/dwarves/berserker-defend-1.png</frame>
+
 						<frame>data/core/images/units/dwarves/berserker-idle-1.png</frame>
 						<frame>data/core/images/units/dwarves/berserker-idle-2.png</frame>
 						<frame>data/core/images/units/dwarves/berserker-idle-3.png</frame>
@@ -2217,8 +2232,17 @@
 						<frame>data/core/images/units/dwarves/berserker-idle-7.png</frame>
 						<frame>data/core/images/units/dwarves/berserker-idle-8.png</frame>
 						<frame>data/core/images/units/dwarves/berserker-idle-9.png</frame>
+						<frame>data/core/images/units/dwarves/berserker-idle-10.png</frame>
+						<frame>data/core/images/units/dwarves/berserker-idle-11.png</frame>
+						<frame>data/core/images/units/dwarves/berserker-idle-12.png</frame>
+						<frame>data/core/images/units/dwarves/berserker-idle-13.png</frame>
+						<frame>data/core/images/units/dwarves/berserker-idle-14.png</frame>
+						<frame>data/core/images/units/dwarves/berserker-idle-15.png</frame>
+						<frame>data/core/images/units/dwarves/berserker-idle-16.png</frame>
+
 						<frame>data/core/images/units/dwarves/berserker-laugh-1.png</frame>
 						<frame>data/core/images/units/dwarves/berserker-laugh-2.png</frame>
+
 						<frame>data/core/images/units/dwarves/berserker.png</frame>
 					</sequence>
 				</unit>
@@ -2232,27 +2256,38 @@
 				<ability level="2" name="fighting" description="sword"/>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/dwarves/thunderer-attack-ne.png</frame>
+
 					<frame>data/core/images/units/dwarves/thunderer-attack-n.png</frame>
+
 					<frame>data/core/images/units/dwarves/thunderer-attack-se.png</frame>
+
 					<frame>data/core/images/units/dwarves/thunderer-attack-s.png</frame>
+
 					<frame>data/core/images/units/dwarves/thunderer-blade-1.png</frame>
 					<frame>data/core/images/units/dwarves/thunderer-blade-2.png</frame>
 					<frame>data/core/images/units/dwarves/thunderer-blade-3.png</frame>
 					<frame>data/core/images/units/dwarves/thunderer-blade-4.png</frame>
 					<frame>data/core/images/units/dwarves/thunderer-blade-5.png</frame>
+
 					<frame>data/core/images/units/dwarves/thunderer-blade-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/dwarves/thunderer-blade-defend-2.png</frame>
+					<frame>data/core/images/units/dwarves/thunderer-blade-defend-1.png</frame>
+
 					<frame>data/core/images/units/dwarves/thunderer-blade.png</frame>
+
 					<frame>data/core/images/units/dwarves/thunderer-defend.png</frame>
+
 					<frame>data/core/images/units/dwarves/thunderer-die1.png</frame>
 					<frame>data/core/images/units/dwarves/thunderer-die2.png</frame>
 					<frame>data/core/images/units/dwarves/thunderer-die3.png</frame>
+
 					<frame>data/core/images/units/dwarves/thunderer-idle-1.png</frame>
 					<frame>data/core/images/units/dwarves/thunderer-idle-2.png</frame>
 					<frame>data/core/images/units/dwarves/thunderer-idle-3.png</frame>
 					<frame>data/core/images/units/dwarves/thunderer-idle-4.png</frame>
 					<frame>data/core/images/units/dwarves/thunderer-idle-5.png</frame>
 					<frame>data/core/images/units/dwarves/thunderer-idle-6.png</frame>
+
 					<frame>data/core/images/units/dwarves/thunderer.png</frame>
 				</sequence>
 			</unit>
@@ -2262,18 +2297,27 @@
 				<ability level="4" name="fighting" description="sword"/>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/dwarves/thunderguard-attack-ranged-ne.png</frame>
+
 					<frame>data/core/images/units/dwarves/thunderguard-attack-ranged-n.png</frame>
+
 					<frame>data/core/images/units/dwarves/thunderguard-attack-ranged-se.png</frame>
+
 					<frame>data/core/images/units/dwarves/thunderguard-attack-ranged-s.png</frame>
+
 					<frame>data/core/images/units/dwarves/thunderguard-blade-1.png</frame>
 					<frame>data/core/images/units/dwarves/thunderguard-blade-2.png</frame>
 					<frame>data/core/images/units/dwarves/thunderguard-blade-3.png</frame>
 					<frame>data/core/images/units/dwarves/thunderguard-blade-4.png</frame>
 					<frame>data/core/images/units/dwarves/thunderguard-blade-5.png</frame>
+
 					<frame>data/core/images/units/dwarves/thunderguard-blade-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/dwarves/thunderguard-blade-defend-2.png</frame>
+					<frame>data/core/images/units/dwarves/thunderguard-blade-defend-1.png</frame>
+
 					<frame>data/core/images/units/dwarves/thunderguard-blade.png</frame>
+
 					<frame>data/core/images/units/dwarves/thunderguard-defend.png</frame>
+
 					<frame>data/core/images/units/dwarves/thunderguard.png</frame>
 				</sequence>
 			</unit>
@@ -2284,18 +2328,27 @@
 				<ability level="5" name="fighting" description="sword"/>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/dwarves/dragonguard-attack-ranged-ne.png</frame>
+
 					<frame>data/core/images/units/dwarves/dragonguard-attack-ranged-n.png</frame>
+
 					<frame>data/core/images/units/dwarves/dragonguard-attack-ranged-se.png</frame>
+
 					<frame>data/core/images/units/dwarves/dragonguard-attack-ranged-s.png</frame>
+
 					<frame>data/core/images/units/dwarves/dragonguard-blade-1.png</frame>
 					<frame>data/core/images/units/dwarves/dragonguard-blade-2.png</frame>
 					<frame>data/core/images/units/dwarves/dragonguard-blade-3.png</frame>
 					<frame>data/core/images/units/dwarves/dragonguard-blade-4.png</frame>
 					<frame>data/core/images/units/dwarves/dragonguard-blade-5.png</frame>
+
 					<frame>data/core/images/units/dwarves/dragonguard-blade-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/dwarves/dragonguard-blade-defend-2.png</frame>
+					<frame>data/core/images/units/dwarves/dragonguard-blade-defend-1.png</frame>
+
 					<frame>data/core/images/units/dwarves/dragonguard-blade.png</frame>
+
 					<frame>data/core/images/units/dwarves/dragonguard-defend.png</frame>
+
 					<frame>data/core/images/units/dwarves/dragonguard.png</frame>
 				</sequence>
 			</unit>
@@ -2315,6 +2368,7 @@
 					<frame>data/core/images/units/dwarves/gryphon-rider-flying-6.png</frame>
 					<frame>data/core/images/units/dwarves/gryphon-rider-flying-7.png</frame>
 					<frame>data/core/images/units/dwarves/gryphon-rider-flying-8.png</frame>
+
 					<frame>data/core/images/units/dwarves/gryphon-rider.png</frame>
 				</sequence>
 			</unit>
@@ -2331,6 +2385,7 @@
 					<frame>data/core/images/units/dwarves/gryphon-master-flying-6.png</frame>
 					<frame>data/core/images/units/dwarves/gryphon-master-flying-7.png</frame>
 					<frame>data/core/images/units/dwarves/gryphon-master-flying-8.png</frame>
+
 					<frame>data/core/images/units/dwarves/gryphon-master.png</frame>
 				</sequence>
 			</unit>
@@ -2434,13 +2489,19 @@
 						<frame>data/core/images/units/elves-wood/sharpshooter+female-bow-attack3.png</frame>
 						<frame>data/core/images/units/elves-wood/sharpshooter+female-bow-attack4.png</frame>
 						<frame>data/core/images/units/elves-wood/sharpshooter+female-bow-attack5.png</frame>
+
 						<frame>data/core/images/units/elves-wood/sharpshooter+female-bow-defend.png</frame>
+
 						<frame>data/core/images/units/elves-wood/sharpshooter+female-bow.png</frame>
+
 						<frame>data/core/images/units/elves-wood/sharpshooter+female.png</frame>
+
 						<frame>data/core/images/units/elves-wood/sharpshooter+female-sword-1.png</frame>
 						<frame>data/core/images/units/elves-wood/sharpshooter+female-sword-2.png</frame>
 						<frame>data/core/images/units/elves-wood/sharpshooter+female-sword-3.png</frame>
+
 						<frame>data/core/images/units/elves-wood/sharpshooter+female-sword-defend.png</frame>
+
 						<frame>data/core/images/units/elves-wood/sharpshooter+female-sword.png</frame>
 					</sequence>
 				</unit>
@@ -2457,12 +2518,17 @@
 						<frame>data/core/images/units/elves-wood/ranger+female-bow-attack2.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger+female-bow-attack3.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger+female-bow-attack4.png</frame>
+
 						<frame>data/core/images/units/elves-wood/ranger+female-bow-defend.png</frame>
+
 						<frame>data/core/images/units/elves-wood/ranger+female-bow.png</frame>
+
 						<frame>data/core/images/units/elves-wood/ranger+female.png</frame>
+
 						<frame>data/core/images/units/elves-wood/ranger+female-sword-1.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger+female-sword-2.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger+female-sword-3.png</frame>
+
 						<frame>data/core/images/units/elves-wood/ranger+female-sword.png</frame>
 					</sequence>
 				</unit>
@@ -2520,24 +2586,32 @@
 					<frame>data/core/images/units/elves-wood/archer-bow-attack2.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-bow-attack3.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-bow-attack4.png</frame>
+
 					<frame>data/core/images/units/elves-wood/archer-bow-defend.png</frame>
+
 					<frame>data/core/images/units/elves-wood/archer-bow.png</frame>
+
 					<frame>data/core/images/units/elves-wood/archer-die1.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-die2.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-die3.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-die4.png</frame>
+
 					<frame>data/core/images/units/elves-wood/archer-idle-1.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-idle-2.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-idle-3.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-idle-4.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-idle-5.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-idle-6.png</frame>
+
 					<frame>data/core/images/units/elves-wood/archer.png</frame>
+
 					<frame>data/core/images/units/elves-wood/archer-sword-1.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-sword-2.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-sword-3.png</frame>
 					<frame>data/core/images/units/elves-wood/archer-sword-4.png</frame>
+
 					<frame>data/core/images/units/elves-wood/archer-sword-defend.png</frame>
+
 					<frame>data/core/images/units/elves-wood/archer-sword.png</frame>
 				</sequence>
 			</unit>
@@ -2595,17 +2669,24 @@
 						<frame>data/core/images/units/elves-wood/sharpshooter-bow-attack3.png</frame>
 						<frame>data/core/images/units/elves-wood/sharpshooter-bow-attack4.png</frame>
 						<frame>data/core/images/units/elves-wood/sharpshooter-bow-attack5.png</frame>
+
 						<frame>data/core/images/units/elves-wood/sharpshooter-bow-defend.png</frame>
+
 						<frame>data/core/images/units/elves-wood/sharpshooter-bow.png</frame>
+
 						<frame>data/core/images/units/elves-wood/sharpshooter-die1.png</frame>
 						<frame>data/core/images/units/elves-wood/sharpshooter-die2.png</frame>
 						<frame>data/core/images/units/elves-wood/sharpshooter-die3.png</frame>
 						<frame>data/core/images/units/elves-wood/sharpshooter-die4.png</frame>
+
 						<frame>data/core/images/units/elves-wood/sharpshooter.png</frame>
+
 						<frame>data/core/images/units/elves-wood/sharpshooter-sword-1.png</frame>
 						<frame>data/core/images/units/elves-wood/sharpshooter-sword-2.png</frame>
 						<frame>data/core/images/units/elves-wood/sharpshooter-sword-3.png</frame>
+
 						<frame>data/core/images/units/elves-wood/sharpshooter-sword-defend.png</frame>
+
 						<frame>data/core/images/units/elves-wood/sharpshooter-sword.png</frame>
 					</sequence>
 				</unit>
@@ -2622,17 +2703,24 @@
 						<frame>data/core/images/units/elves-wood/ranger-bow-attack2.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger-bow-attack3.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger-bow-attack4.png</frame>
+
 						<frame>data/core/images/units/elves-wood/ranger-bow-defend.png</frame>
+
 						<frame>data/core/images/units/elves-wood/ranger-bow.png</frame>
+
 						<frame>data/core/images/units/elves-wood/ranger-die1.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger-die2.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger-die3.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger-die4.png</frame>
+
 						<frame>data/core/images/units/elves-wood/ranger.png</frame>
+
 						<frame>data/core/images/units/elves-wood/ranger-sword-1.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger-sword-2.png</frame>
 						<frame>data/core/images/units/elves-wood/ranger-sword-3.png</frame>
+
 						<frame>data/core/images/units/elves-wood/ranger-sword-defend.png</frame>
+
 						<frame>data/core/images/units/elves-wood/ranger-sword.png</frame>
 					</sequence>
 				</unit>
@@ -2775,12 +2863,18 @@
 						<frame>data/core/images/units/elves-wood/marshal-bow-attack2.png</frame>
 						<frame>data/core/images/units/elves-wood/marshal-bow-attack3.png</frame>
 						<frame>data/core/images/units/elves-wood/marshal-bow-attack4.png</frame>
+
 						<frame>data/core/images/units/elves-wood/marshal-bow-defend.png</frame>
+
 						<frame>data/core/images/units/elves-wood/marshal-bow.png</frame>
+
 						<frame>data/core/images/units/elves-wood/marshal-defend.png</frame>
+
 						<frame>data/core/images/units/elves-wood/marshal-leading.png</frame>
+
 						<frame>data/core/images/units/elves-wood/marshal-melee-1.png</frame>
 						<frame>data/core/images/units/elves-wood/marshal-melee-2.png</frame>
+
 						<frame>data/core/images/units/elves-wood/marshal.png</frame>
 					</sequence>
 				</unit>
@@ -2797,13 +2891,18 @@
 						<frame>data/core/images/units/elves-wood/hero-bow-attack2.png</frame>
 						<frame>data/core/images/units/elves-wood/hero-bow-attack3.png</frame>
 						<frame>data/core/images/units/elves-wood/hero-bow-attack4.png</frame>
+
 						<frame>data/core/images/units/elves-wood/hero-bow-defend.png</frame>
+
 						<frame>data/core/images/units/elves-wood/hero-bow.png</frame>
+
 						<frame>data/core/images/units/elves-wood/hero-defend.png</frame>
+
 						<frame>data/core/images/units/elves-wood/hero-melee-1.png</frame>
 						<frame>data/core/images/units/elves-wood/hero-melee-2.png</frame>
 						<frame>data/core/images/units/elves-wood/hero-melee-3.png</frame>
 						<frame>data/core/images/units/elves-wood/hero-melee-4.png</frame>
+
 						<frame>data/core/images/units/elves-wood/hero.png</frame>
 					</sequence>
 				</unit>
@@ -2899,10 +2998,14 @@
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/elves-wood/rider-attack1.png</frame>
 					<frame>data/core/images/units/elves-wood/rider-attack2.png</frame>
+
 					<frame>data/core/images/units/elves-wood/rider-defend.png</frame>
+
 					<frame>data/core/images/units/elves-wood/rider-melee-1.png</frame>
 					<frame>data/core/images/units/elves-wood/rider-melee-2.png</frame>
+
 					<frame>data/core/images/units/elves-wood/rider-moving.png</frame>
+
 					<frame>data/core/images/units/elves-wood/rider.png</frame>
 				</sequence>
 			</unit>
@@ -2914,10 +3017,14 @@
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/elves-wood/outrider-attack1.png</frame>
 					<frame>data/core/images/units/elves-wood/outrider-attack2.png</frame>
+
 					<frame>data/core/images/units/elves-wood/outrider-defend.png</frame>
+
 					<frame>data/core/images/units/elves-wood/outrider-melee-1.png</frame>
 					<frame>data/core/images/units/elves-wood/outrider-melee-2.png</frame>
+
 					<frame>data/core/images/units/elves-wood/outrider-moving.png</frame>
+
 					<frame>data/core/images/units/elves-wood/outrider.png</frame>
 				</sequence>
 			</unit>
@@ -2931,10 +3038,15 @@
 				<portrait scale="0.5">data/core/images/portraits/elves/transparent/lord.png</portrait>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/elves-wood/lord-defend.png</frame>
+
 					<frame>data/core/images/units/elves-wood/lord-magic-1.png</frame>
+
 					<frame>data/core/images/units/elves-wood/lord-magic-defend.png</frame>
+
 					<frame>data/core/images/units/elves-wood/lord-magic.png</frame>
+
 					<frame>data/core/images/units/elves-wood/lord-melee.png</frame>
+
 					<frame>data/core/images/units/elves-wood/lord.png</frame>
 				</sequence>
 			</unit>
@@ -2996,8 +3108,11 @@
 				<portrait scale="0.5">data/core/images/portraits/elves/transparent/sylph.png</portrait>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/elves-wood/sylph-defend.png</frame>
+
 					<frame>data/core/images/units/elves-wood/sylph-magic.png</frame>
+
 					<frame>data/core/images/units/elves-wood/sylph-melee.png</frame>
+
 					<frame>data/core/images/units/elves-wood/sylph.png</frame>
 				</sequence>
 			</unit>
@@ -3015,7 +3130,7 @@
 				<sequence name="staff" action="wrestling">
 					<frame duration="2">data/core/images/units/elves-wood/shaman-attack.png</frame>
 				</sequence>
-				<sequence name="entangle" action="wrestling">
+				<sequence name="entangle" action="wrestling2">
 					<frame duration="3">data/core/images/units/elves-wood/shaman.png</frame>
 					<frame duration="3">data/core/images/units/elves-wood/shaman-attack2.png</frame>
 					<frame duration="2">data/core/images/units/elves-wood/shaman.png</frame>
@@ -3122,7 +3237,7 @@
 							</sequence>
 						</effect>
 					</sequence>
-					<sequence name="ensnare" action="wrestling">
+					<sequence name="ensnare" action="wrestling2">
 						<frame>data/core/images/units/elves-wood/druid-magic-1.png</frame>
 						<frame>data/core/images/units/elves-wood/druid-magic-2.png</frame>
 						<frame>data/core/images/units/elves-wood/druid-magic-3.png</frame>
@@ -3154,12 +3269,11 @@
 					<portrait scale="0.5">data/core/images/portraits/elves/transparent/shyde.png</portrait>
 					<sequence action="stand" loop="loop">
 						<frame>data/core/images/units/elves-wood/shyde-defend.png</frame>
+
 						<frame>data/core/images/units/elves-wood/shyde-ftouch-attack1.png</frame>
 						<frame>data/core/images/units/elves-wood/shyde-ftouch-attack2.png</frame>
 						<frame>data/core/images/units/elves-wood/shyde-ftouch-attack3.png</frame>
-						<frame>data/core/images/units/elves-wood/shyde-healing10.png</frame>
-						<frame>data/core/images/units/elves-wood/shyde-healing11.png</frame>
-						<frame>data/core/images/units/elves-wood/shyde-healing12.png</frame>
+
 						<frame>data/core/images/units/elves-wood/shyde-healing1.png</frame>
 						<frame>data/core/images/units/elves-wood/shyde-healing2.png</frame>
 						<frame>data/core/images/units/elves-wood/shyde-healing3.png</frame>
@@ -3169,6 +3283,10 @@
 						<frame>data/core/images/units/elves-wood/shyde-healing7.png</frame>
 						<frame>data/core/images/units/elves-wood/shyde-healing8.png</frame>
 						<frame>data/core/images/units/elves-wood/shyde-healing9.png</frame>
+						<frame>data/core/images/units/elves-wood/shyde-healing10.png</frame>
+						<frame>data/core/images/units/elves-wood/shyde-healing11.png</frame>
+						<frame>data/core/images/units/elves-wood/shyde-healing12.png</frame>
+
 						<frame>data/core/images/units/elves-wood/shyde.png</frame>
 					</sequence>
 				</unit>
@@ -3225,7 +3343,7 @@
 							</sequence>
 						</effect>
 					</sequence>
-					<sequence name="staff" action="wrestling">
+					<sequence name="staff" action="wrestling2">
 						<frame>data/core/images/units/elves-wood/sorceress-melee-attack-1.png</frame>
 						<frame>data/core/images/units/elves-wood/sorceress-melee-attack-2.png</frame>
 						<frame>data/core/images/units/elves-wood/sorceress-melee-attack-3.png</frame>
@@ -3248,14 +3366,18 @@
 					<sequence action="stand" loop="loop">
 						<frame>data/core/images/units/elves-wood/enchantress-defend-1.png</frame>
 						<frame duration="3">data/core/images/units/elves-wood/enchantress-defend-2.png</frame>
+						<frame>data/core/images/units/elves-wood/enchantress-defend-1.png</frame>
+
 						<frame>data/core/images/units/elves-wood/enchantress-magic-1.png</frame>
 						<frame>data/core/images/units/elves-wood/enchantress-magic-2.png</frame>
+
 						<frame>data/core/images/units/elves-wood/enchantress-melee-1.png</frame>
 						<frame>data/core/images/units/elves-wood/enchantress-melee-2.png</frame>
 						<frame>data/core/images/units/elves-wood/enchantress-melee-3.png</frame>
 						<frame>data/core/images/units/elves-wood/enchantress-melee-4.png</frame>
 						<frame>data/core/images/units/elves-wood/enchantress-melee-5.png</frame>
 						<frame>data/core/images/units/elves-wood/enchantress-melee-6.png</frame>
+
 						<frame>data/core/images/units/elves-wood/enchantress.png</frame>
 					</sequence>
 				</unit>
@@ -3274,16 +3396,18 @@
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/goblins/spearman-attack-n1.png</frame>
 					<frame>data/core/images/units/goblins/spearman-attack-n2.png</frame>
+
 					<frame>data/core/images/units/goblins/spearman-attack-ne1.png</frame>
 					<frame>data/core/images/units/goblins/spearman-attack-ne2.png</frame>
+
 					<frame>data/core/images/units/goblins/spearman-attack-s1.png</frame>
 					<frame>data/core/images/units/goblins/spearman-attack-s2.png</frame>
+
 					<frame>data/core/images/units/goblins/spearman-attack-se1.png</frame>
 					<frame>data/core/images/units/goblins/spearman-attack-se2.png</frame>
+
 					<frame>data/core/images/units/goblins/spearman-defend.png</frame>
-					<frame>data/core/images/units/goblins/spearman-idle-10.png</frame>
-					<frame>data/core/images/units/goblins/spearman-idle-11.png</frame>
-					<frame>data/core/images/units/goblins/spearman-idle-12.png</frame>
+
 					<frame>data/core/images/units/goblins/spearman-idle-1.png</frame>
 					<frame>data/core/images/units/goblins/spearman-idle-2.png</frame>
 					<frame>data/core/images/units/goblins/spearman-idle-3.png</frame>
@@ -3293,8 +3417,14 @@
 					<frame>data/core/images/units/goblins/spearman-idle-7.png</frame>
 					<frame>data/core/images/units/goblins/spearman-idle-8.png</frame>
 					<frame>data/core/images/units/goblins/spearman-idle-9.png</frame>
+					<frame>data/core/images/units/goblins/spearman-idle-10.png</frame>
+					<frame>data/core/images/units/goblins/spearman-idle-11.png</frame>
+					<frame>data/core/images/units/goblins/spearman-idle-12.png</frame>
+
 					<frame>data/core/images/units/goblins/spearman-ne-defend.png</frame>
+
 					<frame>data/core/images/units/goblins/spearman-ne.png</frame>
+
 					<frame>data/core/images/units/goblins/spearman.png</frame>
 				</sequence>
 			</unit>
@@ -3306,11 +3436,16 @@
 				<portrait scale="0.5">data/core/images/portraits/goblins/transparent/impaler.png</portrait>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/goblins/impaler-attack-ne.png</frame>
+
 					<frame>data/core/images/units/goblins/impaler-attack-n.png</frame>
+
 					<frame>data/core/images/units/goblins/impaler-attack-ranged-s.png</frame>
+
 					<frame>data/core/images/units/goblins/impaler-attack-se-1.png</frame>
 					<frame>data/core/images/units/goblins/impaler-attack-se-2.png</frame>
+
 					<frame>data/core/images/units/goblins/impaler-attack-s.png</frame>
+
 					<frame>data/core/images/units/goblins/impaler-death-1.png</frame>
 					<frame>data/core/images/units/goblins/impaler-death-2.png</frame>
 					<frame>data/core/images/units/goblins/impaler-death-3.png</frame>
@@ -3320,9 +3455,13 @@
 					<frame>data/core/images/units/goblins/impaler-death-7.png</frame>
 					<frame>data/core/images/units/goblins/impaler-death-8.png</frame>
 					<frame>data/core/images/units/goblins/impaler-death-9.png</frame>
+
 					<frame>data/core/images/units/goblins/impaler-defend.png</frame>
+
 					<frame>data/core/images/units/goblins/impaler-ne-defend.png</frame>
+
 					<frame>data/core/images/units/goblins/impaler-ne.png</frame>
+
 					<frame>data/core/images/units/goblins/impaler.png</frame>
 				</sequence>
 			</unit>
@@ -3336,15 +3475,25 @@
 					<frame>data/core/images/units/goblins/rouser-attack1.png</frame>
 					<frame>data/core/images/units/goblins/rouser-attack3.png</frame>
 					<frame>data/core/images/units/goblins/rouser-attack4.png</frame>
+
 					<frame>data/core/images/units/goblins/rouser-attack-ne.png</frame>
+
 					<frame>data/core/images/units/goblins/rouser-attack-n.png</frame>
+
 					<frame>data/core/images/units/goblins/rouser-attack-se.png</frame>
+
 					<frame>data/core/images/units/goblins/rouser-attack-s.png</frame>
+
 					<frame>data/core/images/units/goblins/rouser-defend.png</frame>
+
 					<frame>data/core/images/units/goblins/rouser-lead-1.png</frame>
 					<frame duration="4">data/core/images/units/goblins/rouser-lead-2.png</frame>
+					<frame>data/core/images/units/goblins/rouser-lead-1.png</frame>
+
 					<frame>data/core/images/units/goblins/rouser-ne-defend.png</frame>
+
 					<frame>data/core/images/units/goblins/rouser-ne.png</frame>
+
 					<frame>data/core/images/units/goblins/rouser.png</frame>
 				</sequence>
 			</unit>
@@ -3357,15 +3506,21 @@
 				<portrait scale="0.5">data/core/images/portraits/goblins/transparent/wolf-rider.png</portrait>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/goblins/wolf-rider-attack.png</frame>
+
 					<frame>data/core/images/units/goblins/wolf-rider-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/goblins/wolf-rider-defend-2.png</frame>
+					<frame>data/core/images/units/goblins/wolf-rider-defend-1.png</frame>
+
 					<frame>data/core/images/units/goblins/wolf-rider-idle-1.png</frame>
 					<frame>data/core/images/units/goblins/wolf-rider-idle-2.png</frame>
 					<frame>data/core/images/units/goblins/wolf-rider-idle-3.png</frame>
 					<frame>data/core/images/units/goblins/wolf-rider-idle-4.png</frame>
 					<frame>data/core/images/units/goblins/wolf-rider-idle-5.png</frame>
+
 					<frame>data/core/images/units/goblins/wolf-rider-moving.png</frame>
+
 					<frame>data/core/images/units/goblins/wolf-rider.png</frame>
+
 					<frame>data/core/images/units/goblins/wolf-rider-water.png</frame>
 				</sequence>
 			</unit>
@@ -3376,9 +3531,13 @@
 					<ability level="6" name="fighting" description="fangs"/>
 					<sequence action="stand" loop="loop">
 						<frame>data/core/images/units/goblins/knight-attack.png</frame>
+
 						<frame>data/core/images/units/goblins/knight-defend-1.png</frame>
 						<frame duration="3">data/core/images/units/goblins/knight-defend-2.png</frame>
+						<frame>data/core/images/units/goblins/knight-defend-1.png</frame>
+
 						<frame>data/core/images/units/goblins/knight-moving.png</frame>
+
 						<frame>data/core/images/units/goblins/knight.png</frame>
 					</sequence>
 				</unit>
@@ -3389,13 +3548,18 @@
 					<portrait scale="0.5">data/core/images/portraits/goblins/transparent/direwolver.png</portrait>
 					<sequence action="stand" loop="loop">
 						<frame>data/core/images/units/goblins/direwolver-attack.png</frame>
+
 						<frame>data/core/images/units/goblins/direwolver-defend-1.png</frame>
 						<frame duration="3">data/core/images/units/goblins/direwolver-defend-2.png</frame>
+						<frame>data/core/images/units/goblins/direwolver-defend-1.png</frame>
+
 						<frame>data/core/images/units/goblins/direwolver-idle-1.png</frame>
 						<frame>data/core/images/units/goblins/direwolver-idle-2.png</frame>
 						<frame>data/core/images/units/goblins/direwolver-idle-3.png</frame>
 						<frame>data/core/images/units/goblins/direwolver-idle-4.png</frame>
+
 						<frame>data/core/images/units/goblins/direwolver-moving.png</frame>
+
 						<frame>data/core/images/units/goblins/direwolver.png</frame>
 					</sequence>
 				</unit>
@@ -3410,10 +3574,15 @@
 					<portrait scale="0.5">data/core/images/portraits/goblins/transparent/pillager.png</portrait>
 					<sequence action="stand" loop="loop">
 						<frame>data/core/images/units/goblins/pillager-attack2.png</frame>
+
 						<frame>data/core/images/units/goblins/pillager-attack.png</frame>
+
 						<frame>data/core/images/units/goblins/pillager-defend-1.png</frame>
 						<frame duration="3">data/core/images/units/goblins/pillager-defend-2.png</frame>
+						<frame>data/core/images/units/goblins/pillager-defend-1.png</frame>
+
 						<frame>data/core/images/units/goblins/pillager-moving.png</frame>
+
 						<frame>data/core/images/units/goblins/pillager.png</frame>
 					</sequence>
 				</unit>
@@ -3453,15 +3622,20 @@
 				<ability level="10" name="quickness" description="horse"/>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/human-loyalists/dragoon-attack.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/dragoon-defend.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/dragoon-idle-1.png</frame>
 					<frame>data/core/images/units/human-loyalists/dragoon-idle-2.png</frame>
 					<frame>data/core/images/units/human-loyalists/dragoon-idle-3.png</frame>
 					<frame>data/core/images/units/human-loyalists/dragoon-idle-4.png</frame>
 					<frame>data/core/images/units/human-loyalists/dragoon-idle-5.png</frame>
 					<frame>data/core/images/units/human-loyalists/dragoon-idle-6.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/dragoon-moving.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/dragoon.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/dragoon-ranged-1.png</frame>
 					<frame>data/core/images/units/human-loyalists/dragoon-ranged-2.png</frame>
 					<frame>data/core/images/units/human-loyalists/dragoon-ranged-3.png</frame>
@@ -3827,7 +4001,9 @@
 				<portrait scale="0.5">data/core/images/portraits/humans/transparent/duelist.png</portrait>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/human-loyalists/duelist-attack.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/duelist-defend.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/duelist-die1.png</frame>
 					<frame>data/core/images/units/human-loyalists/duelist-die2.png</frame>
 					<frame>data/core/images/units/human-loyalists/duelist-die3.png</frame>
@@ -3836,7 +4012,9 @@
 					<frame>data/core/images/units/human-loyalists/duelist-die6.png</frame>
 					<frame>data/core/images/units/human-loyalists/duelist-die7.png</frame>
 					<frame>data/core/images/units/human-loyalists/duelist-die8.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/duelist.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/duelist-ranged.png</frame>
 				</sequence>
 			</unit>
@@ -3871,21 +4049,21 @@
 					<frame>data/core/images/units/human-loyalists/master-at-arms-recover-1.png</frame>
 					<frame>data/core/images/units/human-loyalists/master-at-arms-recover-2.png</frame>
 				</sequence>
-				<sequence name="slash" action="fighting">
+				<sequence name="slash" action="fighting2">
 					<frame>data/core/images/units/human-loyalists/master-at-arms-melee-2-1.png</frame>
 					<frame>data/core/images/units/human-loyalists/master-at-arms-melee-2-2.png</frame>
 					<frame>data/core/images/units/human-loyalists/master-at-arms-melee-1-3.png</frame>
 					<frame>data/core/images/units/human-loyalists/master-at-arms-recover-1.png</frame>
 					<frame>data/core/images/units/human-loyalists/master-at-arms-recover-2.png</frame>
 				</sequence>
-				<sequence name="low slash" action="fighting">
+				<sequence name="low slash" action="fighting3">
 					<frame>data/core/images/units/human-loyalists/master-at-arms-melee-2-1.png</frame>
 					<frame>data/core/images/units/human-loyalists/master-at-arms-melee-2-2.png</frame>
 					<frame>data/core/images/units/human-loyalists/master-at-arms-melee-2-3.png</frame>
 					<frame>data/core/images/units/human-loyalists/master-at-arms-recover-1.png</frame>
 					<frame>data/core/images/units/human-loyalists/master-at-arms-recover-2.png</frame>
 				</sequence>
-				<sequence name="upward slash" action="fighting">
+				<sequence name="upward slash" action="fighting4">
 					<frame>data/core/images/units/human-loyalists/master-at-arms-melee-2-1.png</frame>
 					<frame>data/core/images/units/human-loyalists/master-at-arms-melee-2-2.png</frame>
 					<frame>data/core/images/units/human-loyalists/master-at-arms-melee-3-3.png</frame>
@@ -3915,8 +4093,11 @@
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/human-loyalists/heavyinfantry-attack-1.png</frame>
 					<frame>data/core/images/units/human-loyalists/heavyinfantry-attack-2.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/heavyinfantry-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/human-loyalists/heavyinfantry-defend-2.png</frame>
+					<frame>data/core/images/units/human-loyalists/heavyinfantry-defend-1.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/heavy-infantry-idle-1.png</frame>
 					<frame>data/core/images/units/human-loyalists/heavy-infantry-idle-2.png</frame>
 					<frame>data/core/images/units/human-loyalists/heavy-infantry-idle-3.png</frame>
@@ -3926,6 +4107,7 @@
 					<frame>data/core/images/units/human-loyalists/heavy-infantry-idle-7.png</frame>
 					<frame>data/core/images/units/human-loyalists/heavy-infantry-idle-8.png</frame>
 					<frame>data/core/images/units/human-loyalists/heavy-infantry-idle-9.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/heavyinfantry.png</frame>
 				</sequence>
 			</unit>
@@ -3974,8 +4156,11 @@
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/human-loyalists/royal-warrior-attack1.png</frame>
 					<frame>data/core/images/units/human-loyalists/royal-warrior-attack2.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/royal-warrior-defend.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/royal-warrior-leading.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/royal-warrior.png</frame>
 				</sequence>
 			</unit>
@@ -4601,13 +4786,16 @@
 					<portrait scale="0.5">data/core/images/portraits/humans/transparent/mage-light+female.png</portrait>
 					<sequence action="stand" loop="loop">
 						<frame>data/core/images/units/human-magi/white-cleric+female-defend.png</frame>
+
 						<frame>data/core/images/units/human-magi/white-cleric+female-mace-1.png</frame>
 						<frame>data/core/images/units/human-magi/white-cleric+female-mace-2.png</frame>
 						<frame>data/core/images/units/human-magi/white-cleric+female-mace-3.png</frame>
 						<frame>data/core/images/units/human-magi/white-cleric+female-mace-4.png</frame>
+
 						<frame>data/core/images/units/human-magi/white-cleric+female-magic-1.png</frame>
 						<frame>data/core/images/units/human-magi/white-cleric+female-magic-2.png</frame>
 						<frame>data/core/images/units/human-magi/white-cleric+female-magic-3.png</frame>
+
 						<frame>data/core/images/units/human-magi/white-cleric+female.png</frame>
 					</sequence>
 				</unit>
@@ -4622,11 +4810,15 @@
 				<portrait scale="0.5">data/core/images/portraits/humans/transparent/mage.png</portrait>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/human-magi/mage.png</frame>
+
 					<frame>data/core/images/units/human-magi/mage-attack-magic1.png</frame>
 					<frame>data/core/images/units/human-magi/mage-attack-magic2.png</frame>
+
 					<frame>data/core/images/units/human-magi/mage-attack-staff1.png</frame>
 					<frame>data/core/images/units/human-magi/mage-attack-staff2.png</frame>
+
 					<frame>data/core/images/units/human-magi/mage-defend.png</frame>
+
 					<frame>data/core/images/units/human-magi/mage-die-1.png</frame>
 					<frame>data/core/images/units/human-magi/mage-die-2.png</frame>
 					<frame>data/core/images/units/human-magi/mage-die-3.png</frame>
@@ -4922,13 +5114,16 @@
 					<portrait scale="0.5">data/core/images/portraits/humans/transparent/mage-light.png</portrait>
 					<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/human-magi/white-cleric-defend.png</frame>
+
 					<frame>data/core/images/units/human-magi/white-cleric-mace-1.png</frame>
 					<frame>data/core/images/units/human-magi/white-cleric-mace-2.png</frame>
 					<frame>data/core/images/units/human-magi/white-cleric-mace-3.png</frame>
 					<frame>data/core/images/units/human-magi/white-cleric-mace-4.png</frame>
+
 					<frame>data/core/images/units/human-magi/white-cleric-magic-1.png</frame>
 					<frame>data/core/images/units/human-magi/white-cleric-magic-2.png</frame>
 					<frame>data/core/images/units/human-magi/white-cleric-magic-3.png</frame>
+
 					<frame>data/core/images/units/human-magi/white-cleric.png</frame>
 					</sequence>
 				</unit>
@@ -4942,9 +5137,12 @@
 				<ability level="" name="healing" description="magic"/>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/human-magi/elder-mage-defend.png</frame>
+
 					<frame>data/core/images/units/human-magi/elder-mage-melee1.png</frame>
 					<frame>data/core/images/units/human-magi/elder-mage-melee2.png</frame>
+
 					<frame>data/core/images/units/human-magi/elder-mage.png</frame>
+
 					<frame>data/core/images/units/human-magi/elder-mage-ranged1.png</frame>
 					<frame>data/core/images/units/human-magi/elder-mage-ranged2.png</frame>
 					<frame>data/core/images/units/human-magi/elder-mage-ranged3.png</frame>
@@ -4967,12 +5165,12 @@
 					<frame>data/core/images/units/human-outlaws/thief+female-defend-1-2.png</frame>
 					<frame>data/core/images/units/human-outlaws/thief+female-defend-1-1.png</frame>
 				</sequence>
-				<sequence name="slip" action="defend">
+				<sequence name="slip" action="defend2">
 					<frame>data/core/images/units/human-outlaws/thief+female-defend-2-1.png</frame>
 					<frame>data/core/images/units/human-outlaws/thief+female-defend-2-2.png</frame>
 					<frame>data/core/images/units/human-outlaws/thief+female-defend-2-1.png</frame>
 				</sequence>
-				<sequence name="dodge" action="defend">
+				<sequence name="dodge" action="defend3">
 					<frame>data/core/images/units/human-outlaws/thief+female-defend-3-1.png</frame>
 					<frame>data/core/images/units/human-outlaws/thief+female-defend-3-2.png</frame>
 					<frame>data/core/images/units/human-outlaws/thief+female-defend-3-1.png</frame>
@@ -5030,14 +5228,18 @@
 				<ability level="" name="knockout" description="knife"/>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/human-outlaws/rogue+female-attack.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/rogue+female-defend.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/rogue+female-die-1.png</frame>
 					<frame>data/core/images/units/human-outlaws/rogue+female-die-2.png</frame>
 					<frame>data/core/images/units/human-outlaws/rogue+female-die-3.png</frame>
 					<frame>data/core/images/units/human-outlaws/rogue+female-die-4.png</frame>
 					<frame>data/core/images/units/human-outlaws/rogue+female-die-5.png</frame>
 					<frame>data/core/images/units/human-outlaws/rogue+female-die-6.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/rogue+female.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/rogue+female-ranged.png</frame>
 				</sequence>
 			</unit>
@@ -5083,12 +5285,12 @@
 					<frame>data/core/images/units/human-outlaws/thief-defend-1-2.png</frame>
 					<frame>data/core/images/units/human-outlaws/thief-defend-1-1.png</frame>
 				</sequence>
-				<sequence name="slip" action="defend">
+				<sequence name="slip" action="defend2">
 					<frame>data/core/images/units/human-outlaws/thief-defend-2-1.png</frame>
 					<frame>data/core/images/units/human-outlaws/thief-defend-2-2.png</frame>
 					<frame>data/core/images/units/human-outlaws/thief-defend-2-1.png</frame>
 				</sequence>
-				<sequence name="dodge" action="defend">
+				<sequence name="dodge" action="defend3">
 					<frame>data/core/images/units/human-outlaws/thief-defend-3-1.png</frame>
 					<frame>data/core/images/units/human-outlaws/thief-defend-3-2.png</frame>
 					<frame>data/core/images/units/human-outlaws/thief-defend-3-1.png</frame>
@@ -5146,14 +5348,18 @@
 				<ability level="" name="knockout" description="knife"/>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/human-outlaws/rogue-attack.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/rogue-defend.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/rogue-die-1.png</frame>
 					<frame>data/core/images/units/human-outlaws/rogue-die-2.png</frame>
 					<frame>data/core/images/units/human-outlaws/rogue-die-3.png</frame>
 					<frame>data/core/images/units/human-outlaws/rogue-die-4.png</frame>
 					<frame>data/core/images/units/human-outlaws/rogue-die-5.png</frame>
 					<frame>data/core/images/units/human-outlaws/rogue-die-6.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/rogue.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/rogue-ranged.png</frame>
 				</sequence>
 			</unit>
@@ -5192,8 +5398,11 @@
 				<portrait scale="0.5">data/core/images/portraits/humans/transparent/peasant.png</portrait>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/human-peasants/peasant-attack2.png</frame>
+
 					<frame>data/core/images/units/human-peasants/peasant-attack.png</frame>
+
 					<frame>data/core/images/units/human-peasants/peasant-defend.png</frame>
+
 					<frame>data/core/images/units/human-peasants/peasant-idle-1.png</frame>
 					<frame>data/core/images/units/human-peasants/peasant-idle-2.png</frame>
 					<frame>data/core/images/units/human-peasants/peasant-idle-3.png</frame>
@@ -5201,7 +5410,9 @@
 					<frame>data/core/images/units/human-peasants/peasant-idle-5.png</frame>
 					<frame>data/core/images/units/human-peasants/peasant-idle-6.png</frame>
 					<frame>data/core/images/units/human-peasants/peasant-idle-7.png</frame>
+
 					<frame>data/core/images/units/human-peasants/peasant.png</frame>
+
 					<frame>data/core/images/units/human-peasants/peasant-ranged.png</frame>
 				</sequence>
 			</unit>
@@ -5216,14 +5427,13 @@
 					<frame>data/core/images/units/human-peasants/woodsman-bow-attack-2.png</frame>
 					<frame>data/core/images/units/human-peasants/woodsman-bow-attack-3.png</frame>
 					<frame>data/core/images/units/human-peasants/woodsman-bow-attack-4.png</frame>
+
 					<frame>data/core/images/units/human-peasants/woodsman-bow-defend.png</frame>
+
 					<frame>data/core/images/units/human-peasants/woodsman-bow.png</frame>
+
 					<frame>data/core/images/units/human-peasants/woodsman-defend.png</frame>
-					<frame>data/core/images/units/human-peasants/woodsman-idle-10.png</frame>
-					<frame>data/core/images/units/human-peasants/woodsman-idle-11.png</frame>
-					<frame>data/core/images/units/human-peasants/woodsman-idle-12.png</frame>
-					<frame>data/core/images/units/human-peasants/woodsman-idle-13.png</frame>
-					<frame>data/core/images/units/human-peasants/woodsman-idle-14.png</frame>
+
 					<frame>data/core/images/units/human-peasants/woodsman-idle-1.png</frame>
 					<frame>data/core/images/units/human-peasants/woodsman-idle-2.png</frame>
 					<frame>data/core/images/units/human-peasants/woodsman-idle-3.png</frame>
@@ -5233,8 +5443,15 @@
 					<frame>data/core/images/units/human-peasants/woodsman-idle-7.png</frame>
 					<frame>data/core/images/units/human-peasants/woodsman-idle-8.png</frame>
 					<frame>data/core/images/units/human-peasants/woodsman-idle-9.png</frame>
+					<frame>data/core/images/units/human-peasants/woodsman-idle-10.png</frame>
+					<frame>data/core/images/units/human-peasants/woodsman-idle-11.png</frame>
+					<frame>data/core/images/units/human-peasants/woodsman-idle-12.png</frame>
+					<frame>data/core/images/units/human-peasants/woodsman-idle-13.png</frame>
+					<frame>data/core/images/units/human-peasants/woodsman-idle-14.png</frame>
+
 					<frame>data/core/images/units/human-peasants/woodsman-melee-1.png</frame>
 					<frame>data/core/images/units/human-peasants/woodsman-melee-2.png</frame>
+
 					<frame>data/core/images/units/human-peasants/woodsman.png</frame>
 				</sequence>
 			</unit>
@@ -5254,8 +5471,11 @@
 					<frame>data/core/images/units/human-peasants/ruffian-attack-7.png</frame>
 					<frame>data/core/images/units/human-peasants/ruffian-attack-8.png</frame>
 					<frame>data/core/images/units/human-peasants/ruffian-attack-9.png</frame>
+
 					<frame>data/core/images/units/human-peasants/ruffian-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/human-peasants/ruffian-defend-2.png</frame>
+					<frame>data/core/images/units/human-peasants/ruffian-defend-1.png</frame>
+
 					<frame>data/core/images/units/human-peasants/ruffian.png</frame>
 				</sequence>
 			</unit>
@@ -5268,14 +5488,13 @@
 				<portrait scale="0.5">data/core/images/portraits/humans/transparent/spearman.png</portrait>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/human-loyalists/spearman-attack-ne.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/spearman-attack-n.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/spearman-attack-ranged2.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/spearman-attack-ranged.png</frame>
-					<frame>data/core/images/units/human-loyalists/spearman-attack-s-10.png</frame>
-					<frame>data/core/images/units/human-loyalists/spearman-attack-s-11.png</frame>
-					<frame>data/core/images/units/human-loyalists/spearman-attack-s-12.png</frame>
-					<frame>data/core/images/units/human-loyalists/spearman-attack-s-13.png</frame>
-					<frame>data/core/images/units/human-loyalists/spearman-attack-s-14.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/spearman-attack-s-1.png</frame>
 					<frame>data/core/images/units/human-loyalists/spearman-attack-s-2.png</frame>
 					<frame>data/core/images/units/human-loyalists/spearman-attack-s-3.png</frame>
@@ -5285,9 +5504,12 @@
 					<frame>data/core/images/units/human-loyalists/spearman-attack-s-7.png</frame>
 					<frame>data/core/images/units/human-loyalists/spearman-attack-s-8.png</frame>
 					<frame>data/core/images/units/human-loyalists/spearman-attack-s-9.png</frame>
-					<frame>data/core/images/units/human-loyalists/spearman-attack-se-10.png</frame>
-					<frame>data/core/images/units/human-loyalists/spearman-attack-se-11.png</frame>
-					<frame>data/core/images/units/human-loyalists/spearman-attack-se-12.png</frame>
+					<frame>data/core/images/units/human-loyalists/spearman-attack-s-10.png</frame>
+					<frame>data/core/images/units/human-loyalists/spearman-attack-s-11.png</frame>
+					<frame>data/core/images/units/human-loyalists/spearman-attack-s-12.png</frame>
+					<frame>data/core/images/units/human-loyalists/spearman-attack-s-13.png</frame>
+					<frame>data/core/images/units/human-loyalists/spearman-attack-s-14.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/spearman-attack-se-1.png</frame>
 					<frame>data/core/images/units/human-loyalists/spearman-attack-se-2.png</frame>
 					<frame>data/core/images/units/human-loyalists/spearman-attack-se-3.png</frame>
@@ -5297,12 +5519,19 @@
 					<frame>data/core/images/units/human-loyalists/spearman-attack-se-7.png</frame>
 					<frame>data/core/images/units/human-loyalists/spearman-attack-se-8.png</frame>
 					<frame>data/core/images/units/human-loyalists/spearman-attack-se-9.png</frame>
+					<frame>data/core/images/units/human-loyalists/spearman-attack-se-10.png</frame>
+					<frame>data/core/images/units/human-loyalists/spearman-attack-se-11.png</frame>
+					<frame>data/core/images/units/human-loyalists/spearman-attack-se-12.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/spearman-death1.png</frame>
 					<frame>data/core/images/units/human-loyalists/spearman-death2.png</frame>
 					<frame>data/core/images/units/human-loyalists/spearman-death3.png</frame>
 					<frame>data/core/images/units/human-loyalists/spearman-death4.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/spearman-defend-2.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/spearman-defend.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/spearman-idle1.png</frame>
 					<frame>data/core/images/units/human-loyalists/spearman-idle2-1.png</frame>
 					<frame>data/core/images/units/human-loyalists/spearman-idle2-2.png</frame>
@@ -5313,7 +5542,9 @@
 					<frame>data/core/images/units/human-loyalists/spearman-idle2.png</frame>
 					<frame>data/core/images/units/human-loyalists/spearman-idle3.png</frame>
 					<frame>data/core/images/units/human-loyalists/spearman-idle4.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/spearman.png</frame>
+
 					<frame>data/core/images/units/human-loyalists/spearman-stand-1.png</frame>
 					<frame>data/core/images/units/human-loyalists/spearman-stand-2.png</frame>
 					<frame>data/core/images/units/human-loyalists/spearman-stand-3.png</frame>
@@ -5424,14 +5655,14 @@
 					<sequence action="stand" loop="loop">
 						<frame>data/core/images/units/human-loyalists/pikeman.png</frame>
 					</sequence>
-					<sequence name="attack north" action="fighting">
+					<sequence name="attack north" action="fighting N">
 						<frame>data/core/images/units/human-loyalists/pikeman-attack-ne.png</frame>
 						<frame duration="2">data/core/images/units/human-loyalists/pikeman-attack-n.png</frame>
 					</sequence>
-					<sequence name="attack northeast" action="fighting">
+					<sequence name="attack northeast" action="fighting NE">
 						<frame duration="3">data/core/images/units/human-loyalists/pikeman-attack-ne.png</frame>
 					</sequence>
-					<sequence name="attack south" action="fighting">
+					<sequence name="attack south" action="fighting S">
 						<frame>data/core/images/units/human-loyalists/pikeman-attack-se.png</frame>
 						<frame duration="2">data/core/images/units/human-loyalists/pikeman-attack-s.png</frame>
 					</sequence>
@@ -5485,13 +5716,13 @@
 						<frame>data/core/images/units/human-loyalists/halberdier-idle-2.png</frame>
 						<frame>data/core/images/units/human-loyalists/halberdier-idle-1.png</frame>
 					</sequence>
-					<sequence name="stab north" action="fighting">
+					<sequence name="stab north" action="fighting N">
 						<frame>data/core/images/units/human-loyalists/halberdier-pierce-ne.png</frame>
 						<frame duration="3">data/core/images/units/human-loyalists/halberdier-pierce-n.png</frame>
 						<frame>data/core/images/units/human-loyalists/halberdier-pierce-ne.png</frame>
 						<frame>data/core/images/units/human-loyalists/halberdier-defend.png</frame>
 					</sequence>
-					<sequence name="stab northeast" action="fighting">
+					<sequence name="stab northeast" action="fighting NE">
 						<frame>data/core/images/units/human-loyalists/halberdier-defend.png</frame>
 						<frame duration="2">data/core/images/units/human-loyalists/halberdier-pierce-ne.png</frame>
 						<frame>data/core/images/units/human-loyalists/halberdier-defend.png</frame>
@@ -5501,7 +5732,7 @@
 						<frame duration="2">data/core/images/units/human-loyalists/halberdier-pierce-se.png</frame>
 						<frame>data/core/images/units/human-loyalists/halberdier-defend.png</frame>
 					</sequence>
-					<sequence name="stab south" action="fighting">
+					<sequence name="stab south" action="fighting S">
 						<frame>data/core/images/units/human-loyalists/halberdier-defend.png</frame>
 						<frame duration="3">data/core/images/units/human-loyalists/halberdier-pierce-s.png</frame>
 						<frame>data/core/images/units/human-loyalists/halberdier-pierce-se.png</frame>
@@ -5659,10 +5890,15 @@
 					<frame>data/core/images/units/human-outlaws/poacher-attack1.png</frame>
 					<frame>data/core/images/units/human-outlaws/poacher-attack2.png</frame>
 					<frame>data/core/images/units/human-outlaws/poacher-attack3.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/poacher-attack.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/poacher-bow-defend.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/poacher-dagger.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/poacher-defend.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/poacher.png</frame>
 				</sequence>
 			</unit>
@@ -5674,7 +5910,7 @@
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/human-outlaws/trapper.png</frame>
 				</sequence>
-				<sequence name="dagger" action="knockout">
+				<sequence name="dagger" action="knockout2">
 					<frame>data/core/images/units/human-outlaws/trapper-dagger.png</frame>
 					<frame duration="3">data/core/images/units/human-outlaws/trapper-attack-melee-2.png</frame>
 					<frame>data/core/images/units/human-outlaws/trapper-dagger.png</frame>
@@ -5779,15 +6015,19 @@
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/human-outlaws/footpad+female-attack1.png</frame>
 					<frame>data/core/images/units/human-outlaws/footpad+female-attack2.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/footpad+female-defend.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/footpad+female-idle-1.png</frame>
 					<frame>data/core/images/units/human-outlaws/footpad+female-idle-2.png</frame>
 					<frame>data/core/images/units/human-outlaws/footpad+female-idle-3.png</frame>
 					<frame>data/core/images/units/human-outlaws/footpad+female-idle-4.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/footpad+female-melee-1.png</frame>
 					<frame>data/core/images/units/human-outlaws/footpad+female-melee-2.png</frame>
 					<frame>data/core/images/units/human-outlaws/footpad+female-melee-3.png</frame>
 					<frame>data/core/images/units/human-outlaws/footpad+female-melee-4.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/footpad+female.png</frame>
 				</sequence>
 			</unit>
@@ -5798,10 +6038,13 @@
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/human-outlaws/outlaw+female-attack1.png</frame>
 					<frame>data/core/images/units/human-outlaws/outlaw+female-attack2.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/outlaw+female-defend.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/outlaw+female-melee-1.png</frame>
 					<frame>data/core/images/units/human-outlaws/outlaw+female-melee-2.png</frame>
 					<frame>data/core/images/units/human-outlaws/outlaw+female-melee-3.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/outlaw+female.png</frame>
 				</sequence>
 			</unit>
@@ -5810,10 +6053,13 @@
 				<ability level="" name="knockout" description="bludgeon"/>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/human-outlaws/fugitive+female-defend.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/fugitive+female-melee-1.png</frame>
 					<frame>data/core/images/units/human-outlaws/fugitive+female-melee-2.png</frame>
 					<frame>data/core/images/units/human-outlaws/fugitive+female-melee-3.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/fugitive+female.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/fugitive+female-ranged-1.png</frame>
 					<frame>data/core/images/units/human-outlaws/fugitive+female-ranged-2.png</frame>
 				</sequence>
@@ -5827,15 +6073,19 @@
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/human-outlaws/footpad-attack1.png</frame>
 					<frame>data/core/images/units/human-outlaws/footpad-attack2.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/footpad-defend.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/footpad-idle-1.png</frame>
 					<frame>data/core/images/units/human-outlaws/footpad-idle-2.png</frame>
 					<frame>data/core/images/units/human-outlaws/footpad-idle-3.png</frame>
 					<frame>data/core/images/units/human-outlaws/footpad-idle-4.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/footpad-melee-1.png</frame>
 					<frame>data/core/images/units/human-outlaws/footpad-melee-2.png</frame>
 					<frame>data/core/images/units/human-outlaws/footpad-melee-3.png</frame>
 					<frame>data/core/images/units/human-outlaws/footpad-melee-4.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/footpad.png</frame>
 				</sequence>
 			</unit>
@@ -5955,6 +6205,8 @@
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/human-outlaws/highwayman-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/human-outlaws/highwayman-defend-2.png</frame>
+					<frame>data/core/images/units/human-outlaws/highwayman-defend-1.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/highwayman-melee-1.png</frame>
 					<frame>data/core/images/units/human-outlaws/highwayman-melee-2.png</frame>
 					<frame>data/core/images/units/human-outlaws/highwayman-melee-3.png</frame>
@@ -5963,6 +6215,7 @@
 					<frame>data/core/images/units/human-outlaws/highwayman-melee-6.png</frame>
 					<frame>data/core/images/units/human-outlaws/highwayman-melee-7.png</frame>
 					<frame>data/core/images/units/human-outlaws/highwayman-melee-8.png</frame>
+
 					<frame>data/core/images/units/human-outlaws/highwayman.png</frame>
 				</sequence>
 			</unit>
@@ -6183,9 +6436,13 @@
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/merfolk/initiate-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/merfolk/initiate-defend-2.png</frame>
+					<frame>data/core/images/units/merfolk/initiate-defend-1.png</frame>
+
 					<frame>data/core/images/units/merfolk/initiate-magic-1.png</frame>
 					<frame>data/core/images/units/merfolk/initiate-magic-2.png</frame>
+
 					<frame>data/core/images/units/merfolk/initiate.png</frame>
+
 					<frame>data/core/images/units/merfolk/initiate-staff-attack-1.png</frame>
 					<frame>data/core/images/units/merfolk/initiate-staff-attack-2.png</frame>
 				</sequence>
@@ -6251,8 +6508,11 @@
 					<frame>data/core/images/units/merfolk/warrior-attack-7.png</frame>
 					<frame>data/core/images/units/merfolk/warrior-attack-8.png</frame>
 					<frame>data/core/images/units/merfolk/warrior-attack-9.png</frame>
+
 					<frame>data/core/images/units/merfolk/warrior-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/merfolk/warrior-defend-2.png</frame>
+					<frame>data/core/images/units/merfolk/warrior-defend-1.png</frame>
+
 					<frame>data/core/images/units/merfolk/warrior.png</frame>
 				</sequence>
 			</unit>
@@ -6292,10 +6552,15 @@
 					<frame>data/core/images/units/merfolk/hunter-javelin-5.png</frame>
 					<frame>data/core/images/units/merfolk/hunter-javelin-6.png</frame>
 					<frame>data/core/images/units/merfolk/hunter-javelin-7.png</frame>
+
 					<frame>data/core/images/units/merfolk/hunter-javelin-base.png</frame>
+
 					<frame>data/core/images/units/merfolk/hunter-javelin-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/merfolk/hunter-javelin-defend-2.png</frame>
+					<frame>data/core/images/units/merfolk/hunter-javelin-defend-1.png</frame>
+
 					<frame>data/core/images/units/merfolk/hunter.png</frame>
+
 					<frame>data/core/images/units/merfolk/hunter-throw-1.png</frame>
 					<frame>data/core/images/units/merfolk/hunter-throw-2.png</frame>
 					<frame>data/core/images/units/merfolk/hunter-throw-3.png</frame>
@@ -6569,23 +6834,31 @@
 					<frame>data/core/images/units/orcs/archer-bow-attack-2.png</frame>
 					<frame>data/core/images/units/orcs/archer-bow-attack-3.png</frame>
 					<frame>data/core/images/units/orcs/archer-bow-attack-4.png</frame>
+
 					<frame>data/core/images/units/orcs/archer-bow-defend.png</frame>
+
 					<frame>data/core/images/units/orcs/archer-bow.png</frame>
+
 					<frame>data/core/images/units/orcs/archer-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/orcs/archer-defend-2.png</frame>
+					<frame>data/core/images/units/orcs/archer-defend-1.png</frame>
+
 					<frame>data/core/images/units/orcs/archer-idle-1.png</frame>
 					<frame>data/core/images/units/orcs/archer-idle-2.png</frame>
 					<frame>data/core/images/units/orcs/archer-idle-3.png</frame>
 					<frame>data/core/images/units/orcs/archer-idle-4.png</frame>
 					<frame>data/core/images/units/orcs/archer-idle-5.png</frame>
 					<frame>data/core/images/units/orcs/archer-idle-6.png</frame>
+
 					<frame>data/core/images/units/orcs/archer-melee-1.png</frame>
 					<frame>data/core/images/units/orcs/archer-melee-2.png</frame>
 					<frame>data/core/images/units/orcs/archer-melee-3.png</frame>
 					<frame>data/core/images/units/orcs/archer-melee-4.png</frame>
 					<frame>data/core/images/units/orcs/archer-melee-5.png</frame>
 					<frame>data/core/images/units/orcs/archer-melee-6.png</frame>
+
 					<frame>data/core/images/units/orcs/archer-melee.png</frame>
+
 					<frame>data/core/images/units/orcs/archer.png</frame>
 				</sequence>
 			</unit>
@@ -6596,14 +6869,20 @@
 				<portrait scale="0.5">data/core/images/portraits/orcs/transparent/crossbowman.png</portrait>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/orcs/xbowman-defend.png</frame>
+
 					<frame>data/core/images/units/orcs/xbowman-melee-attack-1.png</frame>
 					<frame>data/core/images/units/orcs/xbowman-melee-attack-2.png</frame>
 					<frame>data/core/images/units/orcs/xbowman-melee-attack-3.png</frame>
 					<frame>data/core/images/units/orcs/xbowman-melee-attack-4.png</frame>
+
 					<frame>data/core/images/units/orcs/xbowman-melee-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/orcs/xbowman-melee-defend-2.png</frame>
+					<frame>data/core/images/units/orcs/xbowman-melee-defend-1.png</frame>
+
 					<frame>data/core/images/units/orcs/xbowman-melee.png</frame>
+
 					<frame>data/core/images/units/orcs/xbowman.png</frame>
+
 					<frame>data/core/images/units/orcs/xbowman-ranged-1.png</frame>
 					<frame>data/core/images/units/orcs/xbowman-ranged-2.png</frame>
 				</sequence>
@@ -6618,13 +6897,20 @@
 					<frame>data/core/images/units/orcs/slurbow-melee-attack-2.png</frame>
 					<frame>data/core/images/units/orcs/slurbow-melee-attack-3.png</frame>
 					<frame>data/core/images/units/orcs/slurbow-melee-attack-4.png</frame>
+
 					<frame>data/core/images/units/orcs/slurbow-melee-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/orcs/slurbow-melee-defend-2.png</frame>
+					<frame>data/core/images/units/orcs/slurbow-melee-defend-1.png</frame>
+
 					<frame>data/core/images/units/orcs/slurbow-melee.png</frame>
+
 					<frame>data/core/images/units/orcs/slurbow.png</frame>
+
 					<frame>data/core/images/units/orcs/slurbow-ranged-1.png</frame>
 					<frame>data/core/images/units/orcs/slurbow-ranged-2.png</frame>
+
 					<frame>data/core/images/units/orcs/slurbow-ranged-defend.png</frame>
+
 					<frame>data/core/images/units/orcs/slurbow-ranged.png</frame>
 				</sequence>
 			</unit>
@@ -6641,10 +6927,13 @@
 					<frame>data/core/images/units/orcs/assassin-attack-4.png</frame>
 					<frame>data/core/images/units/orcs/assassin-attack-5.png</frame>
 					<frame>data/core/images/units/orcs/assassin-attack-6.png</frame>
+
 					<frame>data/core/images/units/orcs/assassin-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/orcs/assassin-defend-2.png</frame>
+					<frame>data/core/images/units/orcs/assassin-defend-1.png</frame>
+
 					<frame>data/core/images/units/orcs/assassin-defend.png</frame>
-					<frame>data/core/images/units/orcs/assassin-die-10.png</frame>
+
 					<frame>data/core/images/units/orcs/assassin-die-1.png</frame>
 					<frame>data/core/images/units/orcs/assassin-die-2.png</frame>
 					<frame>data/core/images/units/orcs/assassin-die-3.png</frame>
@@ -6654,6 +6943,8 @@
 					<frame>data/core/images/units/orcs/assassin-die-7.png</frame>
 					<frame>data/core/images/units/orcs/assassin-die-8.png</frame>
 					<frame>data/core/images/units/orcs/assassin-die-9.png</frame>
+					<frame>data/core/images/units/orcs/assassin-die-10.png</frame>
+
 					<frame>data/core/images/units/orcs/assassin-idle-1.png</frame>
 					<frame>data/core/images/units/orcs/assassin-idle-2.png</frame>
 					<frame>data/core/images/units/orcs/assassin-idle-3.png</frame>
@@ -6663,7 +6954,9 @@
 					<frame>data/core/images/units/orcs/assassin-idle-7.png</frame>
 					<frame>data/core/images/units/orcs/assassin-idle-8.png</frame>
 					<frame>data/core/images/units/orcs/assassin-idle-9.png</frame>
+
 					<frame>data/core/images/units/orcs/assassin.png</frame>
+
 					<frame>data/core/images/units/orcs/assassin-ranged1.png</frame>
 					<frame>data/core/images/units/orcs/assassin-ranged2.png</frame>
 				</sequence>
@@ -6673,11 +6966,6 @@
 				<ability level="" name="knockout" description="knife"/>
 				<portrait scale="0.5">data/core/images/portraits/orcs/transparent/slayer.png</portrait>
 				<sequence action="stand" loop="loop">
-					<frame>data/core/images/units/orcs/slayer-attack-10.png</frame>
-					<frame>data/core/images/units/orcs/slayer-attack-11.png</frame>
-					<frame>data/core/images/units/orcs/slayer-attack-12.png</frame>
-					<frame>data/core/images/units/orcs/slayer-attack-13.png</frame>
-					<frame>data/core/images/units/orcs/slayer-attack-14.png</frame>
 					<frame>data/core/images/units/orcs/slayer-attack-1.png</frame>
 					<frame>data/core/images/units/orcs/slayer-attack-2.png</frame>
 					<frame>data/core/images/units/orcs/slayer-attack-3.png</frame>
@@ -6687,8 +6975,16 @@
 					<frame>data/core/images/units/orcs/slayer-attack-7.png</frame>
 					<frame>data/core/images/units/orcs/slayer-attack-8.png</frame>
 					<frame>data/core/images/units/orcs/slayer-attack-9.png</frame>
+					<frame>data/core/images/units/orcs/slayer-attack-10.png</frame>
+					<frame>data/core/images/units/orcs/slayer-attack-11.png</frame>
+					<frame>data/core/images/units/orcs/slayer-attack-12.png</frame>
+					<frame>data/core/images/units/orcs/slayer-attack-13.png</frame>
+					<frame>data/core/images/units/orcs/slayer-attack-14.png</frame>
+
 					<frame>data/core/images/units/orcs/slayer-defend.png</frame>
+
 					<frame>data/core/images/units/orcs/slayer.png</frame>
+
 					<frame>data/core/images/units/orcs/slayer-ranged1.png</frame>
 					<frame>data/core/images/units/orcs/slayer-ranged2.png</frame>
 				</sequence>
@@ -6710,8 +7006,11 @@
 					<frame>data/core/images/units/orcs/grunt-attack-3.png</frame>
 					<frame>data/core/images/units/orcs/grunt-attack-4.png</frame>
 					<frame>data/core/images/units/orcs/grunt-attack-5.png</frame>
+
 					<frame>data/core/images/units/orcs/grunt-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/orcs/grunt-defend-2.png</frame>
+					<frame>data/core/images/units/orcs/grunt-defend-1.png</frame>
+
 					<frame>data/core/images/units/orcs/grunt-die-1.png</frame>
 					<frame>data/core/images/units/orcs/grunt-die-2.png</frame>
 					<frame>data/core/images/units/orcs/grunt-die-3.png</frame>
@@ -6720,6 +7019,7 @@
 					<frame>data/core/images/units/orcs/grunt-die-6.png</frame>
 					<frame>data/core/images/units/orcs/grunt-die-7.png</frame>
 					<frame>data/core/images/units/orcs/grunt-die-8.png</frame>
+
 					<frame>data/core/images/units/orcs/grunt.png</frame>
 				</sequence>
 			</unit>
@@ -6733,8 +7033,11 @@
 					<frame>data/core/images/units/orcs/warrior-attack-3.png</frame>
 					<frame>data/core/images/units/orcs/warrior-attack-4.png</frame>
 					<frame>data/core/images/units/orcs/warrior-attack-5.png</frame>
+
 					<frame>data/core/images/units/orcs/warrior-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/orcs/warrior-defend-2.png</frame>
+					<frame>data/core/images/units/orcs/warrior-defend-1.png</frame>
+
 					<frame>data/core/images/units/orcs/warrior.png</frame>
 				</sequence>
 			</unit>
@@ -6749,14 +7052,20 @@
 					<frame>data/core/images/units/orcs/warlord-attack-sword-4.png</frame>
 					<frame>data/core/images/units/orcs/warlord-attack-sword-5.png</frame>
 					<frame>data/core/images/units/orcs/warlord-attack-sword-6.png</frame>
+
 					<frame>data/core/images/units/orcs/warlord-bow-attack-1.png</frame>
 					<frame>data/core/images/units/orcs/warlord-bow-attack-2.png</frame>
 					<frame>data/core/images/units/orcs/warlord-bow-attack-3.png</frame>
 					<frame>data/core/images/units/orcs/warlord-bow-attack-4.png</frame>
+
 					<frame>data/core/images/units/orcs/warlord-bow-defend.png</frame>
+
 					<frame>data/core/images/units/orcs/warlord-bow.png</frame>
+
 					<frame>data/core/images/units/orcs/warlord-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/orcs/warlord-defend-2.png</frame>
+					<frame>data/core/images/units/orcs/warlord-defend-1.png</frame>
+
 					<frame>data/core/images/units/orcs/warlord.png</frame>
 				</sequence>
 			</unit>
@@ -6773,14 +7082,22 @@
 					<frame>data/core/images/units/orcs/leader-attack-3.png</frame>
 					<frame>data/core/images/units/orcs/leader-attack-4.png</frame>
 					<frame>data/core/images/units/orcs/leader-attack-5.png</frame>
+
 					<frame>data/core/images/units/orcs/leader-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/orcs/leader-defend-2.png</frame>
+					<frame>data/core/images/units/orcs/leader-defend-1.png</frame>
+
 					<frame>data/core/images/units/orcs/leader-lead-1.png</frame>
 					<frame duration="4">data/core/images/units/orcs/leader-lead-2.png</frame>
+					<frame>data/core/images/units/orcs/leader-lead-1.png</frame>
+
 					<frame>data/core/images/units/orcs/leader.png</frame>
+
 					<frame>data/core/images/units/orcs/leader-ranged-attack-1.png</frame>
 					<frame>data/core/images/units/orcs/leader-ranged-attack-2.png</frame>
+
 					<frame>data/core/images/units/orcs/leader-ranged-defend.png</frame>
+
 					<frame>data/core/images/units/orcs/leader-ranged.png</frame>
 				</sequence>
 			</unit>
@@ -6794,14 +7111,22 @@
 					<frame>data/core/images/units/orcs/ruler-attack-sword-4.png</frame>
 					<frame>data/core/images/units/orcs/ruler-attack-sword-5.png</frame>
 					<frame>data/core/images/units/orcs/ruler-attack-sword-6.png</frame>
+
 					<frame>data/core/images/units/orcs/ruler-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/orcs/ruler-defend-2.png</frame>
+					<frame>data/core/images/units/orcs/ruler-defend-1.png</frame>
+
 					<frame>data/core/images/units/orcs/ruler-lead-1.png</frame>
 					<frame duration="4">data/core/images/units/orcs/ruler-lead-2.png</frame>
+					<frame>data/core/images/units/orcs/ruler-lead-1.png</frame>
+
 					<frame>data/core/images/units/orcs/ruler.png</frame>
+
 					<frame>data/core/images/units/orcs/ruler-ranged-attack-1.png</frame>
 					<frame>data/core/images/units/orcs/ruler-ranged-attack-2.png</frame>
+
 					<frame>data/core/images/units/orcs/ruler-ranged-defend.png</frame>
+
 					<frame>data/core/images/units/orcs/ruler-ranged.png</frame>
 				</sequence>
 			</unit>
@@ -6815,14 +7140,22 @@
 					<frame>data/core/images/units/orcs/sovereign-attack-3.png</frame>
 					<frame>data/core/images/units/orcs/sovereign-attack-4.png</frame>
 					<frame>data/core/images/units/orcs/sovereign-attack-5.png</frame>
+
 					<frame>data/core/images/units/orcs/sovereign-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/orcs/sovereign-defend-2.png</frame>
+					<frame>data/core/images/units/orcs/sovereign-defend-1.png</frame>
+
 					<frame>data/core/images/units/orcs/sovereign-lead-1.png</frame>
 					<frame duration="4">data/core/images/units/orcs/sovereign-lead-2.png</frame>
+					<frame>data/core/images/units/orcs/sovereign-lead-1.png</frame>
+
 					<frame>data/core/images/units/orcs/sovereign.png</frame>
+
 					<frame>data/core/images/units/orcs/sovereign-ranged-attack-1.png</frame>
 					<frame>data/core/images/units/orcs/sovereign-ranged-attack-2.png</frame>
+
 					<frame>data/core/images/units/orcs/sovereign-ranged-defend.png</frame>
+
 					<frame>data/core/images/units/orcs/sovereign-ranged.png</frame>
 				</sequence>
 			</unit>
@@ -8190,7 +8523,7 @@
 					<frame>data/core/images/units/undead-skeletal/archer-die-12.png</frame>
 					<frame>data/core/images/units/undead-skeletal/archer-die-13.png</frame>
 				</sequence>
-				<sequence name="simple death" action="fall" loop="stay">
+				<sequence name="simple death" action="fall2" loop="stay">
 					<frame>data/core/images/units/undead-skeletal/archer-die2-1.png</frame>
 					<frame>data/core/images/units/undead-skeletal/archer-die2-2.png</frame>
 					<frame>data/core/images/units/undead-skeletal/archer-die2-3.png</frame>
@@ -8311,10 +8644,10 @@
 				<sequence name="touch" action="attack">
 					<frame duration="4">data/core/images/units/undead/zombie-attack.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack N">
 					<frame duration="4">data/core/images/units/undead/zombie-attack-n.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack S">
 					<frame duration="4">data/core/images/units/undead/zombie-attack-s.png</frame>
 				</sequence>
 				<sequence action="pain">
@@ -8341,10 +8674,10 @@
 				<sequence name="touch" action="attack">
 					<frame duration="4">data/core/images/units/undead/soulless-attack.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack N">
 					<frame duration="4">data/core/images/units/undead/soulless-attack-n.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack S">
 					<frame duration="4">data/core/images/units/undead/soulless-attack-s.png</frame>
 				</sequence>
 				<sequence action="pain">
@@ -8373,10 +8706,10 @@
 				<sequence name="touch" action="attack">
 					<frame duration="4">data/core/images/units/undead/zombie-drake-attack.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack N">
 					<frame duration="4">data/core/images/units/undead/zombie-drake-attack-n.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack S">
 					<frame duration="4">data/core/images/units/undead/zombie-drake-attack-s.png</frame>
 				</sequence>
 				<sequence action="pain">
@@ -8403,10 +8736,10 @@
 				<sequence name="touch" action="attack">
 					<frame duration="4">data/core/images/units/undead/soulless-drake-attack.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack N">
 					<frame duration="4">data/core/images/units/undead/soulless-drake-attack-n.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack S">
 					<frame duration="4">data/core/images/units/undead/soulless-drake-attack-s.png</frame>
 				</sequence>
 				<sequence action="fall" loop="stay">
@@ -8424,10 +8757,10 @@
 				<sequence name="touch" action="attack">
 					<frame duration="4">data/core/images/units/undead/zombie-dwarf-attack.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack N">
 					<frame duration="4">data/core/images/units/undead/zombie-dwarf-attack-n.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack S">
 					<frame duration="4">data/core/images/units/undead/zombie-dwarf-attack-s.png</frame>
 				</sequence>
 				<sequence action="pain">
@@ -8454,10 +8787,10 @@
 				<sequence name="touch" action="attack">
 					<frame duration="4">data/core/images/units/undead/soulless-dwarf-attack.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack N">
 					<frame duration="4">data/core/images/units/undead/soulless-dwarf-attack-n.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack S">
 					<frame duration="4">data/core/images/units/undead/soulless-dwarf-attack-s.png</frame>
 				</sequence>
 				<sequence action="pain">
@@ -8486,10 +8819,10 @@
 				<sequence name="touch" action="attack">
 					<frame duration="4">data/core/images/units/undead/zombie-goblin-attack.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack N">
 					<frame duration="4">data/core/images/units/undead/zombie-goblin-attack-n.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack S">
 					<frame duration="4">data/core/images/units/undead/zombie-goblin-attack-s.png</frame>
 				</sequence>
 				<sequence action="pain">
@@ -8516,10 +8849,10 @@
 				<sequence name="touch" action="attack">
 					<frame duration="4">data/core/images/units/undead/soulless-goblin-attack.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack N">
 					<frame duration="4">data/core/images/units/undead/soulless-goblin-attack-n.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack S">
 					<frame duration="4">data/core/images/units/undead/soulless-goblin-attack-s.png</frame>
 				</sequence>
 				<sequence action="pain">
@@ -8548,10 +8881,10 @@
 				<sequence name="touch" action="attack">
 					<frame duration="4">data/core/images/units/undead/zombie-mounted-attack.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack N">
 					<frame duration="4">data/core/images/units/undead/zombie-mounted-attack-n.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack S">
 					<frame duration="4">data/core/images/units/undead/zombie-mounted-attack-s.png</frame>
 				</sequence>
 				<sequence action="pain">
@@ -8578,10 +8911,10 @@
 				<sequence name="touch" action="attack">
 					<frame duration="4">data/core/images/units/undead/soulless-mounted-attack.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack N">
 					<frame duration="4">data/core/images/units/undead/soulless-mounted-attack-n.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack S">
 					<frame duration="4">data/core/images/units/undead/soulless-mounted-attack-s.png</frame>
 				</sequence>
 				<sequence action="pain">
@@ -8610,10 +8943,10 @@
 				<sequence name="touch" action="attack">
 					<frame duration="4">data/core/images/units/undead/zombie-saurian-attack.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack N">
 					<frame duration="4">data/core/images/units/undead/zombie-saurian-attack-n.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack S">
 					<frame duration="4">data/core/images/units/undead/zombie-saurian-attack-s.png</frame>
 				</sequence>
 				<sequence action="pain">
@@ -8640,10 +8973,10 @@
 				<sequence name="touch" action="attack">
 					<frame duration="4">data/core/images/units/undead/soulless-saurian-attack.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack N">
 					<frame duration="4">data/core/images/units/undead/soulless-saurian-attack-n.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack S">
 					<frame duration="4">data/core/images/units/undead/soulless-saurian-attack-s.png</frame>
 				</sequence>
 				<sequence action="pain">
@@ -8672,10 +9005,10 @@
 				<sequence name="touch" action="attack">
 					<frame duration="4">data/core/images/units/undead/zombie-swimmer-attack.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack N">
 					<frame duration="4">data/core/images/units/undead/zombie-swimmer-attack-n.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack S">
 					<frame duration="4">data/core/images/units/undead/zombie-swimmer-attack-s.png</frame>
 				</sequence>
 				<sequence action="pain">
@@ -8702,10 +9035,10 @@
 				<sequence name="touch" action="attack">
 					<frame duration="4">data/core/images/units/undead/soulless-swimmer-attack.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack N">
 					<frame duration="4">data/core/images/units/undead/soulless-swimmer-attack-n.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack S">
 					<frame duration="4">data/core/images/units/undead/soulless-swimmer-attack-s.png</frame>
 				</sequence>
 				<sequence action="pain">
@@ -8735,10 +9068,10 @@
 				<sequence name="touch" action="attack">
 					<frame duration="4">data/core/images/units/undead/zombie-troll-attack.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack N">
 					<frame duration="4">data/core/images/units/undead/zombie-troll-attack-n.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack S">
 					<frame duration="4">data/core/images/units/undead/zombie-troll-attack-s.png</frame>
 				</sequence>
 				<sequence action="pain">
@@ -8765,10 +9098,10 @@
 				<sequence name="touch" action="attack">
 					<frame duration="4">data/core/images/units/undead/soulless-troll-attack.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack N">
 					<frame duration="4">data/core/images/units/undead/soulless-troll-attack-n.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack S">
 					<frame duration="4">data/core/images/units/undead/soulless-troll-attack-s.png</frame>
 				</sequence>
 				<sequence action="pain">
@@ -8797,10 +9130,10 @@
 				<sequence name="touch" action="attack">
 					<frame duration="4">data/core/images/units/undead/zombie-wose-attack.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack N">
 					<frame duration="4">data/core/images/units/undead/zombie-wose-attack-n.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack S">
 					<frame duration="4">data/core/images/units/undead/zombie-wose-attack-s.png</frame>
 				</sequence>
 				<sequence action="pain">
@@ -8827,10 +9160,10 @@
 				<sequence name="touch" action="attack">
 					<frame duration="4">data/core/images/units/undead/soulless-wose-attack.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack N">
 					<frame duration="4">data/core/images/units/undead/soulless-wose-attack-n.png</frame>
 				</sequence>
-				<sequence name="touch" action="attack">
+				<sequence name="touch" action="attack S">
 					<frame duration="4">data/core/images/units/undead/soulless-wose-attack-s.png</frame>
 				</sequence>
 				<sequence action="pain">
