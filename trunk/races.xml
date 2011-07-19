@@ -3288,6 +3288,36 @@
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/elves-wood/lady.png</frame>
 				</sequence>
+				<sequence action="pain">
+					<frame duration="9">data/core/images/units/elves-wood/lady.png</frame>
+					<effect yOffset="-18">
+						<sequence action="stand" loop="hide">
+							<frame>data/core/images/halo/elven/elven-shield-halo-20pct.png</frame>
+							<frame>data/core/images/halo/elven/elven-shield-halo-40pct.png</frame>
+							<frame>data/core/images/halo/elven/elven-shield-halo-60pct.png</frame>
+							<frame>data/core/images/halo/elven/elven-shield-halo-80pct.png</frame>
+							<frame>data/core/images/halo/elven/elven-shield-halo-100pct.png</frame>
+							<frame>data/core/images/halo/elven/elven-shield-halo-80pct.png</frame>
+							<frame>data/core/images/halo/elven/elven-shield-halo-60pct.png</frame>
+							<frame>data/core/images/halo/elven/elven-shield-halo-40pct.png</frame>
+							<frame>data/core/images/halo/elven/elven-shield-halo-20pct.png</frame>
+						</sequence>
+						</effect>
+				</sequence>
+				<sequence action="blasting">
+					<frame duration="7">data/core/images/units/elves-wood/lady.png</frame>
+					<effect yOffset="-18">
+						<sequence action="stand" loop="hide">
+							<frame>data/core/images/halo/elven/faerie-fire-halo1.png</frame>
+							<frame>data/core/images/halo/elven/faerie-fire-halo2.png</frame>
+							<frame>data/core/images/halo/elven/faerie-fire-halo3.png</frame>
+							<frame>data/core/images/halo/elven/faerie-fire-halo4.png</frame>
+							<frame>data/core/images/halo/elven/faerie-fire-halo5.png</frame>
+							<frame>data/core/images/halo/elven/faerie-fire-halo6.png</frame>
+							<frame>data/core/images/halo/elven/faerie-fire-halo7.png</frame>
+						</sequence>
+					</effect>
+				</sequence>
 			</unit>
 			<unit name="Elvish Sylph" yOffset="-18">
 				<ability level="10" name="toughness" description=""/>
@@ -3298,12 +3328,41 @@
 				<portrait scale="0.5">data/core/images/portraits/elves/transparent/sylph.png</portrait>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/elves-wood/sylph.png</frame>
-
-					<frame>data/core/images/units/elves-wood/sylph-defend.png</frame>
-
+				</sequence>
+				<sequence action="pain">
+					<frame duration="9">data/core/images/units/elves-wood/sylph-defend.png</frame>
+					<effect yOffset="-18">
+						<sequence action="stand" loop="hide">
+							<frame>data/core/images/halo/elven/elven-shield-halo-20pct.png</frame>
+							<frame>data/core/images/halo/elven/elven-shield-halo-40pct.png</frame>
+							<frame>data/core/images/halo/elven/elven-shield-halo-60pct.png</frame>
+							<frame>data/core/images/halo/elven/elven-shield-halo-80pct.png</frame>
+							<frame>data/core/images/halo/elven/elven-shield-halo-100pct.png</frame>
+							<frame>data/core/images/halo/elven/elven-shield-halo-80pct.png</frame>
+							<frame>data/core/images/halo/elven/elven-shield-halo-60pct.png</frame>
+							<frame>data/core/images/halo/elven/elven-shield-halo-40pct.png</frame>
+							<frame>data/core/images/halo/elven/elven-shield-halo-20pct.png</frame>
+						</sequence>
+						</effect>
+				</sequence>
+				<sequence action="blasting">
+					<frame duration="7">data/core/images/units/elves-wood/sylph-magic.png</frame>
+					<effect yOffset="-18">
+						<sequence action="stand" loop="hide">
+							<frame>data/core/images/halo/elven/faerie-fire-halo1.png</frame>
+							<frame>data/core/images/halo/elven/faerie-fire-halo2.png</frame>
+							<frame>data/core/images/halo/elven/faerie-fire-halo3.png</frame>
+							<frame>data/core/images/halo/elven/faerie-fire-halo4.png</frame>
+							<frame>data/core/images/halo/elven/faerie-fire-halo5.png</frame>
+							<frame>data/core/images/halo/elven/faerie-fire-halo6.png</frame>
+							<frame>data/core/images/halo/elven/faerie-fire-halo7.png</frame>
+						</sequence>
+					</effect>
+				</sequence>
+				<sequence action="fighting">
 					<frame>data/core/images/units/elves-wood/sylph-magic.png</frame>
-
-					<frame>data/core/images/units/elves-wood/sylph-melee.png</frame>
+					<frame duration="7">data/core/images/units/elves-wood/sylph-melee.png</frame>
+					<frame>data/core/images/units/elves-wood/sylph-magic.png</frame>
 				</sequence>
 			</unit>
 		</class>
@@ -3458,12 +3517,45 @@
 					<ability level="4" name="flying" description="floating"/>
 					<portrait scale="0.5">data/core/images/portraits/elves/transparent/shyde.png</portrait>
 					<sequence action="stand" loop="loop">
-						<frame>data/core/images/units/elves-wood/shyde-defend.png</frame>
-
+						<frame>data/core/images/units/elves-wood/shyde.png</frame>
+					</sequence>
+					<sequence action="pain">
+						<frame duration="9">data/core/images/units/elves-wood/shyde-defend.png</frame>
+						<effect yOffset="-18">
+							<sequence action="stand" loop="hide">
+								<frame>data/core/images/halo/elven/elven-shield-halo-20pct.png</frame>
+								<frame>data/core/images/halo/elven/elven-shield-halo-40pct.png</frame>
+								<frame>data/core/images/halo/elven/elven-shield-halo-60pct.png</frame>
+								<frame>data/core/images/halo/elven/elven-shield-halo-80pct.png</frame>
+								<frame>data/core/images/halo/elven/elven-shield-halo-100pct.png</frame>
+								<frame>data/core/images/halo/elven/elven-shield-halo-80pct.png</frame>
+								<frame>data/core/images/halo/elven/elven-shield-halo-60pct.png</frame>
+								<frame>data/core/images/halo/elven/elven-shield-halo-40pct.png</frame>
+								<frame>data/core/images/halo/elven/elven-shield-halo-20pct.png</frame>
+							</sequence>
+						</effect>
+					</sequence>
+					<sequence action="wrestling">
 						<frame>data/core/images/units/elves-wood/shyde-ftouch-attack1.png</frame>
-						<frame>data/core/images/units/elves-wood/shyde-ftouch-attack2.png</frame>
+						<frame duration="3">data/core/images/units/elves-wood/shyde-ftouch-attack2.png</frame>
 						<frame>data/core/images/units/elves-wood/shyde-ftouch-attack3.png</frame>
-
+					</sequence>
+					<sequence name="thorns" action="blasting">
+						<frame duration="8">data/core/images/units/elves-wood/shyde-ftouch-attack3.png</frame>
+						<effect yOffset="-18">
+							<sequence action="stand" loop="hide">
+								<frame>data/core/images/halo/elven/nature-halo1.png</frame>
+								<frame>data/core/images/halo/elven/nature-halo2.png</frame>
+								<frame>data/core/images/halo/elven/nature-halo3.png</frame>
+								<frame>data/core/images/halo/elven/nature-halo4.png</frame>
+								<frame>data/core/images/halo/elven/nature-halo5.png</frame>
+								<frame>data/core/images/halo/elven/nature-halo6.png</frame>
+								<frame>data/core/images/halo/elven/nature-halo7.png</frame>
+								<frame>data/core/images/halo/elven/nature-halo8.png</frame>
+							</sequence>
+						</effect>
+					</sequence>
+					<sequence action="healing">
 						<frame>data/core/images/units/elves-wood/shyde-healing1.png</frame>
 						<frame>data/core/images/units/elves-wood/shyde-healing2.png</frame>
 						<frame>data/core/images/units/elves-wood/shyde-healing3.png</frame>
@@ -3476,8 +3568,6 @@
 						<frame>data/core/images/units/elves-wood/shyde-healing10.png</frame>
 						<frame>data/core/images/units/elves-wood/shyde-healing11.png</frame>
 						<frame>data/core/images/units/elves-wood/shyde-healing12.png</frame>
-
-						<frame>data/core/images/units/elves-wood/shyde.png</frame>
 					</sequence>
 				</unit>
 			</branch>
@@ -3493,13 +3583,26 @@
 					</sequence>
 					<sequence name="block" action="defend">
 						<frame>data/core/images/units/elves-wood/sorceress-defend-1.png</frame>
-						<frame duration="3">data/core/images/units/elves-wood/sorceress-defend-2.png</frame>
+						<frame duration="7">data/core/images/units/elves-wood/sorceress-defend-2.png</frame>
 						<frame>data/core/images/units/elves-wood/sorceress-defend-1.png</frame>
+						<effect yOffset="-18">
+							<sequence action="stand" loop="hide">
+								<frame>data/core/images/halo/elven/elven-shield-halo-20pct.png</frame>
+								<frame>data/core/images/halo/elven/elven-shield-halo-40pct.png</frame>
+								<frame>data/core/images/halo/elven/elven-shield-halo-60pct.png</frame>
+								<frame>data/core/images/halo/elven/elven-shield-halo-80pct.png</frame>
+								<frame>data/core/images/halo/elven/elven-shield-halo-100pct.png</frame>
+								<frame>data/core/images/halo/elven/elven-shield-halo-80pct.png</frame>
+								<frame>data/core/images/halo/elven/elven-shield-halo-60pct.png</frame>
+								<frame>data/core/images/halo/elven/elven-shield-halo-40pct.png</frame>
+								<frame>data/core/images/halo/elven/elven-shield-halo-20pct.png</frame>
+							</sequence>
+						</effect>
 					</sequence>
 					<sequence name="faerie fire" action="blasting">
 						<frame>data/core/images/units/elves-wood/sorceress-magic-1.png</frame>
 						<frame>data/core/images/units/elves-wood/sorceress-magic-2.png</frame>
-					<frame duration="3">data/core/images/units/elves-wood/sorceress-magic-3.png</frame>
+						<frame duration="3">data/core/images/units/elves-wood/sorceress-magic-3.png</frame>
 						<frame>data/core/images/units/elves-wood/sorceress-magic-2.png</frame>
 						<frame>data/core/images/units/elves-wood/sorceress-magic-1.png</frame>
 						<effect yOffset="-18">
@@ -3520,7 +3623,7 @@
 						<frame duration="4">data/core/images/units/elves-wood/sorceress-magic-3.png</frame>
 						<frame>data/core/images/units/elves-wood/sorceress-magic-2.png</frame>
 						<frame>data/core/images/units/elves-wood/sorceress-magic-1.png</frame>
-					<effect yOffset="-18">
+						<effect yOffset="-18">
 							<sequence action="stand" loop="hide">
 								<frame>data/core/images/halo/elven/nature-halo1.png</frame>
 								<frame>data/core/images/halo/elven/nature-halo2.png</frame>
@@ -3554,21 +3657,66 @@
 					<ability level="7" name="blasting" description="faerie fire"/>
 					<ability level="2" name="acrobatics" description=""/>
 					<sequence action="stand" loop="loop">
+						<frame>data/core/images/units/elves-wood/enchantress.png</frame>
+					</sequence>
+					<sequence action="pain">
 						<frame>data/core/images/units/elves-wood/enchantress-defend-1.png</frame>
-						<frame duration="3">data/core/images/units/elves-wood/enchantress-defend-2.png</frame>
+						<frame duration="7">data/core/images/units/elves-wood/enchantress-defend-2.png</frame>
 						<frame>data/core/images/units/elves-wood/enchantress-defend-1.png</frame>
-
+						<effect yOffset="-18">
+							<sequence action="stand" loop="hide">
+								<frame>data/core/images/halo/elven/elven-shield-halo-20pct.png</frame>
+								<frame>data/core/images/halo/elven/elven-shield-halo-40pct.png</frame>
+								<frame>data/core/images/halo/elven/elven-shield-halo-60pct.png</frame>
+								<frame>data/core/images/halo/elven/elven-shield-halo-80pct.png</frame>
+								<frame>data/core/images/halo/elven/elven-shield-halo-100pct.png</frame>
+								<frame>data/core/images/halo/elven/elven-shield-halo-80pct.png</frame>
+								<frame>data/core/images/halo/elven/elven-shield-halo-60pct.png</frame>
+								<frame>data/core/images/halo/elven/elven-shield-halo-40pct.png</frame>
+								<frame>data/core/images/halo/elven/elven-shield-halo-20pct.png</frame>
+							</sequence>
+						</effect>
+					</sequence>
+					<sequence action="blasting">
 						<frame>data/core/images/units/elves-wood/enchantress-magic-1.png</frame>
-						<frame>data/core/images/units/elves-wood/enchantress-magic-2.png</frame>
-
+						<frame duration="5">data/core/images/units/elves-wood/enchantress-magic-2.png</frame>
+						<frame>data/core/images/units/elves-wood/enchantress-magic-1.png</frame>
+						<effect yOffset="-18">
+							<sequence action="stand" loop="hide">
+								<frame>data/core/images/halo/elven/faerie-fire-halo1.png</frame>
+								<frame>data/core/images/halo/elven/faerie-fire-halo2.png</frame>
+								<frame>data/core/images/halo/elven/faerie-fire-halo3.png</frame>
+								<frame>data/core/images/halo/elven/faerie-fire-halo4.png</frame>
+								<frame>data/core/images/halo/elven/faerie-fire-halo5.png</frame>
+								<frame>data/core/images/halo/elven/faerie-fire-halo6.png</frame>
+								<frame>data/core/images/halo/elven/faerie-fire-halo7.png</frame>
+							</sequence>
+						</effect>
+					</sequence>
+					<sequence action="wrestling2">
+						<frame>data/core/images/units/elves-wood/enchantress-magic-1.png</frame>
+						<frame duration="6">data/core/images/units/elves-wood/enchantress-magic-2.png</frame>
+						<frame>data/core/images/units/elves-wood/enchantress-magic-1.png</frame>
+						<effect yOffset="-18">
+							<sequence action="stand" loop="hide">
+								<frame>data/core/images/halo/elven/nature-halo1.png</frame>
+								<frame>data/core/images/halo/elven/nature-halo2.png</frame>
+								<frame>data/core/images/halo/elven/nature-halo3.png</frame>
+								<frame>data/core/images/halo/elven/nature-halo4.png</frame>
+								<frame>data/core/images/halo/elven/nature-halo5.png</frame>
+								<frame>data/core/images/halo/elven/nature-halo6.png</frame>
+								<frame>data/core/images/halo/elven/nature-halo7.png</frame>
+								<frame>data/core/images/halo/elven/nature-halo8.png</frame>
+							</sequence>
+						</effect>
+					</sequence>
+					<sequence action="wrestling">
 						<frame>data/core/images/units/elves-wood/enchantress-melee-1.png</frame>
 						<frame>data/core/images/units/elves-wood/enchantress-melee-2.png</frame>
 						<frame>data/core/images/units/elves-wood/enchantress-melee-3.png</frame>
 						<frame>data/core/images/units/elves-wood/enchantress-melee-4.png</frame>
 						<frame>data/core/images/units/elves-wood/enchantress-melee-5.png</frame>
 						<frame>data/core/images/units/elves-wood/enchantress-melee-6.png</frame>
-
-						<frame>data/core/images/units/elves-wood/enchantress.png</frame>
 					</sequence>
 				</unit>
 			</branch>
