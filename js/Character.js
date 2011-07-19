@@ -58,6 +58,7 @@ Game.Character = function (xmlElement) {
     if (node.nodeType == node.ELEMENT_NODE) {
       if (node.tagName == 'sequence') {
         var actionName = node.getAttribute("action");
+//if (this.sequences[actionName]) {alert(this.name); return;}
         this.sequences[actionName] = {
           action: actionName,
           name: node.hasAttribute("name") ? node.getAttribute("name") : actionName,
