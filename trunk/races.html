@@ -1,6 +1,12 @@
 <html>
   <head>
     <style type="text/css">
+div {
+  white-space:nowrap;
+}
+table {
+  padding-bottom: 250px;
+}
 #menu, #main {
   position: fixed;
   top: 0;
@@ -18,17 +24,22 @@
   width: 65%;
 }
 .portrait {
-  width: 144px;
-  margin-top: -18px;
-  margin-bottom: -54px;
-  transition: width 0.2s ease-in-out;
-  -moz-transition: width 0.2s ease-in-out;
-  -ms-transition: width 0.2s ease-in-out;
-  -o-transition: width 0.2s ease-in-out;
-  -webkit-transition: width 0.2s ease-in-out;
+  width: 100px;
+  margin: 0;
+  transition-properties: margin, width;
+  -moz-transition-properties: margin, width;
+  -ms-transition-properties: margin, width;
+  -o-transition-properties: margin, width;
+  -webkit-transition-properties: margin, width;
+  transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -ms-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
 }
 .portrait:hover {
-  width: 288px;
+  width: 400px;
+  margin: -50px 0 0 -100px;
 }
     </style>
     <!-- <script type="text/javascript" src="js/Game.js"></script> -->
@@ -106,8 +117,8 @@ function showUnit(unit, main) {
   var cells = [
     Game.createElement('td', {'valign': 'top'}, row),
     Game.createElement('td', {'valign': 'top'}, row),
-    Game.createElement('td', {'valign': 'middle', 'style': 'padding:36px'}, row),
-    Game.createElement('td', {'valign': 'middle'}, row),
+    Game.createElement('td', {'valign': 'top', 'style': 'padding:36px'}, row),
+    Game.createElement('td', {'valign': 'top'}, row),
   ];
   Game.createElement('h3', {}, cells[0]).textContent = unit.name;
   for (var i = 0; i < unit.abilities.length; i++) {

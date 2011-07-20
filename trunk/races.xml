@@ -633,7 +633,7 @@
 					<frame>data/core/images/units/monsters/direwolf-idle-2.png</frame>
 					<frame>data/core/images/units/monsters/direwolf-idle-3.png</frame>
 					<frame>data/core/images/units/monsters/direwolf-idle-4.png</frame>
-					<frame>data/core/images/units/monsters/direwolf-idle-3.png</frame>
+					<frame duration="13">data/core/images/units/monsters/direwolf-idle-3.png</frame>
 					<frame>data/core/images/units/monsters/direwolf-idle-2.png</frame>
 					<frame>data/core/images/units/monsters/direwolf-idle-1.png</frame>
 				</sequence>
@@ -3732,38 +3732,73 @@
 				<portrait scale="0.5">data/core/images/portraits/goblins/transparent/spearman.png</portrait>
 				<portrait scale="0.5">data/core/images/portraits/goblins/transparent/spearman-2.png</portrait>
 				<sequence action="stand" loop="loop">
-					<frame>data/core/images/units/goblins/spearman-attack-n1.png</frame>
-					<frame>data/core/images/units/goblins/spearman-attack-n2.png</frame>
-
-					<frame>data/core/images/units/goblins/spearman-attack-ne1.png</frame>
-					<frame>data/core/images/units/goblins/spearman-attack-ne2.png</frame>
-
-					<frame>data/core/images/units/goblins/spearman-attack-s1.png</frame>
-					<frame>data/core/images/units/goblins/spearman-attack-s2.png</frame>
-
-					<frame>data/core/images/units/goblins/spearman-attack-se1.png</frame>
-					<frame>data/core/images/units/goblins/spearman-attack-se2.png</frame>
-
-					<frame>data/core/images/units/goblins/spearman-defend.png</frame>
-
-					<frame>data/core/images/units/goblins/spearman-idle-1.png</frame>
-					<frame>data/core/images/units/goblins/spearman-idle-2.png</frame>
-					<frame>data/core/images/units/goblins/spearman-idle-3.png</frame>
-					<frame>data/core/images/units/goblins/spearman-idle-4.png</frame>
-					<frame>data/core/images/units/goblins/spearman-idle-5.png</frame>
-					<frame>data/core/images/units/goblins/spearman-idle-6.png</frame>
-					<frame>data/core/images/units/goblins/spearman-idle-7.png</frame>
-					<frame>data/core/images/units/goblins/spearman-idle-8.png</frame>
-					<frame>data/core/images/units/goblins/spearman-idle-9.png</frame>
-					<frame>data/core/images/units/goblins/spearman-idle-10.png</frame>
-					<frame>data/core/images/units/goblins/spearman-idle-11.png</frame>
-					<frame>data/core/images/units/goblins/spearman-idle-12.png</frame>
-
-					<frame>data/core/images/units/goblins/spearman-ne-defend.png</frame>
-
-					<frame>data/core/images/units/goblins/spearman-ne.png</frame>
-
 					<frame>data/core/images/units/goblins/spearman.png</frame>
+				</sequence>
+				<sequence action="stand N" loop="loop">
+					<frame>data/core/images/units/goblins/spearman-ne.png</frame>
+				</sequence>
+				<sequence action="pain">
+					<frame duration="4">data/core/images/units/goblins/spearman-defend.png</frame>
+				</sequence>
+				<sequence action="pain N" next="stand N">
+					<frame duration="4">data/core/images/units/goblins/spearman-ne-defend.png</frame>
+				</sequence>
+				<sequence action="shooting">
+					<frame duration="2">data/core/images/units/goblins/spearman-attack-se1.png</frame>
+				</sequence>
+				<sequence action="shooting S">
+					<frame duration="2">data/core/images/units/goblins/spearman-attack-s1.png</frame>
+				</sequence>
+				<sequence action="shooting NE" next="stand N">
+					<frame duration="2">data/core/images/units/goblins/spearman-attack-ne1.png</frame>
+				</sequence>
+				<sequence action="shooting N" next="stand N">
+					<frame duration="2">data/core/images/units/goblins/spearman-attack-n1.png</frame>
+				</sequence>
+				<sequence action="fighting">
+					<frame>data/core/images/units/goblins/spearman-attack-se1.png</frame>
+					<frame duration="3">data/core/images/units/goblins/spearman-attack-se2.png</frame>
+					<frame>data/core/images/units/goblins/spearman-attack-se1.png</frame>
+				</sequence>
+				<sequence action="fighting S">
+					<frame>data/core/images/units/goblins/spearman-attack-s1.png</frame>
+					<frame duration="3">data/core/images/units/goblins/spearman-attack-s2.png</frame>
+					<frame>data/core/images/units/goblins/spearman-attack-s1.png</frame>
+				</sequence>
+				<sequence action="fighting NE" next="stand N">
+					<frame>data/core/images/units/goblins/spearman-attack-ne1.png</frame>
+					<frame duration="3">data/core/images/units/goblins/spearman-attack-ne2.png</frame>
+					<frame>data/core/images/units/goblins/spearman-attack-ne1.png</frame>
+				</sequence>
+				<sequence action="fighting N" next="stand N">
+					<frame>data/core/images/units/goblins/spearman-attack-n1.png</frame>
+					<frame duration="3">data/core/images/units/goblins/spearman-attack-n2.png</frame>
+					<frame>data/core/images/units/goblins/spearman-attack-n1.png</frame>
+				</sequence>
+				<sequence action="idle">
+					<frame duration="2">data/core/images/units/goblins/spearman-idle-1.png</frame>
+					<frame duration="2">data/core/images/units/goblins/spearman-idle-2.png</frame>
+					<frame duration="2">data/core/images/units/goblins/spearman-idle-3.png</frame>
+					<frame duration="4">data/core/images/units/goblins/spearman-idle-4.png</frame>
+					<frame duration="2">data/core/images/units/goblins/spearman-idle-5.png</frame>
+					<frame duration="2">data/core/images/units/goblins/spearman-idle-6.png</frame>
+					<frame duration="2">data/core/images/units/goblins/spearman-idle-7.png</frame>
+					<frame duration="2">data/core/images/units/goblins/spearman-idle-8.png</frame>
+					<frame duration="2">data/core/images/units/goblins/spearman-idle-9.png</frame>
+					<frame duration="2">data/core/images/units/goblins/spearman-idle-10.png</frame>
+					<frame duration="2">data/core/images/units/goblins/spearman-idle-11.png</frame>
+					<frame duration="2">data/core/images/units/goblins/spearman-idle-12.png</frame>
+				</sequence>
+				<sequence action="fall" loop="stay">
+					<frame>data/core/images/units/goblins/impaler-death-1.png</frame>
+					<frame>data/core/images/units/goblins/impaler-death-2.png</frame>
+					<frame>data/core/images/units/goblins/impaler-death-3.png</frame>
+					<frame>data/core/images/units/goblins/impaler-death-4.png</frame>
+					<frame>data/core/images/units/goblins/impaler-death-5.png</frame>
+					<frame>data/core/images/units/goblins/impaler-death-6.png</frame>
+					<frame>data/core/images/units/goblins/impaler-death-7.png</frame>
+					<frame>data/core/images/units/goblins/impaler-death-8.png</frame>
+					<frame duration="2">data/core/images/units/goblins/impaler-death-9.png</frame>
 				</sequence>
 			</unit>
 			<unit name="Goblin Impaler" yOffset="-18">
@@ -3773,17 +3808,39 @@
 				<ability level="2" name="quickness" description=""/>
 				<portrait scale="0.5">data/core/images/portraits/goblins/transparent/impaler.png</portrait>
 				<sequence action="stand" loop="loop">
-					<frame>data/core/images/units/goblins/impaler-attack-ne.png</frame>
-
-					<frame>data/core/images/units/goblins/impaler-attack-n.png</frame>
-
-					<frame>data/core/images/units/goblins/impaler-attack-ranged-s.png</frame>
-
+					<frame>data/core/images/units/goblins/impaler.png</frame>
+				</sequence>
+				<sequence action="stand N" loop="loop">
+					<frame>data/core/images/units/goblins/impaler-ne.png</frame>
+				</sequence>
+				<sequence action="pain">
+					<frame duration="4">data/core/images/units/goblins/impaler-defend.png</frame>
+				</sequence>
+				<sequence action="pain N" next="stand N">
+					<frame duration="4">data/core/images/units/goblins/impaler-ne-defend.png</frame>
+				</sequence>
+				<sequence action="fighting">
 					<frame>data/core/images/units/goblins/impaler-attack-se-1.png</frame>
-					<frame>data/core/images/units/goblins/impaler-attack-se-2.png</frame>
-
-					<frame>data/core/images/units/goblins/impaler-attack-s.png</frame>
-
+					<frame duration="2">data/core/images/units/goblins/impaler-attack-se-2.png</frame>
+					<frame>data/core/images/units/goblins/impaler-attack-se-1.png</frame>
+				</sequence>
+				<sequence action="fighting S">
+					<frame>data/core/images/units/goblins/impaler-attack-se-1.png</frame>
+					<frame duration="2">data/core/images/units/goblins/impaler-attack-s.png</frame>
+					<frame>data/core/images/units/goblins/impaler-attack-se-1.png</frame>
+				</sequence>
+				<sequence action="fighting NE" next="stand N">
+					<frame duration="3">data/core/images/units/goblins/impaler-attack-ne.png</frame>
+				</sequence>
+				<sequence action="fighting N" next="stand N">
+					<frame duration="3">data/core/images/units/goblins/impaler-attack-n.png</frame>
+				</sequence>
+				<sequence action="shooting">
+					<frame>data/core/images/units/goblins/impaler-attack-se-1.png</frame>
+					<frame duration="3">data/core/images/units/goblins/impaler-attack-ranged-s.png</frame>
+					<frame>data/core/images/units/goblins/impaler-death-1.png</frame>
+				</sequence>
+				<sequence action="fall" loop="stay">
 					<frame>data/core/images/units/goblins/impaler-death-1.png</frame>
 					<frame>data/core/images/units/goblins/impaler-death-2.png</frame>
 					<frame>data/core/images/units/goblins/impaler-death-3.png</frame>
@@ -3792,15 +3849,7 @@
 					<frame>data/core/images/units/goblins/impaler-death-6.png</frame>
 					<frame>data/core/images/units/goblins/impaler-death-7.png</frame>
 					<frame>data/core/images/units/goblins/impaler-death-8.png</frame>
-					<frame>data/core/images/units/goblins/impaler-death-9.png</frame>
-
-					<frame>data/core/images/units/goblins/impaler-defend.png</frame>
-
-					<frame>data/core/images/units/goblins/impaler-ne-defend.png</frame>
-
-					<frame>data/core/images/units/goblins/impaler-ne.png</frame>
-
-					<frame>data/core/images/units/goblins/impaler.png</frame>
+					<frame duration="2">data/core/images/units/goblins/impaler-death-9.png</frame>
 				</sequence>
 			</unit>
 			<unit name="Goblin Rouser" yOffset="-18">
@@ -3810,29 +3859,54 @@
 				<portrait scale="0.5">data/core/images/portraits/goblins/transparent/rouser.png</portrait>
 				<portrait scale="0.5">data/core/images/portraits/goblins/transparent/rouser-2.png</portrait>
 				<sequence action="stand" loop="loop">
+					<frame>data/core/images/units/goblins/rouser.png</frame>
+				</sequence>
+				<sequence action="stand N" loop="loop">
+					<frame>data/core/images/units/goblins/rouser-ne.png</frame>
+				</sequence>
+				<sequence action="pain">
+					<frame>data/core/images/units/goblins/rouser-defend.png</frame>
+				</sequence>
+				<sequence action="pain N" next="stand N">
+					<frame>data/core/images/units/goblins/rouser-ne-defend.png</frame>
+				</sequence>
+				<sequence action="fighting">
 					<frame>data/core/images/units/goblins/rouser-attack1.png</frame>
+					<frame duration="2">data/core/images/units/goblins/rouser-attack-se.png</frame>
 					<frame>data/core/images/units/goblins/rouser-attack3.png</frame>
 					<frame>data/core/images/units/goblins/rouser-attack4.png</frame>
-
-					<frame>data/core/images/units/goblins/rouser-attack-ne.png</frame>
-
-					<frame>data/core/images/units/goblins/rouser-attack-n.png</frame>
-
-					<frame>data/core/images/units/goblins/rouser-attack-se.png</frame>
-
-					<frame>data/core/images/units/goblins/rouser-attack-s.png</frame>
-
-					<frame>data/core/images/units/goblins/rouser-defend.png</frame>
-
+				</sequence>
+				<sequence action="fighting NE" next="stand N">
+					<frame>data/core/images/units/goblins/rouser-attack1.png</frame>
+					<frame duration="2">data/core/images/units/goblins/rouser-attack-ne.png</frame>
+					<frame>data/core/images/units/goblins/rouser-attack3.png</frame>
+					<frame>data/core/images/units/goblins/rouser-attack4.png</frame>
+				</sequence>
+				<sequence action="fighting N" next="stand N">
+					<frame>data/core/images/units/goblins/rouser-attack4.png</frame>
+					<frame duration="3">data/core/images/units/goblins/rouser-attack-n.png</frame>
+					<frame>data/core/images/units/goblins/rouser-attack4.png</frame>
+				</sequence>
+				<sequence action="fighting S">
+					<frame>data/core/images/units/goblins/rouser-attack4.png</frame>
+					<frame duration="3">data/core/images/units/goblins/rouser-attack-s.png</frame>
+					<frame>data/core/images/units/goblins/rouser-attack4.png</frame>
+				</sequence>
+				<sequence action="lead">
 					<frame>data/core/images/units/goblins/rouser-lead-1.png</frame>
 					<frame duration="4">data/core/images/units/goblins/rouser-lead-2.png</frame>
 					<frame>data/core/images/units/goblins/rouser-lead-1.png</frame>
-
-					<frame>data/core/images/units/goblins/rouser-ne-defend.png</frame>
-
-					<frame>data/core/images/units/goblins/rouser-ne.png</frame>
-
-					<frame>data/core/images/units/goblins/rouser.png</frame>
+				</sequence>
+				<sequence action="fall" loop="stay">
+					<frame>data/core/images/units/goblins/impaler-death-1.png</frame>
+					<frame>data/core/images/units/goblins/impaler-death-2.png</frame>
+					<frame>data/core/images/units/goblins/impaler-death-3.png</frame>
+					<frame>data/core/images/units/goblins/impaler-death-4.png</frame>
+					<frame>data/core/images/units/goblins/impaler-death-5.png</frame>
+					<frame>data/core/images/units/goblins/impaler-death-6.png</frame>
+					<frame>data/core/images/units/goblins/impaler-death-7.png</frame>
+					<frame>data/core/images/units/goblins/impaler-death-8.png</frame>
+					<frame duration="2">data/core/images/units/goblins/impaler-death-9.png</frame>
 				</sequence>
 			</unit>
 		</class>
@@ -3843,23 +3917,35 @@
 				<ability level="3" name="fighting" description="fangs"/>
 				<portrait scale="0.5">data/core/images/portraits/goblins/transparent/wolf-rider.png</portrait>
 				<sequence action="stand" loop="loop">
-					<frame>data/core/images/units/goblins/wolf-rider-attack.png</frame>
-
+					<frame>data/core/images/units/goblins/wolf-rider.png</frame>
+				</sequence>
+				<sequence action="pain">
 					<frame>data/core/images/units/goblins/wolf-rider-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/goblins/wolf-rider-defend-2.png</frame>
 					<frame>data/core/images/units/goblins/wolf-rider-defend-1.png</frame>
-
+				</sequence>
+				<sequence action="attack">
+					<frame duration="3">data/core/images/units/goblins/wolf-rider-attack.png</frame>
+					<frame duration="3">data/core/images/units/goblins/wolf-rider-moving.png</frame>
+				</sequence>
+				<sequence action="idle">
 					<frame>data/core/images/units/goblins/wolf-rider-idle-1.png</frame>
 					<frame>data/core/images/units/goblins/wolf-rider-idle-2.png</frame>
 					<frame>data/core/images/units/goblins/wolf-rider-idle-3.png</frame>
 					<frame>data/core/images/units/goblins/wolf-rider-idle-4.png</frame>
 					<frame>data/core/images/units/goblins/wolf-rider-idle-5.png</frame>
-
-					<frame>data/core/images/units/goblins/wolf-rider-moving.png</frame>
-
-					<frame>data/core/images/units/goblins/wolf-rider.png</frame>
-
-					<frame>data/core/images/units/goblins/wolf-rider-water.png</frame>
+					<frame>data/core/images/units/goblins/wolf-rider-idle-4.png</frame>
+					<frame>data/core/images/units/goblins/wolf-rider-idle-3.png</frame>
+					<frame>data/core/images/units/goblins/wolf-rider-idle-2.png</frame>
+					<frame>data/core/images/units/goblins/wolf-rider-idle-1.png</frame>
+				</sequence>
+				<sequence action="move" loop="loop">
+					<frame>data/core/images/units/goblins/wolf-rider-defend-1.png</frame>
+					<frame>data/core/images/units/goblins/wolf-rider-attack.png</frame>
+					<frame duration="2">data/core/images/units/goblins/wolf-rider-moving.png</frame>
+				</sequence>
+				<sequence action="water">
+					<frame duration="8">data/core/images/units/goblins/wolf-rider-water.png</frame>
 				</sequence>
 			</unit>
 			<branch name="wolf">
@@ -3868,15 +3954,21 @@
 					<ability level="10" name="quickness" description="wolf"/>
 					<ability level="6" name="fighting" description="fangs"/>
 					<sequence action="stand" loop="loop">
-						<frame>data/core/images/units/goblins/knight-attack.png</frame>
-
+						<frame>data/core/images/units/goblins/knight.png</frame>
+				</sequence>
+				<sequence action="pain">
 						<frame>data/core/images/units/goblins/knight-defend-1.png</frame>
 						<frame duration="3">data/core/images/units/goblins/knight-defend-2.png</frame>
 						<frame>data/core/images/units/goblins/knight-defend-1.png</frame>
-
-						<frame>data/core/images/units/goblins/knight-moving.png</frame>
-
-						<frame>data/core/images/units/goblins/knight.png</frame>
+				</sequence>
+				<sequence action="attack">
+						<frame duration="3">data/core/images/units/goblins/knight-attack.png</frame>
+						<frame duration="3">data/core/images/units/goblins/knight-moving.png</frame>
+				</sequence>
+				<sequence action="move" loop="loop">
+						<frame>data/core/images/units/goblins/knight-defend-1.png</frame>
+						<frame>data/core/images/units/goblins/knight-attack.png</frame>
+						<frame duration="2">data/core/images/units/goblins/knight-moving.png</frame>
 					</sequence>
 				</unit>
 				<unit name="Direwolf Rider" yOffset="-18">
@@ -3885,20 +3977,35 @@
 					<ability level="7" name="knockout" description="fangs and claws"/>
 					<portrait scale="0.5">data/core/images/portraits/goblins/transparent/direwolver.png</portrait>
 					<sequence action="stand" loop="loop">
-						<frame>data/core/images/units/goblins/direwolver-attack.png</frame>
-
+						<frame>data/core/images/units/goblins/direwolver.png</frame>
+					</sequence>
+					<sequence action="pain">
 						<frame>data/core/images/units/goblins/direwolver-defend-1.png</frame>
 						<frame duration="3">data/core/images/units/goblins/direwolver-defend-2.png</frame>
 						<frame>data/core/images/units/goblins/direwolver-defend-1.png</frame>
-
+					</sequence>
+					<sequence action="fangs">
+						<frame duration="3">data/core/images/units/goblins/direwolver-attack.png</frame>
+						<frame duration="3">data/core/images/units/goblins/direwolver-moving.png</frame>
+					</sequence>
+					<sequence action="claws">
+						<frame>data/core/images/units/goblins/direwolver-moving.png</frame>
+						<frame duration="2">data/core/images/units/goblins/direwolver-attack.png</frame>
+						<frame>data/core/images/units/goblins/direwolver-moving.png</frame>
+					</sequence>
+					<sequence action="idle">
 						<frame>data/core/images/units/goblins/direwolver-idle-1.png</frame>
 						<frame>data/core/images/units/goblins/direwolver-idle-2.png</frame>
 						<frame>data/core/images/units/goblins/direwolver-idle-3.png</frame>
 						<frame>data/core/images/units/goblins/direwolver-idle-4.png</frame>
-
-						<frame>data/core/images/units/goblins/direwolver-moving.png</frame>
-
-						<frame>data/core/images/units/goblins/direwolver.png</frame>
+						<frame duration="13">data/core/images/units/goblins/direwolver-idle-3.png</frame>
+						<frame>data/core/images/units/goblins/direwolver-idle-2.png</frame>
+						<frame>data/core/images/units/goblins/direwolver-idle-1.png</frame>
+					</sequence>
+					<sequence action="move" loop="loop">
+						<frame>data/core/images/units/goblins/direwolver-defend-1.png</frame>
+						<frame>data/core/images/units/goblins/direwolver-attack.png</frame>
+						<frame duration="2">data/core/images/units/goblins/direwolver-moving.png</frame>
 					</sequence>
 				</unit>
 			</branch>
@@ -3911,17 +4018,30 @@
 					<ability level="2" name="wrestling" description="net"/>
 					<portrait scale="0.5">data/core/images/portraits/goblins/transparent/pillager.png</portrait>
 					<sequence action="stand" loop="loop">
-						<frame>data/core/images/units/goblins/pillager-attack2.png</frame>
-
-						<frame>data/core/images/units/goblins/pillager-attack.png</frame>
-
+						<frame>data/core/images/units/goblins/pillager.png</frame>
+					</sequence>
+					<sequence action="pain">
 						<frame>data/core/images/units/goblins/pillager-defend-1.png</frame>
 						<frame duration="3">data/core/images/units/goblins/pillager-defend-2.png</frame>
 						<frame>data/core/images/units/goblins/pillager-defend-1.png</frame>
-
+					</sequence>
+					<sequence action="fangs">
+						<frame duration="3">data/core/images/units/goblins/pillager-attack.png</frame>
+						<frame duration="3">data/core/images/units/goblins/pillager-moving.png</frame>
+					</sequence>
+					<sequence action="torch">
 						<frame>data/core/images/units/goblins/pillager-moving.png</frame>
-
-						<frame>data/core/images/units/goblins/pillager.png</frame>
+						<frame duration="2">data/core/images/units/goblins/pillager-attack.png</frame>
+						<frame>data/core/images/units/goblins/pillager-moving.png</frame>
+					</sequence>
+					<sequence action="net">
+						<frame>data/core/images/units/goblins/pillager-defend-1.png</frame>
+						<frame>data/core/images/units/goblins/pillager-attack2.png</frame>
+					</sequence>
+					<sequence action="move" loop="loop">
+						<frame>data/core/images/units/goblins/pillager-defend-1.png</frame>
+						<frame>data/core/images/units/goblins/pillager-attack.png</frame>
+						<frame duration="2">data/core/images/units/goblins/pillager-moving.png</frame>
 					</sequence>
 				</unit>
 			</branch>
@@ -3959,28 +4079,37 @@
 				<ability level="2" name="shooting" description="crossbow"/>
 				<ability level="10" name="quickness" description="horse"/>
 				<sequence action="stand" loop="loop">
-					<frame>data/core/images/units/human-loyalists/dragoon-attack.png</frame>
-
-					<frame>data/core/images/units/human-loyalists/dragoon-defend.png</frame>
-
+					<frame>data/core/images/units/human-loyalists/dragoon.png</frame>
+				</sequence>
+				<sequence name="rear" action="defend">
+					<frame duration="4">data/core/images/units/human-loyalists/dragoon-defend.png</frame>
+				</sequence>
+				<sequence name="sword" action="fighting">
+					<frame>data/core/images/units/human-loyalists/dragoon-moving.png</frame>
+					<frame duration="4">data/core/images/units/human-loyalists/dragoon-attack.png</frame>
+					<frame>data/core/images/units/human-loyalists/dragoon-moving.png</frame>
+				</sequence>
+				<sequence name="crossbow" action="shooting">
+					<frame duration="2">data/core/images/units/human-loyalists/dragoon-ranged-1.png</frame>
+					<frame duration="2">data/core/images/units/human-loyalists/dragoon-ranged-2.png</frame>
+					<frame duration="2">data/core/images/units/human-loyalists/dragoon-ranged-3.png</frame>
+					<frame duration="2">data/core/images/units/human-loyalists/dragoon-ranged-4.png</frame>
+					<frame duration="2">data/core/images/units/human-loyalists/dragoon-ranged-5.png</frame>
+					<frame duration="3">data/core/images/units/human-loyalists/dragoon-ranged-6.png</frame>
+					<frame duration="5">data/core/images/units/human-loyalists/dragoon-ranged-7.png</frame>
+				</sequence>
+				<sequence action="idle">
 					<frame>data/core/images/units/human-loyalists/dragoon-idle-1.png</frame>
 					<frame>data/core/images/units/human-loyalists/dragoon-idle-2.png</frame>
 					<frame>data/core/images/units/human-loyalists/dragoon-idle-3.png</frame>
 					<frame>data/core/images/units/human-loyalists/dragoon-idle-4.png</frame>
-					<frame>data/core/images/units/human-loyalists/dragoon-idle-5.png</frame>
+					<frame duration="5">data/core/images/units/human-loyalists/dragoon-idle-5.png</frame>
 					<frame>data/core/images/units/human-loyalists/dragoon-idle-6.png</frame>
-
+					<frame>data/core/images/units/human-loyalists/dragoon-idle-2.png</frame>
+					<frame>data/core/images/units/human-loyalists/dragoon-idle-1.png</frame>
+				</sequence>
+				<sequence action="move" loop="loop">
 					<frame>data/core/images/units/human-loyalists/dragoon-moving.png</frame>
-
-					<frame>data/core/images/units/human-loyalists/dragoon.png</frame>
-
-					<frame>data/core/images/units/human-loyalists/dragoon-ranged-1.png</frame>
-					<frame>data/core/images/units/human-loyalists/dragoon-ranged-2.png</frame>
-					<frame>data/core/images/units/human-loyalists/dragoon-ranged-3.png</frame>
-					<frame>data/core/images/units/human-loyalists/dragoon-ranged-4.png</frame>
-					<frame>data/core/images/units/human-loyalists/dragoon-ranged-5.png</frame>
-					<frame>data/core/images/units/human-loyalists/dragoon-ranged-6.png</frame>
-					<frame>data/core/images/units/human-loyalists/dragoon-ranged-7.png</frame>
 				</sequence>
 			</unit>
 			<unit name="Cavalier" yOffset="-18">
@@ -4004,13 +4133,13 @@
 					<frame>data/core/images/units/human-loyalists/cavalier-moving.png</frame>
 				</sequence>
 				<sequence name="crossbow" action="shooting">
-					<frame>data/core/images/units/human-loyalists/cavalier-ranged-1.png</frame>
-					<frame>data/core/images/units/human-loyalists/cavalier-ranged-2.png</frame>
-					<frame>data/core/images/units/human-loyalists/cavalier-ranged-3.png</frame>
-					<frame>data/core/images/units/human-loyalists/cavalier-ranged-4.png</frame>
-					<frame>data/core/images/units/human-loyalists/cavalier-ranged-5.png</frame>
-					<frame duration="2">data/core/images/units/human-loyalists/cavalier-ranged-6.png</frame>
-					<frame duration="3">data/core/images/units/human-loyalists/cavalier-ranged-7.png</frame>
+					<frame duration="2">data/core/images/units/human-loyalists/cavalier-ranged-1.png</frame>
+					<frame duration="2">data/core/images/units/human-loyalists/cavalier-ranged-2.png</frame>
+					<frame duration="2">data/core/images/units/human-loyalists/cavalier-ranged-3.png</frame>
+					<frame duration="2">data/core/images/units/human-loyalists/cavalier-ranged-4.png</frame>
+					<frame duration="2">data/core/images/units/human-loyalists/cavalier-ranged-5.png</frame>
+					<frame duration="3">data/core/images/units/human-loyalists/cavalier-ranged-6.png</frame>
+					<frame duration="5">data/core/images/units/human-loyalists/cavalier-ranged-7.png</frame>
 				</sequence>
 			</unit>
 		</class>
