@@ -7103,16 +7103,43 @@
 				<portrait scale="0.5">data/core/images/portraits/merfolk/transparent/initiate-2.png</portrait>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/merfolk/initiate.png</frame>
-
+				</sequence>
+				<sequence action="pain">
 					<frame>data/core/images/units/merfolk/initiate-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/merfolk/initiate-defend-2.png</frame>
 					<frame>data/core/images/units/merfolk/initiate-defend-1.png</frame>
-
-					<frame>data/core/images/units/merfolk/initiate-magic-1.png</frame>
-					<frame>data/core/images/units/merfolk/initiate-magic-2.png</frame>
-
+				</sequence>
+				<sequence action="staff">
 					<frame>data/core/images/units/merfolk/initiate-staff-attack-1.png</frame>
-					<frame>data/core/images/units/merfolk/initiate-staff-attack-2.png</frame>
+					<frame duration="3">data/core/images/units/merfolk/initiate-staff-attack-2.png</frame>
+					<frame>data/core/images/units/merfolk/initiate-magic-1.png</frame>
+				</sequence>
+				<sequence action="blasting">
+					<frame>data/core/images/units/merfolk/initiate-magic-1.png</frame>
+					<frame duration="5">data/core/images/units/merfolk/initiate-magic-2.png</frame>
+					<frame>data/core/images/units/merfolk/initiate-magic-1.png</frame>
+					<effect xOffset="16" yOffset="-30">
+						<sequence action="stand" loop="hide">
+							<frame>data/core/images/halo/merfolk/water-halo-1.png</frame>
+							<frame>data/core/images/halo/merfolk/water-halo-2.png</frame>
+							<frame>data/core/images/halo/merfolk/water-halo-3.png</frame>
+							<frame>data/core/images/halo/merfolk/water-halo-4.png</frame>
+							<frame>data/core/images/halo/merfolk/water-halo-5.png</frame>
+							<frame>data/core/images/halo/merfolk/water-halo-6.png</frame>
+							<frame>data/core/images/halo/merfolk/water-halo-7.png</frame>
+						</sequence>
+					</effect>
+					<effect yOffset="-18">
+						<sequence action="stand" loop="hide">
+							<frame>data/core/images/halo/merfolk/staff-flare-1.png</frame>
+							<frame>data/core/images/halo/merfolk/staff-flare-2.png</frame>
+							<frame>data/core/images/halo/merfolk/staff-flare-3.png</frame>
+							<frame>data/core/images/halo/merfolk/staff-flare-4.png</frame>
+							<frame>data/core/images/halo/merfolk/staff-flare-5.png</frame>
+							<frame>data/core/images/halo/merfolk/staff-flare-6.png</frame>
+							<frame>data/core/images/halo/merfolk/staff-flare-7.png</frame>
+						</sequence>
+					</effect>
 				</sequence>
 			</unit>
 			<branch name="blasting focus">
@@ -7124,6 +7151,31 @@
 					<sequence action="stand" loop="loop">
 						<frame>data/core/images/units/merfolk/enchantress.png</frame>
 					</sequence>
+					<sequence action="blasting">
+						<frame duration="7">data/core/images/units/merfolk/enchantress.png</frame>
+						<effect xOffset="16" yOffset="-30">
+							<sequence action="stand" loop="hide">
+								<frame>data/core/images/halo/merfolk/water-halo-1.png</frame>
+								<frame>data/core/images/halo/merfolk/water-halo-2.png</frame>
+								<frame>data/core/images/halo/merfolk/water-halo-3.png</frame>
+								<frame>data/core/images/halo/merfolk/water-halo-4.png</frame>
+								<frame>data/core/images/halo/merfolk/water-halo-5.png</frame>
+								<frame>data/core/images/halo/merfolk/water-halo-6.png</frame>
+							<frame>data/core/images/halo/merfolk/water-halo-7.png</frame>
+							</sequence>
+						</effect>
+						<effect yOffset="-18">
+							<sequence action="stand" loop="hide">
+								<frame>data/core/images/halo/merfolk/staff-flare-1.png</frame>
+								<frame>data/core/images/halo/merfolk/staff-flare-2.png</frame>
+								<frame>data/core/images/halo/merfolk/staff-flare-3.png</frame>
+								<frame>data/core/images/halo/merfolk/staff-flare-4.png</frame>
+								<frame>data/core/images/halo/merfolk/staff-flare-5.png</frame>
+								<frame>data/core/images/halo/merfolk/staff-flare-6.png</frame>
+								<frame>data/core/images/halo/merfolk/staff-flare-7.png</frame>
+							</sequence>
+						</effect>
+					</sequence>
 				</unit>
 				<unit name="Mermaid Siren" yOffset="-18">
 					<ability level="" name="toughness" description=""/>
@@ -7131,6 +7183,31 @@
 					<ability level="" name="healing" description="magic"/>
 					<sequence action="stand" loop="loop">
 						<frame>data/core/images/units/merfolk/siren.png</frame>
+					</sequence>
+					<sequence action="blasting">
+						<frame duration="7">data/core/images/units/merfolk/siren.png</frame>
+						<effect xOffset="16" yOffset="-30">
+							<sequence action="stand" loop="hide">
+								<frame>data/core/images/halo/merfolk/water-halo-1.png</frame>
+								<frame>data/core/images/halo/merfolk/water-halo-2.png</frame>
+								<frame>data/core/images/halo/merfolk/water-halo-3.png</frame>
+								<frame>data/core/images/halo/merfolk/water-halo-4.png</frame>
+								<frame>data/core/images/halo/merfolk/water-halo-5.png</frame>
+								<frame>data/core/images/halo/merfolk/water-halo-6.png</frame>
+							<frame>data/core/images/halo/merfolk/water-halo-7.png</frame>
+							</sequence>
+						</effect>
+						<effect yOffset="-18">
+							<sequence action="stand" loop="hide">
+								<frame>data/core/images/halo/merfolk/staff-flare-1.png</frame>
+								<frame>data/core/images/halo/merfolk/staff-flare-2.png</frame>
+								<frame>data/core/images/halo/merfolk/staff-flare-3.png</frame>
+								<frame>data/core/images/halo/merfolk/staff-flare-4.png</frame>
+								<frame>data/core/images/halo/merfolk/staff-flare-5.png</frame>
+								<frame>data/core/images/halo/merfolk/staff-flare-6.png</frame>
+								<frame>data/core/images/halo/merfolk/staff-flare-7.png</frame>
+							</sequence>
+						</effect>
 					</sequence>
 				</unit>
 			</branch>
@@ -7143,6 +7220,22 @@
 					<sequence action="stand" loop="loop">
 						<frame>data/core/images/units/merfolk/priestess.png</frame>
 					</sequence>
+					<sequence action="healing">
+						<frame duration="9">data/core/images/units/merfolk/priestess.png</frame>
+						<effect xOffset="3" yOffset="-12">
+							<sequence action="stand" loop="loop">
+								<frame duration="2"></frame>
+								<frame>data/core/images/halo/holy/halo6.png</frame>
+								<frame>data/core/images/halo/holy/halo1.png</frame>
+								<frame>data/core/images/halo/holy/halo2.png</frame>
+								<frame>data/core/images/halo/holy/halo3.png</frame>
+								<frame>data/core/images/halo/holy/halo4.png</frame>
+								<frame>data/core/images/halo/holy/halo5.png</frame>
+								<frame>data/core/images/halo/holy/halo6.png</frame>
+								<frame duration="2"></frame>
+							</sequence>
+						</effect>
+					</sequence>
 				</unit>
 				<unit name="Mermaid Diviner" yOffset="-18">
 					<ability level="" name="toughness" description=""/>
@@ -7150,6 +7243,22 @@
 					<ability level="" name="healing" description="magic"/>
 					<sequence action="stand" loop="loop">
 						<frame>data/core/images/units/merfolk/diviner.png</frame>
+					</sequence>
+					<sequence action="healing">
+						<frame duration="9">data/core/images/units/merfolk/diviner.png</frame>
+						<effect xOffset="3" yOffset="-12">
+							<sequence action="stand" loop="loop">
+								<frame duration="2"></frame>
+								<frame>data/core/images/halo/holy/halo6.png</frame>
+								<frame>data/core/images/halo/holy/halo1.png</frame>
+								<frame>data/core/images/halo/holy/halo2.png</frame>
+								<frame>data/core/images/halo/holy/halo3.png</frame>
+								<frame>data/core/images/halo/holy/halo4.png</frame>
+								<frame>data/core/images/halo/holy/halo5.png</frame>
+								<frame>data/core/images/halo/holy/halo6.png</frame>
+								<frame duration="2"></frame>
+							</sequence>
+						</effect>
 					</sequence>
 				</unit>
 			</branch>
@@ -7168,11 +7277,13 @@
 				<ability level="" name="fighting" description="spear"/>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/merfolk/warrior.png</frame>
-
+				</sequence>
+				<sequence action="pain">
 					<frame>data/core/images/units/merfolk/warrior-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/merfolk/warrior-defend-2.png</frame>
 					<frame>data/core/images/units/merfolk/warrior-defend-1.png</frame>
-
+				</sequence>
+				<sequence action="fighting">
 					<frame>data/core/images/units/merfolk/warrior-attack-1.png</frame>
 					<frame>data/core/images/units/merfolk/warrior-attack-2.png</frame>
 					<frame>data/core/images/units/merfolk/warrior-attack-3.png</frame>
@@ -7214,29 +7325,35 @@
 				<portrait scale="0.5">data/core/images/portraits/merfolk/transparent/hunter.png</portrait>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/merfolk/hunter.png</frame>
-
+				</sequence>
+				<sequence action="pain">
 					<frame>data/core/images/units/merfolk/hunter-javelin-defend-1.png</frame>
 					<frame duration="3">data/core/images/units/merfolk/hunter-javelin-defend-2.png</frame>
 					<frame>data/core/images/units/merfolk/hunter-javelin-defend-1.png</frame>
-
-					<frame>data/core/images/units/merfolk/hunter-javelin-base.png</frame>
-
+				</sequence>
+				<sequence action="shooting">
+					<!-- draw -->
 					<frame>data/core/images/units/merfolk/hunter-javelin-1.png</frame>
 					<frame>data/core/images/units/merfolk/hunter-javelin-2.png</frame>
 					<frame>data/core/images/units/merfolk/hunter-javelin-3.png</frame>
 					<frame>data/core/images/units/merfolk/hunter-javelin-4.png</frame>
-					<frame>data/core/images/units/merfolk/hunter-javelin-5.png</frame>
-					<frame>data/core/images/units/merfolk/hunter-javelin-6.png</frame>
-					<frame>data/core/images/units/merfolk/hunter-javelin-7.png</frame>
-
+					<!-- throw -->
+					<frame>data/core/images/units/merfolk/hunter-javelin-base.png</frame>
 					<frame>data/core/images/units/merfolk/hunter-throw-1.png</frame>
 					<frame>data/core/images/units/merfolk/hunter-throw-2.png</frame>
-					<frame>data/core/images/units/merfolk/hunter-throw-3.png</frame>
-					<frame>data/core/images/units/merfolk/hunter-throw-4.png</frame>
-					<frame>data/core/images/units/merfolk/hunter-throw-5.png</frame>
+					<frame duration="2">data/core/images/units/merfolk/hunter-throw-3.png</frame>
+					<frame duration="3">data/core/images/units/merfolk/hunter-throw-4.png</frame>
+					<frame duration="2">data/core/images/units/merfolk/hunter-throw-5.png</frame>
 					<frame>data/core/images/units/merfolk/hunter-throw-6.png</frame>
 					<frame>data/core/images/units/merfolk/hunter-throw-7.png</frame>
 					<frame>data/core/images/units/merfolk/hunter-throw-8.png</frame>
+					<frame>data/core/images/units/merfolk/hunter-javelin-base.png</frame>
+					<!-- sheath -->
+					<frame>data/core/images/units/merfolk/hunter-javelin-4.png</frame>
+					<frame>data/core/images/units/merfolk/hunter-javelin-5.png</frame>
+					<frame>data/core/images/units/merfolk/hunter-javelin-6.png</frame>
+					<frame>data/core/images/units/merfolk/hunter-javelin-7.png</frame>
+					<frame>data/core/images/units/merfolk/hunter-javelin-1.png</frame>
 				</sequence>
 			</unit>
 			<branch name="net and club">
@@ -7454,19 +7571,34 @@
 				<ability level="" name="toughness" description="huge"/>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/ogres/young-ogre.png</frame>
-
-					<frame>data/core/images/units/ogres/young-ogre-defend.png</frame>
-
+				</sequence>
+				<sequence action="pain">
+					<frame duration="4">data/core/images/units/ogres/young-ogre-defend.png</frame>
+				</sequence>
+				<sequence action="knockout">
 					<frame>data/core/images/units/ogres/young-ogre-attack1.png</frame>
 					<frame>data/core/images/units/ogres/young-ogre-attack2.png</frame>
 					<frame>data/core/images/units/ogres/young-ogre-attack3.png</frame>
-					<frame>data/core/images/units/ogres/young-ogre-attack4.png</frame>
+					<frame duration="2">data/core/images/units/ogres/young-ogre-attack4.png</frame>
 					<frame>data/core/images/units/ogres/young-ogre-attack5.png</frame>
-
-					<frame>data/core/images/units/ogres/young-ogre-idle-1.png</frame>
+				</sequence>
+				<sequence action="idle">
+					<frame duration="3">data/core/images/units/ogres/young-ogre-idle-3.png</frame>
+					<frame duration="2">data/core/images/units/ogres/young-ogre-idle-4.png</frame>
+					<frame duration="2">data/core/images/units/ogres/young-ogre-idle-3.png</frame>
+					<frame duration="2">data/core/images/units/ogres/young-ogre-idle-2.png</frame>
+					<frame duration="2">data/core/images/units/ogres/young-ogre-idle-1.png</frame>
+					<frame duration="2">data/core/images/units/ogres/young-ogre-idle-2.png</frame>
+					<frame duration="2">data/core/images/units/ogres/young-ogre-idle-1.png</frame>
 					<frame>data/core/images/units/ogres/young-ogre-idle-2.png</frame>
-					<frame>data/core/images/units/ogres/young-ogre-idle-3.png</frame>
-					<frame>data/core/images/units/ogres/young-ogre-idle-4.png</frame>
+					<frame>data/core/images/units/ogres/young-ogre-idle-1.png</frame>
+					<frame duration="2">data/core/images/units/ogres/young-ogre-idle-2.png</frame>
+					<frame duration="2">data/core/images/units/ogres/young-ogre-idle-1.png</frame>
+					<frame duration="2">data/core/images/units/ogres/young-ogre-idle-2.png</frame>
+					<frame duration="2">data/core/images/units/ogres/young-ogre-idle-1.png</frame>
+					<frame duration="2">data/core/images/units/ogres/young-ogre-idle-3.png</frame>
+					<frame duration="2">data/core/images/units/ogres/young-ogre-idle-4.png</frame>
+					<frame duration="3">data/core/images/units/ogres/young-ogre-idle-3.png</frame>
 				</sequence>
 			</unit>
 			<unit name="Ogre" yOffset="-18">
@@ -7475,17 +7607,21 @@
 				<portrait scale="0.5">data/core/images/portraits/monsters/transparent/ogre.png</portrait>
 				<sequence action="stand" loop="loop">
 					<frame>data/core/images/units/ogres/ogre.png</frame>
-
-					<frame>data/core/images/units/ogres/ogre-defend.png</frame>
-
+				</sequence>
+				<sequence action="pain">
+					<frame duration="4">data/core/images/units/ogres/ogre-defend.png</frame>
+				</sequence>
+				<sequence action="knockout">
 					<frame>data/core/images/units/ogres/ogre-attack1.png</frame>
 					<frame>data/core/images/units/ogres/ogre-attack2.png</frame>
 					<frame>data/core/images/units/ogres/ogre-attack3.png</frame>
-					<frame>data/core/images/units/ogres/ogre-attack4.png</frame>
+					<frame duration="2">data/core/images/units/ogres/ogre-attack4.png</frame>
 					<frame>data/core/images/units/ogres/ogre-attack5.png</frame>
-
+				</sequence>
+				<sequence action="idle">
 					<frame>data/core/images/units/ogres/ogre-idle-1.png</frame>
-					<frame>data/core/images/units/ogres/ogre-idle-2.png</frame>
+					<frame duration="13">data/core/images/units/ogres/ogre-idle-2.png</frame>
+					<frame>data/core/images/units/ogres/ogre-idle-1.png</frame>
 				</sequence>
 			</unit>
 		</class>
