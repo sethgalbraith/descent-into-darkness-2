@@ -137,7 +137,8 @@ Game.Character.prototype = {
       sprite.canvas.style.marginBottom = (sprite.canvas.height - top) + "px";
       sprite.setColor(255, 128, 0);
     });
-    sprite.canvas.style.visibility = "hidden";
+//    sprite.canvas.style.visibility = "hidden";
+    sprite.canvas.className = "hid";
     if (opacity) {
       sprite.canvas.style.opacity = opacity;
     }
@@ -162,7 +163,8 @@ Game.Character.prototype = {
     var sequence = this.sequences[this._action];
     if (sequence) {
       for (var i = 0; i < sequence.layers.length; i++) {
-        sequence.layers[i][this._frame].style.visibility = "hidden";
+//        sequence.layers[i][this._frame].style.visibility = "hidden";
+        sequence.layers[i][this._frame].className = "hid";
       }
     }
   },
@@ -171,7 +173,8 @@ Game.Character.prototype = {
     var sequence = this.sequences[this._action];
     if (sequence) {
       for (var i = 0; i < sequence.layers.length; i++) {
-        sequence.layers[i][this._frame].style.visibility = "visible";
+//        sequence.layers[i][this._frame].style.visibility = "visible";
+        sequence.layers[i][this._frame].className = "";
       }
     }
   },
