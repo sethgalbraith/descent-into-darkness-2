@@ -7384,35 +7384,53 @@
 		<portrait scale="0.5">data/core/images/portraits/orcs/transparent/archer.png</portrait>
 		<sequence action="stand" loop="loop">
 				<frame>data/core/images/units/orcs/archer.png</frame>
-
+		</sequence>
+		<sequence action="stand2" loop="loop">
+				<frame>data/core/images/units/orcs/archer-melee.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame>data/core/images/units/orcs/archer-bow.png</frame>
+				<frame duration="3">data/core/images/units/orcs/archer-bow-defend.png</frame>
+				<frame>data/core/images/units/orcs/archer-bow.png</frame>
+		</sequence>
+		<sequence action="pain2" next="stand2">
 				<frame>data/core/images/units/orcs/archer-defend-1.png</frame>
 				<frame duration="3">data/core/images/units/orcs/archer-defend-2.png</frame>
 				<frame>data/core/images/units/orcs/archer-defend-1.png</frame>
-
-				<frame>data/core/images/units/orcs/archer-bow-defend.png</frame>
-
+		</sequence>
+		<sequence action="shooting">
 				<frame>data/core/images/units/orcs/archer-bow.png</frame>
-
 				<frame>data/core/images/units/orcs/archer-bow-attack-1.png</frame>
 				<frame>data/core/images/units/orcs/archer-bow-attack-2.png</frame>
 				<frame>data/core/images/units/orcs/archer-bow-attack-3.png</frame>
-				<frame>data/core/images/units/orcs/archer-bow-attack-4.png</frame>
-
+				<frame duration="2">data/core/images/units/orcs/archer-bow-attack-4.png</frame>
+				<frame>data/core/images/units/orcs/archer-bow-attack-1.png</frame>
+		</sequence>
+		<sequence action="fighting" next="stand2">
 				<frame>data/core/images/units/orcs/archer-melee.png</frame>
-
 				<frame>data/core/images/units/orcs/archer-melee-1.png</frame>
 				<frame>data/core/images/units/orcs/archer-melee-2.png</frame>
 				<frame>data/core/images/units/orcs/archer-melee-3.png</frame>
 				<frame>data/core/images/units/orcs/archer-melee-4.png</frame>
 				<frame>data/core/images/units/orcs/archer-melee-5.png</frame>
 				<frame>data/core/images/units/orcs/archer-melee-6.png</frame>
-
+				<frame>data/core/images/units/orcs/archer-melee.png</frame>
+		</sequence>
+		<sequence action="idle">
 				<frame>data/core/images/units/orcs/archer-idle-1.png</frame>
 				<frame>data/core/images/units/orcs/archer-idle-2.png</frame>
 				<frame>data/core/images/units/orcs/archer-idle-3.png</frame>
 				<frame>data/core/images/units/orcs/archer-idle-4.png</frame>
 				<frame>data/core/images/units/orcs/archer-idle-5.png</frame>
-				<frame>data/core/images/units/orcs/archer-idle-6.png</frame>
+				<frame duration="3">data/core/images/units/orcs/archer-idle-6.png</frame>
+				<frame>data/core/images/units/orcs/archer-idle-4.png</frame>
+				<frame>data/core/images/units/orcs/archer-idle-3.png</frame>
+				<frame duration="3">data/core/images/units/orcs/archer-idle-6.png</frame>
+				<frame>data/core/images/units/orcs/archer-idle-4.png</frame>
+				<frame>data/core/images/units/orcs/archer-idle-5.png</frame>
+				<frame duration="3">data/core/images/units/orcs/archer-idle-6.png</frame>
+				<frame>data/core/images/units/orcs/archer-idle-2.png</frame>
+				<frame>data/core/images/units/orcs/archer-idle-1.png</frame>
 		</sequence>
 	</unit>
 	<unit name="Orcish Crossbowman" yOffset="-18">
@@ -7422,22 +7440,29 @@
 		<portrait scale="0.5">data/core/images/portraits/orcs/transparent/crossbowman.png</portrait>
 		<sequence action="stand" loop="loop">
 				<frame>data/core/images/units/orcs/xbowman.png</frame>
-
+		</sequence>
+		<sequence action="stand2" loop="loop">
+				<frame>data/core/images/units/orcs/xbowman-melee.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame duration="4">data/core/images/units/orcs/xbowman-defend.png</frame>
+		</sequence>
+		<sequence action="pain2" next="stand2">
 				<frame>data/core/images/units/orcs/xbowman-melee-defend-1.png</frame>
 				<frame duration="3">data/core/images/units/orcs/xbowman-melee-defend-2.png</frame>
 				<frame>data/core/images/units/orcs/xbowman-melee-defend-1.png</frame>
-
-				<frame>data/core/images/units/orcs/xbowman-defend.png</frame>
-
+		</sequence>
+		<sequence action="fighting" next="stand2">
 				<frame>data/core/images/units/orcs/xbowman-melee.png</frame>
-
 				<frame>data/core/images/units/orcs/xbowman-melee-attack-1.png</frame>
 				<frame>data/core/images/units/orcs/xbowman-melee-attack-2.png</frame>
 				<frame>data/core/images/units/orcs/xbowman-melee-attack-3.png</frame>
-				<frame>data/core/images/units/orcs/xbowman-melee-attack-4.png</frame>
-
-				<frame>data/core/images/units/orcs/xbowman-ranged-1.png</frame>
-				<frame>data/core/images/units/orcs/xbowman-ranged-2.png</frame>
+				<frame duration="2">data/core/images/units/orcs/xbowman-melee-attack-4.png</frame>
+				<frame>data/core/images/units/orcs/xbowman-melee.png</frame>
+		</sequence>
+		<sequence action="shooting">
+				<frame duration="3">data/core/images/units/orcs/xbowman-ranged-1.png</frame>
+				<frame duration="2">data/core/images/units/orcs/xbowman-ranged-2.png</frame>
 		</sequence>
 	</unit>
 	<unit name="Orcish Slurbow" yOffset="-18">
@@ -7447,24 +7472,32 @@
 		<portrait scale="0.5">data/core/images/portraits/orcs/transparent/slurbow.png</portrait>
 		<sequence action="stand" loop="loop">
 				<frame>data/core/images/units/orcs/slurbow.png</frame>
-
+		</sequence>
+		<sequence action="stand2" loop="loop">
+				<frame>data/core/images/units/orcs/slurbow-ranged.png</frame>
+		</sequence>
+		<sequence action="pain">
 				<frame>data/core/images/units/orcs/slurbow-melee-defend-1.png</frame>
 				<frame duration="3">data/core/images/units/orcs/slurbow-melee-defend-2.png</frame>
 				<frame>data/core/images/units/orcs/slurbow-melee-defend-1.png</frame>
-
-				<frame>data/core/images/units/orcs/slurbow-ranged-defend.png</frame>
-
+		</sequence>
+		<sequence action="pain2" next="stand2">
+				<frame>data/core/images/units/orcs/slurbow-ranged.png</frame>
+				<frame duration="3">data/core/images/units/orcs/slurbow-ranged-defend.png</frame>
+				<frame>data/core/images/units/orcs/slurbow-ranged.png</frame>
+		</sequence>
+		<sequence action="fighting">
 				<frame>data/core/images/units/orcs/slurbow-melee.png</frame>
-
 				<frame>data/core/images/units/orcs/slurbow-melee-attack-1.png</frame>
 				<frame>data/core/images/units/orcs/slurbow-melee-attack-2.png</frame>
 				<frame>data/core/images/units/orcs/slurbow-melee-attack-3.png</frame>
 				<frame>data/core/images/units/orcs/slurbow-melee-attack-4.png</frame>
-
+				<frame>data/core/images/units/orcs/slurbow-melee-defend-2.png</frame>
+		</sequence>
+		<sequence action="shooting" next="stand2">
 				<frame>data/core/images/units/orcs/slurbow-ranged.png</frame>
-
 				<frame>data/core/images/units/orcs/slurbow-ranged-1.png</frame>
-				<frame>data/core/images/units/orcs/slurbow-ranged-2.png</frame>
+				<frame duration="2">data/core/images/units/orcs/slurbow-ranged-2.png</frame>
 		</sequence>
 	</unit>
 	<unit name="Orcish Assassin" yOffset="-18">
@@ -7473,24 +7506,29 @@
 		<portrait scale="0.5">data/core/images/portraits/orcs/transparent/assassin.png</portrait>
 		<sequence action="stand" loop="loop">
 				<frame>data/core/images/units/orcs/assassin.png</frame>
-
+		</sequence>
+		<sequence action="pain">
 				<frame>data/core/images/units/orcs/assassin-defend-1.png</frame>
 				<frame duration="3">data/core/images/units/orcs/assassin-defend-2.png</frame>
 				<frame>data/core/images/units/orcs/assassin-defend-1.png</frame>
-
-				<frame>data/core/images/units/orcs/assassin-defend.png</frame>
-
+		</sequence>
+		<sequence action="pain2">
+				<frame duration="4">data/core/images/units/orcs/assassin-defend.png</frame>
+		</sequence>
+		<sequence action="knockout">
 				<frame>data/core/images/units/orcs/assassin-attack-1.png</frame>
 				<frame>data/core/images/units/orcs/assassin-attack-2.png</frame>
 				<frame>data/core/images/units/orcs/assassin-attack-3.png</frame>
 				<frame>data/core/images/units/orcs/assassin-attack-4.png</frame>
 				<frame>data/core/images/units/orcs/assassin-attack-5.png</frame>
 				<frame>data/core/images/units/orcs/assassin-attack-6.png</frame>
-
-				<frame>data/core/images/units/orcs/assassin-ranged1.png</frame>
-				<frame>data/core/images/units/orcs/assassin-ranged2.png</frame>
-
-				<frame>data/core/images/units/orcs/assassin-die-1.png</frame>
+		</sequence>
+		<sequence action="shooting">
+				<frame duration="2">data/core/images/units/orcs/assassin-ranged1.png</frame>
+				<frame duration="2">data/core/images/units/orcs/assassin-ranged2.png</frame>
+		</sequence>
+		<sequence action="fall" loop="stay">
+				<frame duration="2">data/core/images/units/orcs/assassin-die-1.png</frame>
 				<frame>data/core/images/units/orcs/assassin-die-2.png</frame>
 				<frame>data/core/images/units/orcs/assassin-die-3.png</frame>
 				<frame>data/core/images/units/orcs/assassin-die-4.png</frame>
@@ -7500,7 +7538,8 @@
 				<frame>data/core/images/units/orcs/assassin-die-8.png</frame>
 				<frame>data/core/images/units/orcs/assassin-die-9.png</frame>
 				<frame>data/core/images/units/orcs/assassin-die-10.png</frame>
-
+		</sequence>
+		<sequence action="idle">
 				<frame>data/core/images/units/orcs/assassin-idle-1.png</frame>
 				<frame>data/core/images/units/orcs/assassin-idle-2.png</frame>
 				<frame>data/core/images/units/orcs/assassin-idle-3.png</frame>
@@ -7509,6 +7548,10 @@
 				<frame>data/core/images/units/orcs/assassin-idle-6.png</frame>
 				<frame>data/core/images/units/orcs/assassin-idle-7.png</frame>
 				<frame>data/core/images/units/orcs/assassin-idle-8.png</frame>
+				<frame>data/core/images/units/orcs/assassin-idle-7.png</frame>
+				<frame>data/core/images/units/orcs/assassin-idle-8.png</frame>
+				<frame>data/core/images/units/orcs/assassin-idle-3.png</frame>
+				<frame>data/core/images/units/orcs/assassin-idle-2.png</frame>
 				<frame>data/core/images/units/orcs/assassin-idle-9.png</frame>
 		</sequence>
 	</unit>
@@ -7518,9 +7561,11 @@
 		<portrait scale="0.5">data/core/images/portraits/orcs/transparent/slayer.png</portrait>
 		<sequence action="stand" loop="loop">
 				<frame>data/core/images/units/orcs/slayer.png</frame>
-
-				<frame>data/core/images/units/orcs/slayer-defend.png</frame>
-
+		</sequence>
+		<sequence action="pain">
+				<frame duration="4">data/core/images/units/orcs/slayer-defend.png</frame>
+		</sequence>
+		<sequence action="knockout">
 				<frame>data/core/images/units/orcs/slayer-attack-1.png</frame>
 				<frame>data/core/images/units/orcs/slayer-attack-2.png</frame>
 				<frame>data/core/images/units/orcs/slayer-attack-3.png</frame>
@@ -7535,9 +7580,22 @@
 				<frame>data/core/images/units/orcs/slayer-attack-12.png</frame>
 				<frame>data/core/images/units/orcs/slayer-attack-13.png</frame>
 				<frame>data/core/images/units/orcs/slayer-attack-14.png</frame>
-
-				<frame>data/core/images/units/orcs/slayer-ranged1.png</frame>
-				<frame>data/core/images/units/orcs/slayer-ranged2.png</frame>
+		</sequence>
+		<sequence action="shooting">
+				<frame duration="2">data/core/images/units/orcs/slayer-ranged1.png</frame>
+				<frame duration="2">data/core/images/units/orcs/slayer-ranged2.png</frame>
+		</sequence>
+		<sequence action="fall" loop="stay">
+				<frame duration="2">data/core/images/units/orcs/assassin-die-1.png</frame>
+				<frame>data/core/images/units/orcs/assassin-die-2.png</frame>
+				<frame>data/core/images/units/orcs/assassin-die-3.png</frame>
+				<frame>data/core/images/units/orcs/assassin-die-4.png</frame>
+				<frame>data/core/images/units/orcs/assassin-die-5.png</frame>
+				<frame>data/core/images/units/orcs/assassin-die-6.png</frame>
+				<frame>data/core/images/units/orcs/assassin-die-7.png</frame>
+				<frame>data/core/images/units/orcs/assassin-die-8.png</frame>
+				<frame>data/core/images/units/orcs/assassin-die-9.png</frame>
+				<frame>data/core/images/units/orcs/assassin-die-10.png</frame>
 		</sequence>
 	</unit>
 	<unit name="Orcish Grunt" yOffset="-18">
@@ -7551,25 +7609,29 @@
 		<portrait scale="0.5">data/core/images/portraits/orcs/transparent/grunt-6.png</portrait>
 		<sequence action="stand" loop="loop">
 				<frame>data/core/images/units/orcs/grunt.png</frame>
-
+		</sequence>
+		<sequence action="pain">
 				<frame>data/core/images/units/orcs/grunt-defend-1.png</frame>
 				<frame duration="3">data/core/images/units/orcs/grunt-defend-2.png</frame>
 				<frame>data/core/images/units/orcs/grunt-defend-1.png</frame>
-
+		</sequence>
+		<sequence action="fighting">
+				<frame>data/core/images/units/orcs/grunt-defend-1.png</frame>
 				<frame>data/core/images/units/orcs/grunt-attack-1.png</frame>
 				<frame>data/core/images/units/orcs/grunt-attack-2.png</frame>
 				<frame>data/core/images/units/orcs/grunt-attack-3.png</frame>
 				<frame>data/core/images/units/orcs/grunt-attack-4.png</frame>
 				<frame>data/core/images/units/orcs/grunt-attack-5.png</frame>
-
-				<frame>data/core/images/units/orcs/grunt-die-1.png</frame>
-				<frame>data/core/images/units/orcs/grunt-die-2.png</frame>
-				<frame>data/core/images/units/orcs/grunt-die-3.png</frame>
-				<frame>data/core/images/units/orcs/grunt-die-4.png</frame>
-				<frame>data/core/images/units/orcs/grunt-die-5.png</frame>
-				<frame>data/core/images/units/orcs/grunt-die-6.png</frame>
-				<frame>data/core/images/units/orcs/grunt-die-7.png</frame>
-				<frame>data/core/images/units/orcs/grunt-die-8.png</frame>
+		</sequence>
+		<sequence action="fall" loop="stay">
+				<frame duration="2">data/core/images/units/orcs/grunt-die-1.png</frame>
+				<frame duration="2">data/core/images/units/orcs/grunt-die-2.png</frame>
+				<frame duration="2">data/core/images/units/orcs/grunt-die-3.png</frame>
+				<frame duration="2">data/core/images/units/orcs/grunt-die-4.png</frame>
+				<frame duration="2">data/core/images/units/orcs/grunt-die-5.png</frame>
+				<frame duration="2">data/core/images/units/orcs/grunt-die-6.png</frame>
+				<frame duration="2">data/core/images/units/orcs/grunt-die-7.png</frame>
+				<frame duration="2">data/core/images/units/orcs/grunt-die-8.png</frame>
 		</sequence>
 	</unit>
 	<unit name="Orcish Warrior" yOffset="-18">
@@ -7578,16 +7640,29 @@
 		<portrait scale="0.5">data/core/images/portraits/orcs/transparent/warrior.png</portrait>
 		<sequence action="stand" loop="loop">
 				<frame>data/core/images/units/orcs/warrior.png</frame>
-
+		</sequence>
+		<sequence action="pain">
 				<frame>data/core/images/units/orcs/warrior-defend-1.png</frame>
 				<frame duration="3">data/core/images/units/orcs/warrior-defend-2.png</frame>
 				<frame>data/core/images/units/orcs/warrior-defend-1.png</frame>
-
+		</sequence>
+		<sequence action="fighting">
+				<frame>data/core/images/units/orcs/warrior-defend-1.png</frame>
 				<frame>data/core/images/units/orcs/warrior-attack-1.png</frame>
 				<frame>data/core/images/units/orcs/warrior-attack-2.png</frame>
 				<frame>data/core/images/units/orcs/warrior-attack-3.png</frame>
 				<frame>data/core/images/units/orcs/warrior-attack-4.png</frame>
 				<frame>data/core/images/units/orcs/warrior-attack-5.png</frame>
+		</sequence>
+		<sequence action="fall" loop="stay">
+				<frame duration="2">data/core/images/units/orcs/grunt-die-1.png</frame>
+				<frame duration="2">data/core/images/units/orcs/grunt-die-2.png</frame>
+				<frame duration="2">data/core/images/units/orcs/grunt-die-3.png</frame>
+				<frame duration="2">data/core/images/units/orcs/grunt-die-4.png</frame>
+				<frame duration="2">data/core/images/units/orcs/grunt-die-5.png</frame>
+				<frame duration="2">data/core/images/units/orcs/grunt-die-6.png</frame>
+				<frame duration="2">data/core/images/units/orcs/grunt-die-7.png</frame>
+				<frame duration="2">data/core/images/units/orcs/grunt-die-8.png</frame>
 		</sequence>
 	</unit>
 	<unit name="Orcish Warlord" yOffset="-18">
@@ -7596,53 +7671,83 @@
 		<portrait scale="0.5">data/core/images/portraits/orcs/transparent/warlord.png</portrait>
 		<sequence action="stand" loop="loop">
 				<frame>data/core/images/units/orcs/warlord.png</frame>
-
+		</sequence>
+		<sequence action="stand2" loop="loop">
+				<frame>data/core/images/units/orcs/warlord-bow.png</frame>
+		</sequence>
+		<sequence action="pain">
 				<frame>data/core/images/units/orcs/warlord-defend-1.png</frame>
 				<frame duration="3">data/core/images/units/orcs/warlord-defend-2.png</frame>
 				<frame>data/core/images/units/orcs/warlord-defend-1.png</frame>
-
-				<frame>data/core/images/units/orcs/warlord-bow-defend.png</frame>
-
+		</sequence>
+		<sequence action="pain2" next="stand2">
+				<frame>data/core/images/units/orcs/warlord-bow.png</frame>
+				<frame duration="3">data/core/images/units/orcs/warlord-bow-defend.png</frame>
+				<frame>data/core/images/units/orcs/warlord-bow.png</frame>
+		</sequence>
+		<sequence action="fighting">
 				<frame>data/core/images/units/orcs/warlord-attack-sword-1.png</frame>
 				<frame>data/core/images/units/orcs/warlord-attack-sword-2.png</frame>
 				<frame>data/core/images/units/orcs/warlord-attack-sword-3.png</frame>
 				<frame>data/core/images/units/orcs/warlord-attack-sword-4.png</frame>
 				<frame>data/core/images/units/orcs/warlord-attack-sword-5.png</frame>
 				<frame>data/core/images/units/orcs/warlord-attack-sword-6.png</frame>
-
+		</sequence>
+		<sequence action="shooting" next="stand2">
 				<frame>data/core/images/units/orcs/warlord-bow.png</frame>
-
 				<frame>data/core/images/units/orcs/warlord-bow-attack-1.png</frame>
 				<frame>data/core/images/units/orcs/warlord-bow-attack-2.png</frame>
 				<frame>data/core/images/units/orcs/warlord-bow-attack-3.png</frame>
-				<frame>data/core/images/units/orcs/warlord-bow-attack-4.png</frame>
+				<frame duration="2">data/core/images/units/orcs/warlord-bow-attack-4.png</frame>
+				<frame>data/core/images/units/orcs/warlord-bow-attack-1.png</frame>
+		</sequence>
+		<sequence action="fall" loop="stay">
+				<frame duration="2">data/core/images/units/orcs/grunt-die-1.png</frame>
+				<frame duration="2">data/core/images/units/orcs/grunt-die-2.png</frame>
+				<frame duration="2">data/core/images/units/orcs/grunt-die-3.png</frame>
+				<frame duration="2">data/core/images/units/orcs/grunt-die-4.png</frame>
+				<frame duration="2">data/core/images/units/orcs/grunt-die-5.png</frame>
+				<frame duration="2">data/core/images/units/orcs/grunt-die-6.png</frame>
+				<frame duration="2">data/core/images/units/orcs/grunt-die-7.png</frame>
+				<frame duration="2">data/core/images/units/orcs/grunt-die-8.png</frame>
 		</sequence>
 	</unit>
 	<unit name="Orcish Leader" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="fighting" description="sword"/>
+		<ability level="" name="shooting" description="crossbow"/>
+		<ability level="" name="command" description=""/>
 		<portrait scale="0.5">data/core/images/portraits/orcs/transparent/leader.png</portrait>
 		<portrait scale="0.5">data/core/images/portraits/orcs/transparent/leader-2.png</portrait>
 		<sequence action="stand" loop="loop">
 				<frame>data/core/images/units/orcs/leader.png</frame>
-
+		</sequence>
+		<sequence action="stand2" loop="loop">
+				<frame>data/core/images/units/orcs/leader-ranged.png</frame>
+		</sequence>
+		<sequence action="pain">
 				<frame>data/core/images/units/orcs/leader-defend-1.png</frame>
 				<frame duration="3">data/core/images/units/orcs/leader-defend-2.png</frame>
 				<frame>data/core/images/units/orcs/leader-defend-1.png</frame>
-
-				<frame>data/core/images/units/orcs/leader-ranged-defend.png</frame>
-
+		</sequence>
+		<sequence action="pain2" next="stand2">
+				<frame>data/core/images/units/orcs/leader-ranged.png</frame>
+				<frame duration="3">data/core/images/units/orcs/leader-ranged-defend.png</frame>
+				<frame>data/core/images/units/orcs/leader-ranged.png</frame>
+		</sequence>
+		<sequence action="fighting">
+				<frame>data/core/images/units/orcs/leader-defend-1.png</frame>
 				<frame>data/core/images/units/orcs/leader-attack-1.png</frame>
 				<frame>data/core/images/units/orcs/leader-attack-2.png</frame>
 				<frame>data/core/images/units/orcs/leader-attack-3.png</frame>
 				<frame>data/core/images/units/orcs/leader-attack-4.png</frame>
 				<frame>data/core/images/units/orcs/leader-attack-5.png</frame>
-
-				<frame>data/core/images/units/orcs/leader-ranged.png</frame>
-
-				<frame>data/core/images/units/orcs/leader-ranged-attack-1.png</frame>
-				<frame>data/core/images/units/orcs/leader-ranged-attack-2.png</frame>
-
+		</sequence>
+		<sequence action="shooting" next="stand2">
+				<frame duration="2">data/core/images/units/orcs/leader-ranged-attack-1.png</frame>
+				<frame duration="2">data/core/images/units/orcs/leader-ranged-attack-2.png</frame>
+		</sequence>
+		<sequence action="lead">
 				<frame>data/core/images/units/orcs/leader-lead-1.png</frame>
 				<frame duration="4">data/core/images/units/orcs/leader-lead-2.png</frame>
 				<frame>data/core/images/units/orcs/leader-lead-1.png</frame>
@@ -7651,27 +7756,37 @@
 	<unit name="Orcish Ruler" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="fighting" description="sword"/>
+		<ability level="" name="shooting" description="crossbow"/>
+		<ability level="" name="command" description=""/>
 		<sequence action="stand" loop="loop">
 				<frame>data/core/images/units/orcs/ruler.png</frame>
-
+		</sequence>
+		<sequence action="stand2" loop="loop">
+				<frame>data/core/images/units/orcs/ruler-ranged.png</frame>
+		</sequence>
+		<sequence action="pain">
 				<frame>data/core/images/units/orcs/ruler-defend-1.png</frame>
 				<frame duration="3">data/core/images/units/orcs/ruler-defend-2.png</frame>
 				<frame>data/core/images/units/orcs/ruler-defend-1.png</frame>
-
-				<frame>data/core/images/units/orcs/ruler-ranged-defend.png</frame>
-
+		</sequence>
+		<sequence action="pain2" next="stand2">
+				<frame>data/core/images/units/orcs/ruler-ranged.png</frame>
+				<frame duration="3">data/core/images/units/orcs/ruler-ranged-defend.png</frame>
+				<frame>data/core/images/units/orcs/ruler-ranged.png</frame>
+		</sequence>
+		<sequence action="fighting">
 				<frame>data/core/images/units/orcs/ruler-attack-sword-1.png</frame>
 				<frame>data/core/images/units/orcs/ruler-attack-sword-2.png</frame>
 				<frame>data/core/images/units/orcs/ruler-attack-sword-3.png</frame>
 				<frame>data/core/images/units/orcs/ruler-attack-sword-4.png</frame>
 				<frame>data/core/images/units/orcs/ruler-attack-sword-5.png</frame>
 				<frame>data/core/images/units/orcs/ruler-attack-sword-6.png</frame>
-
-				<frame>data/core/images/units/orcs/ruler-ranged.png</frame>
-
-				<frame>data/core/images/units/orcs/ruler-ranged-attack-1.png</frame>
-				<frame>data/core/images/units/orcs/ruler-ranged-attack-2.png</frame>
-
+		</sequence>
+		<sequence action="shooting" next="stand2">
+				<frame duration="2">data/core/images/units/orcs/ruler-ranged-attack-1.png</frame>
+				<frame duration="2">data/core/images/units/orcs/ruler-ranged-attack-2.png</frame>
+		</sequence>
+		<sequence action="lead">
 				<frame>data/core/images/units/orcs/ruler-lead-1.png</frame>
 				<frame duration="4">data/core/images/units/orcs/ruler-lead-2.png</frame>
 				<frame>data/core/images/units/orcs/ruler-lead-1.png</frame>
@@ -7680,27 +7795,38 @@
 	<unit name="Orcish Sovereign" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="fighting" description="sword"/>
+		<ability level="" name="shooting" description="crossbow"/>
+		<ability level="" name="command" description=""/>
 		<portrait scale="0.5">data/core/images/portraits/orcs/transparent/sovereign.png</portrait>
 		<sequence action="stand" loop="loop">
 				<frame>data/core/images/units/orcs/sovereign.png</frame>
-
+		</sequence>
+		<sequence action="stand2" loop="loop">
+				<frame>data/core/images/units/orcs/sovereign-ranged.png</frame>
+		</sequence>
+		<sequence action="pain">
 				<frame>data/core/images/units/orcs/sovereign-defend-1.png</frame>
 				<frame duration="3">data/core/images/units/orcs/sovereign-defend-2.png</frame>
 				<frame>data/core/images/units/orcs/sovereign-defend-1.png</frame>
-
-				<frame>data/core/images/units/orcs/sovereign-ranged-defend.png</frame>
-
+		</sequence>
+		<sequence action="pain2" next="stand2">
+				<frame>data/core/images/units/orcs/sovereign-ranged.png</frame>
+				<frame duration="3">data/core/images/units/orcs/sovereign-ranged-defend.png</frame>
+				<frame>data/core/images/units/orcs/sovereign-ranged.png</frame>
+		</sequence>
+		<sequence action="fighting">
+				<frame>data/core/images/units/orcs/sovereign-defend-1.png</frame>
 				<frame>data/core/images/units/orcs/sovereign-attack-1.png</frame>
 				<frame>data/core/images/units/orcs/sovereign-attack-2.png</frame>
 				<frame>data/core/images/units/orcs/sovereign-attack-3.png</frame>
 				<frame>data/core/images/units/orcs/sovereign-attack-4.png</frame>
 				<frame>data/core/images/units/orcs/sovereign-attack-5.png</frame>
-
-				<frame>data/core/images/units/orcs/sovereign-ranged.png</frame>
-
-				<frame>data/core/images/units/orcs/sovereign-ranged-attack-1.png</frame>
-				<frame>data/core/images/units/orcs/sovereign-ranged-attack-2.png</frame>
-
+		</sequence>
+		<sequence action="shooting" next="stand2">
+				<frame duration="2">data/core/images/units/orcs/sovereign-ranged-attack-1.png</frame>
+				<frame duration="2">data/core/images/units/orcs/sovereign-ranged-attack-2.png</frame>
+		</sequence>
+		<sequence action="lead">
 				<frame>data/core/images/units/orcs/sovereign-lead-1.png</frame>
 				<frame duration="4">data/core/images/units/orcs/sovereign-lead-2.png</frame>
 				<frame>data/core/images/units/orcs/sovereign-lead-1.png</frame>
