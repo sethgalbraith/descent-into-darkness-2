@@ -141,25 +141,25 @@
 	</race>
 	<race name="Elves">
 		<class name="Female Archer">
-			<unit>Elvish Archer</unit>
+			<unit>Female Elvish Archer</unit>
 			<branch name="bow focus">
-				<unit>Elvish Marksman</unit>
-				<unit>Elvish Sharpshooter</unit>
+				<unit>Female Elvish Marksman</unit>
+				<unit>Female Elvish Sharpshooter</unit>
 			</branch>
 			<branch name="sword focus">
-				<unit>Elvish Ranger</unit>
-				<unit>Elvish Avenger</unit>
+				<unit>Female Elvish Ranger</unit>
+				<unit>Female Elvish Avenger</unit>
 			</branch>
 		</class>
 		<class name="Male Archer">
-			<unit>Elvish Archer</unit>
+			<unit>Male Elvish Archer</unit>
 			<branch name="bow focus">
-				<unit>Elvish Marksman</unit>
-				<unit>Elvish Sharpshooter</unit>
+				<unit>Male Elvish Marksman</unit>
+				<unit>Male Elvish Sharpshooter</unit>
 			</branch>
 			<branch name="sword focus">
-				<unit>Elvish Ranger</unit>
-				<unit>Elvish Avenger</unit>
+				<unit>Male Elvish Ranger</unit>
+				<unit>Male Elvish Avenger</unit>
 			</branch>
 		</class>
 		<class name="Male Fighter">
@@ -222,14 +222,14 @@
 			<unit>Cavalier</unit>
 		</class>
 		<class name="Female Dark Adept">
-			<unit>Dark Adept</unit>
-			<unit>Dark Sorcerer</unit>
-			<unit>Necromancer</unit>
+			<unit>Female Dark Adept</unit>
+			<unit>Female Dark Sorcerer</unit>
+			<unit>Female Necromancer</unit>
 		</class>
 		<class name="Male Dark Adept">
-			<unit>Dark Adept</unit>
-			<unit>Dark Sorcerer</unit>
-			<unit>Necromancer</unit>
+			<unit>Male Dark Adept</unit>
+			<unit>Male Dark Sorcerer</unit>
+			<unit>Male Necromancer</unit>
 		</class>
 		<class name="Male Fencer">
 			<unit>Fencer</unit>
@@ -260,45 +260,45 @@
 			<unit>Grand Marshal</unit>
 		</class>
 		<class name="Female Mage">
-			<unit>Mage</unit>
+			<unit>Female Mage</unit>
 			<branch name="blasting">
-				<unit>Red Mage</unit>
-				<unit>Arch Mage</unit>
-				<unit>Great Mage</unit>
+				<unit>Female Red Mage</unit>
+				<unit>Female Arch Mage</unit>
+				<unit>Female Great Mage</unit>
 			</branch>
 			<branch name="stealth">
-				<unit>Silver Mage</unit>
+				<unit>Female Silver Mage</unit>
 			</branch>
 			<branch name="healing">
-				<unit>White Mage</unit>
-				<unit>Mage of Light</unit>
+				<unit>Female White Mage</unit>
+				<unit>Female Mage of Light</unit>
 			</branch>
 		</class>
 		<class name="Male Mage">
-			<unit>Mage</unit>
+			<unit>Male Mage</unit>
 			<branch name="blasting">
-				<unit>Red Mage</unit>
-				<unit>Arch Mage</unit>
-				<unit>Great Mage</unit>
-				<unit>Elder Mage</unit>
+				<unit>Male Red Mage</unit>
+				<unit>Male Arch Mage</unit>
+				<unit>Male Great Mage</unit>
+				<unit>Male Elder Mage</unit>
 			</branch>
 			<branch name="stealth">
-				<unit>Silver Mage</unit>
+				<unit>Male Silver Mage</unit>
 			</branch>
 			<branch name="healing">
-				<unit>White Mage</unit>
-				<unit>Mage of Light</unit>
+				<unit>Male White Mage</unit>
+				<unit>Male Mage of Light</unit>
 			</branch>
 		</class>
 		<class name="Female Thief">
-			<unit>Thief</unit>
-			<unit>Rogue</unit>
-			<unit>Assassin</unit>
+			<unit>Female Thief</unit>
+			<unit>Female Rogue</unit>
+			<unit>Female Assassin</unit>
 		</class>
 		<class name="Male Thief">
-			<unit>Thief</unit>
-			<unit>Rogue</unit>
-			<unit>Assassin</unit>
+			<unit>Male Thief</unit>
+			<unit>Male Rogue</unit>
+			<unit>Male Assassin</unit>
 		</class>
 		<class name="Male Peasant">
 			<unit>Peasant</unit>
@@ -331,14 +331,14 @@
 			<unit>Ranger</unit>
 		</class>
 		<class name="Female Footpad">
-			<unit>Footpad</unit>
-			<unit>Outlaw</unit>
-			<unit>Fugitive</unit>
+			<unit>Female Footpad</unit>
+			<unit>Female Outlaw</unit>
+			<unit>Female Fugitive</unit>
 		</class>
 		<class name="Male Footpad">
-			<unit>Footpad</unit>
-			<unit>Outlaw</unit>
-			<unit>Fugitive</unit>
+			<unit>Male Footpad</unit>
+			<unit>Male Outlaw</unit>
+			<unit>Male Fugitive</unit>
 		</class>
 		<class name="Male Thug">
 			<unit>Thug</unit>

@@ -2431,7 +2431,7 @@
 				<frame>data/core/images/units/dwarves/gryphon-master-flying-4.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Elvish Archer" yOffset="-18">
+	<unit name="Female Elvish Archer" yOffset="-18">
 		<ability level="4" name="toughness" description=""/>
 		<ability level="4" name="shooting" description="bow"/>
 		<ability level="2" name="fighting" description="sword"/>
@@ -2473,7 +2473,7 @@
 				<frame>data/core/images/units/elves-wood/archer+female-sword.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Elvish Marksman" yOffset="-18">
+	<unit name="Female Elvish Marksman" yOffset="-18">
 		<ability level="5" name="toughness" description=""/>
 		<ability level="7" name="shooting" description="bow"/>
 		<ability level="2" name="fighting" description="sword"/>
@@ -2515,7 +2515,7 @@
 				<frame>data/core/images/units/elves-wood/marksman+female-sword.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Elvish Sharpshooter" yOffset="-18">
+	<unit name="Female Elvish Sharpshooter" yOffset="-18">
 		<ability level="7" name="toughness" description=""/>
 		<ability level="10" name="shooting" description="bow"/>
 		<ability level="3" name="fighting" description="sword"/>
@@ -2545,7 +2545,7 @@
 				<frame>data/core/images/units/elves-wood/sharpshooter+female-sword.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Elvish Ranger" yOffset="-18">
+	<unit name="Female Elvish Ranger" yOffset="-18">
 		<ability level="6" name="toughness" description=""/>
 		<ability level="6" name="shooting" description="bow"/>
 		<ability level="4" name="fighting" description="sword"/>
@@ -2573,7 +2573,7 @@
 				<frame>data/core/images/units/elves-wood/ranger+female-sword.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Elvish Avenger" yOffset="-18">
+	<unit name="Female Elvish Avenger" yOffset="-18">
 		<ability level="9" name="toughness" description=""/>
 		<ability level="8" name="shooting" description="bow"/>
 		<ability level="6" name="fighting" description="sword"/>
@@ -2613,7 +2613,7 @@
 				<frame>data/core/images/units/elves-wood/avenger+female-sword.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Elvish Archer" yOffset="-18">
+	<unit name="Male Elvish Archer" yOffset="-18">
 		<ability level="4" name="toughness" description=""/>
 		<ability level="4" name="shooting" description="bow"/>
 		<ability level="2" name="fighting" description="sword"/>
@@ -2669,7 +2669,7 @@
 				<frame>data/core/images/units/elves-wood/archer-sword.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Elvish Marksman" yOffset="-18">
+	<unit name="Male Elvish Marksman" yOffset="-18">
 		<ability level="5" name="toughness" description=""/>
 		<ability level="7" name="shooting" description="bow"/>
 		<ability level="2" name="fighting" description="sword"/>
@@ -2711,7 +2711,7 @@
 				<frame>data/core/images/units/elves-wood/marksman-sword.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Elvish Sharpshooter" yOffset="-18">
+	<unit name="Male Elvish Sharpshooter" yOffset="-18">
 		<ability level="7" name="toughness" description=""/>
 		<ability level="10" name="shooting" description="bow"/>
 		<ability level="3" name="fighting" description="sword"/>
@@ -2747,7 +2747,7 @@
 				<frame>data/core/images/units/elves-wood/sharpshooter-sword.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Elvish Ranger" yOffset="-18">
+	<unit name="Male Elvish Ranger" yOffset="-18">
 		<ability level="6" name="toughness" description=""/>
 		<ability level="6" name="shooting" description="bow"/>
 		<ability level="4" name="fighting" description="sword"/>
@@ -2784,7 +2784,7 @@
 				<frame>data/core/images/units/elves-wood/ranger-sword.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Elvish Avenger" yOffset="-18">
+	<unit name="Male Elvish Avenger" yOffset="-18">
 		<ability level="9" name="toughness" description=""/>
 		<ability level="8" name="shooting" description="bow"/>
 		<ability level="6" name="fighting" description="sword"/>
@@ -4020,7 +4020,7 @@
 				<frame duration="5">data/core/images/units/human-loyalists/cavalier-ranged-7.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Dark Adept" yOffset="-18">
+	<unit name="Female Dark Adept" yOffset="-18">
 		<ability level="4" name="toughness" description=""/>
 		<ability level="4" name="shooting" description="cold magic"/>
 		<ability level="3" name="blasting" description="magic"/>
@@ -4064,7 +4064,7 @@
 			</layer>
 		</sequence>
 	</unit>
-	<unit name="Dark Sorcerer" yOffset="-18">
+	<unit name="Female Dark Sorcerer" yOffset="-18">
 		<ability level="8" name="toughness" description=""/>
 		<ability level="2" name="wrestling" description="staff"/>
 		<ability level="5" name="shooting" description="cold magic"/>
@@ -4107,7 +4107,7 @@
 				<frame>data/core/images/units/undead-necromancers/dark-sorcerer+female-magic-3.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Necromancer" yOffset="-18">
+	<unit name="Female Necromancer" yOffset="-18">
 		<ability level="12" name="toughness" description=""/>
 		<ability level="4" name="wrestling" description="staff"/>
 		<ability level="7" name="shooting" description="cold magic"/>
@@ -4151,7 +4151,7 @@
 				<frame>data/core/images/units/undead-necromancers/necromancer+female-magic-3.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Dark Adept" yOffset="-18">
+	<unit name="Male Dark Adept" yOffset="-18">
 		<ability level="4" name="toughness" description=""/>
 		<ability level="4" name="shooting" description="cold magic"/>
 		<ability level="3" name="blasting" description="magic"/>
@@ -4195,7 +4195,7 @@
 			</layer>
 		</sequence>
 	</unit>
-	<unit name="Dark Sorcerer" yOffset="-18">
+	<unit name="Male Dark Sorcerer" yOffset="-18">
 		<ability level="8" name="toughness" description=""/>
 		<ability level="2" name="wrestling" description="staff"/>
 		<ability level="5" name="shooting" description="cold magic"/>
@@ -4238,7 +4238,7 @@
 				<frame>data/core/images/units/undead-necromancers/dark-sorcerer-magic-3.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Necromancer" yOffset="-18">
+	<unit name="Male Necromancer" yOffset="-18">
 		<ability level="12" name="toughness" description=""/>
 		<ability level="4" name="wrestling" description="staff"/>
 		<ability level="7" name="shooting" description="cold magic"/>
@@ -4823,7 +4823,7 @@
 				<frame duration="8">data/core/images/units/human-loyalists/marshal-leading.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Mage" yOffset="-18">
+	<unit name="Female Mage" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="blasting" description="magic"/>
 		<ability level="" name="stealth" description="teleportation"/>
@@ -4858,7 +4858,7 @@
 				<frame duration="3">data/core/images/units/human-magi/mage+female-defend.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Red Mage" yOffset="-18">
+	<unit name="Female Red Mage" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="blasting" description="magic"/>
 		<ability level="" name="stealth" description="teleportation"/>
@@ -4881,7 +4881,7 @@
 				<frame duration="3">data/core/images/units/human-magi/red-mage+female-defend.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Arch Mage" yOffset="-18">
+	<unit name="Female Arch Mage" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="blasting" description="magic"/>
 		<ability level="" name="stealth" description="teleportation"/>
@@ -4904,7 +4904,7 @@
 				<frame duration="3">data/core/images/units/human-magi/arch-mage+female-defend.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Great Mage" yOffset="-18">
+	<unit name="Female Great Mage" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="blasting" description="magic"/>
 		<ability level="" name="stealth" description="teleportation"/>
@@ -4926,7 +4926,7 @@
 				<frame>data/core/images/units/human-magi/great-mage+female-attack-staff-1.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Silver Mage" yOffset="-18">
+	<unit name="Female Silver Mage" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="blasting" description="magic"/>
 		<ability level="" name="stealth" description="teleportation"/>
@@ -5063,7 +5063,7 @@
 			</layer>
 		</sequence>
 	</unit>
-	<unit name="White Mage" yOffset="-18">
+	<unit name="Female White Mage" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="blasting" description="magic"/>
 		<ability level="" name="stealth" description="teleportation"/>
@@ -5128,7 +5128,7 @@
 				<frame>data/core/images/units/human-magi/white-mage+female-melee-6.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Mage of Light" yOffset="-18">
+	<unit name="Female Mage of Light" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="blasting" description="magic"/>
 		<ability level="" name="stealth" description="teleportation"/>
@@ -5186,7 +5186,7 @@
 			</layer>
 		</sequence>
 	</unit>
-	<unit name="Mage" yOffset="-18">
+	<unit name="Male Mage" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="blasting" description="magic"/>
 		<ability level="" name="stealth" description="teleportation"/>
@@ -5221,7 +5221,7 @@
 				<frame duration="3">data/core/images/units/human-magi/mage-defend.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Red Mage" yOffset="-18">
+	<unit name="Male Red Mage" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="blasting" description="magic"/>
 		<ability level="" name="stealth" description="teleportation"/>
@@ -5244,7 +5244,7 @@
 				<frame duration="3">data/core/images/units/human-magi/red-mage-defend.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Arch Mage" yOffset="-18">
+	<unit name="Male Arch Mage" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="blasting" description="magic"/>
 		<ability level="" name="stealth" description="teleportation"/>
@@ -5278,7 +5278,7 @@
 				<frame>data/core/images/units/human-magi/arch-mage-idle-1.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Great Mage" yOffset="-18">
+	<unit name="Male Great Mage" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="blasting" description="magic"/>
 		<ability level="" name="stealth" description="teleportation"/>
@@ -5300,7 +5300,7 @@
 				<frame>data/core/images/units/human-magi/great-mage-attack-staff-1.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Elder Mage" yOffset="-18">
+	<unit name="Male Elder Mage" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="blasting" description="magic"/>
 		<ability level="" name="stealth" description="teleportation"/>
@@ -5325,7 +5325,7 @@
 				<frame>data/core/images/units/human-magi/elder-mage-ranged1.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Silver Mage" yOffset="-18">
+	<unit name="Male Silver Mage" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="blasting" description="magic"/>
 		<ability level="" name="stealth" description="teleportation"/>
@@ -5462,7 +5462,7 @@
 			</layer>
 		</sequence>
 	</unit>
-	<unit name="White Mage" yOffset="-18">
+	<unit name="Male White Mage" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="blasting" description="magic"/>
 		<ability level="" name="stealth" description="teleportation"/>
@@ -5527,7 +5527,7 @@
 				<frame>data/core/images/units/human-magi/white-mage-melee-6.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Mage of Light" yOffset="-18">
+	<unit name="Male Mage of Light" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="blasting" description="magic"/>
 		<ability level="" name="stealth" description="teleportation"/>
@@ -5585,7 +5585,7 @@
 			</layer>
 		</sequence>
 	</unit>
-	<unit name="Thief" yOffset="-18">
+	<unit name="Female Thief" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="knockout" description="knife"/>
 		<portrait scale="0.5">data/core/images/portraits/humans/transparent/thief+female.png</portrait>
@@ -5658,7 +5658,7 @@
 				<frame>data/core/images/units/human-outlaws/thief+female-idle-1.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Rogue" yOffset="-18">
+	<unit name="Female Rogue" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="knockout" description="knife"/>
 		<sequence action="stand" loop="loop">
@@ -5682,7 +5682,7 @@
 				<frame>data/core/images/units/human-outlaws/rogue+female-die-6.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Assassin" yOffset="-18">
+	<unit name="Female Assassin" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="knockout" description="knife"/>
 		<portrait scale="0.5">data/core/images/portraits/humans/transparent/assassin+female.png</portrait>
@@ -5707,7 +5707,7 @@
 				<frame duration="2">data/core/images/units/human-outlaws/assassin+female-throwknife2.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Thief" yOffset="-18">
+	<unit name="Male Thief" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="knockout" description="knife"/>
 		<portrait scale="0.5">data/core/images/portraits/humans/transparent/thief.png</portrait>
@@ -5780,7 +5780,7 @@
 				<frame>data/core/images/units/human-outlaws/thief-idle-1.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Rogue" yOffset="-18">
+	<unit name="Male Rogue" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="knockout" description="knife"/>
 		<sequence action="stand" loop="loop">
@@ -5804,7 +5804,7 @@
 				<frame>data/core/images/units/human-outlaws/rogue-die-6.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Assassin" yOffset="-18">
+	<unit name="Male Assassin" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="knockout" description="knife"/>
 		<portrait scale="0.5">data/core/images/portraits/humans/transparent/assassin.png</portrait>
@@ -6466,7 +6466,7 @@
 				<frame>data/core/images/units/human-outlaws/ranger-sword-defend-1.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Footpad" yOffset="-18">
+	<unit name="Female Footpad" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="knockout" description="bludgeon"/>
 		<portrait scale="0.5">data/core/images/portraits/humans/transparent/footpad+female.png</portrait>
@@ -6500,12 +6500,12 @@
 				<frame>data/core/images/units/human-outlaws/footpad+female-idle-1.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Outlaw" yOffset="-18">
+	<unit name="Female Outlaw" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="knockout" description="bludgeon"/>
 		<portrait scale="0.5">data/core/images/portraits/humans/transparent/outlaw+female.png</portrait>
 		<sequence action="stand" loop="loop">
-				<frame>data/core/images/units/human-outlaws/outlaw.png</frame>
+				<frame>data/core/images/units/human-outlaws/outlaw+female.png</frame>
 		</sequence>
 		<sequence name="sling" action="shooting">
 				<frame duration="3">data/core/images/units/human-outlaws/outlaw+female-attack1.png</frame>
@@ -6520,7 +6520,7 @@
 				<frame>data/core/images/units/human-outlaws/outlaw+female-melee-3.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Fugitive" yOffset="-18">
+	<unit name="Female Fugitive" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="knockout" description="bludgeon"/>
 		<sequence action="stand" loop="loop">
@@ -6539,7 +6539,7 @@
 				<frame duration="2">data/core/images/units/human-outlaws/fugitive+female-ranged-2.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Footpad" yOffset="-18">
+	<unit name="Male Footpad" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="knockout" description="bludgeon"/>
 		<portrait scale="0.5">data/core/images/portraits/humans/transparent/footpad.png</portrait>
@@ -6573,7 +6573,7 @@
 				<frame>data/core/images/units/human-outlaws/footpad-idle-1.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Outlaw" yOffset="-18">
+	<unit name="Male Outlaw" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="knockout" description="bludgeon"/>
 		<portrait scale="0.5">data/core/images/portraits/humans/transparent/outlaw.png</portrait>
@@ -6602,7 +6602,7 @@
 				<frame>data/core/images/units/human-outlaws/outlaw-melee-3.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Fugitive" yOffset="-18">
+	<unit name="Male Fugitive" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="knockout" description="bludgeon"/>
 		<sequence action="stand" loop="loop">
