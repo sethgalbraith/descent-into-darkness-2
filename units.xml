@@ -7834,37 +7834,53 @@
 	</unit>
 	<unit name="Saurian Augur" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
-		<ability level="" name="healing" description="null"/>
+		<ability level="" name="healing" description="magic"/>
 		<ability level="" name="blasting" description="magic"/>
 		<portrait scale="0.5">data/core/images/portraits/saurians/transparent/augur.png</portrait>
 		<sequence action="stand" loop="loop">
-				<frame>data/core/images/units/saurians/augur/augur.png</frame>
-
-				<frame>data/core/images/units/saurians/augur/augur-se-bob1.png</frame>
-				<frame>data/core/images/units/saurians/augur/augur-se-bob2.png</frame>
-				<frame>data/core/images/units/saurians/augur/augur-se-bob3.png</frame>
-				<frame>data/core/images/units/saurians/augur/augur-se-bob4.png</frame>
-				<frame>data/core/images/units/saurians/augur/augur-se-bob5.png</frame>
-				<frame>data/core/images/units/saurians/augur/augur-se-bob6.png</frame>
-
+				<frame duration="3">data/core/images/units/saurians/augur/augur-se-bob1.png</frame>
+				<frame duration="3">data/core/images/units/saurians/augur/augur-se-bob2.png</frame>
+				<frame duration="3">data/core/images/units/saurians/augur/augur-se-bob3.png</frame>
+				<frame duration="3">data/core/images/units/saurians/augur/augur-se-bob4.png</frame>
+				<frame duration="3">data/core/images/units/saurians/augur/augur-se-bob5.png</frame>
+				<frame duration="3">data/core/images/units/saurians/augur/augur-se-bob6.png</frame>
+		</sequence>
+		<sequence action="pain">
 				<frame>data/core/images/units/saurians/augur/augur-se-defend1.png</frame>
 				<frame duration="3">data/core/images/units/saurians/augur/augur-se-defend2.png</frame>
 				<frame>data/core/images/units/saurians/augur/augur-se-defend1.png</frame>
-
+		</sequence>
+		<sequence action="fall" loop="stay">
 				<frame>data/core/images/units/saurians/augur/augur-se-die1.png</frame>
 				<frame>data/core/images/units/saurians/augur/augur-se-die2.png</frame>
 				<frame>data/core/images/units/saurians/augur/augur-se-die3.png</frame>
 				<frame>data/core/images/units/saurians/augur/augur-se-die4.png</frame>
-
-				<frame>data/core/images/units/saurians/augur/augur-se-magic1.png</frame>
-				<frame>data/core/images/units/saurians/augur/augur-se-magic2.png</frame>
-
-				<frame>data/core/images/units/saurians/augur/augur-se-melee1.png</frame>
+		</sequence>
+		<sequence action="healing">
+			<layer>
+				<frame duration="2">data/core/images/units/saurians/augur/augur-se-magic1.png</frame>
+				<frame duration="3">data/core/images/units/saurians/augur/augur-se-magic2.png</frame>
+				<frame duration="2">data/core/images/units/saurians/augur/augur-se-magic1.png</frame>
+			</layer>
+			<layer>
+				<frame>data/core/images/halo/saurian-magic-halo-1.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-2.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-3.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-4.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-5.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-6.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-7.png</frame>
+			</layer>
+		</sequence>
+		<sequence action="wrestling">
+				<frame duration="2">data/core/images/units/saurians/augur/augur-se-melee1.png</frame>
 				<frame>data/core/images/units/saurians/augur/augur-se-melee2.png</frame>
 				<frame>data/core/images/units/saurians/augur/augur-se-melee3.png</frame>
 				<frame>data/core/images/units/saurians/augur/augur-se-melee4.png</frame>
 				<frame>data/core/images/units/saurians/augur/augur-se-melee5.png</frame>
-
+				<frame>data/core/images/units/saurians/augur/augur-se-defend1.png</frame>
+		</sequence>
+		<sequence action="move" loop="loop">
 				<frame>data/core/images/units/saurians/augur/augur-se-run1.png</frame>
 				<frame>data/core/images/units/saurians/augur/augur-se-run2.png</frame>
 				<frame>data/core/images/units/saurians/augur/augur-se-run3.png</frame>
@@ -7877,32 +7893,51 @@
 				<frame>data/core/images/units/saurians/augur/augur-se-run10.png</frame>
 				<frame>data/core/images/units/saurians/augur/augur-se-run11.png</frame>
 				<frame>data/core/images/units/saurians/augur/augur-se-run12.png</frame>
-
-				<frame>data/core/images/units/saurians/augur/augur-ne-bob1.png</frame>
-				<frame>data/core/images/units/saurians/augur/augur-ne-bob2.png</frame>
-				<frame>data/core/images/units/saurians/augur/augur-ne-bob3.png</frame>
-				<frame>data/core/images/units/saurians/augur/augur-ne-bob4.png</frame>
-				<frame>data/core/images/units/saurians/augur/augur-ne-bob5.png</frame>
-				<frame>data/core/images/units/saurians/augur/augur-ne-bob6.png</frame>
-
+		</sequence>
+		<sequence action="stand N" loop="loop">
+				<frame duration="3">data/core/images/units/saurians/augur/augur-ne-bob1.png</frame>
+				<frame duration="3">data/core/images/units/saurians/augur/augur-ne-bob2.png</frame>
+				<frame duration="3">data/core/images/units/saurians/augur/augur-ne-bob3.png</frame>
+				<frame duration="3">data/core/images/units/saurians/augur/augur-ne-bob4.png</frame>
+				<frame duration="3">data/core/images/units/saurians/augur/augur-ne-bob5.png</frame>
+				<frame duration="3">data/core/images/units/saurians/augur/augur-ne-bob6.png</frame>
+		</sequence>
+		<sequence action="pain N" next="stand N">
 				<frame>data/core/images/units/saurians/augur/augur-ne-defend1.png</frame>
 				<frame duration="3">data/core/images/units/saurians/augur/augur-ne-defend2.png</frame>
 				<frame>data/core/images/units/saurians/augur/augur-ne-defend1.png</frame>
-
+		</sequence>
+		<sequence action="fall N" loop="stay">
 				<frame>data/core/images/units/saurians/augur/augur-ne-die1.png</frame>
 				<frame>data/core/images/units/saurians/augur/augur-ne-die2.png</frame>
 				<frame>data/core/images/units/saurians/augur/augur-ne-die3.png</frame>
 				<frame>data/core/images/units/saurians/augur/augur-ne-die4.png</frame>
-
-				<frame>data/core/images/units/saurians/augur/augur-ne-magic1.png</frame>
-				<frame>data/core/images/units/saurians/augur/augur-ne-magic2.png</frame>
-
-				<frame>data/core/images/units/saurians/augur/augur-ne-melee1.png</frame>
+		</sequence>
+		<sequence action="healing N" next="stand N">
+			<layer>
+				<frame duration="2">data/core/images/units/saurians/augur/augur-ne-magic1.png</frame>
+				<frame duration="3">data/core/images/units/saurians/augur/augur-ne-magic2.png</frame>
+				<frame duration="2">data/core/images/units/saurians/augur/augur-ne-magic1.png</frame>
+			</layer>
+			<layer>
+				<frame>data/core/images/halo/saurian-magic-halo-1.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-2.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-3.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-4.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-5.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-6.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-7.png</frame>
+			</layer>
+		</sequence>
+		<sequence action="wrestling N" next="stand N">
+				<frame duration="2">data/core/images/units/saurians/augur/augur-ne-melee1.png</frame>
 				<frame>data/core/images/units/saurians/augur/augur-ne-melee2.png</frame>
 				<frame>data/core/images/units/saurians/augur/augur-ne-melee3.png</frame>
 				<frame>data/core/images/units/saurians/augur/augur-ne-melee4.png</frame>
 				<frame>data/core/images/units/saurians/augur/augur-ne-melee5.png</frame>
-
+				<frame>data/core/images/units/saurians/augur/augur-ne-defend1.png</frame>
+		</sequence>
+		<sequence action="move N" loop="loop">
 				<frame>data/core/images/units/saurians/augur/augur-ne-run1.png</frame>
 				<frame>data/core/images/units/saurians/augur/augur-ne-run2.png</frame>
 				<frame>data/core/images/units/saurians/augur/augur-ne-run3.png</frame>
@@ -7919,36 +7954,52 @@
 	</unit>
 	<unit name="Saurian Oracle" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
-		<ability level="" name="healing" description="null"/>
+		<ability level="" name="healing" description="magic"/>
 		<ability level="" name="blasting" description="magic"/>
 		<sequence action="stand" loop="loop">
-				<frame>data/core/images/units/saurians/oracle/oracle.png</frame>
-
-				<frame>data/core/images/units/saurians/oracle/oracle-se-bob1.png</frame>
-				<frame>data/core/images/units/saurians/oracle/oracle-se-bob2.png</frame>
-				<frame>data/core/images/units/saurians/oracle/oracle-se-bob3.png</frame>
-				<frame>data/core/images/units/saurians/oracle/oracle-se-bob4.png</frame>
-				<frame>data/core/images/units/saurians/oracle/oracle-se-bob5.png</frame>
-				<frame>data/core/images/units/saurians/oracle/oracle-se-bob6.png</frame>
-
+				<frame duration="3">data/core/images/units/saurians/oracle/oracle-se-bob1.png</frame>
+				<frame duration="3">data/core/images/units/saurians/oracle/oracle-se-bob2.png</frame>
+				<frame duration="3">data/core/images/units/saurians/oracle/oracle-se-bob3.png</frame>
+				<frame duration="3">data/core/images/units/saurians/oracle/oracle-se-bob4.png</frame>
+				<frame duration="3">data/core/images/units/saurians/oracle/oracle-se-bob5.png</frame>
+				<frame duration="3">data/core/images/units/saurians/oracle/oracle-se-bob6.png</frame>
+		</sequence>
+		<sequence action="pain">
 				<frame>data/core/images/units/saurians/oracle/oracle-se-defend1.png</frame>
 				<frame duration="3">data/core/images/units/saurians/oracle/oracle-se-defend2.png</frame>
 				<frame>data/core/images/units/saurians/oracle/oracle-se-defend1.png</frame>
-
+		</sequence>
+		<sequence action="fall" loop="stay">
 				<frame>data/core/images/units/saurians/oracle/oracle-se-die1.png</frame>
 				<frame>data/core/images/units/saurians/oracle/oracle-se-die2.png</frame>
 				<frame>data/core/images/units/saurians/oracle/oracle-se-die3.png</frame>
 				<frame>data/core/images/units/saurians/oracle/oracle-se-die4.png</frame>
-
-				<frame>data/core/images/units/saurians/oracle/oracle-se-magic1.png</frame>
-				<frame>data/core/images/units/saurians/oracle/oracle-se-magic2.png</frame>
-
-				<frame>data/core/images/units/saurians/oracle/oracle-se-melee1.png</frame>
+		</sequence>
+		<sequence action="healing">
+			<layer>
+				<frame duration="2">data/core/images/units/saurians/oracle/oracle-se-magic1.png</frame>
+				<frame duration="3">data/core/images/units/saurians/oracle/oracle-se-magic2.png</frame>
+				<frame duration="2">data/core/images/units/saurians/oracle/oracle-se-magic1.png</frame>
+			</layer>
+			<layer>
+				<frame>data/core/images/halo/saurian-magic-halo-1.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-2.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-3.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-4.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-5.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-6.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-7.png</frame>
+			</layer>
+		</sequence>
+		<sequence action="wrestling">
+				<frame duration="2">data/core/images/units/saurians/oracle/oracle-se-melee1.png</frame>
 				<frame>data/core/images/units/saurians/oracle/oracle-se-melee2.png</frame>
 				<frame>data/core/images/units/saurians/oracle/oracle-se-melee3.png</frame>
 				<frame>data/core/images/units/saurians/oracle/oracle-se-melee4.png</frame>
 				<frame>data/core/images/units/saurians/oracle/oracle-se-melee5.png</frame>
-
+				<frame>data/core/images/units/saurians/oracle/oracle-se-defend1.png</frame>
+		</sequence>
+		<sequence action="move" loop="loop">
 				<frame>data/core/images/units/saurians/oracle/oracle-se-run1.png</frame>
 				<frame>data/core/images/units/saurians/oracle/oracle-se-run2.png</frame>
 				<frame>data/core/images/units/saurians/oracle/oracle-se-run3.png</frame>
@@ -7961,33 +8012,51 @@
 				<frame>data/core/images/units/saurians/oracle/oracle-se-run10.png</frame>
 				<frame>data/core/images/units/saurians/oracle/oracle-se-run11.png</frame>
 				<frame>data/core/images/units/saurians/oracle/oracle-se-run12.png</frame>
-
-				<frame>data/core/images/units/saurians/oracle/oracle-ne-bob1.png</frame>
-				<frame>data/core/images/units/saurians/oracle/oracle-ne-bob2.png</frame>
-				<frame>data/core/images/units/saurians/oracle/oracle-ne-bob3.png</frame>
-				<frame>data/core/images/units/saurians/oracle/oracle-ne-bob4.png</frame>
-				<frame>data/core/images/units/saurians/oracle/oracle-ne-bob5.png</frame>
-				<frame>data/core/images/units/saurians/oracle/oracle-ne-bob6.png</frame>
-
+		</sequence>
+		<sequence action="stand N" loop="loop">
+				<frame duration="3">data/core/images/units/saurians/oracle/oracle-ne-bob1.png</frame>
+				<frame duration="3">data/core/images/units/saurians/oracle/oracle-ne-bob2.png</frame>
+				<frame duration="3">data/core/images/units/saurians/oracle/oracle-ne-bob3.png</frame>
+				<frame duration="3">data/core/images/units/saurians/oracle/oracle-ne-bob4.png</frame>
+				<frame duration="3">data/core/images/units/saurians/oracle/oracle-ne-bob5.png</frame>
+				<frame duration="3">data/core/images/units/saurians/oracle/oracle-ne-bob6.png</frame>
+		</sequence>
+		<sequence action="pain N" next="stand N">
 				<frame>data/core/images/units/saurians/oracle/oracle-ne-defend1.png</frame>
 				<frame duration="3">data/core/images/units/saurians/oracle/oracle-ne-defend2.png</frame>
 				<frame>data/core/images/units/saurians/oracle/oracle-ne-defend1.png</frame>
-
+		</sequence>
+		<sequence action="fall N" loop="stay">
 				<frame>data/core/images/units/saurians/oracle/oracle-ne-die1.png</frame>
 				<frame>data/core/images/units/saurians/oracle/oracle-ne-die2.png</frame>
 				<frame>data/core/images/units/saurians/oracle/oracle-ne-die3.png</frame>
 				<frame>data/core/images/units/saurians/oracle/oracle-ne-die4.png</frame>
-
-				<frame>data/core/images/units/saurians/oracle/oracle-ne-magic1.png</frame>
-				<frame>data/core/images/units/saurians/oracle/oracle-ne-magic2.png</frame>
-
-				<frame>data/core/images/units/saurians/oracle/oracle-ne-melee1.png</frame>
+		</sequence>
+		<sequence action="healing N" next="stand N">
+			<layer>
+				<frame duration="2">data/core/images/units/saurians/oracle/oracle-ne-magic1.png</frame>
+				<frame duration="3">data/core/images/units/saurians/oracle/oracle-ne-magic2.png</frame>
+				<frame duration="2">data/core/images/units/saurians/oracle/oracle-ne-magic1.png</frame>
+			</layer>
+			<layer>
+				<frame>data/core/images/halo/saurian-magic-halo-1.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-2.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-3.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-4.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-5.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-6.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-7.png</frame>
+			</layer>
+		</sequence>
+		<sequence action="wrestling N" next="stand N">
+				<frame duration="2">data/core/images/units/saurians/oracle/oracle-ne-melee1.png</frame>
 				<frame>data/core/images/units/saurians/oracle/oracle-ne-melee2.png</frame>
 				<frame>data/core/images/units/saurians/oracle/oracle-ne-melee3.png</frame>
 				<frame>data/core/images/units/saurians/oracle/oracle-ne-melee4.png</frame>
 				<frame>data/core/images/units/saurians/oracle/oracle-ne-melee5.png</frame>
 				<frame>data/core/images/units/saurians/oracle/oracle-ne-melee6.png</frame>
-
+		</sequence>
+		<sequence action="move N" loop="loop">
 				<frame>data/core/images/units/saurians/oracle/oracle-ne-run1.png</frame>
 				<frame>data/core/images/units/saurians/oracle/oracle-ne-run2.png</frame>
 				<frame>data/core/images/units/saurians/oracle/oracle-ne-run3.png</frame>
@@ -8004,36 +8073,52 @@
 	</unit>
 	<unit name="Saurian Soothsayer" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
-		<ability level="" name="healing" description="null"/>
+		<ability level="" name="healing" description="magic"/>
 		<ability level="" name="blasting" description="magic"/>
 		<sequence action="stand" loop="loop">
-				<frame>data/core/images/units/saurians/soothsayer/soothsayer.png</frame>
-
-				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-bob1.png</frame>
-				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-bob2.png</frame>
-				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-bob3.png</frame>
-				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-bob4.png</frame>
-				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-bob5.png</frame>
-				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-bob6.png</frame>
-
+				<frame duration="3">data/core/images/units/saurians/soothsayer/soothsayer-se-bob1.png</frame>
+				<frame duration="3">data/core/images/units/saurians/soothsayer/soothsayer-se-bob2.png</frame>
+				<frame duration="3">data/core/images/units/saurians/soothsayer/soothsayer-se-bob3.png</frame>
+				<frame duration="3">data/core/images/units/saurians/soothsayer/soothsayer-se-bob4.png</frame>
+				<frame duration="3">data/core/images/units/saurians/soothsayer/soothsayer-se-bob5.png</frame>
+				<frame duration="3">data/core/images/units/saurians/soothsayer/soothsayer-se-bob6.png</frame>
+		</sequence>
+		<sequence action="pain">
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-defend1.png</frame>
 				<frame duration="3">data/core/images/units/saurians/soothsayer/soothsayer-se-defend2.png</frame>
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-defend1.png</frame>
-
+		</sequence>
+		<sequence action="fall" loop="stay">
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-die1.png</frame>
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-die2.png</frame>
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-die3.png</frame>
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-die4.png</frame>
-
-				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-magic1.png</frame>
-				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-magic2.png</frame>
-
-				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-melee1.png</frame>
+		</sequence>
+		<sequence action="healing">
+			<layer>
+				<frame duration="2">data/core/images/units/saurians/soothsayer/soothsayer-se-magic1.png</frame>
+				<frame duration="3">data/core/images/units/saurians/soothsayer/soothsayer-se-magic2.png</frame>
+				<frame duration="2">data/core/images/units/saurians/soothsayer/soothsayer-se-magic1.png</frame>
+			</layer>
+			<layer>
+				<frame>data/core/images/halo/saurian-magic-halo-1.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-2.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-3.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-4.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-5.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-6.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-7.png</frame>
+			</layer>
+		</sequence>
+		<sequence action="wrestling">
+				<frame duration="2">data/core/images/units/saurians/soothsayer/soothsayer-se-melee1.png</frame>
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-melee2.png</frame>
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-melee3.png</frame>
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-melee4.png</frame>
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-melee5.png</frame>
-
+				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-defend1.png</frame>
+		</sequence>
+		<sequence action="move" loop="loop">
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-run1.png</frame>
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-run2.png</frame>
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-run3.png</frame>
@@ -8046,32 +8131,51 @@
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-run10.png</frame>
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-run11.png</frame>
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-se-run12.png</frame>
-
-				<frame>data/core/images/units/saurians/soothsayer/soothsayer-ne-bob1.png</frame>
-				<frame>data/core/images/units/saurians/soothsayer/soothsayer-ne-bob2.png</frame>
-				<frame>data/core/images/units/saurians/soothsayer/soothsayer-ne-bob3.png</frame>
-				<frame>data/core/images/units/saurians/soothsayer/soothsayer-ne-bob4.png</frame>
-				<frame>data/core/images/units/saurians/soothsayer/soothsayer-ne-bob5.png</frame>
-				<frame>data/core/images/units/saurians/soothsayer/soothsayer-ne-bob6.png</frame>
-
+		</sequence>
+		<sequence action="stand N" loop="loop">
+				<frame duration="3">data/core/images/units/saurians/soothsayer/soothsayer-ne-bob1.png</frame>
+				<frame duration="3">data/core/images/units/saurians/soothsayer/soothsayer-ne-bob2.png</frame>
+				<frame duration="3">data/core/images/units/saurians/soothsayer/soothsayer-ne-bob3.png</frame>
+				<frame duration="3">data/core/images/units/saurians/soothsayer/soothsayer-ne-bob4.png</frame>
+				<frame duration="3">data/core/images/units/saurians/soothsayer/soothsayer-ne-bob5.png</frame>
+				<frame duration="3">data/core/images/units/saurians/soothsayer/soothsayer-ne-bob6.png</frame>
+		</sequence>
+		<sequence action="pain N" next="stand N">
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-ne-defend1.png</frame>
 				<frame duration="3">data/core/images/units/saurians/soothsayer/soothsayer-ne-defend2.png</frame>
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-ne-defend1.png</frame>
-
+		</sequence>
+		<sequence action="fall N" loop="stay">
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-ne-die1.png</frame>
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-ne-die2.png</frame>
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-ne-die3.png</frame>
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-ne-die4.png</frame>
-
-				<frame>data/core/images/units/saurians/soothsayer/soothsayer-ne-magic1.png</frame>
-				<frame>data/core/images/units/saurians/soothsayer/soothsayer-ne-magic2.png</frame>
-
-				<frame>data/core/images/units/saurians/soothsayer/soothsayer-ne-melee1.png</frame>
+		</sequence>
+		<sequence action="healing N" next="stand N">
+			<layer>
+				<frame duration="2">data/core/images/units/saurians/soothsayer/soothsayer-ne-magic1.png</frame>
+				<frame duration="3">data/core/images/units/saurians/soothsayer/soothsayer-ne-magic2.png</frame>
+				<frame duration="2">data/core/images/units/saurians/soothsayer/soothsayer-ne-magic1.png</frame>
+			</layer>
+			<layer>
+				<frame>data/core/images/halo/saurian-magic-halo-1.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-2.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-3.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-4.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-5.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-6.png</frame>
+				<frame>data/core/images/halo/saurian-magic-halo-7.png</frame>
+			</layer>
+		</sequence>
+		<sequence action="wrestling N" next="stand N">
+				<frame duration="2">data/core/images/units/saurians/soothsayer/soothsayer-ne-melee1.png</frame>
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-ne-melee2.png</frame>
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-ne-melee3.png</frame>
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-ne-melee4.png</frame>
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-ne-melee5.png</frame>
-
+				<frame>data/core/images/units/saurians/soothsayer/soothsayer-ne-defend1.png</frame>
+		</sequence>
+		<sequence action="move N" loop="loop">
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-ne-run1.png</frame>
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-ne-run2.png</frame>
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-ne-run3.png</frame>
@@ -8086,43 +8190,52 @@
 				<frame>data/core/images/units/saurians/soothsayer/soothsayer-ne-run12.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Saurian Skirmisher" yOffset="-18">
+	<unit name="Saurian Skirmisher" yOffset="-18" idleMin="50" idleMax="100">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="fighting" description="spear"/>
 		<portrait scale="0.5">data/core/images/portraits/saurians/transparent/skirmisher.png</portrait>
 		<sequence action="stand" loop="loop">
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher.png</frame>
-
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher-idle-1.png</frame>
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher-idle-2.png</frame>
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher-idle-3.png</frame>
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher-idle-4.png</frame>
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher-idle-5.png</frame>
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher-idle-6.png</frame>
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher-idle-7.png</frame>
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher-idle-8.png</frame>
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher-idle-9.png</frame>
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher-idle-10.png</frame>
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher-idle-11.png</frame>
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher-idle-12.png</frame>
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher-idle-13.png</frame>
-
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-bob1.png</frame>
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-bob2.png</frame>
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-bob3.png</frame>
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-bob4.png</frame>
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-bob5.png</frame>
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-bob6.png</frame>
-
+				<frame duration="3">data/core/images/units/saurians/skirmisher/skirmisher-se-bob1.png</frame>
+				<frame duration="3">data/core/images/units/saurians/skirmisher/skirmisher-se-bob2.png</frame>
+				<frame duration="3">data/core/images/units/saurians/skirmisher/skirmisher-se-bob3.png</frame>
+				<frame duration="3">data/core/images/units/saurians/skirmisher/skirmisher-se-bob4.png</frame>
+				<frame duration="3">data/core/images/units/saurians/skirmisher/skirmisher-se-bob5.png</frame>
+				<frame duration="3">data/core/images/units/saurians/skirmisher/skirmisher-se-bob6.png</frame>
+		</sequence>
+		<sequence action="idle">
+				<frame duration="2">data/core/images/units/saurians/skirmisher/skirmisher-idle-1.png</frame>
+				<frame duration="2">data/core/images/units/saurians/skirmisher/skirmisher-idle-2.png</frame>
+				<frame duration="2">data/core/images/units/saurians/skirmisher/skirmisher-idle-3.png</frame>
+				<frame duration="2">data/core/images/units/saurians/skirmisher/skirmisher-idle-4.png</frame>
+				<frame duration="2">data/core/images/units/saurians/skirmisher/skirmisher-idle-5.png</frame>
+				<frame duration="2">data/core/images/units/saurians/skirmisher/skirmisher-idle-6.png</frame>
+				<frame duration="2">data/core/images/units/saurians/skirmisher/skirmisher-idle-7.png</frame>
+				<frame duration="2">data/core/images/units/saurians/skirmisher/skirmisher-idle-6.png</frame>
+				<frame duration="2">data/core/images/units/saurians/skirmisher/skirmisher-idle-5.png</frame>
+				<frame duration="2">data/core/images/units/saurians/skirmisher/skirmisher-idle-6.png</frame>
+				<frame duration="2">data/core/images/units/saurians/skirmisher/skirmisher-idle-8.png</frame>
+				<frame duration="2">data/core/images/units/saurians/skirmisher/skirmisher-idle-9.png</frame>
+				<frame duration="2">data/core/images/units/saurians/skirmisher/skirmisher-idle-10.png</frame>
+				<frame duration="2">data/core/images/units/saurians/skirmisher/skirmisher-idle-11.png</frame>
+				<frame duration="2">data/core/images/units/saurians/skirmisher/skirmisher-idle-12.png</frame>
+				<frame duration="2">data/core/images/units/saurians/skirmisher/skirmisher-idle-13.png</frame>
+				<frame duration="2">data/core/images/units/saurians/skirmisher/skirmisher-idle-12.png</frame>
+				<frame duration="2">data/core/images/units/saurians/skirmisher/skirmisher-idle-13.png</frame>
+				<frame duration="2">data/core/images/units/saurians/skirmisher/skirmisher-idle-12.png</frame>
+				<frame duration="2">data/core/images/units/saurians/skirmisher/skirmisher-idle-13.png</frame>
+		</sequence>
+		<sequence action="pain">
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-defend1.png</frame>
 				<frame duration="3">data/core/images/units/saurians/skirmisher/skirmisher-se-defend2.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-defend1.png</frame>
-
+		</sequence>
+		<sequence action="fall" loop="stay">
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-die1.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-die2.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-die3.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-die4.png</frame>
-
+		</sequence>
+		<sequence action="fighting">
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-melee1.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-melee2.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-melee3.png</frame>
@@ -8133,7 +8246,8 @@
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-melee8.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-melee9.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-melee10.png</frame>
-
+		</sequence>
+		<sequence action="move" loop="loop">
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-run1.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-run2.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-run3.png</frame>
@@ -8146,7 +8260,8 @@
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-run10.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-run11.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-run12.png</frame>
-
+		</sequence>
+		<sequence action="shooting">
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-throw1.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-throw2.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-throw3.png</frame>
@@ -8156,7 +8271,8 @@
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-throw7.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-throw8.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-se-throw9.png</frame>
-
+		</sequence>
+		<sequence action="fighting S">
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-s-melee1.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-s-melee2.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-s-melee3.png</frame>
@@ -8167,23 +8283,27 @@
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-s-melee8.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-s-melee9.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-s-melee10.png</frame>
-
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-bob1.png</frame>
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-bob2.png</frame>
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-bob3.png</frame>
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-bob4.png</frame>
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-bob5.png</frame>
-				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-bob6.png</frame>
-
+		</sequence>
+		<sequence action="stand N" loop="loop">
+				<frame duration="3">data/core/images/units/saurians/skirmisher/skirmisher-ne-bob1.png</frame>
+				<frame duration="3">data/core/images/units/saurians/skirmisher/skirmisher-ne-bob2.png</frame>
+				<frame duration="3">data/core/images/units/saurians/skirmisher/skirmisher-ne-bob3.png</frame>
+				<frame duration="3">data/core/images/units/saurians/skirmisher/skirmisher-ne-bob4.png</frame>
+				<frame duration="3">data/core/images/units/saurians/skirmisher/skirmisher-ne-bob5.png</frame>
+				<frame duration="3">data/core/images/units/saurians/skirmisher/skirmisher-ne-bob6.png</frame>
+		</sequence>
+		<sequence action="pain N" next="stand N">
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-defend1.png</frame>
 				<frame duration="3">data/core/images/units/saurians/skirmisher/skirmisher-ne-defend2.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-defend1.png</frame>
-
+		</sequence>
+		<sequence action="fall N" loop="stay">
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-die1.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-die2.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-die3.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-die4.png</frame>
-
+		</sequence>
+		<sequence action="fighting NE" next="stand N">
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-melee1.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-melee2.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-melee3.png</frame>
@@ -8194,7 +8314,8 @@
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-melee8.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-melee9.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-melee10.png</frame>
-
+		</sequence>
+		<sequence action="move N" loop="loop">
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-run1.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-run2.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-run3.png</frame>
@@ -8207,7 +8328,8 @@
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-run10.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-run11.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-run12.png</frame>
-
+		</sequence>
+		<sequence action="shooting N" next="stand N">
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-throw1.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-throw2.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-throw3.png</frame>
@@ -8217,7 +8339,8 @@
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-throw7.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-throw8.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-ne-throw9.png</frame>
-
+		</sequence>
+		<sequence action="fighting N" next="stand N">
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-n-melee1.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-n-melee2.png</frame>
 				<frame>data/core/images/units/saurians/skirmisher/skirmisher-n-melee3.png</frame>
@@ -8234,24 +8357,25 @@
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="fighting" description="spear"/>
 		<sequence action="stand" loop="loop">
-				<frame>data/core/images/units/saurians/ambusher/ambusher.png</frame>
-
-				<frame>data/core/images/units/saurians/ambusher/ambusher-se-bob1.png</frame>
-				<frame>data/core/images/units/saurians/ambusher/ambusher-se-bob2.png</frame>
-				<frame>data/core/images/units/saurians/ambusher/ambusher-se-bob3.png</frame>
-				<frame>data/core/images/units/saurians/ambusher/ambusher-se-bob4.png</frame>
-				<frame>data/core/images/units/saurians/ambusher/ambusher-se-bob5.png</frame>
-				<frame>data/core/images/units/saurians/ambusher/ambusher-se-bob6.png</frame>
-
+				<frame duration="3">data/core/images/units/saurians/ambusher/ambusher-se-bob1.png</frame>
+				<frame duration="3">data/core/images/units/saurians/ambusher/ambusher-se-bob2.png</frame>
+				<frame duration="3">data/core/images/units/saurians/ambusher/ambusher-se-bob3.png</frame>
+				<frame duration="3">data/core/images/units/saurians/ambusher/ambusher-se-bob4.png</frame>
+				<frame duration="3">data/core/images/units/saurians/ambusher/ambusher-se-bob5.png</frame>
+				<frame duration="3">data/core/images/units/saurians/ambusher/ambusher-se-bob6.png</frame>
+		</sequence>
+		<sequence action="pain">
 				<frame>data/core/images/units/saurians/ambusher/ambusher-se-defend1.png</frame>
 				<frame duration="3">data/core/images/units/saurians/ambusher/ambusher-se-defend2.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-se-defend1.png</frame>
-
+		</sequence>
+		<sequence action="fall" loop="stay">
 				<frame>data/core/images/units/saurians/ambusher/ambusher-se-die1.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-se-die2.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-se-die3.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-se-die4.png</frame>
-
+		</sequence>
+		<sequence action="fighting">
 				<frame>data/core/images/units/saurians/ambusher/ambusher-se-melee1.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-se-melee2.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-se-melee3.png</frame>
@@ -8262,7 +8386,8 @@
 				<frame>data/core/images/units/saurians/ambusher/ambusher-se-melee8.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-se-melee9.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-se-melee10.png</frame>
-
+		</sequence>
+		<sequence action="move" loop="loop">
 				<frame>data/core/images/units/saurians/ambusher/ambusher-se-run1.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-se-run2.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-se-run3.png</frame>
@@ -8275,7 +8400,8 @@
 				<frame>data/core/images/units/saurians/ambusher/ambusher-se-run10.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-se-run11.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-se-run12.png</frame>
-
+		</sequence>
+		<sequence action="shooting">
 				<frame>data/core/images/units/saurians/ambusher/ambusher-se-throw1.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-se-throw2.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-se-throw3.png</frame>
@@ -8285,7 +8411,8 @@
 				<frame>data/core/images/units/saurians/ambusher/ambusher-se-throw7.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-se-throw8.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-se-throw9.png</frame>
-
+		</sequence>
+		<sequence action="fighting S">
 				<frame>data/core/images/units/saurians/ambusher/ambusher-s-melee1.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-s-melee2.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-s-melee3.png</frame>
@@ -8296,23 +8423,27 @@
 				<frame>data/core/images/units/saurians/ambusher/ambusher-s-melee8.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-s-melee9.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-s-melee10.png</frame>
-
-				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-bob1.png</frame>
-				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-bob2.png</frame>
-				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-bob3.png</frame>
-				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-bob4.png</frame>
-				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-bob5.png</frame>
-				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-bob6.png</frame>
-
+		</sequence>
+		<sequence action="stand N" loop="loop">
+				<frame duration="3">data/core/images/units/saurians/ambusher/ambusher-ne-bob1.png</frame>
+				<frame duration="3">data/core/images/units/saurians/ambusher/ambusher-ne-bob2.png</frame>
+				<frame duration="3">data/core/images/units/saurians/ambusher/ambusher-ne-bob3.png</frame>
+				<frame duration="3">data/core/images/units/saurians/ambusher/ambusher-ne-bob4.png</frame>
+				<frame duration="3">data/core/images/units/saurians/ambusher/ambusher-ne-bob5.png</frame>
+				<frame duration="3">data/core/images/units/saurians/ambusher/ambusher-ne-bob6.png</frame>
+		</sequence>
+		<sequence action="pain N" next="stand N">
 				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-defend1.png</frame>
 				<frame duration="3">data/core/images/units/saurians/ambusher/ambusher-ne-defend2.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-defend1.png</frame>
-
+		</sequence>
+		<sequence action="fall N" loop="stay">
 				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-die1.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-die2.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-die3.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-die4.png</frame>
-
+		</sequence>
+		<sequence action="fighting NE" next="stand N">
 				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-melee1.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-melee2.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-melee3.png</frame>
@@ -8323,7 +8454,8 @@
 				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-melee8.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-melee9.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-melee10.png</frame>
-
+		</sequence>
+		<sequence action="move N" loop="loop">
 				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-run1.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-run2.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-run3.png</frame>
@@ -8336,7 +8468,8 @@
 				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-run10.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-run11.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-run12.png</frame>
-
+		</sequence>
+		<sequence action="shooting N" next="stand N">
 				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-throw1.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-throw2.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-throw3.png</frame>
@@ -8346,7 +8479,8 @@
 				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-throw7.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-throw8.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-ne-throw9.png</frame>
-
+		</sequence>
+		<sequence action="fighting N" next="stand N">
 				<frame>data/core/images/units/saurians/ambusher/ambusher-n-melee1.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-n-melee2.png</frame>
 				<frame>data/core/images/units/saurians/ambusher/ambusher-n-melee3.png</frame>
@@ -8363,24 +8497,25 @@
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="fighting" description="spear"/>
 		<sequence action="stand" loop="loop">
-				<frame>data/core/images/units/saurians/flanker/flanker.png</frame>
-
-				<frame>data/core/images/units/saurians/flanker/flanker-se-bob1.png</frame>
-				<frame>data/core/images/units/saurians/flanker/flanker-se-bob2.png</frame>
-				<frame>data/core/images/units/saurians/flanker/flanker-se-bob3.png</frame>
-				<frame>data/core/images/units/saurians/flanker/flanker-se-bob4.png</frame>
-				<frame>data/core/images/units/saurians/flanker/flanker-se-bob5.png</frame>
-				<frame>data/core/images/units/saurians/flanker/flanker-se-bob6.png</frame>
-
+				<frame duration="3">data/core/images/units/saurians/flanker/flanker-se-bob1.png</frame>
+				<frame duration="3">data/core/images/units/saurians/flanker/flanker-se-bob2.png</frame>
+				<frame duration="3">data/core/images/units/saurians/flanker/flanker-se-bob3.png</frame>
+				<frame duration="3">data/core/images/units/saurians/flanker/flanker-se-bob4.png</frame>
+				<frame duration="3">data/core/images/units/saurians/flanker/flanker-se-bob5.png</frame>
+				<frame duration="3">data/core/images/units/saurians/flanker/flanker-se-bob6.png</frame>
+		</sequence>
+		<sequence action="pain">
 				<frame>data/core/images/units/saurians/flanker/flanker-se-defend1.png</frame>
 				<frame duration="3">data/core/images/units/saurians/flanker/flanker-se-defend2.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-se-defend1.png</frame>
-
+		</sequence>
+		<sequence action="fall" loop="stay">
 				<frame>data/core/images/units/saurians/flanker/flanker-se-die1.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-se-die2.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-se-die3.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-se-die4.png</frame>
-
+		</sequence>
+		<sequence action="fighting">
 				<frame>data/core/images/units/saurians/flanker/flanker-se-melee1.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-se-melee2.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-se-melee3.png</frame>
@@ -8391,7 +8526,8 @@
 				<frame>data/core/images/units/saurians/flanker/flanker-se-melee8.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-se-melee9.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-se-melee10.png</frame>
-
+		</sequence>
+		<sequence action="move" loop="loop">
 				<frame>data/core/images/units/saurians/flanker/flanker-se-run1.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-se-run2.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-se-run3.png</frame>
@@ -8404,7 +8540,8 @@
 				<frame>data/core/images/units/saurians/flanker/flanker-se-run10.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-se-run11.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-se-run12.png</frame>
-
+		</sequence>
+		<sequence action="shooting">
 				<frame>data/core/images/units/saurians/flanker/flanker-se-throw1.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-se-throw2.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-se-throw3.png</frame>
@@ -8414,7 +8551,8 @@
 				<frame>data/core/images/units/saurians/flanker/flanker-se-throw7.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-se-throw8.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-se-throw9.png</frame>
-
+		</sequence>
+		<sequence action="fighting S">
 				<frame>data/core/images/units/saurians/flanker/flanker-s-melee1.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-s-melee2.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-s-melee3.png</frame>
@@ -8425,23 +8563,27 @@
 				<frame>data/core/images/units/saurians/flanker/flanker-s-melee8.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-s-melee9.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-s-melee10.png</frame>
-
-				<frame>data/core/images/units/saurians/flanker/flanker-ne-bob1.png</frame>
-				<frame>data/core/images/units/saurians/flanker/flanker-ne-bob2.png</frame>
-				<frame>data/core/images/units/saurians/flanker/flanker-ne-bob3.png</frame>
-				<frame>data/core/images/units/saurians/flanker/flanker-ne-bob4.png</frame>
-				<frame>data/core/images/units/saurians/flanker/flanker-ne-bob5.png</frame>
-				<frame>data/core/images/units/saurians/flanker/flanker-ne-bob6.png</frame>
-
+		</sequence>
+		<sequence action="stand N" loop="loop">
+				<frame duration="3">data/core/images/units/saurians/flanker/flanker-ne-bob1.png</frame>
+				<frame duration="3">data/core/images/units/saurians/flanker/flanker-ne-bob2.png</frame>
+				<frame duration="3">data/core/images/units/saurians/flanker/flanker-ne-bob3.png</frame>
+				<frame duration="3">data/core/images/units/saurians/flanker/flanker-ne-bob4.png</frame>
+				<frame duration="3">data/core/images/units/saurians/flanker/flanker-ne-bob5.png</frame>
+				<frame duration="3">data/core/images/units/saurians/flanker/flanker-ne-bob6.png</frame>
+		</sequence>
+		<sequence action="pain N" next="stand N">
 				<frame>data/core/images/units/saurians/flanker/flanker-ne-defend1.png</frame>
-				<frame>data/core/images/units/saurians/flanker/flanker-ne-defend2.png</frame>
+				<frame duration="3">data/core/images/units/saurians/flanker/flanker-ne-defend2.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-ne-defend1.png</frame>
-
+		</sequence>
+		<sequence action="fall N" loop="stay">
 				<frame>data/core/images/units/saurians/flanker/flanker-ne-die1.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-ne-die2.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-ne-die3.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-ne-die4.png</frame>
-
+		</sequence>
+		<sequence action="fighting NE" next="stand N">
 				<frame>data/core/images/units/saurians/flanker/flanker-ne-melee1.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-ne-melee2.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-ne-melee3.png</frame>
@@ -8452,7 +8594,8 @@
 				<frame>data/core/images/units/saurians/flanker/flanker-ne-melee8.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-ne-melee9.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-ne-melee10.png</frame>
-
+		</sequence>
+		<sequence action="move N" loop="loop">
 				<frame>data/core/images/units/saurians/flanker/flanker-ne-run1.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-ne-run2.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-ne-run3.png</frame>
@@ -8465,7 +8608,8 @@
 				<frame>data/core/images/units/saurians/flanker/flanker-ne-run10.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-ne-run11.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-ne-run12.png</frame>
-
+		</sequence>
+		<sequence action="shooting N" next="stand N">
 				<frame>data/core/images/units/saurians/flanker/flanker-ne-throw1.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-ne-throw2.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-ne-throw3.png</frame>
@@ -8475,7 +8619,8 @@
 				<frame>data/core/images/units/saurians/flanker/flanker-ne-throw7.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-ne-throw8.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-ne-throw9.png</frame>
-
+		</sequence>
+		<sequence action="fighting N" next="stand N">
 				<frame>data/core/images/units/saurians/flanker/flanker-n-melee1.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-n-melee2.png</frame>
 				<frame>data/core/images/units/saurians/flanker/flanker-n-melee3.png</frame>
