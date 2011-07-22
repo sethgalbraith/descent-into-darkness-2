@@ -1,4 +1,4 @@
-Game.Character = function (xmlElement) {
+Game.Character = function (xml) {
 
   // Set default variable values.
   this.element = Game.createElement("div", {"class": "character"});
@@ -18,8 +18,27 @@ Game.Character = function (xmlElement) {
   this.portraits = [];
 
   // Get settings from the XML element.
-  this.name = xmlElement.getAttribute("name");
-  var abilityElements = xmlElement.getElementsByTagName('ability');
+  this.name = xml.getAttribute("name");
+  this.setX(parseInt(xml.getAttribute("x")));
+  this.setY(parseInt(xml.getAttribute("y")));
+  this.location = xml.getAttribute("location");
+  this.type = xml.getAttribute("type");
+  this.speed = xml.hasAttribute("speed") ? parseInt(xml.getAttribute("speed")) : 20;
+  this.range = xml.hasAttribute("range") ? parseInt(xml.getAttribute("range")) : 440;
+  this.height = xml.hasAttribute("height") ? parseInt(xml.getAttribute("height")) : 0;
+  this.idleMin = xml.hasAttribute("idleMin") ? parseInt(xml.getAttribute("idleMin")) : 10;
+  this.idleMax = xml.hasAttribute("idleMax") ? parseInt(xml.getAttribute("idleMax")) : 50;
+  var offset = {
+    x: (xml.hasAttribute("xOffset") ? parseInt(xml.getAttribute("xOffset")) : 0),
+    y: (xml.hasAttribute("yOffset") ? parseInt(xml.getAttribute("yOffset")) : 0)
+  }
+
+  var portraitElements = xml.getElementsByTagName("portrait");
+  for (var i = 0; i < portraitElements.length; i++) {
+    this._loadPortrait(portraitElements[i]);
+  }
+
+  var abilityElements = xml.getElementsByTagName('ability');
   for (var j = 0; j < abilityElements.length; j++) {
     this.abilities.push({
       'level': abilityElements[j].getAttribute('level'),
@@ -27,65 +46,32 @@ Game.Character = function (xmlElement) {
       'description': abilityElements[j].getAttribute('description'),
     });
   }
-  var portraitElements = xmlElement.getElementsByTagName("portrait");
-  for (var i = 0; i < portraitElements.length; i++) {
-    this._loadPortrait(portraitElements[i]);
-  }
-  this.setX(parseInt(xmlElement.getAttribute("x")));
-  this.setY(parseInt(xmlElement.getAttribute("y")));
-  this.location = xmlElement.getAttribute("location");
-  this.type = xmlElement.getAttribute("type");
-  var speed = xmlElement.getAttribute("speed");
-  var range = xmlElement.getAttribute("range");
-  var height = xmlElement.getAttribute("height");
-  var idleMin = xmlElement.getAttribute("idleMin");
-  var idleMax = xmlElement.getAttribute("idleMax");
-  this.speed = speed ? parseInt(speed) : 20;
-  this.range = range ? parseInt(range) : 440;
-  this.height = height ? parseInt(height) : 0;
-  this.idleMin = idleMin ? parseInt(idleMin) : 10;
-  this.idleMax = idleMax ? parseInt(idleMax) : 50;
-  var xOffsetAttribute = xmlElement.getAttribute("xOffset");
-  var yOffsetAttribute = xmlElement.getAttribute("yOffset");
-  var offset = {
-    x: (xOffsetAttribute ? parseInt(xOffsetAttribute) : 0),
-    y: (yOffsetAttribute ? parseInt(yOffsetAttribute) : 0)
-  }
 
   // Load images.
   this.images = {};
-  for (var i = 0; i < xmlElement.childNodes.length; i++) {
-    var node = xmlElement.childNodes[i];
-    if (node.nodeType == node.ELEMENT_NODE) {
-      if (node.tagName == 'sequence') {
-        var actionName = node.getAttribute("action");
+  var sequences = xml.getElementsByTagName("sequence");
+  for (var i = 0; i < sequences.length; i++) {
+    var actionName = sequences[i].getAttribute("action");
 //if (this.sequences[actionName]) {alert(this.name); return;}
-        this.sequences[actionName] = {
-          action: actionName,
-          name: node.hasAttribute("name") ? node.getAttribute("name") : actionName,
-          loop: node.hasAttribute("loop") ? node.getAttribute("loop") : "none",
-          next: node.hasAttribute("next") ? node.getAttribute("next") : "stand",
-          frames: [],
-          effects: [],
-        };
-        for (var j = 0; j < node.childNodes.length; j++) {
-          if (node.childNodes[j].nodeType == node.ELEMENT_NODE) {
-            if (node.childNodes[j].tagName == 'frame') {
-              this._loadFrame(node.childNodes[j], offset, actionName);
-            }
-            else if (node.childNodes[j].tagName == 'effect') {
-              // TODO: implement effects
-            }
-          }
-        }
-        var effectElements = node.getElementsByTagName("effect");
-        for (var k = 0; k < effectElements.length; k++) {
-          var effect = new Game.Character(effectElements[k]);
-          this.sequences[actionName].effects.push(effect);
-//          this.container.appendChild(effect.element);
-          this.element.appendChild(effect.element);
-          effect.hide();
-        }
+    this.sequences[actionName] = {
+      action: actionName,
+      name: sequences[i].hasAttribute("name") ? sequences[i].getAttribute("name") : actionName,
+      loop: sequences[i].hasAttribute("loop") ? sequences[i].getAttribute("loop") : "none",
+      next: sequences[i].hasAttribute("next") ? sequences[i].getAttribute("next") : "stand",
+      layers: [],
+      effects: [],
+    };
+    var layers = sequences[i].getElementsByTagName("layer");
+    if (layers.length == 0) layers = [sequences[i]];
+    for (var j = 0; j < layers.length; j++) {
+      this.sequences[actionName].layers.push([]);
+      var layerOffset = {
+        x: offset.x + (layers[j].hasAttribute("xOffset") ? parseInt(layers[j].getAttribute("xOffset")) : 0),
+        y: offset.y + (layers[j].hasAttribute("yOffset") ? parseInt(layers[j].getAttribute("yOffset")) : 0),
+      };
+      var frames = layers[j].getElementsByTagName("frame");
+      for (var k = 0; k < frames.length; k++) {
+        this._loadFrame(frames[k], layerOffset, actionName, j);
       }
     }    
   }
@@ -110,18 +96,18 @@ Game.Character.prototype = {
     this.portraits.push(image);
   },
 
-  _loadFrame: function (xmlElement, offset, action) {
-    var opacity = xmlElement.getAttribute("opacity");
-    var rotate = xmlElement.getAttribute("rotate");
-    var scale = xmlElement.getAttribute("scale");
-    var url = xmlElement.textContent;
-    var frameX = xmlElement.getAttribute("x");
-    var frameY = xmlElement.getAttribute("y");
+  _loadFrame: function (xml, offset, action, layer) {
+    var opacity = xml.getAttribute("opacity");
+    var rotate = xml.getAttribute("rotate");
+    var scale = xml.getAttribute("scale");
+    var url = xml.textContent;
+    var frameX = xml.getAttribute("x");
+    var frameY = xml.getAttribute("y");
     var frameOffset = {
       x: offset.x + (frameX ? parseInt(frameX) : 0),
       y: offset.y + (frameY ? parseInt(frameY) : 0)
     }
-    var key = [opacity, rotate, scale, url, frameX, frameY].join("\n");
+    var key = [opacity, rotate, scale, url, frameX, frameY, layer].join("\n");
     var image = this.images[key];
     if (!image) {
       if (url) { // Create a new image.
@@ -132,11 +118,12 @@ Game.Character.prototype = {
       }
       this.images[key] = image;
     }
-    var durationString = xmlElement.getAttribute("duration");
+    var durationString = xml.getAttribute("duration");
     var duration = durationString ? parseInt(durationString) : 1;
     for (var i = 0; i < duration; i++) {
-      this.sequences[action].frames.push(image);
+      this.sequences[action].layers[layer].push(image);
     }
+    image.style.zIndex = layer;
     this.container.appendChild(image);
   },
 
@@ -172,35 +159,20 @@ Game.Character.prototype = {
   },
 
   _hideCurrentFrame: function () {
-    if (this.sequences[this._action]) {
-      this.sequences[this._action].frames[this._frame].style.visibility = "hidden";
+    var sequence = this.sequences[this._action];
+    if (sequence) {
+      for (var i = 0; i < sequence.layers.length; i++) {
+        sequence.layers[i][this._frame].style.visibility = "hidden";
+      }
     }
   },
 
   _showCurrentFrame: function () {
-    if (this.sequences[this._action]) {
-      this.sequences[this._action].frames[this._frame].style.visibility = "visible";
-    }
-  },
-
-  _hideCurrentEffects: function () {
-    var effects = this.sequences[this._action].effects;
-    for (var i = 0; i < effects.length; i++) {
-      effects[i].hide();
-    }
-  },
-
-  _showCurrentEffects: function () {
-    var effects = this.sequences[this._action].effects;
-    for (var i = 0; i < effects.length; i++) {
-      effects[i].show();
-    }
-  },
-
-  _animateEffects: function () {
-    var effects = this.sequences[this._action].effects;
-    for (var i = 0; i < effects.length; i++) {
-      effects[i].setFrame(this._frame);
+    var sequence = this.sequences[this._action];
+    if (sequence) {
+      for (var i = 0; i < sequence.layers.length; i++) {
+        sequence.layers[i][this._frame].style.visibility = "visible";
+      }
     }
   },
 
@@ -231,11 +203,11 @@ Game.Character.prototype = {
     // and the sequence contains enough frames.
     var sequence = this.sequences[this._action];
     if (sequence) {
-      if (value < sequence.frames.length) {
+      if (value < sequence.layers[0].length) {
         this._frame = value;
       }
       else if (sequence.loop == "stay") {
-        this._frame = sequence.frames.length - 1;
+        this._frame = sequence.layers[0].length - 1;
       }
       else if (sequence.loop == "none") {
         this._frame = 0;
@@ -250,23 +222,20 @@ Game.Character.prototype = {
         return;
       }
     }
-    this._animateEffects();
     this._showCurrentFrame();
   },
 
   getAction: function() {return this._action;},
   setAction: function(value) {
-    this._hideCurrentEffects();
     this._hideCurrentFrame();
     this._action = value;
     // Set the frame to 0 if the sequence does not exist
     // or does not contain enough frames.
     var sequence = this.sequences[this._action];
-    if (!sequence || this._frame >= sequence.frames.length) {
+    if (!sequence || this._frame >= sequence.layers[0].length) {
       this._frame = 0;
     }
     this._showCurrentFrame();
-    this._showCurrentEffects();
   },
 
   // PUBLIC METHODS
