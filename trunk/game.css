@@ -87,6 +87,25 @@
   position: absolute;
   left: 36px;
   top: 36px;
+/*
+  opacity: 1;
+  transition: opacity 0.05s ease-out;
+  -moz-transition: opacity 0.05s ease-out;
+  -ms-transition: opacity 0.05s ease-out;
+  -o-transition: opacity 0.05s ease-out;
+  -webkit-transition: opacity 0.05s ease-out;
+*/
+}
+.character div canvas.hid {
+  visibility: hidden;
+/*
+  opacity: 0;
+  transition: opacity 0.05s ease-in;
+  -moz-transition: opacity 0.05s ease-in;
+  -ms-transition: opacity 0.05s ease-in;
+  -o-transition: opacity 0.05s ease-in;
+  -webkit-transition: opacity 0.05s ease-in;
+*/
 }
 .character .left canvas {
   transform: scaleX(-1);
