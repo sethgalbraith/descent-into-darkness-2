@@ -28,6 +28,7 @@ Game.Character = function (xml) {
   this.height = xml.hasAttribute("height") ? parseInt(xml.getAttribute("height")) : 0;
   this.idleMin = xml.hasAttribute("idleMin") ? parseInt(xml.getAttribute("idleMin")) : 10;
   this.idleMax = xml.hasAttribute("idleMax") ? parseInt(xml.getAttribute("idleMax")) : 50;
+  this.color = xml.hasAttribute("color") ? parseInt(xml.getAttribute("color")) : 198;
   var offset = {
     x: (xml.hasAttribute("xOffset") ? parseInt(xml.getAttribute("xOffset")) : 0),
     y: (xml.hasAttribute("yOffset") ? parseInt(xml.getAttribute("yOffset")) : 0)
@@ -48,7 +49,7 @@ Game.Character = function (xml) {
   }
 
   // Load images.
-  this.images = {};
+  this.sprites = {};
   var sequences = xml.getElementsByTagName("sequence");
   for (var i = 0; i < sequences.length; i++) {
     var actionName = sequences[i].getAttribute("action");
@@ -108,26 +109,30 @@ Game.Character.prototype = {
       y: offset.y + (frameY ? parseInt(frameY) : 0)
     }
     var key = [opacity, rotate, scale, url, frameX, frameY, layer].join("\n");
-    var image = this.images[key];
-    if (!image) {
+    var sprite = this.sprites[key];
+    if (!sprite) {
       if (url) { // Create a new image.
-        image = this._makeFrame(url, frameOffset, rotate, scale, opacity);
+        sprite = this._makeFrame(url, frameOffset, rotate, scale, opacity);
       }
       else { // Create an empty div which can be hidden or shown like an image.
-        image = Game.createElement("div");
+        sprite = {
+          canvas: Game.createElement("div"),
+          setColor: function () {return;},
+        }
       }
-      this.images[key] = image;
+      this.sprites[key] = sprite;
     }
     var durationString = xml.getAttribute("duration");
     var duration = durationString ? parseInt(durationString) : 1;
     for (var i = 0; i < duration; i++) {
-      this.sequences[action].layers[layer].push(image);
+      this.sequences[action].layers[layer].push(sprite.canvas);
     }
-    image.style.zIndex = layer;
-    this.container.appendChild(image);
+    sprite.canvas.style.zIndex = layer;
+    this.container.appendChild(sprite.canvas);
   },
 
   _makeFrame: function (url, offset, rotate, scale, opacity) {
+    var color = this.getColor();
     var sprite = new Game.TeamSprite(url, Game.loader, function () {
       var left = offset.x + parseInt(sprite.canvas.style.marginLeft);
       var top = offset.y + parseInt(sprite.canvas.style.marginTop);
@@ -135,7 +140,7 @@ Game.Character.prototype = {
       sprite.canvas.style.marginTop = top + "px";
       sprite.canvas.style.marginRight = (sprite.canvas.width - left) + "px";
       sprite.canvas.style.marginBottom = (sprite.canvas.height - top) + "px";
-      sprite.setColor(255, 128, 0);
+      sprite.setColor(color.red, color.green, color.blue);
     });
 //    sprite.canvas.style.visibility = "hidden";
     sprite.canvas.className = "hid";
@@ -156,7 +161,7 @@ Game.Character.prototype = {
       sprite.canvas.style.MozTransform = transform;
       sprite.canvas.style.OTransform = transform;
     }
-    return sprite.canvas;
+    return sprite;
   },
 
   _hideCurrentFrame: function () {
@@ -239,6 +244,23 @@ Game.Character.prototype = {
       this._frame = 0;
     }
     this._showCurrentFrame();
+  },
+
+  getColor: function() {
+    return {
+      red: 51 * Math.floor(this.color / 36),
+      green: 51 * (Math.floor(this.color / 6) % 6),
+      blue: 51 * (this.color % 6),
+    };
+  },
+  setColor: function(r, g, b) {
+    this.color = 36 * Math.floor(r / 51)
+      + 6 * Math.floor(g / 51)
+      + Math.floor(b / 51);
+    var rgb = this.getColor();
+    for (key in this.sprites) {
+      this.sprites[key].setColor(rgb.red, rgb.green, rgb.blue);
+    }
   },
 
   // PUBLIC METHODS
