@@ -122,7 +122,7 @@ function serializeXML(xml) {
   return text;
 };
 
-function showUnit(unit, main, gallery) {
+function showUnit(unit, main) {
   var row = Game.createElement('tr', {}, main);
   var cells = [
     Game.createElement('td', {'valign': 'top'}, row),
@@ -135,14 +135,6 @@ function showUnit(unit, main, gallery) {
     Game.createElement('div', {}, cells[0]).textContent = unit.abilities[i].level
       + " " + unit.abilities[i].name
       + ": " + unit.abilities[i].description;
-  }
-  for (var j = 0; j < unit.portraits.length; j++) {
-    var position = gallery.childNodes.length;
-    unit.portraits[j].className = "portrait";
-    unit.portraits[j].style.left = position % 3 * 100 + 'px';
-    unit.portraits[j].style.top = Math.floor(position / 3) * 100 + 'px';
-    gallery.style.height = (Math.floor(position / 3) * 100 + 100) + 'px';
-    gallery.appendChild(unit.portraits[j]);
   }
   var rel = Game.createElement('div', {'style': 'position: relative'}, cells[2]);
   rel.appendChild(unit.element);
@@ -161,6 +153,22 @@ function showUnit(unit, main, gallery) {
     )(action);
   }
 }
+
+function showPortraits (units, gallery) {
+  var portraits = {};
+  for (var i = 0; i < units.length; i++) {
+    for (var j = 0; j < units[i].portraits.length; j++) {
+      if (portraits[units[i].portraits[j].src]) continue;
+      portraits[units[i].portraits[j].src] = true;
+      var position = gallery.childNodes.length;
+      units[i].portraits[j].className = "portrait";
+      units[i].portraits[j].style.left = position % 3 * 100 + 'px';
+      units[i].portraits[j].style.top = Math.floor(position / 3) * 100 + 'px';
+      gallery.style.height = (Math.floor(position / 3) * 100 + 100) + 'px';
+      gallery.appendChild(units[i].portraits[j]);
+    }
+  }
+};
 
 var names = [];
 function Class(xml) {
@@ -183,8 +191,9 @@ Class.prototype = {
       for (var i = 0; i < self.elements.length; i++) {
         var xml = unitElements[self.elements[i].textContent];
         units.push(new Game.Character(xml));
-        showUnit(units[i], tbody, gallery);
+        showUnit(units[i], tbody);
       }
+      showPortraits(units, gallery);
       if (window.animateClasses) clearInterval(window.animateClasses);
       window.animateClasses = setInterval(function () {
         for (var i = 0; i < units.length; i++) {
