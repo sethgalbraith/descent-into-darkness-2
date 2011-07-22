@@ -1,9 +1,6 @@
 <html>
   <head>
     <style type="text/css">
-div {
-  white-space:nowrap;
-}
 table {
   padding-bottom: 250px;
   border-spacing: 20px;
@@ -40,7 +37,7 @@ table {
   -ms-transition: 0.2s ease-in-out;
   -o-transition: 0.2s ease-in-out;
   -webkit-transition: 0.2s ease-in-out;
-  z-index: 1;
+/*  z-index: 1; */
 }
 .portrait:hover {
   width: 250px;
@@ -145,15 +142,16 @@ function showUnit(unit, main) {
   ];
   Game.createElement('h3', {}, cells[0]).textContent = unit.name;
   for (var i = 0; i < unit.abilities.length; i++) {
-    Game.createElement('div', {}, cells[0]).textContent = unit.abilities[i].level
+    var ability = Game.createElement('div', {'style': 'white-space:nowrap'}, cells[0]);
+    ability.textContent = unit.abilities[i].level
       + " " + unit.abilities[i].name
       + ": " + unit.abilities[i].description;
   }
-  var rel = Game.createElement('div', {'style': 'position: relative'}, cells[2]);
+  var rel = Game.createElement('div', {'style': 'position:relative'}, cells[2]);
   rel.appendChild(unit.element);
   for (var action in unit.sequences) {
-    var link = Game.createElement('a', {'href': '#'},
-      Game.createElement('div', {}, cells[3]));
+    var link = Game.createElement('a', {'href': '#', 'style': 'white-space:nowrap'}, cells[3]);
+    cells[3].appendChild(document.createTextNode(" "));
     link.textContent = action;
     link.onclick = (
       function (x) {
