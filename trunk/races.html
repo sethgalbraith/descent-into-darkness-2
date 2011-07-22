@@ -74,12 +74,13 @@ var Game = {
     }
     // create and send the ajax request
     var ajax = new XMLHttpRequest();
-    ajax.onreadystatechange = function () {
+    if (callback) ajax.onreadystatechange = function () {
       if (ajax.readyState == 4) callback(ajax);
     };
-    ajax.open("POST", url, true);
+    ajax.open("POST", url, typeof(callback) == "function");
     ajax.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     ajax.send(body);
+    return ajax;
   },
 };
 
@@ -154,23 +155,9 @@ var names = [];
 function Class(xml) {
   this.name = xml.getAttribute('name');
   this.elements = xml.getElementsByTagName('unit');
-
-for (var i = 0; i < this.elements.length; i++) {
-  var xmlElement = this.elements[i]
-  if (xmlElement.getElementsByTagName("sequence").length == 1
-   && xmlElement.getElementsByTagName("frame").length != 1)
-    names.push(xmlElement.getAttribute("name"));
-}
-/*
-for (var i = 0; i < this.elements.length; i++) {
-  var xmlElement = this.elements[i]
-  if (xmlElement.getElementsByTagName("frame").length == 0)
-    alert(xmlElement.getAttribute("name"));
-}
-*/
 }
 Class.prototype = {
-  show: function (menu, main) {
+  show: function (menu, main, unitElements) {
     var line = Game.createElement('div', {}, menu);
     var link = Game.createElement('a', {'href': '#'}, line);
     link.textContent = this.name;
@@ -182,7 +169,8 @@ Class.prototype = {
         Game.createElement('table', {}, main))
       var units = [];
       for (var i = 0; i < self.elements.length; i++) {
-        units.push(new Game.Character(self.elements[i]));
+        var xml = unitElements[self.elements[i].textContent];
+        units.push(new Game.Character(xml));
         showUnit(units[i], tbody);
       }
       if (window.animateClasses) clearInterval(window.animateClasses);
@@ -205,37 +193,28 @@ function Race(xml) {
   }
 }
 Race.prototype = {
-  show: function (menu, main) {
+  show: function (menu, main, units) {
     Game.createElement('h1', {}, menu).textContent = this.name;
     for (var i = 0; i < this.classes.length; i++) {
-      this.classes[i].show(menu, main);
+      this.classes[i].show(menu, main, units);
     }
   },
 }
 
-function createRaces(xml) {
-  var races = [];
-  var raceElements = xml.getElementsByTagName('race');
-  for (var i = 0; i < raceElements.length; i++) {
-    races.push(new Race(raceElements[i]));
+onload = function () {
+  Game.loader = new Game.ImageLoader(function () {return;});
+  var menu = document.getElementById('menu');
+  var main = document.getElementById('main');
+  var raceElements = Game.ajaxRequest('races.xml').responseXML.getElementsByTagName('race');
+  var unitElements = Game.ajaxRequest('units.xml').responseXML.getElementsByTagName('unit');
+  var units = {};
+  for (var j = 0; j < unitElements.length; j++) {
+    units[unitElements[j].getAttribute('name')] = unitElements[j];
   }
-//alert(names);
-  return races;
-}
-
-addEventListener('load', function () {
-  Game.ajaxRequest('races.xml', {}, function (ajax) {
-    Game.loader = new Game.ImageLoader(function () {
-      return; // do stuff after all images are loaded
-    });
-    var menu = document.getElementById('menu');
-    var main = document.getElementById('main');
-    var races = createRaces(ajax.responseXML);
-    for (var i = 0; i < races.length; i++) {
-      races[i].show(menu, main);
-    }
-  });
-}, true);
+  for (var i = 0; i < raceElements.length; i++) {
+    (new Race(raceElements[i])).show(menu, main, units);
+  }
+};
 
     </script>
     <link rel="stylesheet" type="text/css" href="game.css" />
