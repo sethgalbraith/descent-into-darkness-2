@@ -82,13 +82,13 @@
 		</class>
 		<class name="Clasher">
 			<unit>Drake Clasher</unit>
-			<branch name="halberd">
-				<unit>Drake Arbiter</unit>
-				<unit>Drake Warden</unit>
-			</branch>
 			<branch name="spear and claw weapon">
 				<unit>Drake Thrasher</unit>
 				<unit>Drake Enforcer</unit>
+			</branch>
+			<branch name="halberd">
+				<unit>Drake Arbiter</unit>
+				<unit>Drake Warden</unit>
 			</branch>
 		</class>
 		<class name="Fighter">
@@ -258,6 +258,10 @@
 			<unit>Lieutenant</unit>
 			<unit>General</unit>
 			<unit>Grand Marshal</unit>
+			<branch name="sword and sheild">
+				<unit>Swordsman</unit>
+				<unit>Royal Guard</unit>
+			</branch>
 		</class>
 		<class name="Female Mage">
 			<unit>Female Mage</unit>
@@ -309,10 +313,6 @@
 			<unit>Spearman</unit>
 			<branch name="throwing spears">
 				<unit>Javelineer</unit>
-			</branch>
-			<branch name="sword and sheild">
-				<unit>Swordsman</unit>
-				<unit>Royal Guard</unit>
 			</branch>
 			<branch name="big polearms">
 				<unit>Pikeman</unit>
