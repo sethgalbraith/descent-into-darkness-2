@@ -6059,17 +6059,20 @@
 		<sequence action="stand" loop="loop">
 				<frame>data/core/images/units/human-peasants/woodsman.png</frame>
 		</sequence>
+		<sequence action="stand2">
+				<frame duration="20">data/core/images/units/human-peasants/woodsman-bow.png</frame>
+		</sequence>
 		<sequence action="pain">
 				<frame duration="4">data/core/images/units/human-peasants/woodsman-defend.png</frame>
 		</sequence>
-		<sequence action="pain2">
+		<sequence action="pain2" next="stand2">
 				<frame duration="4">data/core/images/units/human-peasants/woodsman-bow-defend.png</frame>
 		</sequence>
 		<sequence action="fighting">
 				<frame duration="3">data/core/images/units/human-peasants/woodsman-melee-1.png</frame>
 				<frame duration="3">data/core/images/units/human-peasants/woodsman-melee-2.png</frame>
 		</sequence>
-		<sequence action="shooting">
+		<sequence action="shooting" next="stand2">
 				<frame>data/core/images/units/human-peasants/woodsman-bow.png</frame>
 				<frame>data/core/images/units/human-peasants/woodsman-bow-attack-1.png</frame>
 				<frame>data/core/images/units/human-peasants/woodsman-bow-attack-2.png</frame>
@@ -6401,7 +6404,23 @@
 		<sequence action="stand" loop="loop">
 				<frame>data/core/images/units/human-loyalists/bowman.png</frame>
 		</sequence>
-		<sequence name="bow" action="shooting">
+		<sequence action="stand2">
+				<frame duration="20">data/core/images/units/human-loyalists/bowman-melee-defend-1.png</frame>
+		</sequence>
+		<sequence action="stand3">
+				<frame duration="20">data/core/images/units/human-loyalists/bowman-bow.png</frame>
+		</sequence>
+		<sequence action="pain" next="stand3">
+				<frame>data/core/images/units/human-loyalists/bowman-bow.png</frame>
+				<frame duration="3">data/core/images/units/human-loyalists/bowman-bow-defend.png</frame>
+				<frame>data/core/images/units/human-loyalists/bowman-bow.png</frame>
+		</sequence>
+		<sequence action="pain2" next="stand2">
+				<frame>data/core/images/units/human-loyalists/bowman-melee-defend-1.png</frame>
+				<frame duration="3">data/core/images/units/human-loyalists/bowman-melee-defend-2.png</frame>
+				<frame>data/core/images/units/human-loyalists/bowman-melee-defend-1.png</frame>
+		</sequence>
+		<sequence name="bow" action="shooting" next="stand3">
 				<frame>data/core/images/units/human-loyalists/bowman-bow.png</frame>
 				<frame>data/core/images/units/human-loyalists/bowman-bow-attack-1.png</frame>
 				<frame>data/core/images/units/human-loyalists/bowman-bow-attack-2.png</frame>
@@ -6409,22 +6428,12 @@
 				<frame>data/core/images/units/human-loyalists/bowman-bow-attack-4.png</frame>
 				<frame>data/core/images/units/human-loyalists/bowman-bow-attack-1.png</frame>
 		</sequence>
-		<sequence action="pain">
-				<frame>data/core/images/units/human-loyalists/bowman-bow.png</frame>
-				<frame duration="3">data/core/images/units/human-loyalists/bowman-bow-defend.png</frame>
-				<frame>data/core/images/units/human-loyalists/bowman-bow.png</frame>
-		</sequence>
-		<sequence name="sword" action="fighting">
+		<sequence name="sword" action="fighting" next="stand2">
 				<frame>data/core/images/units/human-loyalists/bowman-melee-defend-1.png</frame>
 				<frame>data/core/images/units/human-loyalists/bowman-melee-attack-1.png</frame>
 				<frame>data/core/images/units/human-loyalists/bowman-melee-attack-2.png</frame>
 				<frame>data/core/images/units/human-loyalists/bowman-melee-attack-3.png</frame>
 				<frame>data/core/images/units/human-loyalists/bowman-melee-attack-4.png</frame>
-				<frame>data/core/images/units/human-loyalists/bowman-melee-defend-1.png</frame>
-		</sequence>
-		<sequence name="block" action="defend">
-				<frame>data/core/images/units/human-loyalists/bowman-melee-defend-1.png</frame>
-				<frame duration="3">data/core/images/units/human-loyalists/bowman-melee-defend-2.png</frame>
 				<frame>data/core/images/units/human-loyalists/bowman-melee-defend-1.png</frame>
 		</sequence>
 	</unit>
@@ -6436,7 +6445,23 @@
 		<sequence action="stand" loop="loop">
 				<frame>data/core/images/units/human-loyalists/longbowman.png</frame>
 		</sequence>
-		<sequence name="bow" action="shooting">
+		<sequence action="stand2">
+				<frame duration="20">data/core/images/units/human-loyalists/longbowman-melee-defend-1.png</frame>
+		</sequence>
+		<sequence action="stand3">
+				<frame duration="20">data/core/images/units/human-loyalists/longbowman-bow.png</frame>
+		</sequence>
+		<sequence action="pain" next="stand3">
+				<frame>data/core/images/units/human-loyalists/longbowman-bow.png</frame>
+				<frame duration="3">data/core/images/units/human-loyalists/longbowman-bow-defend.png</frame>
+				<frame>data/core/images/units/human-loyalists/longbowman-bow.png</frame>
+		</sequence>
+		<sequence action="pain2" next="stand2">
+				<frame>data/core/images/units/human-loyalists/longbowman-melee-defend-1.png</frame>
+				<frame duration="3">data/core/images/units/human-loyalists/longbowman-melee-defend-2.png</frame>
+				<frame>data/core/images/units/human-loyalists/longbowman-melee-defend-1.png</frame>
+		</sequence>
+		<sequence name="bow" action="shooting" next="stand3">
 				<frame>data/core/images/units/human-loyalists/longbowman-bow.png</frame>
 				<frame>data/core/images/units/human-loyalists/longbowman-bow-attack-1.png</frame>
 				<frame>data/core/images/units/human-loyalists/longbowman-bow-attack-2.png</frame>
@@ -6444,10 +6469,13 @@
 				<frame>data/core/images/units/human-loyalists/longbowman-bow-attack-4.png</frame>
 				<frame>data/core/images/units/human-loyalists/longbowman-bow-attack-1.png</frame>
 		</sequence>
-		<sequence action="pain">
-				<frame>data/core/images/units/human-loyalists/longbowman-bow.png</frame>
-				<frame duration="3">data/core/images/units/human-loyalists/longbowman-bow-defend.png</frame>
-				<frame>data/core/images/units/human-loyalists/longbowman-bow.png</frame>
+		<sequence name="sword" action="fighting" next="stand2">
+				<frame>data/core/images/units/human-loyalists/longbowman-melee-defend-1.png</frame>
+				<frame>data/core/images/units/human-loyalists/longbowman-melee-attack-1.png</frame>
+				<frame>data/core/images/units/human-loyalists/longbowman-melee-attack-2.png</frame>
+				<frame>data/core/images/units/human-loyalists/longbowman-melee-attack-3.png</frame>
+				<frame>data/core/images/units/human-loyalists/longbowman-melee-attack-4.png</frame>
+				<frame>data/core/images/units/human-loyalists/longbowman-melee-defend-1.png</frame>
 		</sequence>
 		<sequence name="gesture with sword" action="idle">
 				<frame duration="10">data/core/images/units/human-loyalists/longbowman-idle-1.png</frame>
@@ -6462,19 +6490,6 @@
 				<frame duration="4">data/core/images/units/human-loyalists/longbowman-idle-4.png</frame>
 				<frame>data/core/images/units/human-loyalists/longbowman-idle-1.png</frame>
 		</sequence>
-		<sequence name="sword" action="fighting">
-				<frame>data/core/images/units/human-loyalists/longbowman-melee-defend-1.png</frame>
-				<frame>data/core/images/units/human-loyalists/longbowman-melee-attack-1.png</frame>
-				<frame>data/core/images/units/human-loyalists/longbowman-melee-attack-2.png</frame>
-				<frame>data/core/images/units/human-loyalists/longbowman-melee-attack-3.png</frame>
-				<frame>data/core/images/units/human-loyalists/longbowman-melee-attack-4.png</frame>
-				<frame>data/core/images/units/human-loyalists/longbowman-melee-defend-1.png</frame>
-		</sequence>
-		<sequence name="block" action="defend">
-				<frame>data/core/images/units/human-loyalists/longbowman-melee-defend-1.png</frame>
-				<frame duration="3">data/core/images/units/human-loyalists/longbowman-melee-defend-2.png</frame>
-				<frame>data/core/images/units/human-loyalists/longbowman-melee-defend-1.png</frame>
-		</sequence>
 	</unit>
 	<unit name="Master Bowman" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
@@ -6484,7 +6499,23 @@
 		<sequence action="stand" loop="loop">
 				<frame>data/core/images/units/human-loyalists/masterbowman.png</frame>
 		</sequence>
-		<sequence name="bow" action="shooting">
+		<sequence action="stand2">
+				<frame duration="20">data/core/images/units/human-loyalists/masterbowman-melee-defend-1.png</frame>
+		</sequence>
+		<sequence action="stand3">
+				<frame duration="20">data/core/images/units/human-loyalists/masterbowman-bow.png</frame>
+		</sequence>
+		<sequence action="pain" next="stand3">
+				<frame>data/core/images/units/human-loyalists/masterbowman-bow.png</frame>
+				<frame duration="3">data/core/images/units/human-loyalists/masterbowman-bow-defend.png</frame>
+				<frame>data/core/images/units/human-loyalists/masterbowman-bow.png</frame>
+		</sequence>
+		<sequence action="pain2" next="stand2">
+				<frame>data/core/images/units/human-loyalists/masterbowman-melee-defend-1.png</frame>
+				<frame duration="3">data/core/images/units/human-loyalists/masterbowman-melee-defend-2.png</frame>
+				<frame>data/core/images/units/human-loyalists/masterbowman-melee-defend-1.png</frame>
+		</sequence>
+		<sequence name="bow" action="shooting" next="stand3">
 				<frame>data/core/images/units/human-loyalists/masterbowman-bow.png</frame>
 				<frame>data/core/images/units/human-loyalists/masterbowman-bow-attack-1.png</frame>
 				<frame>data/core/images/units/human-loyalists/masterbowman-bow-attack-2.png</frame>
@@ -6492,10 +6523,13 @@
 				<frame>data/core/images/units/human-loyalists/masterbowman-bow-attack-4.png</frame>
 				<frame>data/core/images/units/human-loyalists/masterbowman-bow-attack-1.png</frame>
 		</sequence>
-		<sequence action="pain">
-				<frame>data/core/images/units/human-loyalists/masterbowman-bow.png</frame>
-				<frame duration="3">data/core/images/units/human-loyalists/masterbowman-bow-defend.png</frame>
-				<frame>data/core/images/units/human-loyalists/masterbowman-bow.png</frame>
+		<sequence name="sword" action="fighting" next="stand2">
+				<frame>data/core/images/units/human-loyalists/masterbowman-melee-defend-1.png</frame>
+				<frame>data/core/images/units/human-loyalists/masterbowman-melee-attack-1.png</frame>
+				<frame>data/core/images/units/human-loyalists/masterbowman-melee-attack-2.png</frame>
+				<frame>data/core/images/units/human-loyalists/masterbowman-melee-attack-3.png</frame>
+				<frame>data/core/images/units/human-loyalists/masterbowman-melee-attack-4.png</frame>
+				<frame>data/core/images/units/human-loyalists/masterbowman-melee-defend-1.png</frame>
 		</sequence>
 		<sequence name="gesture with sword" action="idle">
 				<frame duration="10">data/core/images/units/human-loyalists/masterbowman-idle-1.png</frame>
@@ -6510,19 +6544,6 @@
 				<frame duration="4">data/core/images/units/human-loyalists/masterbowman-idle-4.png</frame>
 				<frame>data/core/images/units/human-loyalists/masterbowman-idle-1.png</frame>
 		</sequence>
-		<sequence name="sword" action="fighting">
-				<frame>data/core/images/units/human-loyalists/masterbowman-melee-defend-1.png</frame>
-				<frame>data/core/images/units/human-loyalists/masterbowman-melee-attack-1.png</frame>
-				<frame>data/core/images/units/human-loyalists/masterbowman-melee-attack-2.png</frame>
-				<frame>data/core/images/units/human-loyalists/masterbowman-melee-attack-3.png</frame>
-				<frame>data/core/images/units/human-loyalists/masterbowman-melee-attack-4.png</frame>
-				<frame>data/core/images/units/human-loyalists/masterbowman-melee-defend-1.png</frame>
-		</sequence>
-		<sequence name="block" action="defend">
-				<frame>data/core/images/units/human-loyalists/masterbowman-melee-defend-1.png</frame>
-				<frame duration="3">data/core/images/units/human-loyalists/masterbowman-melee-defend-2.png</frame>
-				<frame>data/core/images/units/human-loyalists/masterbowman-melee-defend-1.png</frame>
-		</sequence>
 	</unit>
 	<unit name="Poacher" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
@@ -6531,15 +6552,18 @@
 		<sequence action="stand" loop="loop">
 				<frame>data/core/images/units/human-outlaws/poacher.png</frame>
 		</sequence>
+		<sequence action="stand2" loop="loop">
+				<frame>data/core/images/units/human-outlaws/poacher-dagger.png</frame>
+		</sequence>
 		<sequence action="pain">
+				<frame duration="4">data/core/images/units/human-outlaws/poacher-bow-defend.png</frame>
+		</sequence>
+		<sequence action="pain2" next="stand2">
 				<frame>data/core/images/units/human-outlaws/poacher-dagger.png</frame>
 				<frame duration="3">data/core/images/units/human-outlaws/poacher-defend.png</frame>
 				<frame>data/core/images/units/human-outlaws/poacher-dagger.png</frame>
 		</sequence>
-		<sequence action="pain2">
-				<frame duration="4">data/core/images/units/human-outlaws/poacher-bow-defend.png</frame>
-		</sequence>
-		<sequence action="knockout">
+		<sequence action="knockout" next="stand2">
 				<frame>data/core/images/units/human-outlaws/poacher-dagger.png</frame>
 				<frame duration="3">data/core/images/units/human-outlaws/poacher-attack.png</frame>
 				<frame>data/core/images/units/human-outlaws/poacher-dagger.png</frame>
@@ -6558,28 +6582,28 @@
 		<sequence action="stand" loop="loop">
 				<frame>data/core/images/units/human-outlaws/trapper.png</frame>
 		</sequence>
-		<sequence name="dagger" action="knockout2">
-				<frame>data/core/images/units/human-outlaws/trapper-dagger.png</frame>
-				<frame duration="3">data/core/images/units/human-outlaws/trapper-attack-melee-2.png</frame>
+		<sequence action="stand2" loop="loop">
 				<frame>data/core/images/units/human-outlaws/trapper-dagger.png</frame>
 		</sequence>
-		<sequence name="dagger" action="knockout">
+		<sequence action="pain">
+				<frame duration="4">data/core/images/units/human-outlaws/trapper-bow-defend.png</frame>
+		</sequence>
+		<sequence action="pain2" next="stand2">
 				<frame>data/core/images/units/human-outlaws/trapper-dagger.png</frame>
-				<frame duration="3">data/core/images/units/human-outlaws/trapper-attack-melee.png</frame>
+				<frame duration="3">data/core/images/units/human-outlaws/trapper-defend.png</frame>
+				<frame>data/core/images/units/human-outlaws/trapper-dagger.png</frame>
+		</sequence>
+		<sequence name="dagger" action="knockout" next="stand2">
+				<frame>data/core/images/units/human-outlaws/trapper-dagger.png</frame>
+				<frame duration="2">data/core/images/units/human-outlaws/trapper-attack-melee.png</frame>
+				<frame duration="3">data/core/images/units/human-outlaws/trapper-attack-melee-2.png</frame>
+				<frame duration="2">data/core/images/units/human-outlaws/trapper-attack-melee.png</frame>
 				<frame>data/core/images/units/human-outlaws/trapper-dagger.png</frame>
 		</sequence>
 		<sequence name="bow" action="shooting">
 				<frame duration="2">data/core/images/units/human-outlaws/trapper-attack1.png</frame>
 				<frame duration="2">data/core/images/units/human-outlaws/trapper-attack2.png</frame>
 				<frame>data/core/images/units/human-outlaws/trapper-attack3.png</frame>
-		</sequence>
-		<sequence action="pain">
-				<frame duration="4">data/core/images/units/human-outlaws/trapper-bow-defend.png</frame>
-		</sequence>
-		<sequence name="block" action="defend">
-				<frame>data/core/images/units/human-outlaws/trapper-dagger.png</frame>
-				<frame duration="3">data/core/images/units/human-outlaws/trapper-defend.png</frame>
-				<frame>data/core/images/units/human-outlaws/trapper-dagger.png</frame>
 		</sequence>
 		<sequence action="fall" loop="stay">
 				<frame>data/core/images/units/human-outlaws/trapper-die-1.png</frame>
@@ -6600,23 +6624,26 @@
 		<sequence action="stand" loop="loop">
 				<frame>data/core/images/units/human-outlaws/huntsman.png</frame>
 		</sequence>
+		<sequence action="stand2">
+				<frame duration="20">data/core/images/units/human-outlaws/huntsman-bow.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame duration="4">data/core/images/units/human-outlaws/huntsman-defend.png</frame>
+		</sequence>
+		<sequence action="pain2" next="stand2">
+				<frame>data/core/images/units/human-outlaws/huntsman-bow.png</frame>
+				<frame duration="3">data/core/images/units/human-outlaws/huntsman-bow-defend.png</frame>
+				<frame>data/core/images/units/human-outlaws/huntsman-bow.png</frame>
+		</sequence>
 		<sequence name="dagger" action="knockout">
 				<frame duration="3">data/core/images/units/human-outlaws/huntsman-attack-melee.png</frame>
 		</sequence>
-		<sequence name="bow" action="shooting">
+		<sequence name="bow" action="shooting" next="stand2">
 				<frame>data/core/images/units/human-outlaws/huntsman-bow.png</frame>
 				<frame>data/core/images/units/human-outlaws/huntsman-attack1.png</frame>
 				<frame duration="2">data/core/images/units/human-outlaws/huntsman-attack2.png</frame>
 				<frame>data/core/images/units/human-outlaws/huntsman-attack3.png</frame>
 				<frame>data/core/images/units/human-outlaws/huntsman-bow.png</frame>
-		</sequence>
-		<sequence name="block" action="defend">
-				<frame>data/core/images/units/human-outlaws/huntsman-bow.png</frame>
-				<frame duration="3">data/core/images/units/human-outlaws/huntsman-bow-defend.png</frame>
-				<frame>data/core/images/units/human-outlaws/huntsman-bow.png</frame>
-		</sequence>
-		<sequence action="pain">
-				<frame duration="4">data/core/images/units/human-outlaws/huntsman-defend.png</frame>
 		</sequence>
 	</unit>
 	<unit name="Ranger" yOffset="-18">
@@ -6627,6 +6654,19 @@
 		<sequence action="stand" loop="loop">
 				<frame>data/core/images/units/human-outlaws/ranger.png</frame>
 		</sequence>
+		<sequence action="stand2">
+				<frame duration="20">data/core/images/units/human-outlaws/ranger-sword-defend-1.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame>data/core/images/units/human-outlaws/ranger-bow.png</frame>
+				<frame duration="3">data/core/images/units/human-outlaws/ranger-bow-defend.png</frame>
+				<frame>data/core/images/units/human-outlaws/ranger-bow.png</frame>
+		</sequence>
+		<sequence action="pain2" next="stand2">
+				<frame>data/core/images/units/human-outlaws/ranger-sword-defend-1.png</frame>
+				<frame duration="3">data/core/images/units/human-outlaws/ranger-sword-defend-2.png</frame>
+				<frame>data/core/images/units/human-outlaws/ranger-sword-defend-1.png</frame>
+		</sequence>
 		<sequence name="bow" action="shooting">
 				<frame>data/core/images/units/human-outlaws/ranger-bow.png</frame>
 				<frame>data/core/images/units/human-outlaws/ranger-bow-attack1.png</frame>
@@ -6635,22 +6675,12 @@
 				<frame>data/core/images/units/human-outlaws/ranger-bow-attack4.png</frame>
 				<frame>data/core/images/units/human-outlaws/ranger-bow.png</frame>
 		</sequence>
-		<sequence action="pain">
-				<frame>data/core/images/units/human-outlaws/ranger-bow.png</frame>
-				<frame duration="3">data/core/images/units/human-outlaws/ranger-bow-defend.png</frame>
-				<frame>data/core/images/units/human-outlaws/ranger-bow.png</frame>
-		</sequence>
-		<sequence name="sword" action="fighting">
+		<sequence name="sword" action="fighting" next="stand2">
 				<frame>data/core/images/units/human-outlaws/ranger-sword-defend-1.png</frame>
 				<frame>data/core/images/units/human-outlaws/ranger-sword-attack1.png</frame>
 				<frame>data/core/images/units/human-outlaws/ranger-sword-attack2.png</frame>
 				<frame>data/core/images/units/human-outlaws/ranger-sword-attack3.png</frame>
 				<frame>data/core/images/units/human-outlaws/ranger-sword-attack4.png</frame>
-				<frame>data/core/images/units/human-outlaws/ranger-sword-defend-1.png</frame>
-		</sequence>
-		<sequence name="block" action="defend">
-				<frame>data/core/images/units/human-outlaws/ranger-sword-defend-1.png</frame>
-				<frame duration="3">data/core/images/units/human-outlaws/ranger-sword-defend-2.png</frame>
 				<frame>data/core/images/units/human-outlaws/ranger-sword-defend-1.png</frame>
 		</sequence>
 	</unit>
@@ -9494,18 +9524,21 @@
 		<sequence action="stand" loop="loop">
 				<frame>data/core/images/units/undead-skeletal/deathknight.png</frame>
 		</sequence>
-		<sequence name="crossbow" action="shooting">
+		<sequence action="stand2" loop="loop">
+				<frame>data/core/images/units/undead-skeletal/deathknight-crossbow.png</frame>
+		</sequence>
+		<sequence name="crossbow" action="shooting" next="stand2">
 				<frame>data/core/images/units/undead-skeletal/deathknight-crossbow.png</frame>
 				<frame duration="2">data/core/images/units/undead-skeletal/deathknight-crossbow-attack1.png</frame>
 				<frame duration="2">data/core/images/units/undead-skeletal/deathknight-crossbow-attack2.png</frame>
 				<frame>data/core/images/units/undead-skeletal/deathknight-crossbow.png</frame>
 		</sequence>
-		<sequence action="pain">
+		<sequence action="pain2" next="stand2">
 				<frame>data/core/images/units/undead-skeletal/deathknight-crossbow.png</frame>
 				<frame duration="3">data/core/images/units/undead-skeletal/deathknight-crossbow-defend.png</frame>
 				<frame>data/core/images/units/undead-skeletal/deathknight-crossbow.png</frame>
 		</sequence>
-		<sequence name="block" action="defend">
+		<sequence action="pain">
 				<frame>data/core/images/units/undead-skeletal/deathknight-defend-1.png</frame>
 				<frame duration="3">data/core/images/units/undead-skeletal/deathknight-defend-2.png</frame>
 				<frame>data/core/images/units/undead-skeletal/deathknight-defend-1.png</frame>
@@ -9588,23 +9621,26 @@
 		<sequence action="stand" loop="loop">
 				<frame>data/core/images/units/undead-skeletal/archer.png</frame>
 		</sequence>
+		<sequence action="stand2" loop="loop">
+				<frame>data/core/images/units/undead-skeletal/archer-bow.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame duration="4">data/core/images/units/undead-skeletal/archer-defend.png</frame>
+		</sequence>
+		<sequence action="pain2" next="stand2">
+				<frame>data/core/images/units/undead-skeletal/archer-bow.png</frame>
+				<frame duration="3">data/core/images/units/undead-skeletal/archer-bow-defend.png</frame>
+				<frame>data/core/images/units/undead-skeletal/archer-bow.png</frame>
+		</sequence>
 		<sequence name="punch" action="fighting">
 				<frame duration="4">data/core/images/units/undead-skeletal/archer-attack.png</frame>
 		</sequence>
-		<sequence name="dodge" action="defend">
-				<frame duration="4">data/core/images/units/undead-skeletal/archer-defend.png</frame>
-		</sequence>
-		<sequence name="bow" action="shooting">
+		<sequence name="bow" action="shooting" next="stand2">
 				<frame>data/core/images/units/undead-skeletal/archer-bow.png</frame>
 				<frame>data/core/images/units/undead-skeletal/archer-bow-attack-1.png</frame>
 				<frame>data/core/images/units/undead-skeletal/archer-bow-attack-2.png</frame>
 				<frame>data/core/images/units/undead-skeletal/archer-bow-attack-3.png</frame>
 				<frame>data/core/images/units/undead-skeletal/archer-bow-attack-4.png</frame>
-				<frame>data/core/images/units/undead-skeletal/archer-bow.png</frame>
-		</sequence>
-		<sequence action="pain">
-				<frame>data/core/images/units/undead-skeletal/archer-bow.png</frame>
-				<frame duration="3">data/core/images/units/undead-skeletal/archer-bow-defend.png</frame>
 				<frame>data/core/images/units/undead-skeletal/archer-bow.png</frame>
 		</sequence>
 		<sequence name="elaborate death" action="fall" loop="stay">
@@ -9657,17 +9693,25 @@
 		<sequence action="stand" loop="loop">
 				<frame>data/core/images/units/undead-skeletal/bone-shooter.png</frame>
 		</sequence>
-		<sequence name="bow" action="shooting">
+		<sequence action="stand2" loop="loop">
+				<frame>data/core/images/units/undead-skeletal/bone-shooter-bow.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame>data/core/images/units/undead-skeletal/bone-shooter-melee-defend-1.png</frame>
+				<frame duration="3">data/core/images/units/undead-skeletal/bone-shooter-melee-defend-2.png</frame>
+				<frame>data/core/images/units/undead-skeletal/bone-shooter-melee-defend-1.png</frame>
+		</sequence>
+		<sequence action="pain2" next="stand2">
+				<frame>data/core/images/units/undead-skeletal/bone-shooter-bow.png</frame>
+				<frame duration="3">data/core/images/units/undead-skeletal/bone-shooter-bow-defend.png</frame>
+				<frame>data/core/images/units/undead-skeletal/bone-shooter-bow.png</frame>
+		</sequence>
+		<sequence name="bow" action="shooting" next="stand2">
 				<frame>data/core/images/units/undead-skeletal/bone-shooter-bow.png</frame>
 				<frame>data/core/images/units/undead-skeletal/bone-shooter-bow-attack-1.png</frame>
 				<frame>data/core/images/units/undead-skeletal/bone-shooter-bow-attack-2.png</frame>
 				<frame>data/core/images/units/undead-skeletal/bone-shooter-bow-attack-3.png</frame>
 				<frame>data/core/images/units/undead-skeletal/bone-shooter-bow-attack-4.png</frame>
-				<frame>data/core/images/units/undead-skeletal/bone-shooter-bow.png</frame>
-		</sequence>
-		<sequence action="pain">
-				<frame>data/core/images/units/undead-skeletal/bone-shooter-bow.png</frame>
-				<frame duration="3">data/core/images/units/undead-skeletal/bone-shooter-bow-defend.png</frame>
 				<frame>data/core/images/units/undead-skeletal/bone-shooter-bow.png</frame>
 		</sequence>
 		<sequence name="sword" action="fighting">
@@ -9676,11 +9720,6 @@
 				<frame>data/core/images/units/undead-skeletal/bone-shooter-melee-attack-2.png</frame>
 				<frame>data/core/images/units/undead-skeletal/bone-shooter-melee-attack-3.png</frame>
 				<frame>data/core/images/units/undead-skeletal/bone-shooter-melee-attack-4.png</frame>
-				<frame>data/core/images/units/undead-skeletal/bone-shooter-melee-defend-1.png</frame>
-		</sequence>
-		<sequence name="duck" action="defend">
-				<frame>data/core/images/units/undead-skeletal/bone-shooter-melee-defend-1.png</frame>
-				<frame duration="3">data/core/images/units/undead-skeletal/bone-shooter-melee-defend-2.png</frame>
 				<frame>data/core/images/units/undead-skeletal/bone-shooter-melee-defend-1.png</frame>
 		</sequence>
 		<sequence action="fall" loop="stay">
@@ -9700,20 +9739,20 @@
 		<sequence action="stand" loop="loop">
 				<frame>data/core/images/units/undead-skeletal/banebow.png</frame>
 		</sequence>
-		<sequence name="bow" action="shooting">
-				<frame>data/core/images/units/undead-skeletal/banebow-bow.png</frame>
-				<frame>data/core/images/units/undead-skeletal/banebow-bow-attack-1.png</frame>
-				<frame>data/core/images/units/undead-skeletal/banebow-bow-attack-2.png</frame>
-				<frame>data/core/images/units/undead-skeletal/banebow-bow-attack-3.png</frame>
-				<frame>data/core/images/units/undead-skeletal/banebow-bow-attack-4.png</frame>
-				<frame>data/core/images/units/undead-skeletal/banebow-bow.png</frame>
+		<sequence action="stand2" loop="loop">
+				<frame>data/core/images/units/undead-skeletal/banebow-melee-defend-1.png</frame>
 		</sequence>
 		<sequence action="pain">
 				<frame>data/core/images/units/undead-skeletal/banebow-bow.png</frame>
 				<frame duration="3">data/core/images/units/undead-skeletal/banebow-bow-defend.png</frame>
 				<frame>data/core/images/units/undead-skeletal/banebow-bow.png</frame>
 		</sequence>
-		<sequence name="sword" action="fighting">
+		<sequence action="pain2" next="stand2">
+				<frame>data/core/images/units/undead-skeletal/banebow-melee-defend-1.png</frame>
+				<frame duration="3">data/core/images/units/undead-skeletal/banebow-melee-defend-2.png</frame>
+				<frame>data/core/images/units/undead-skeletal/banebow-melee-defend-1.png</frame>
+		</sequence>
+		<sequence name="sword" action="fighting" next="stand2">
 				<frame>data/core/images/units/undead-skeletal/banebow-melee-defend-1.png</frame>
 				<frame>data/core/images/units/undead-skeletal/banebow-melee-attack-1.png</frame>
 				<frame>data/core/images/units/undead-skeletal/banebow-melee-attack-2.png</frame>
@@ -9721,10 +9760,13 @@
 				<frame>data/core/images/units/undead-skeletal/banebow-melee-attack-4.png</frame>
 				<frame>data/core/images/units/undead-skeletal/banebow-melee-defend-1.png</frame>
 		</sequence>
-		<sequence name="duck" action="defend">
-				<frame>data/core/images/units/undead-skeletal/banebow-melee-defend-1.png</frame>
-				<frame duration="3">data/core/images/units/undead-skeletal/banebow-melee-defend-2.png</frame>
-				<frame>data/core/images/units/undead-skeletal/banebow-melee-defend-1.png</frame>
+		<sequence name="bow" action="shooting">
+				<frame>data/core/images/units/undead-skeletal/banebow-bow.png</frame>
+				<frame>data/core/images/units/undead-skeletal/banebow-bow-attack-1.png</frame>
+				<frame>data/core/images/units/undead-skeletal/banebow-bow-attack-2.png</frame>
+				<frame>data/core/images/units/undead-skeletal/banebow-bow-attack-3.png</frame>
+				<frame>data/core/images/units/undead-skeletal/banebow-bow-attack-4.png</frame>
+				<frame>data/core/images/units/undead-skeletal/banebow-bow.png</frame>
 		</sequence>
 		<sequence action="fall" loop="stay">
 				<frame opacity="0.8">data/core/images/units/undead-skeletal/banebow.png</frame>

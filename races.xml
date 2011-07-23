@@ -216,53 +216,6 @@
 		</class>
 	</race>
 	<race name="Humans">
-		<class name="Male Cavalryman">
-			<unit>Cavalryman</unit>
-			<unit>Dragoon</unit>
-			<unit>Cavalier</unit>
-		</class>
-		<class name="Female Dark Adept">
-			<unit>Female Dark Adept</unit>
-			<unit>Female Dark Sorcerer</unit>
-			<unit>Female Necromancer</unit>
-		</class>
-		<class name="Male Dark Adept">
-			<unit>Male Dark Adept</unit>
-			<unit>Male Dark Sorcerer</unit>
-			<unit>Male Necromancer</unit>
-		</class>
-		<class name="Male Fencer">
-			<unit>Fencer</unit>
-			<unit>Duelist</unit>
-			<unit>Master at Arms</unit>
-		</class>
-		<class name="Male Heavy Infantry">
-			<unit>Heavy Infantry</unit>
-			<unit>Shock Trooper</unit>
-			<unit>Iron Mauler</unit>
-			<unit>Royal Warrior</unit>
-		</class>
-		<class name="Male Horseman">
-			<unit>Horseman</unit>
-			<branch name="sword focus">
-				<unit>Knight</unit>
-				<unit>Grand Knight</unit>
-			</branch>
-			<branch name="lance focus">
-				<unit>Lancer</unit>
-				<unit>Paladin</unit>
-			</branch>
-		</class>
-		<class name="Male Sergeant">
-			<unit>Sergeant</unit>
-			<unit>Lieutenant</unit>
-			<unit>General</unit>
-			<unit>Grand Marshal</unit>
-			<branch name="sword and sheild">
-				<unit>Swordsman</unit>
-				<unit>Royal Guard</unit>
-			</branch>
-		</class>
 		<class name="Female Mage">
 			<unit>Female Mage</unit>
 			<branch name="blasting">
@@ -272,10 +225,6 @@
 			</branch>
 			<branch name="stealth">
 				<unit>Female Silver Mage</unit>
-			</branch>
-			<branch name="healing">
-				<unit>Female White Mage</unit>
-				<unit>Female Mage of Light</unit>
 			</branch>
 		</class>
 		<class name="Male Mage">
@@ -289,25 +238,55 @@
 			<branch name="stealth">
 				<unit>Male Silver Mage</unit>
 			</branch>
-			<branch name="healing">
+		</class>
+		<class name="Male White Mage">
 				<unit>Male White Mage</unit>
 				<unit>Male Mage of Light</unit>
+		</class>
+		<class name="Female White Mage">
+				<unit>Female White Mage</unit>
+				<unit>Female Mage of Light</unit>
+		</class>
+		<class name="Female Necromancer">
+			<unit>Female Dark Adept</unit>
+			<unit>Female Dark Sorcerer</unit>
+			<unit>Female Necromancer</unit>
+		</class>
+		<class name="Male Necromancer">
+			<unit>Male Dark Adept</unit>
+			<unit>Male Dark Sorcerer</unit>
+			<unit>Male Necromancer</unit>
+		</class>
+		<class name="Male Cavalryman">
+			<unit>Cavalryman</unit>
+			<unit>Dragoon</unit>
+			<unit>Cavalier</unit>
+		</class>
+		<class name="Male Horseman">
+			<unit>Horseman</unit>
+			<branch name="sword focus">
+				<unit>Knight</unit>
+				<unit>Grand Knight</unit>
+			</branch>
+			<branch name="lance focus">
+				<unit>Lancer</unit>
+				<unit>Paladin</unit>
 			</branch>
 		</class>
-		<class name="Female Thief">
-			<unit>Female Thief</unit>
-			<unit>Female Rogue</unit>
-			<unit>Female Assassin</unit>
+		<class name="Male Fencer">
+			<unit>Fencer</unit>
+			<unit>Duelist</unit>
+			<unit>Master at Arms</unit>
 		</class>
-		<class name="Male Thief">
-			<unit>Male Thief</unit>
-			<unit>Male Rogue</unit>
-			<unit>Male Assassin</unit>
-		</class>
-		<class name="Male Peasant">
-			<unit>Peasant</unit>
-			<unit>Woodsman</unit>
-			<unit>Ruffian</unit>
+		<class name="Male Swordsman">
+			<unit>Sergeant</unit>
+			<unit>Lieutenant</unit>
+			<unit>General</unit>
+			<unit>Grand Marshal</unit>
+			<branch name="sword and sheild">
+				<unit>Swordsman</unit>
+				<unit>Royal Guard</unit>
+			</branch>
 		</class>
 		<class name="Male Spearman">
 			<unit>Spearman</unit>
@@ -340,10 +319,31 @@
 			<unit>Male Outlaw</unit>
 			<unit>Male Fugitive</unit>
 		</class>
+		<class name="Female Thief">
+			<unit>Female Thief</unit>
+			<unit>Female Rogue</unit>
+			<unit>Female Assassin</unit>
+		</class>
+		<class name="Male Thief">
+			<unit>Male Thief</unit>
+			<unit>Male Rogue</unit>
+			<unit>Male Assassin</unit>
+		</class>
 		<class name="Male Thug">
 			<unit>Thug</unit>
 			<unit>Bandit</unit>
 			<unit>Highwayman</unit>
+		</class>
+		<class name="Male Heavy Infantry">
+			<unit>Heavy Infantry</unit>
+			<unit>Shock Trooper</unit>
+			<unit>Iron Mauler</unit>
+			<unit>Royal Warrior</unit>
+		</class>
+		<class name="Male Peasant">
+			<unit>Peasant</unit>
+			<unit>Woodsman</unit>
+			<unit>Ruffian</unit>
 		</class>
 	</race>
 	<race name="Khalifate">
