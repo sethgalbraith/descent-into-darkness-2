@@ -1,6 +1,44 @@
 <units>
-	<unit name="Vampire Bat" yOffset="-18">
+	<unit name="Bat" yOffset="-18" tier="0" scale="0.7" color="222">
 		<ability level="1" name="toughness" description="tiny"/>
+		<ability level="10" name="flying" description=""/>
+		<portrait scale="0.5">data/core/images/portraits/monsters/transparent/bat.png</portrait>
+		<sequence name="fly southeast" action="stand" loop="loop">
+				<frame>data/core/images/units/undead/dreadbat-se-1.png</frame>
+				<frame>data/core/images/units/undead/dreadbat-se-2.png</frame>
+				<frame>data/core/images/units/undead/dreadbat-se-3.png</frame>
+				<frame>data/core/images/units/undead/dreadbat-se-4.png</frame>
+				<frame>data/core/images/units/undead/dreadbat-se-5.png</frame>
+				<frame>data/core/images/units/undead/dreadbat-se-4.png</frame>
+				<frame>data/core/images/units/undead/dreadbat-se-3.png</frame>
+				<frame>data/core/images/units/undead/dreadbat-se-2.png</frame>
+		</sequence>
+		<sequence name="fly northeast" action="stand N" loop="loop">
+				<frame>data/core/images/units/undead/dreadbat-ne-1.png</frame>
+				<frame>data/core/images/units/undead/dreadbat-ne-2.png</frame>
+				<frame>data/core/images/units/undead/dreadbat-ne-3.png</frame>
+				<frame>data/core/images/units/undead/dreadbat-ne-4.png</frame>
+				<frame>data/core/images/units/undead/dreadbat-ne-5.png</frame>
+				<frame>data/core/images/units/undead/dreadbat-ne-4.png</frame>
+				<frame>data/core/images/units/undead/dreadbat-ne-3.png</frame>
+				<frame>data/core/images/units/undead/dreadbat-ne-2.png</frame>
+		</sequence>
+		<sequence action="fall" loop="stay">
+				<frame>data/core/images/units/undead/soulless-bat-die-1.png</frame>
+				<frame>data/core/images/units/undead/soulless-bat-die-2.png</frame>
+				<frame>data/core/images/units/undead/soulless-bat-die-3.png</frame>
+				<frame>data/core/images/units/undead/soulless-bat-die-4.png</frame>
+				<frame>data/core/images/units/undead/soulless-die-5.png</frame>
+				<frame>data/core/images/units/undead/soulless-die-6.png</frame>
+				<frame>data/core/images/units/undead/soulless-die-7.png</frame>
+				<frame>data/core/images/units/undead/soulless-die-8.png</frame>
+				<frame>data/core/images/units/undead/soulless-die-9.png</frame>
+				<frame>data/core/images/units/undead/soulless-die-10.png</frame>
+				<frame></frame>
+		</sequence>
+	</unit>
+	<unit name="Vampire Bat" yOffset="-18" tier="1" color="432">
+		<ability level="2" name="toughness" description="small"/>
 		<ability level="6" name="flying" description=""/>
 		<ability level="2" name="wrestling" description="drain"/>
 		<portrait scale="0.5">data/core/images/portraits/monsters/transparent/bat.png</portrait>
@@ -38,7 +76,7 @@
 				<frame></frame>
 		</sequence>
 	</unit>
-	<unit name="Blood Bat" yOffset="-18">
+	<unit name="Blood Bat" yOffset="-18" tier="1" color="521">
 		<ability level="3" name="toughness" description="small"/>
 		<ability level="10" name="flying" description=""/>
 		<ability level="3" name="wrestling" description="drain"/>
@@ -77,7 +115,7 @@
 				<frame></frame>
 		</sequence>
 	</unit>
-	<unit name="Dread Bat" yOffset="-18">
+	<unit name="Dread Bat" yOffset="-18" tier="2" color="410">
 		<ability level="5" name="toughness" description="big"/>
 		<ability level="10" name="flying" description=""/>
 		<ability level="5" name="wrestling" description="drain"/>
@@ -116,7 +154,7 @@
 				<frame></frame>
 		</sequence>
 	</unit>
-	<unit name="Cuttle Fish" yOffset="-18">
+	<unit name="Cuttle Fish" yOffset="-18" tier="2" scale="0.6">
 		<ability level="12" name="toughness" description=""/>
 		<ability level="6" name="wrestling" description="tentacle"/>
 		<ability level="2" name="blasting" description="ink"/>
@@ -154,7 +192,121 @@
 				<frame duration="2">data/core/images/units/monsters/cuttlefish-ranged-6.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Falcon" yOffset="-18">
+	<unit name="Cryptic Cuttle Fish" yOffset="-18" tier="2" scale="0.8" opacity="0.5">
+		<ability level="12" name="toughness" description=""/>
+		<ability level="6" name="wrestling" description="tentacle"/>
+		<ability level="2" name="blasting" description="ink"/>
+		<ability level="12" name="swimming" description=""/>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/monsters/cuttlefish.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-defend-1.png</frame>
+				<frame duration="5">data/core/images/units/monsters/cuttlefish-defend-2.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-defend-2.png</frame>
+		</sequence>
+		<sequence action="fall" loop="stay">
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-die-1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-die-2.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-die-3.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-die-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-die-5.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-die-6.png</frame>
+		</sequence>
+		<sequence name="grab" action="wrestling">
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-melee-1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-melee-2.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-melee-3.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-melee-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-melee-5.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-melee-6.png</frame>
+		</sequence>
+		<sequence name="spit" action="shooting">
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-ranged-1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-ranged-2.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-ranged-3.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-ranged-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-ranged-5.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-ranged-6.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Giant Cuttle Fish" yOffset="-18" tier="2">
+		<ability level="12" name="toughness" description=""/>
+		<ability level="6" name="wrestling" description="tentacle"/>
+		<ability level="2" name="blasting" description="ink"/>
+		<ability level="12" name="swimming" description=""/>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/monsters/cuttlefish.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-defend-1.png</frame>
+				<frame duration="5">data/core/images/units/monsters/cuttlefish-defend-2.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-defend-2.png</frame>
+		</sequence>
+		<sequence action="fall" loop="stay">
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-die-1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-die-2.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-die-3.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-die-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-die-5.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-die-6.png</frame>
+		</sequence>
+		<sequence name="grab" action="wrestling">
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-melee-1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-melee-2.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-melee-3.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-melee-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-melee-5.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-melee-6.png</frame>
+		</sequence>
+		<sequence name="spit" action="shooting">
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-ranged-1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-ranged-2.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-ranged-3.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-ranged-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-ranged-5.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-ranged-6.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Deep Cuttle Fish" yOffset="-18" tier="3" scale="1.3" red="0.8" blue="0.8">
+		<ability level="12" name="toughness" description=""/>
+		<ability level="6" name="wrestling" description="tentacle"/>
+		<ability level="2" name="blasting" description="ink"/>
+		<ability level="12" name="swimming" description=""/>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/monsters/cuttlefish.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-defend-1.png</frame>
+				<frame duration="5">data/core/images/units/monsters/cuttlefish-defend-2.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-defend-2.png</frame>
+		</sequence>
+		<sequence action="fall" loop="stay">
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-die-1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-die-2.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-die-3.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-die-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-die-5.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-die-6.png</frame>
+		</sequence>
+		<sequence name="grab" action="wrestling">
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-melee-1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-melee-2.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-melee-3.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-melee-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-melee-5.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-melee-6.png</frame>
+		</sequence>
+		<sequence name="spit" action="shooting">
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-ranged-1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-ranged-2.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-ranged-3.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-ranged-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-ranged-5.png</frame>
+				<frame duration="2">data/core/images/units/monsters/cuttlefish-ranged-6.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Falcon" yOffset="-18" tier="0">
 		<ability level="2" name="toughness" description="small"/>
 		<ability level="6" name="flying" description=""/>
 		<ability level="2" name="fighting" description="talons"/>
@@ -163,7 +315,7 @@
 				<frame>data/core/images/units/khalifate/falcon.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Elder Falcon" yOffset="-18">
+	<unit name="Elder Falcon" yOffset="-18" tier="1">
 		<ability level="3" name="toughness" description=""/>
 		<ability level="10" name="flying" description=""/>
 		<ability level="2" name="fighting" description="talons"/>
@@ -172,7 +324,25 @@
 				<frame>data/core/images/units/khalifate/elder-falcon.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Fire Dragon" yOffset="-18">
+	<unit name="Blood Falcon" yOffset="-18" tier="2" red="0.8" green="0.1" blue="0.1" color="100">
+		<ability level="3" name="toughness" description=""/>
+		<ability level="10" name="flying" description=""/>
+		<ability level="2" name="fighting" description="talons"/>
+		<ability level="2" name="knockout" description="beak"/>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/khalifate/falcon.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Golden Falcon" yOffset="-18" tier="3" red="1.2" green="1.3" blue="0.9" color="540">
+		<ability level="3" name="toughness" description=""/>
+		<ability level="10" name="flying" description=""/>
+		<ability level="2" name="fighting" description="talons"/>
+		<ability level="2" name="knockout" description="beak"/>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/khalifate/elder-falcon.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Hatchling Dragon" yOffset="-18" tier="0" scale="0.5" red="0.7" blue="1.5">
 		<ability level="18" name="toughness" description=""/>
 		<ability level="8" name="flying" description=""/>
 		<ability level="8" name="knockout" description="bite"/>
@@ -182,12 +352,53 @@
 				<frame>data/core/images/units/monsters/fire-dragon.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Fire Guardian" yOffset="-18">
+	<unit name="Green Dragon" yOffset="-18" tier="1" scale="0.7" red="0.35" green="0.8" blue="0.25">
+		<ability level="18" name="toughness" description=""/>
+		<ability level="8" name="flying" description=""/>
+		<ability level="8" name="knockout" description="bite"/>
+		<ability level="5" name="wrestling" description="tail"/>
+		<ability level="11" name="blasting" description="fire breath"/>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/monsters/fire-dragon.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Black Dragon" yOffset="-18" tier="2" scale="0.8" red="0.2" green="0.2" blue="0.3">
+		<ability level="18" name="toughness" description=""/>
+		<ability level="8" name="flying" description=""/>
+		<ability level="8" name="knockout" description="bite"/>
+		<ability level="5" name="wrestling" description="tail"/>
+		<ability level="11" name="blasting" description="fire breath"/>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/monsters/fire-dragon.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Red Dragon" yOffset="-18" tier="3" scale="0.9" red="0.7" green="0.2" blue="0.3">
+		<ability level="18" name="toughness" description=""/>
+		<ability level="8" name="flying" description=""/>
+		<ability level="8" name="knockout" description="bite"/>
+		<ability level="5" name="wrestling" description="tail"/>
+		<ability level="11" name="blasting" description="fire breath"/>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/monsters/fire-dragon.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Fire Dragon" yOffset="-18" tier="4">
+		<ability level="18" name="toughness" description=""/>
+		<ability level="8" name="flying" description=""/>
+		<ability level="8" name="knockout" description="bite"/>
+		<ability level="5" name="wrestling" description="tail"/>
+		<ability level="11" name="blasting" description="fire breath"/>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/monsters/fire-dragon.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Spark Guardian" yOffset="-18" tier="1" scale="0.7" opacity="0.7">
 		<ability level="3" name="toughness" description=""/>
 		<ability level="4" name="flying" description=""/>
 		<ability level="2" name="fighting" description="fire claws"/>
 		<ability level="3" name="blasting" description="fire breath"/>
 		<sequence action="stand" loop="loop">
+				<frame opacity="0.7">data/core/images/units/monsters/fireghost.png</frame>
 				<frame>data/core/images/units/monsters/fireghost.png</frame>
 		</sequence>
 		<sequence action="pain">
@@ -210,7 +421,94 @@
 				<frame duration="4">data/core/images/units/monsters/fireghost-attack1.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Giant Rat" yOffset="-18">
+	<unit name="Flame Guardian" yOffset="-18" tier="1" opacity="0.5">
+		<ability level="3" name="toughness" description=""/>
+		<ability level="4" name="flying" description=""/>
+		<ability level="2" name="fighting" description="fire claws"/>
+		<ability level="3" name="blasting" description="fire breath"/>
+		<sequence action="stand" loop="loop">
+				<frame opacity="0.7">data/core/images/units/monsters/fireghost.png</frame>
+				<frame>data/core/images/units/monsters/fireghost.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame duration="3">data/core/images/units/monsters/fireghost-defend.png</frame>
+		</sequence>
+		<sequence action="fall" loop="stay">
+				<frame>data/core/images/units/monsters/fireghost-death1.png</frame>
+				<frame>data/core/images/units/monsters/fireghost-death2.png</frame>
+				<frame>data/core/images/units/monsters/fireghost-death3.png</frame>
+				<frame>data/core/images/units/monsters/fireghost-death4.png</frame>
+				<frame>data/core/images/units/monsters/fireghost-death5.png</frame>
+				<frame>data/core/images/units/monsters/fireghost-death6.png</frame>
+		</sequence>
+		<sequence name="claws" action="fighting">
+				<frame duration="3">data/core/images/units/monsters/fireghost-attack1.png</frame>
+				<frame duration="3">data/core/images/units/monsters/fireghost-attack2.png</frame>
+		</sequence>
+		<sequence name="fire breath" action="blasting">
+				<frame duration="2">data/core/images/units/monsters/fireghost-ranged2.png</frame>
+				<frame duration="4">data/core/images/units/monsters/fireghost-attack1.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Fire Guardian" yOffset="-18" tier="1">
+		<ability level="3" name="toughness" description=""/>
+		<ability level="4" name="flying" description=""/>
+		<ability level="2" name="fighting" description="fire claws"/>
+		<ability level="3" name="blasting" description="fire breath"/>
+		<sequence action="stand" loop="loop">
+				<frame opacity="0.7">data/core/images/units/monsters/fireghost.png</frame>
+				<frame>data/core/images/units/monsters/fireghost.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame duration="3">data/core/images/units/monsters/fireghost-defend.png</frame>
+		</sequence>
+		<sequence action="fall" loop="stay">
+				<frame>data/core/images/units/monsters/fireghost-death1.png</frame>
+				<frame>data/core/images/units/monsters/fireghost-death2.png</frame>
+				<frame>data/core/images/units/monsters/fireghost-death3.png</frame>
+				<frame>data/core/images/units/monsters/fireghost-death4.png</frame>
+				<frame>data/core/images/units/monsters/fireghost-death5.png</frame>
+				<frame>data/core/images/units/monsters/fireghost-death6.png</frame>
+		</sequence>
+		<sequence name="claws" action="fighting">
+				<frame duration="3">data/core/images/units/monsters/fireghost-attack1.png</frame>
+				<frame duration="3">data/core/images/units/monsters/fireghost-attack2.png</frame>
+		</sequence>
+		<sequence name="fire breath" action="blasting">
+				<frame duration="2">data/core/images/units/monsters/fireghost-ranged2.png</frame>
+				<frame duration="4">data/core/images/units/monsters/fireghost-attack1.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Fire Elemental" yOffset="-18" tier="1" red="1.5" green="1" blue="0.5">
+		<ability level="3" name="toughness" description=""/>
+		<ability level="4" name="flying" description=""/>
+		<ability level="2" name="fighting" description="fire claws"/>
+		<ability level="3" name="blasting" description="fire breath"/>
+		<sequence action="stand" loop="loop">
+				<frame opacity="0.7">data/core/images/units/monsters/fireghost.png</frame>
+				<frame>data/core/images/units/monsters/fireghost.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame duration="3">data/core/images/units/monsters/fireghost-defend.png</frame>
+		</sequence>
+		<sequence action="fall" loop="stay">
+				<frame>data/core/images/units/monsters/fireghost-death1.png</frame>
+				<frame>data/core/images/units/monsters/fireghost-death2.png</frame>
+				<frame>data/core/images/units/monsters/fireghost-death3.png</frame>
+				<frame>data/core/images/units/monsters/fireghost-death4.png</frame>
+				<frame>data/core/images/units/monsters/fireghost-death5.png</frame>
+				<frame>data/core/images/units/monsters/fireghost-death6.png</frame>
+		</sequence>
+		<sequence name="claws" action="fighting">
+				<frame duration="3">data/core/images/units/monsters/fireghost-attack1.png</frame>
+				<frame duration="3">data/core/images/units/monsters/fireghost-attack2.png</frame>
+		</sequence>
+		<sequence name="fire breath" action="blasting">
+				<frame duration="2">data/core/images/units/monsters/fireghost-ranged2.png</frame>
+				<frame duration="4">data/core/images/units/monsters/fireghost-attack1.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Sewer Rat" yOffset="-18" tier="0" scale="0.5" red="1.5" blue="0.7">
 		<ability level="1" name="toughness" description="tiny"/>
 		<ability level="2" name="fighting" description="bite"/>
 		<sequence action="stand" loop="loop">
@@ -236,7 +534,107 @@
 				<frame>data/core/images/units/monsters/giant-rat-die-3.png</frame>
 		 </sequence>
 	</unit>
-	<unit name="Giant Scorpion" yOffset="-18">
+	<unit name="Plague Rat" yOffset="-18" tier="1" scale="0.7">
+		<ability level="1" name="toughness" description="tiny"/>
+		<ability level="2" name="fighting" description="bite"/>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/monsters/giant-rat.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame>data/core/images/units/monsters/giant-rat-defend-1.png</frame>
+				<frame duration="3">data/core/images/units/monsters/giant-rat-defend-2.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-defend-1.png</frame>
+		</sequence>
+		<sequence name="bite" action="attack">
+				<frame duration="4">data/core/images/units/monsters/giant-rat-attack-1.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-attack-2.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-attack-3.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-attack-4.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-attack-5.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-attack-6.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-attack-7.png</frame>
+		</sequence>
+		<sequence action="fall" loop="stay">
+				<frame>data/core/images/units/monsters/giant-rat-die-1.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-die-2.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-die-3.png</frame>
+		 </sequence>
+	</unit>
+	<unit name="Lab Rat" yOffset="-18" tier="2" red="2" green="2" blue="2">
+		<ability level="1" name="toughness" description="tiny"/>
+		<ability level="2" name="fighting" description="bite"/>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/monsters/giant-rat.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame>data/core/images/units/monsters/giant-rat-defend-1.png</frame>
+				<frame duration="3">data/core/images/units/monsters/giant-rat-defend-2.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-defend-1.png</frame>
+		</sequence>
+		<sequence name="bite" action="attack">
+				<frame duration="4">data/core/images/units/monsters/giant-rat-attack-1.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-attack-2.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-attack-3.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-attack-4.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-attack-5.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-attack-6.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-attack-7.png</frame>
+		</sequence>
+		<sequence action="fall" loop="stay">
+				<frame>data/core/images/units/monsters/giant-rat-die-1.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-die-2.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-die-3.png</frame>
+		 </sequence>
+	</unit>
+	<unit name="Giant Rat" yOffset="-18" tier="3" scale="1.3">
+		<ability level="1" name="toughness" description="tiny"/>
+		<ability level="2" name="fighting" description="bite"/>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/monsters/giant-rat.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame>data/core/images/units/monsters/giant-rat-defend-1.png</frame>
+				<frame duration="3">data/core/images/units/monsters/giant-rat-defend-2.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-defend-1.png</frame>
+		</sequence>
+		<sequence name="bite" action="attack">
+				<frame duration="4">data/core/images/units/monsters/giant-rat-attack-1.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-attack-2.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-attack-3.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-attack-4.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-attack-5.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-attack-6.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-attack-7.png</frame>
+		</sequence>
+		<sequence action="fall" loop="stay">
+				<frame>data/core/images/units/monsters/giant-rat-die-1.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-die-2.png</frame>
+				<frame>data/core/images/units/monsters/giant-rat-die-3.png</frame>
+		 </sequence>
+	</unit>
+	<unit name="Scorpion" yOffset="-18" tier="0" scale="0.5">
+		<ability level="3" name="toughness" description="hard cuticle"/>
+		<ability level="8" name="quickness" description="scuttling movement"/>
+		<ability level="2" name="fighting" description="pincers"/>
+		<ability level="1" name="knockout" description="sting"/>
+		<portrait scale="0.5">data/core/images/portraits/monsters/transparent/scorpion.png</portrait>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/monsters/scorpion.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame duration="4">data/core/images/units/monsters/scorpion-defend.png</frame>
+		</sequence>
+		<sequence name="pinch" action="wrestling">
+				<frame duration="2">data/core/images/units/monsters/scorpion-pincers-attack.png</frame>
+				<frame>data/core/images/units/monsters/scorpion.png</frame>
+				<frame>data/core/images/units/monsters/scorpion-defend.png</frame>
+		</sequence>
+		<sequence name="sting" action="knockout">
+				<frame>data/core/images/units/monsters/scorpion-defend.png</frame>
+				<frame duration="2">data/core/images/units/monsters/scorpion-sting-attack.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Big Scorpion" yOffset="-18" tier="1" scale="0.7">
 		<ability level="6" name="toughness" description="hard cuticle"/>
 		<ability level="8" name="quickness" description="scuttling movement"/>
 		<ability level="3" name="fighting" description="pincers"/>
@@ -258,7 +656,158 @@
 				<frame duration="2">data/core/images/units/monsters/scorpion-sting-attack.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Giant Spider" yOffset="-18">
+	<unit name="Huge Scorpion" yOffset="-18" tier="2">
+		<ability level="9" name="toughness" description="hard cuticle"/>
+		<ability level="8" name="quickness" description="scuttling movement"/>
+		<ability level="5" name="fighting" description="pincers"/>
+		<ability level="3" name="knockout" description="sting"/>
+		<portrait scale="0.5">data/core/images/portraits/monsters/transparent/scorpion.png</portrait>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/monsters/scorpion.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame duration="4">data/core/images/units/monsters/scorpion-defend.png</frame>
+		</sequence>
+		<sequence name="pinch" action="wrestling">
+				<frame duration="2">data/core/images/units/monsters/scorpion-pincers-attack.png</frame>
+				<frame>data/core/images/units/monsters/scorpion.png</frame>
+				<frame>data/core/images/units/monsters/scorpion-defend.png</frame>
+		</sequence>
+		<sequence name="sting" action="knockout">
+				<frame>data/core/images/units/monsters/scorpion-defend.png</frame>
+				<frame duration="2">data/core/images/units/monsters/scorpion-sting-attack.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Giant Scorpion" yOffset="-18" tier="3" scale="1.4">
+		<ability level="12" name="toughness" description="hard cuticle"/>
+		<ability level="8" name="quickness" description="scuttling movement"/>
+		<ability level="6" name="fighting" description="pincers"/>
+		<ability level="4" name="knockout" description="sting"/>
+		<portrait scale="0.5">data/core/images/portraits/monsters/transparent/scorpion.png</portrait>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/monsters/scorpion.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame duration="4">data/core/images/units/monsters/scorpion-defend.png</frame>
+		</sequence>
+		<sequence name="pinch" action="wrestling">
+				<frame duration="2">data/core/images/units/monsters/scorpion-pincers-attack.png</frame>
+				<frame>data/core/images/units/monsters/scorpion.png</frame>
+				<frame>data/core/images/units/monsters/scorpion-defend.png</frame>
+		</sequence>
+		<sequence name="sting" action="knockout">
+				<frame>data/core/images/units/monsters/scorpion-defend.png</frame>
+				<frame duration="2">data/core/images/units/monsters/scorpion-sting-attack.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Spider" yOffset="-18" tier="0" scale="0.3">
+		<ability level="1" name="toughness" description="hard cuticle"/>
+		<ability level="8" name="acrobatics" description="long legs"/>
+		<ability level="1" name="knockout" description="fangs"/>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/monsters/spider.png</frame>
+		</sequence>
+		<sequence name="bite" action="knockout">
+				<frame>data/core/images/units/monsters/spider-melee-1.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-2.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-3.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-4.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-5.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-6.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-7.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-8.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-9.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-10.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-11.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-12.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-13.png</frame>
+		</sequence>
+		<sequence name="web" action="wrestling">
+				<frame>data/core/images/units/monsters/spider-ranged-1.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-2.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-3.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-4.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-5.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-6.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-7.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-3.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-2.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-1.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Big Spider" yOffset="-18" tier="1" scale="0.5">
+		<ability level="3" name="toughness" description="hard cuticle"/>
+		<ability level="8" name="acrobatics" description="long legs"/>
+		<ability level="1" name="wrestling" description="web"/>
+		<ability level="2" name="knockout" description="fangs"/>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/monsters/spider.png</frame>
+		</sequence>
+		<sequence name="bite" action="knockout">
+				<frame>data/core/images/units/monsters/spider-melee-1.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-2.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-3.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-4.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-5.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-6.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-7.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-8.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-9.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-10.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-11.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-12.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-13.png</frame>
+		</sequence>
+		<sequence name="web" action="wrestling">
+				<frame>data/core/images/units/monsters/spider-ranged-1.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-2.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-3.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-4.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-5.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-6.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-7.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-3.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-2.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-1.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Huge Spider" yOffset="-18" tier="2" scale="0.7">
+		<ability level="6" name="toughness" description="hard cuticle"/>
+		<ability level="8" name="acrobatics" description="long legs"/>
+		<ability level="2" name="wrestling" description="web"/>
+		<ability level="4" name="knockout" description="fangs"/>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/monsters/spider.png</frame>
+		</sequence>
+		<sequence name="bite" action="knockout">
+				<frame>data/core/images/units/monsters/spider-melee-1.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-2.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-3.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-4.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-5.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-6.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-7.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-8.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-9.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-10.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-11.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-12.png</frame>
+				<frame>data/core/images/units/monsters/spider-melee-13.png</frame>
+		</sequence>
+		<sequence name="web" action="wrestling">
+				<frame>data/core/images/units/monsters/spider-ranged-1.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-2.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-3.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-4.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-5.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-6.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-7.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-3.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-2.png</frame>
+				<frame>data/core/images/units/monsters/spider-ranged-1.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Giant Spider" yOffset="-18" tier="3">
 		<ability level="9" name="toughness" description="hard cuticle"/>
 		<ability level="8" name="acrobatics" description="long legs"/>
 		<ability level="5" name="wrestling" description="web"/>
@@ -294,6 +843,54 @@
 				<frame>data/core/images/units/monsters/spider-ranged-1.png</frame>
 		</sequence>
 	</unit>
+	<unit name="Gryphon Hatchling" yOffset="-18" tier="0" scale="0.5">
+		<ability level="7" name="toughness" description=""/>
+		<ability level="10" name="flying" description=""/>
+		<ability level="6" name="knockout" description="beak and talons"/>
+		<portrait scale="0.5">data/core/images/portraits/monsters/transparent/gryphon.png</portrait>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/monsters/gryphon.png</frame>
+		</sequence>
+		<sequence action="move" loop="loop">
+				<frame duration="1">data/core/images/units/monsters/gryphon-flying-1.png</frame>
+				<frame duration="1">data/core/images/units/monsters/gryphon-flying-2.png</frame>
+				<frame duration="1">data/core/images/units/monsters/gryphon-flying-3.png</frame>
+				<frame duration="1">data/core/images/units/monsters/gryphon-flying-4.png</frame>
+				<frame duration="1">data/core/images/units/monsters/gryphon-flying-5.png</frame>
+				<frame duration="1">data/core/images/units/monsters/gryphon-flying-6.png</frame>
+				<frame duration="1">data/core/images/units/monsters/gryphon-flying-7.png</frame>
+				<frame duration="1">data/core/images/units/monsters/gryphon-flying-8.png</frame>
+		</sequence>
+		<sequence name="claws" action="knockout">
+				<frame duration="1">data/core/images/units/monsters/gryphon-flying-5.png</frame>
+				<frame duration="3">data/core/images/units/monsters/gryphon-flying-4.png</frame>
+				<frame duration="1">data/core/images/units/monsters/gryphon-flying-5.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Gryphon Fledgling" yOffset="-18" scale="0.7">
+		<ability level="7" name="toughness" description=""/>
+		<ability level="10" name="flying" description=""/>
+		<ability level="6" name="knockout" description="beak and talons"/>
+		<portrait scale="0.5">data/core/images/portraits/monsters/transparent/gryphon.png</portrait>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/monsters/gryphon.png</frame>
+		</sequence>
+		<sequence action="move" loop="loop">
+				<frame duration="2">data/core/images/units/monsters/gryphon-flying-1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/gryphon-flying-2.png</frame>
+				<frame duration="2">data/core/images/units/monsters/gryphon-flying-3.png</frame>
+				<frame duration="2">data/core/images/units/monsters/gryphon-flying-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/gryphon-flying-5.png</frame>
+				<frame duration="2">data/core/images/units/monsters/gryphon-flying-6.png</frame>
+				<frame duration="2">data/core/images/units/monsters/gryphon-flying-7.png</frame>
+				<frame duration="2">data/core/images/units/monsters/gryphon-flying-8.png</frame>
+		</sequence>
+		<sequence name="claws" action="knockout">
+				<frame duration="2">data/core/images/units/monsters/gryphon-flying-5.png</frame>
+				<frame duration="5">data/core/images/units/monsters/gryphon-flying-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/gryphon-flying-5.png</frame>
+		</sequence>
+	</unit>
 	<unit name="Gryphon" yOffset="-18">
 		<ability level="7" name="toughness" description=""/>
 		<ability level="10" name="flying" description=""/>
@@ -318,7 +915,81 @@
 				<frame duration="2">data/core/images/units/monsters/gryphon-flying-5.png</frame>
 		</sequence>
 	</unit>
+	<unit name="Great Gryphon" yOffset="-18" scale="1.4">
+		<ability level="7" name="toughness" description=""/>
+		<ability level="10" name="flying" description=""/>
+		<ability level="6" name="knockout" description="beak and talons"/>
+		<portrait scale="0.5">data/core/images/portraits/monsters/transparent/gryphon.png</portrait>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/monsters/gryphon.png</frame>
+		</sequence>
+		<sequence action="move" loop="loop">
+				<frame duration="3">data/core/images/units/monsters/gryphon-flying-1.png</frame>
+				<frame duration="3">data/core/images/units/monsters/gryphon-flying-2.png</frame>
+				<frame duration="3">data/core/images/units/monsters/gryphon-flying-3.png</frame>
+				<frame duration="3">data/core/images/units/monsters/gryphon-flying-4.png</frame>
+				<frame duration="3">data/core/images/units/monsters/gryphon-flying-5.png</frame>
+				<frame duration="3">data/core/images/units/monsters/gryphon-flying-6.png</frame>
+				<frame duration="3">data/core/images/units/monsters/gryphon-flying-7.png</frame>
+				<frame duration="3">data/core/images/units/monsters/gryphon-flying-8.png</frame>
+		</sequence>
+		<sequence name="claws" action="knockout">
+				<frame duration="2">data/core/images/units/monsters/gryphon-flying-5.png</frame>
+				<frame duration="7">data/core/images/units/monsters/gryphon-flying-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/gryphon-flying-5.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Mini Mudcrawler" yOffset="-18" scale="0.7">
+		<ability level="2" name="toughness" description=""/>
+		<ability level="2" name="shooting" description="mud glob"/>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/monsters/mudcrawler.png</frame>
+		</sequence>
+		<sequence name="spit" action="shooting">
+				<frame duration="2">data/core/images/units/monsters/mudcrawler-attack-1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/mudcrawler-attack-2.png</frame>
+				<frame duration="2">data/core/images/units/monsters/mudcrawler-attack-3.png</frame>
+				<frame duration="2">data/core/images/units/monsters/mudcrawler-attack-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/mudcrawler-attack-5.png</frame>
+		</sequence>
+		<sequence action="fall" loop="stay">
+				<frame>data/core/images/units/monsters/mudcrawler-defend-1.png</frame>
+				<frame>data/core/images/units/monsters/mudcrawler-die-1.png</frame>
+				<frame>data/core/images/units/monsters/mudcrawler-die-2.png</frame>
+				<frame>data/core/images/units/monsters/mudcrawler-die-3.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame>data/core/images/units/monsters/mudcrawler-defend-1.png</frame>
+				<frame duration="3">data/core/images/units/monsters/mudcrawler-defend-2.png</frame>
+				<frame>data/core/images/units/monsters/mudcrawler-defend-1.png</frame>
+		</sequence>
+	</unit>
 	<unit name="Mudcrawler" yOffset="-18">
+		<ability level="2" name="toughness" description=""/>
+		<ability level="2" name="shooting" description="mud glob"/>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/monsters/mudcrawler.png</frame>
+		</sequence>
+		<sequence name="spit" action="shooting">
+				<frame duration="2">data/core/images/units/monsters/mudcrawler-attack-1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/mudcrawler-attack-2.png</frame>
+				<frame duration="2">data/core/images/units/monsters/mudcrawler-attack-3.png</frame>
+				<frame duration="2">data/core/images/units/monsters/mudcrawler-attack-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/mudcrawler-attack-5.png</frame>
+		</sequence>
+		<sequence action="fall" loop="stay">
+				<frame>data/core/images/units/monsters/mudcrawler-defend-1.png</frame>
+				<frame>data/core/images/units/monsters/mudcrawler-die-1.png</frame>
+				<frame>data/core/images/units/monsters/mudcrawler-die-2.png</frame>
+				<frame>data/core/images/units/monsters/mudcrawler-die-3.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame>data/core/images/units/monsters/mudcrawler-defend-1.png</frame>
+				<frame duration="3">data/core/images/units/monsters/mudcrawler-defend-2.png</frame>
+				<frame>data/core/images/units/monsters/mudcrawler-defend-1.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Bloodcrawler" yOffset="-18" green="0.5" blue="0.5">
 		<ability level="2" name="toughness" description=""/>
 		<ability level="2" name="shooting" description="mud glob"/>
 		<sequence action="stand" loop="loop">
@@ -369,7 +1040,7 @@
 				<frame duration="4">data/core/images/units/monsters/giant-mudcrawler-defend.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Sea Serpent" yOffset="-18">
+	<unit name="Lake Serpent" yOffset="-18" scale="0.7">
 		<ability level="15" name="toughness" description=""/>
 		<ability level="8" name="swimming" description=""/>
 		<ability level="7" name="knockout" description="fangs"/>
@@ -396,29 +1067,121 @@
 				<frame duration="2">data/core/images/units/monsters/seaserpent-die-9.png</frame>
 		</sequence>
 	</unit>
-	<unit name="Tentacle of the Deep" yOffset="-18">
-		<ability level="4" name="toughness" description=""/>
-		<ability level="1" name="swimming" description=""/>
-		<ability level="2" name="wrestling" description=""/>
+	<unit name="Serpent" yOffset="-18" scale="0.5">
+		<ability level="8" name="toughness" description=""/>
+		<ability level="6" name="swimming" description=""/>
+		<ability level="5" name="knockout" description="fangs"/>
 		<sequence action="stand" loop="loop">
-				<frame>data/core/images/units/monsters/deep-tentacle.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent.png</frame>
 		</sequence>
-		<sequence name="attack" action="wrestling">
-				<frame>data/core/images/units/monsters/deep-tentacle-defend.png</frame>
-				<frame>data/core/images/units/monsters/deep-tentacle-die-4.png</frame>
-				<frame duration="2">data/core/images/units/monsters/deep-tentacle-attack.png</frame>
-				<frame>data/core/images/units/monsters/deep-tentacle-die-4.png</frame>
+		<sequence action="stand N" loop="loop">
+				<frame>data/core/images/units/monsters/water-serpent-n.png</frame>
+		</sequence>
+		<sequence name="defend south" action="defend">
+				<frame>data/core/images/units/monsters/water-serpent.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent-attack-se-1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-se-2.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent-attack-se-1.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent.png</frame>
+		</sequence>
+		<sequence name="defend north" action="defend N" next="stand N">
+				<frame>data/core/images/units/monsters/water-serpent-n.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent-attack-ne-1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-ne-2.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent-attack-ne-1.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent-n.png</frame>
+		</sequence>
+		<sequence name="attack southeast" action="knockout">
+				<frame>data/core/images/units/monsters/water-serpent.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-se-1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-se-2.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-se-3.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-se-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-se-5.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-se-6.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent.png</frame>
+		</sequence>
+		<sequence name="attack northeast" action="knockout NE" next="stand N">
+				<frame>data/core/images/units/monsters/water-serpent-n.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-ne-1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-ne-2.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-ne-3.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-ne-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-ne-5.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-ne-6.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent-n.png</frame>
+		</sequence>
+		<sequence name="attack south" action="knockout S">
+				<frame>data/core/images/units/monsters/water-serpent.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-se-1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-se-2.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-se-3.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-se-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-s-5.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-s-6.png</frame>
+				<frame duration="4">data/core/images/units/monsters/water-serpent.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent.png</frame>
+		</sequence>
+		<sequence name="attack north" action="knockout N" next="stand N">
+				<frame>data/core/images/units/monsters/water-serpent-n.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-ne-1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-ne-2.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-ne-3.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-ne-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-n-5.png</frame>
+				<frame duration="2">data/core/images/units/monsters/water-serpent-attack-n-6.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent-n.png</frame>
+		</sequence>
+		<sequence name="move southeast" action="move" loop="loop">
+				<frame>data/core/images/units/monsters/water-serpent-attack-se-1.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent-attack-se-2.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent-attack-se-3.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent-attack-se-4.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent-attack-se-3.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent-attack-se-2.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent-attack-se-1.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent-attack-se-6.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent.png</frame>
+		</sequence>
+		<sequence name="move northeast" action="move N" loop="loop" next="stand N">
+				<frame>data/core/images/units/monsters/water-serpent-attack-ne-1.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent-attack-ne-2.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent-attack-ne-3.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent-attack-ne-4.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent-attack-ne-3.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent-attack-ne-2.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent-attack-ne-1.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent-n.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent-attack-ne-6.png</frame>
+				<frame>data/core/images/units/monsters/water-serpent-n.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Sea Serpent" yOffset="-18">
+		<ability level="15" name="toughness" description=""/>
+		<ability level="8" name="swimming" description=""/>
+		<ability level="7" name="knockout" description="fangs"/>
+		<portrait>data/core/images/portraits/monsters/transparent/sea-serpent.png</portrait>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/monsters/seaserpent.png</frame>
+		</sequence>
+		<sequence name="bite" action="knockout">
+				<frame duration="5">data/core/images/units/monsters/seaserpent-attack.png</frame>
+				<frame duration="3">data/core/images/units/monsters/seaserpent-defend.png</frame>
 		</sequence>
 		<sequence action="pain">
-				<frame duration="4">data/core/images/units/monsters/deep-tentacle-defend.png</frame>
+				<frame duration="4">data/core/images/units/monsters/seaserpent-defend.png</frame>
 		</sequence>
 		<sequence action="fall" loop="stay">
-				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-1.png</frame>
-				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-2.png</frame>
-				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-3.png</frame>
-				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-4.png</frame>
-				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-5.png</frame>
-				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-6.png</frame>
+				<frame duration="2">data/core/images/units/monsters/seaserpent-die-1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/seaserpent-die-2.png</frame>
+				<frame duration="2">data/core/images/units/monsters/seaserpent-die-3.png</frame>
+				<frame duration="2">data/core/images/units/monsters/seaserpent-die-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/seaserpent-die-5.png</frame>
+				<frame duration="2">data/core/images/units/monsters/seaserpent-die-6.png</frame>
+				<frame duration="2">data/core/images/units/monsters/seaserpent-die-7.png</frame>
+				<frame duration="2">data/core/images/units/monsters/seaserpent-die-8.png</frame>
+				<frame duration="2">data/core/images/units/monsters/seaserpent-die-9.png</frame>
 		</sequence>
 	</unit>
 	<unit name="Water Serpent" yOffset="-18">
@@ -509,6 +1272,126 @@
 				<frame>data/core/images/units/monsters/water-serpent-n.png</frame>
 				<frame>data/core/images/units/monsters/water-serpent-attack-ne-6.png</frame>
 				<frame>data/core/images/units/monsters/water-serpent-n.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Tentacle" yOffset="-18" tier="0" scale="0.8" red="1.3" blue="1.1" green="0.9">
+		<ability level="4" name="toughness" description=""/>
+		<ability level="1" name="swimming" description=""/>
+		<ability level="2" name="wrestling" description=""/>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/monsters/deep-tentacle.png</frame>
+		</sequence>
+		<sequence name="attack" action="wrestling">
+				<frame>data/core/images/units/monsters/deep-tentacle-defend.png</frame>
+				<frame>data/core/images/units/monsters/deep-tentacle-die-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-attack.png</frame>
+				<frame>data/core/images/units/monsters/deep-tentacle-die-4.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame duration="4">data/core/images/units/monsters/deep-tentacle-defend.png</frame>
+		</sequence>
+		<sequence action="fall" loop="stay">
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-2.png</frame>
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-3.png</frame>
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-5.png</frame>
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-6.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Tentacle of the Deep" tier="1" yOffset="-18">
+		<ability level="4" name="toughness" description=""/>
+		<ability level="1" name="swimming" description=""/>
+		<ability level="2" name="wrestling" description=""/>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/monsters/deep-tentacle.png</frame>
+		</sequence>
+		<sequence name="attack" action="wrestling">
+				<frame>data/core/images/units/monsters/deep-tentacle-defend.png</frame>
+				<frame>data/core/images/units/monsters/deep-tentacle-die-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-attack.png</frame>
+				<frame>data/core/images/units/monsters/deep-tentacle-die-4.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame duration="4">data/core/images/units/monsters/deep-tentacle-defend.png</frame>
+		</sequence>
+		<sequence action="fall" loop="stay">
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-2.png</frame>
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-3.png</frame>
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-5.png</frame>
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-6.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Dark Tentacle" yOffset="-18" tier="2" red="0.3" green="0.3" blue="0.5" opacity="0.7">
+		<ability level="4" name="toughness" description=""/>
+		<ability level="1" name="swimming" description=""/>
+		<ability level="2" name="wrestling" description=""/>
+		<sequence action="stand" loop="loop">
+				<frame>data/core/images/units/monsters/deep-tentacle.png</frame>
+		</sequence>
+		<sequence name="attack" action="wrestling">
+				<frame>data/core/images/units/monsters/deep-tentacle-defend.png</frame>
+				<frame>data/core/images/units/monsters/deep-tentacle-die-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-attack.png</frame>
+				<frame>data/core/images/units/monsters/deep-tentacle-die-4.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame duration="4">data/core/images/units/monsters/deep-tentacle-defend.png</frame>
+		</sequence>
+		<sequence action="fall" loop="stay">
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-2.png</frame>
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-3.png</frame>
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-5.png</frame>
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-6.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Whirlpool Tentacle" yOffset="-18" tier="3">
+		<ability level="4" name="toughness" description=""/>
+		<ability level="1" name="swimming" description=""/>
+		<ability level="2" name="wrestling" description=""/>
+		<sequence action="stand" loop="loop">
+			<layer>
+				<frame y="20">data/core/images/scenery/whirlpool.png</frame>
+			</layer>
+			<layer>
+				<frame>data/core/images/units/monsters/deep-tentacle.png</frame>
+			</layer>
+		</sequence>
+		<sequence name="attack" action="wrestling">
+			<layer>
+				<frame duration="5" y="20">data/core/images/scenery/whirlpool.png</frame>
+			</layer>
+			<layer>
+				<frame>data/core/images/units/monsters/deep-tentacle-defend.png</frame>
+				<frame>data/core/images/units/monsters/deep-tentacle-die-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-attack.png</frame>
+				<frame>data/core/images/units/monsters/deep-tentacle-die-4.png</frame>
+			</layer>
+		</sequence>
+		<sequence action="pain">
+			<layer>
+				<frame duration="4" y="20">data/core/images/scenery/whirlpool.png</frame>
+			</layer>
+			<layer>
+				<frame duration="4">data/core/images/units/monsters/deep-tentacle-defend.png</frame>
+			</layer>
+		</sequence>
+		<sequence action="fall" loop="stay">
+			<layer>
+				<frame duration="12" y="20">data/core/images/scenery/whirlpool.png</frame>
+			</layer>
+			<layer>
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-2.png</frame>
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-3.png</frame>
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-4.png</frame>
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-5.png</frame>
+				<frame duration="2">data/core/images/units/monsters/deep-tentacle-die-6.png</frame>
+			</layer>
 		</sequence>
 	</unit>
 	<unit name="Wolf" yOffset="-18">
@@ -613,6 +1496,54 @@
 				<frame>data/core/images/units/monsters/direwolf-defend-1.png</frame>
 				<frame>data/core/images/units/monsters/direwolf-attack.png</frame>
 				<frame duration="2">data/core/images/units/monsters/direwolf-moving.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Ape" yOffset="-18" scale="0.5" red="0.4" green="0.4" blue="0.4">
+		<ability level="26" name="toughness" description="enormous"/>
+		<ability level="2" name="acrobatics" description="mountain climbing"/>
+		<ability level="13" name="knockout" description="fist"/>
+		<sequence action="stand" loop="loop">
+				<frame duration="4">data/core/images/units/monsters/yeti.png</frame>
+		</sequence>
+		<sequence name="swing" action="knockout">
+				<frame duration="2">data/core/images/units/monsters/yeti-attack1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/yeti-attack2.png</frame>
+				<frame duration="5">data/core/images/units/monsters/yeti-attack3.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame duration="5">data/core/images/units/monsters/yeti-defend.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Red Ape" yOffset="-18" scale="0.6" red="0.7" green="0.4" blue="0.3">
+		<ability level="26" name="toughness" description="enormous"/>
+		<ability level="2" name="acrobatics" description="mountain climbing"/>
+		<ability level="13" name="knockout" description="fist"/>
+		<sequence action="stand" loop="loop">
+				<frame duration="4">data/core/images/units/monsters/yeti.png</frame>
+		</sequence>
+		<sequence name="swing" action="knockout">
+				<frame duration="2">data/core/images/units/monsters/yeti-attack1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/yeti-attack2.png</frame>
+				<frame duration="5">data/core/images/units/monsters/yeti-attack3.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame duration="5">data/core/images/units/monsters/yeti-defend.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Ape Man" yOffset="-18" scale="0.75" red="0.8" green="0.75" blue="0.7">
+		<ability level="26" name="toughness" description="enormous"/>
+		<ability level="2" name="acrobatics" description="mountain climbing"/>
+		<ability level="13" name="knockout" description="fist"/>
+		<sequence action="stand" loop="loop">
+				<frame duration="4">data/core/images/units/monsters/yeti.png</frame>
+		</sequence>
+		<sequence name="swing" action="knockout">
+				<frame duration="2">data/core/images/units/monsters/yeti-attack1.png</frame>
+				<frame duration="2">data/core/images/units/monsters/yeti-attack2.png</frame>
+				<frame duration="5">data/core/images/units/monsters/yeti-attack3.png</frame>
+		</sequence>
+		<sequence action="pain">
+				<frame duration="5">data/core/images/units/monsters/yeti-defend.png</frame>
 		</sequence>
 	</unit>
 	<unit name="Yeti" yOffset="-18">
@@ -5274,6 +6205,179 @@
 				<frame>data/core/images/units/human-magi/white-mage+female-melee-6.png</frame>
 		</sequence>
 	</unit>
+	<unit name="Female Arch White Mage" yOffset="-18">
+		<ability level="" name="toughness" description=""/>
+		<ability level="" name="blasting" description="magic"/>
+		<ability level="" name="stealth" description="teleportation"/>
+		<ability level="" name="healing" description="magic"/>
+		<portrait scale="0.5">data/core/images/portraits/humans/transparent/mage-white+female.png</portrait>
+		<sequence action="stand" loop="loop">
+			<layer>
+				<frame>data/core/images/units/human-magi/white-mage+female.png</frame>
+			</layer>
+			<layer>
+				<frame opacity="0.2">data/core/images/halo/illuminates-aura.png</frame>
+			</layer>
+		</sequence>
+		<sequence action="pain">
+			<layer>
+				<frame duration="3">data/core/images/units/human-magi/white-mage+female-defend.png</frame>
+			</layer>
+			<layer>
+				<frame duration="3" opacity="0.2">data/core/images/halo/illuminates-aura.png</frame>
+			</layer>
+		</sequence>
+		<sequence action="fall" loop="stay">
+			<layer>
+				<frame>data/core/images/units/human-magi/white-mage+female-die-1.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage+female-die-2.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage+female-die-3.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage+female-die-4.png</frame>
+			</layer>
+			<layer>
+				<frame opacity="0.15">data/core/images/halo/illuminates-aura.png</frame>
+				<frame opacity="0.10">data/core/images/halo/illuminates-aura.png</frame>
+				<frame opacity="0.05">data/core/images/halo/illuminates-aura.png</frame>
+				<frame></frame>
+			</layer>
+		</sequence>
+		<sequence action="healing">
+			<layer>
+				<frame>data/core/images/units/human-magi/white-mage+female-magic-1.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage+female-magic-2.png</frame>
+				<frame duration="7">data/core/images/units/human-magi/white-mage+female-magic-3.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage+female-magic-2.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage+female-magic-1.png</frame>
+			</layer>
+			<layer>
+				<frame duration="11" opacity="0.2">data/core/images/halo/illuminates-aura.png</frame>
+			</layer>
+			<layer>
+				<frame duration="2"></frame>
+				<frame>data/core/images/halo/holy/halo6.png</frame>
+				<frame>data/core/images/halo/holy/halo1.png</frame>
+				<frame>data/core/images/halo/holy/halo2.png</frame>
+				<frame>data/core/images/halo/holy/halo3.png</frame>
+				<frame>data/core/images/halo/holy/halo4.png</frame>
+				<frame>data/core/images/halo/holy/halo5.png</frame>
+				<frame>data/core/images/halo/holy/halo6.png</frame>
+				<frame duration="2"></frame>
+			</layer>
+		</sequence>
+		<sequence name="lightbeam" action="shooting">
+			<layer>
+				<frame>data/core/images/units/human-magi/white-mage+female-magic-1.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage+female-magic-2.png</frame>
+				<frame duration="5">data/core/images/units/human-magi/white-mage+female-magic-3.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage+female-magic-2.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage+female-magic-1.png</frame>
+			</layer>
+			<layer>
+				<frame duration="9" opacity="0.2">data/core/images/halo/illuminates-aura.png</frame>
+			</layer>
+			<layer>
+				<frame duration="2"></frame>
+				<frame>data/core/images/halo/holy/halo6.png</frame>
+				<frame>data/core/images/halo/holy/halo1.png</frame>
+				<frame>data/core/images/halo/holy/halo3.png</frame>
+				<frame>data/core/images/halo/holy/halo5.png</frame>
+				<frame>data/core/images/halo/holy/halo6.png</frame>
+				<frame duration="2"></frame>
+			</layer>
+		</sequence>
+		<sequence name="staff" action="wrestling">
+			<layer>
+				<frame>data/core/images/units/human-magi/white-mage+female-melee-1.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage+female-melee-2.png</frame>
+				<frame duration="2">data/core/images/units/human-magi/white-mage+female-melee-3.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage+female-melee-4.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage+female-melee-5.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage+female-melee-6.png</frame>
+			</layer>
+			<layer>
+				<frame duration="7" opacity="0.2">data/core/images/halo/illuminates-aura.png</frame>
+			</layer>
+		</sequence>
+	</unit>
+	<unit name="Female Great White Mage" yOffset="-18">
+		<ability level="" name="toughness" description=""/>
+		<ability level="" name="blasting" description="magic"/>
+		<ability level="" name="stealth" description="teleportation"/>
+		<ability level="" name="healing" description="magic"/>
+		<portrait scale="0.6">data/core/images/portraits/humans/transparent/mage-light+female.png</portrait>
+		<sequence action="stand" loop="loop">
+			<layer>
+				<frame>data/core/images/units/human-magi/white-cleric+female.png</frame>
+			</layer>
+			<layer>
+				<frame opacity="0.5">data/core/images/halo/illuminates-aura.png</frame>
+			</layer>
+		</sequence>
+		<sequence action="pain">
+			<layer>
+				<frame duration="4">data/core/images/units/human-magi/white-cleric+female-defend.png</frame>
+			</layer>
+			<layer>
+				<frame duration="4" opacity="0.5">data/core/images/halo/illuminates-aura.png</frame>
+			</layer>
+		</sequence>
+		<sequence action="wrestling">
+			<layer>
+				<frame>data/core/images/units/human-magi/white-cleric+female-magic-3.png</frame>
+				<frame>data/core/images/units/human-magi/white-cleric+female-mace-1.png</frame>
+				<frame>data/core/images/units/human-magi/white-cleric+female-mace-2.png</frame>
+				<frame>data/core/images/units/human-magi/white-cleric+female-mace-3.png</frame>
+				<frame>data/core/images/units/human-magi/white-cleric+female-mace-4.png</frame>
+			</layer>
+			<layer>
+				<frame duration="5" opacity="0.5">data/core/images/halo/illuminates-aura.png</frame>
+			</layer>
+		</sequence>
+		<sequence action="blasting">
+			<layer>
+				<frame>data/core/images/units/human-magi/white-cleric+female-magic-1.png</frame>
+				<frame>data/core/images/units/human-magi/white-cleric+female-magic-2.png</frame>
+				<frame duration="5">data/core/images/units/human-magi/white-cleric+female-magic-3.png</frame>
+				<frame>data/core/images/units/human-magi/white-cleric+female-magic-2.png</frame>
+				<frame>data/core/images/units/human-magi/white-cleric+female-magic-1.png</frame>
+			</layer>
+			<layer>
+				<frame duration="9" opacity="0.5">data/core/images/halo/illuminates-aura.png</frame>
+			</layer>
+			<layer>
+				<frame duration="2"></frame>
+				<frame>data/core/images/halo/holy/halo6.png</frame>
+				<frame>data/core/images/halo/holy/halo1.png</frame>
+				<frame>data/core/images/halo/holy/halo3.png</frame>
+				<frame>data/core/images/halo/holy/halo5.png</frame>
+				<frame>data/core/images/halo/holy/halo6.png</frame>
+				<frame duration="2"></frame>
+			</layer>
+		</sequence>
+		<sequence action="healing">
+			<layer>
+				<frame>data/core/images/units/human-magi/white-cleric+female-magic-1.png</frame>
+				<frame>data/core/images/units/human-magi/white-cleric+female-magic-2.png</frame>
+				<frame duration="7">data/core/images/units/human-magi/white-cleric+female-magic-3.png</frame>
+				<frame>data/core/images/units/human-magi/white-cleric+female-magic-2.png</frame>
+				<frame>data/core/images/units/human-magi/white-cleric+female-magic-1.png</frame>
+			</layer>
+			<layer>
+				<frame duration="11" opacity="0.5">data/core/images/halo/illuminates-aura.png</frame>
+			</layer>
+			<layer>
+				<frame duration="2"></frame>
+				<frame>data/core/images/halo/holy/halo6.png</frame>
+				<frame>data/core/images/halo/holy/halo1.png</frame>
+				<frame>data/core/images/halo/holy/halo2.png</frame>
+				<frame>data/core/images/halo/holy/halo3.png</frame>
+				<frame>data/core/images/halo/holy/halo4.png</frame>
+				<frame>data/core/images/halo/holy/halo5.png</frame>
+				<frame>data/core/images/halo/holy/halo6.png</frame>
+				<frame duration="2"></frame>
+			</layer>
+		</sequence>
+	</unit>
 	<unit name="Female Mage of Light" yOffset="-18">
 		<ability level="" name="toughness" description=""/>
 		<ability level="" name="blasting" description="magic"/>
@@ -5692,6 +6796,179 @@
 				<frame>data/core/images/units/human-magi/white-mage-melee-4.png</frame>
 				<frame>data/core/images/units/human-magi/white-mage-melee-5.png</frame>
 				<frame>data/core/images/units/human-magi/white-mage-melee-6.png</frame>
+		</sequence>
+	</unit>
+	<unit name="Male Arch White Mage" yOffset="-18">
+		<ability level="" name="toughness" description=""/>
+		<ability level="" name="blasting" description="magic"/>
+		<ability level="" name="stealth" description="teleportation"/>
+		<ability level="" name="healing" description="magic"/>
+		<portrait scale="0.5">data/core/images/portraits/humans/transparent/mage-white.png</portrait>
+		<sequence action="stand" loop="loop">
+			<layer>
+				<frame>data/core/images/units/human-magi/white-mage.png</frame>
+			</layer>
+			<layer>
+				<frame opacity="0.2">data/core/images/halo/illuminates-aura.png</frame>
+			</layer>
+		</sequence>
+		<sequence action="pain">
+			<layer>
+				<frame duration="3">data/core/images/units/human-magi/white-mage-defend.png</frame>
+			</layer>
+			<layer>
+				<frame duration="3" opacity="0.2">data/core/images/halo/illuminates-aura.png</frame>
+			</layer>
+		</sequence>
+		<sequence action="fall" loop="stay">
+			<layer>
+				<frame>data/core/images/units/human-magi/white-mage-die-1.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage-die-2.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage-die-3.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage-die-4.png</frame>
+			</layer>
+			<layer>
+				<frame opacity="0.15">data/core/images/halo/illuminates-aura.png</frame>
+				<frame opacity="0.10">data/core/images/halo/illuminates-aura.png</frame>
+				<frame opacity="0.05">data/core/images/halo/illuminates-aura.png</frame>
+				<frame></frame>
+			</layer>
+		</sequence>
+		<sequence action="healing">
+			<layer>
+				<frame>data/core/images/units/human-magi/white-mage-magic-1.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage-magic-2.png</frame>
+				<frame duration="7">data/core/images/units/human-magi/white-mage-magic-3.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage-magic-2.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage-magic-1.png</frame>
+			</layer>
+			<layer>
+				<frame duration="11" opacity="0.2">data/core/images/halo/illuminates-aura.png</frame>
+			</layer>
+			<layer>
+				<frame duration="2"></frame>
+				<frame>data/core/images/halo/holy/halo6.png</frame>
+				<frame>data/core/images/halo/holy/halo1.png</frame>
+				<frame>data/core/images/halo/holy/halo2.png</frame>
+				<frame>data/core/images/halo/holy/halo3.png</frame>
+				<frame>data/core/images/halo/holy/halo4.png</frame>
+				<frame>data/core/images/halo/holy/halo5.png</frame>
+				<frame>data/core/images/halo/holy/halo6.png</frame>
+				<frame duration="2"></frame>
+			</layer>
+		</sequence>
+		<sequence name="lightbeam" action="shooting">
+			<layer>
+				<frame>data/core/images/units/human-magi/white-mage-magic-1.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage-magic-2.png</frame>
+				<frame duration="5">data/core/images/units/human-magi/white-mage-magic-3.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage-magic-2.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage-magic-1.png</frame>
+			</layer>
+			<layer>
+				<frame duration="9" opacity="0.2">data/core/images/halo/illuminates-aura.png</frame>
+			</layer>
+			<layer>
+				<frame duration="2"></frame>
+				<frame>data/core/images/halo/holy/halo6.png</frame>
+				<frame>data/core/images/halo/holy/halo1.png</frame>
+				<frame>data/core/images/halo/holy/halo3.png</frame>
+				<frame>data/core/images/halo/holy/halo5.png</frame>
+				<frame>data/core/images/halo/holy/halo6.png</frame>
+				<frame duration="2"></frame>
+			</layer>
+		</sequence>
+		<sequence name="staff" action="wrestling">
+			<layer>
+				<frame>data/core/images/units/human-magi/white-mage-melee-1.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage-melee-2.png</frame>
+				<frame duration="2">data/core/images/units/human-magi/white-mage-melee-3.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage-melee-4.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage-melee-5.png</frame>
+				<frame>data/core/images/units/human-magi/white-mage-melee-6.png</frame>
+			</layer>
+			<layer>
+				<frame duration="7" opacity="0.2">data/core/images/halo/illuminates-aura.png</frame>
+			</layer>
+		</sequence>
+	</unit>
+	<unit name="Male Great Mage" yOffset="-18">
+		<ability level="" name="toughness" description=""/>
+		<ability level="" name="blasting" description="magic"/>
+		<ability level="" name="stealth" description="teleportation"/>
+		<ability level="" name="healing" description="magic"/>
+		<portrait scale="0.5">data/core/images/portraits/humans/transparent/mage-light.png</portrait>
+		<sequence action="stand" loop="loop">
+			<layer>
+				<frame>data/core/images/units/human-magi/white-cleric.png</frame>
+			</layer>
+			<layer>
+				<frame opacity="0.5">data/core/images/halo/illuminates-aura.png</frame>
+			</layer>
+		</sequence>
+		<sequence action="pain">
+			<layer>
+				<frame duration="4">data/core/images/units/human-magi/white-cleric-defend.png</frame>
+			</layer>
+			<layer>
+				<frame duration="4" opacity="0.5">data/core/images/halo/illuminates-aura.png</frame>
+			</layer>
+		</sequence>
+		<sequence action="wrestling">
+			<layer>
+				<frame>data/core/images/units/human-magi/white-cleric-magic-3.png</frame>
+				<frame>data/core/images/units/human-magi/white-cleric-mace-1.png</frame>
+				<frame>data/core/images/units/human-magi/white-cleric-mace-2.png</frame>
+				<frame>data/core/images/units/human-magi/white-cleric-mace-3.png</frame>
+				<frame>data/core/images/units/human-magi/white-cleric-mace-4.png</frame>
+			</layer>
+			<layer>
+				<frame duration="5">data/core/images/halo/illuminates-aura.png</frame>
+			</layer>
+		</sequence>
+		<sequence action="blasting">
+			<layer>
+				<frame>data/core/images/units/human-magi/white-cleric-magic-1.png</frame>
+				<frame>data/core/images/units/human-magi/white-cleric-magic-2.png</frame>
+				<frame duration="5">data/core/images/units/human-magi/white-cleric-magic-3.png</frame>
+				<frame>data/core/images/units/human-magi/white-cleric-magic-2.png</frame>
+				<frame>data/core/images/units/human-magi/white-cleric-magic-1.png</frame>
+			</layer>
+			<layer>
+				<frame duration="9" opacity="0.5">data/core/images/halo/illuminates-aura.png</frame>
+			</layer>
+			<layer>
+				<frame duration="2"></frame>
+				<frame>data/core/images/halo/holy/halo6.png</frame>
+				<frame>data/core/images/halo/holy/halo1.png</frame>
+				<frame>data/core/images/halo/holy/halo3.png</frame>
+				<frame>data/core/images/halo/holy/halo5.png</frame>
+				<frame>data/core/images/halo/holy/halo6.png</frame>
+				<frame duration="2"></frame>
+			</layer>
+		</sequence>
+		<sequence action="healing">
+			<layer>
+				<frame>data/core/images/units/human-magi/white-cleric-magic-1.png</frame>
+				<frame>data/core/images/units/human-magi/white-cleric-magic-2.png</frame>
+				<frame duration="7">data/core/images/units/human-magi/white-cleric-magic-3.png</frame>
+				<frame>data/core/images/units/human-magi/white-cleric-magic-2.png</frame>
+				<frame>data/core/images/units/human-magi/white-cleric-magic-1.png</frame>
+			</layer>
+			<layer>
+				<frame duration="11" opacity="0.5">data/core/images/halo/illuminates-aura.png</frame>
+			</layer>
+			<layer>
+				<frame duration="2"></frame>
+				<frame>data/core/images/halo/holy/halo6.png</frame>
+				<frame>data/core/images/halo/holy/halo1.png</frame>
+				<frame>data/core/images/halo/holy/halo2.png</frame>
+				<frame>data/core/images/halo/holy/halo3.png</frame>
+				<frame>data/core/images/halo/holy/halo4.png</frame>
+				<frame>data/core/images/halo/holy/halo5.png</frame>
+				<frame>data/core/images/halo/holy/halo6.png</frame>
+				<frame duration="2"></frame>
+			</layer>
 		</sequence>
 	</unit>
 	<unit name="Male Mage of Light" yOffset="-18">
