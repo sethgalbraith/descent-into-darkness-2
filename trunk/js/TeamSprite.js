@@ -1,7 +1,7 @@
 Game.TeamSprite = function (imageURL, loader, callback) {
   this.canvas = document.createElement("canvas");
   this.loaded = false;
-  this.palette = []; // colorized palette that replaces team colors
+  this.palette = []; // palette that replaces team colors
   this.indices = []; // index of each pixel for each team color
   var map = {}; // maps packed rgb values to team color numbers
 
@@ -77,8 +77,8 @@ Game.TeamSprite = function (imageURL, loader, callback) {
       }
     }
 
-    // colorize it!
-    self.colorize();
+    // swap it!
+    self._swap();
 
     // execute any other code that should run after loading the image
     if (callback) callback();
@@ -106,7 +106,7 @@ Game.TeamSprite.TEAM_COLORS = [
 
 Game.TeamSprite.prototype = {
 
-  colorize: function () {
+  _swap: function () {
     if (!this.loaded) return;
     var context = this.canvas.getContext("2d");
     var data = context.getImageData(0, 0, this.canvas.width, this.canvas.height);
@@ -136,19 +136,31 @@ Game.TeamSprite.prototype = {
     }
   },
 
-  setRed: function (value) {this.setChannel(0, value); this.colorize();},
+  setRed: function (value) {this.setChannel(0, value); this._swap();},
 
-  setGreen: function (value) {this.setChannel(1, value); this.colorize();},
+  setGreen: function (value) {this.setChannel(1, value); this._swap();},
 
-  setBlue: function (value) {this.setChannel(2, value); this.colorize();},
+  setBlue: function (value) {this.setChannel(2, value); this._swap();},
 
   setColor: function (red, green, blue) {
     this.setChannel(0, red);
     this.setChannel(1, green);
     this.setChannel(2, blue);
-    this.colorize();
+    this._swap();
   },
 
+  colorize: function (red, green, blue) {
+    if (!this.loaded) return;
+    if (red == 1 && green == 1 && blue == 1) return;
+    var context = this.canvas.getContext("2d");
+    var data = context.getImageData(0, 0, this.canvas.width, this.canvas.height);
+    for (var i = 0; i < data.data.length; i += 4) {
+      data.data[i]     = Math.min(255, Math.round(data.data[i] * red));
+      data.data[i + 1] = Math.min(255, Math.round(data.data[i + 1] * green));
+      data.data[i + 2] = Math.min(255, Math.round(data.data[i + 2] * blue));
+    }
+    context.putImageData(data, 0, 0);
+  },
 }
 
 

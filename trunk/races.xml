@@ -1,47 +1,77 @@
 <races>
 	<race name="Monsters">
 		<class name="Bat">
+			<unit>Bat</unit>
 			<unit>Vampire Bat</unit>
 			<unit>Blood Bat</unit>
 			<unit>Dread Bat</unit>
 		</class>
 		<class name="Cuttle Fish">
 			<unit>Cuttle Fish</unit>
+			<unit>Cryptic Cuttle Fish</unit>
+			<unit>Giant Cuttle Fish</unit>
+			<unit>Deep Cuttle Fish</unit>
 		</class>
 		<class name="Falcon">
 			<unit>Falcon</unit>
 			<unit>Elder Falcon</unit>
+			<unit>Blood Falcon</unit>
+			<unit>Golden Falcon</unit>
 		</class>
-		<class name="Fire Dragon">
+		<class name="Dragon">
+			<unit>Hatchling Dragon</unit>
+			<unit>Green Dragon</unit>
+			<unit>Black Dragon</unit>
+			<unit>Red Dragon</unit>
 			<unit>Fire Dragon</unit>
 		</class>
 		<class name="Fire Guardian">
+			<unit>Spark Guardian</unit>
+			<unit>Flame Guardian</unit>
 			<unit>Fire Guardian</unit>
+			<unit>Fire Elemental</unit>
 		</class>
-		<class name="Giant Rat">
+		<class name="Rat">
+			<unit>Sewer Rat</unit>
+			<unit>Plague Rat</unit>
+			<unit>Lab Rat</unit>
 			<unit>Giant Rat</unit>
 		</class>
-		<class name="Giant Scorpion">
+		<class name="Scorpion">
+			<unit>Scorpion</unit>
+			<unit>Big Scorpion</unit>
+			<unit>Huge Scorpion</unit>
 			<unit>Giant Scorpion</unit>
 		</class>
-		<class name="Giant Spider">
+		<class name="Spider">
+			<unit>Spider</unit>
+			<unit>Big Spider</unit>
+			<unit>Huge Spider</unit>
 			<unit>Giant Spider</unit>
 		</class>
 		<class name="Gryphon">
+			<unit>Gryphon Hatchling</unit>
+			<unit>Gryphon Fledgling</unit>
 			<unit>Gryphon</unit>
+			<unit>Great Gryphon</unit>
 		</class>
 		<class name="Mudcrawler">
+			<unit>Mini Mudcrawler</unit>
 			<unit>Mudcrawler</unit>
+			<unit>Bloodcrawler</unit>
 			<unit>Giant Mudcrawler</unit>
 		</class>
 		<class name="Sea Serpent">
+			<unit>Serpent</unit>
+			<unit>Lake Serpent</unit>
+			<unit>Water Serpent</unit>
 			<unit>Sea Serpent</unit>
 		</class>
-		<class name="Tentacle of the Deep">
+		<class name="Tentacle">
+			<unit>Tentacle</unit>
 			<unit>Tentacle of the Deep</unit>
-		</class>
-		<class name="Water Serpent">
-			<unit>Water Serpent</unit>
+			<unit>Dark Tentacle</unit>
+			<unit>Whirlpool Tentacle</unit>
 		</class>
 		<class name="Wolf">
 			<unit>Wolf</unit>
@@ -50,21 +80,18 @@
 			<unit>Dire Wolf</unit>
 		</class>
 		<class name="Yeti">
+			<unit>Ape</unit>
+			<unit>Red Ape</unit>
+			<unit>Ape Man</unit>
 			<unit>Yeti</unit>
 		</class>
 	</race>
-	<race name="Ships">
+	<race name="Boats">
 		<class name="Boat">
 			<unit>Boat</unit>
-		</class>
-		<class name="Galleon">
-			<unit>Galleon</unit>
-		</class>
-		<class name="Pirate Galleon">
-			<unit>Pirate Galleon</unit>
-		</class>
-		<class name="Transport Galleon">
 			<unit>Transport Galleon</unit>
+			<unit>Pirate Galleon</unit>
+			<unit>Galleon</unit>
 		</class>
 	</race>
 	<race name="Drakes">
@@ -239,13 +266,17 @@
 				<unit>Male Silver Mage</unit>
 			</branch>
 		</class>
-		<class name="Male White Mage">
-				<unit>Male White Mage</unit>
-				<unit>Male Mage of Light</unit>
-		</class>
 		<class name="Female White Mage">
 				<unit>Female White Mage</unit>
+				<unit>Female Arch White Mage</unit>
+				<unit>Female Great White Mage</unit>
 				<unit>Female Mage of Light</unit>
+		</class>
+		<class name="Male White Mage">
+				<unit>Male White Mage</unit>
+				<unit>Male Arch White Mage</unit>
+				<unit>Male Great White Mage</unit>
+				<unit>Male Mage of Light</unit>
 		</class>
 		<class name="Female Necromancer">
 			<unit>Female Dark Adept</unit>

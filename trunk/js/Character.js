@@ -19,20 +19,32 @@ Game.Character = function (xml) {
 
   // Get settings from the XML element.
   this.name = xml.getAttribute("name");
-  this.setX(parseInt(xml.getAttribute("x")));
-  this.setY(parseInt(xml.getAttribute("y")));
+  this.setX(parseInt(this._getAttribute(xml, "x", 0)));
+  this.setY(parseInt(this._getAttribute(xml, "y", 0)));
   this.location = xml.getAttribute("location");
   this.type = xml.getAttribute("type");
-  this.speed = xml.hasAttribute("speed") ? parseInt(xml.getAttribute("speed")) : 20;
-  this.range = xml.hasAttribute("range") ? parseInt(xml.getAttribute("range")) : 440;
-  this.height = xml.hasAttribute("height") ? parseInt(xml.getAttribute("height")) : 0;
-  this.idleMin = xml.hasAttribute("idleMin") ? parseInt(xml.getAttribute("idleMin")) : 10;
-  this.idleMax = xml.hasAttribute("idleMax") ? parseInt(xml.getAttribute("idleMax")) : 50;
-  this.color = xml.hasAttribute("color") ? parseInt(xml.getAttribute("color")) : 198;
+  this.speed = parseInt(this._getAttribute(xml, "speed", 20));
+  this.range = parseInt(this._getAttribute(xml, "range", 440));
+  this.height = parseInt(this._getAttribute(xml, "height", 0));
+  this.idleMin = parseInt(this._getAttribute(xml, "idleMin", 10));
+  this.idleMax = parseInt(this._getAttribute(xml, "idleMax", 50));
+  var colorString = this._getAttribute(xml, "color", "520");
+  this._color = parseInt(colorString[0]) * 36
+              + parseInt(colorString[1]) * 6
+              + parseInt(colorString[2]);
+  this._angle = parseFloat(this._getAttribute(xml, "angle", 0));
+  this._scale = parseFloat(this._getAttribute(xml, "scale", 1));
+  this._transformElement(this.element, this._angle, this._scale);
+  this.setOpacity(parseFloat(this._getAttribute(xml, "opacity", 1)));
   var offset = {
-    x: (xml.hasAttribute("xOffset") ? parseInt(xml.getAttribute("xOffset")) : 0),
-    y: (xml.hasAttribute("yOffset") ? parseInt(xml.getAttribute("yOffset")) : 0)
-  }
+    x: parseInt(this._getAttribute(xml, "xOffset", 0)),
+    y: parseInt(this._getAttribute(xml, "yOffset", 0)),
+  };
+  var rgb = {
+    red: parseFloat(this._getAttribute(xml, "red", 1)),
+    green: parseFloat(this._getAttribute(xml, "green", 1)),
+    blue: parseFloat(this._getAttribute(xml, "blue", 1)),
+  };
 
   var portraitElements = xml.getElementsByTagName("portrait");
   for (var i = 0; i < portraitElements.length; i++) {
@@ -72,7 +84,7 @@ Game.Character = function (xml) {
       };
       var frames = layers[j].getElementsByTagName("frame");
       for (var k = 0; k < frames.length; k++) {
-        this._loadFrame(frames[k], layerOffset, actionName, j);
+        this._loadFrame(frames[k], layerOffset, actionName, j, rgb);
       }
     }    
   }
@@ -97,10 +109,15 @@ Game.Character.prototype = {
     this.portraits.push(image);
   },
 
-  _loadFrame: function (xml, offset, action, layer) {
-    var opacity = xml.getAttribute("opacity");
-    var rotate = xml.getAttribute("rotate");
-    var scale = xml.getAttribute("scale");
+  _loadFrame: function (xml, offset, action, layer, color) {
+    var opacity = parseFloat(this._getAttribute(xml, "opacity", 1));
+    var rotate = parseFloat(this._getAttribute(xml, "rotate", 0));
+    var scale = parseFloat(this._getAttribute(xml, "scale", 1));
+    var rgb = {
+      red: color.red * parseFloat(this._getAttribute(xml, "red", 1)),
+      green: color.green * parseFloat(this._getAttribute(xml, "green", 1)),
+      blue: color.blue * parseFloat(this._getAttribute(xml, "blue", 1)),
+    }
     var url = xml.textContent;
     var frameX = xml.getAttribute("x");
     var frameY = xml.getAttribute("y");
@@ -112,7 +129,7 @@ Game.Character.prototype = {
     var sprite = this.sprites[key];
     if (!sprite) {
       if (url) { // Create a new image.
-        sprite = this._makeFrame(url, frameOffset, rotate, scale, opacity);
+        sprite = this._makeFrame(url, frameOffset, rotate, scale, opacity, rgb);
       }
       else { // Create an empty div which can be hidden or shown like an image.
         sprite = {
@@ -131,7 +148,7 @@ Game.Character.prototype = {
     this.container.appendChild(sprite.canvas);
   },
 
-  _makeFrame: function (url, offset, rotate, scale, opacity) {
+  _makeFrame: function (url, offset, rotate, scale, opacity, rgb) {
     var color = this.getColor();
     var sprite = new Game.TeamSprite(url, Game.loader, function () {
       var left = offset.x + parseInt(sprite.canvas.style.marginLeft);
@@ -140,28 +157,41 @@ Game.Character.prototype = {
       sprite.canvas.style.marginTop = top + "px";
       sprite.canvas.style.marginRight = (sprite.canvas.width - left) + "px";
       sprite.canvas.style.marginBottom = (sprite.canvas.height - top) + "px";
+      sprite.colorize(rgb.red, rgb.green, rgb.blue);
       sprite.setColor(color.red, color.green, color.blue);
     });
 //    sprite.canvas.style.visibility = "hidden";
     sprite.canvas.className = "hid";
-    if (opacity) {
+    if (opacity < 1) {
       sprite.canvas.style.opacity = opacity;
     }
+    this._transformElement(sprite.canvas, rotate, scale);
+    return sprite;
+  },
+
+  _transformElement: function (element, angle, scale) {
     var transforms = [];
-    if (rotate) {
-      transforms.push("rotate(" + rotate + "deg)");
+    if (angle % 360 != 0) {
+      transforms.push("rotate(" + angle + "deg)");
     }
-    if (scale) {
+    if (scale != 1) {
       transforms.push("scale(" + scale + ")");
     }
     if (transforms.length > 0) {
       var transform = transforms.join(" ");
-      sprite.canvas.style.transform = transform;
-      sprite.canvas.style.WebkitTransform = transform;
-      sprite.canvas.style.MozTransform = transform;
-      sprite.canvas.style.OTransform = transform;
+      element.style.transform = transform;
+      element.style.WebkitTransform = transform;
+      element.style.MozTransform = transform;
+      element.style.OTransform = transform;
     }
-    return sprite;
+  },
+
+  _getAttribute: function (element, attribute, defaultValue) {
+    if (element.hasAttribute(attribute)) {
+      return element.getAttribute(attribute);
+    } else {
+      return defaultValue;
+    }
   },
 
   _hideCurrentFrame: function () {
@@ -248,19 +278,37 @@ Game.Character.prototype = {
 
   getColor: function() {
     return {
-      red: 51 * Math.floor(this.color / 36),
-      green: 51 * (Math.floor(this.color / 6) % 6),
-      blue: 51 * (this.color % 6),
+      red: 51 * Math.floor(this._color / 36),
+      green: 51 * (Math.floor(this._color / 6) % 6),
+      blue: 51 * (this._color % 6),
     };
   },
   setColor: function(r, g, b) {
-    this.color = 36 * Math.floor(r / 51)
+    this._color = 36 * Math.floor(r / 51)
       + 6 * Math.floor(g / 51)
       + Math.floor(b / 51);
     var rgb = this.getColor();
     for (key in this.sprites) {
       this.sprites[key].setColor(rgb.red, rgb.green, rgb.blue);
     }
+  },
+
+  getScale: function() {return this._scale;},
+  setScale: function(value) {
+    this._scale = value;
+    this._transformElement(this.element, this._angle, this._scale);
+  },
+
+  getAngle: function() {return this._angle;},
+  setAngle: function(value) {
+    this._angle = value;
+    this._transformElement(this.element, this._angle, this._scale);
+  },
+
+  getOpacity: function() {return this._opacity;},
+  setOpacity: function(value) {
+    this._opacity = value;
+    this.element.style.opacity = value;
   },
 
   // PUBLIC METHODS
