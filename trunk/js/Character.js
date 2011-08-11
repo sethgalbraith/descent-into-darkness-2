@@ -64,8 +64,9 @@ Game.Character = function (xml) {
   this.sprites = {};
   var sequences = xml.getElementsByTagName("sequence");
   for (var i = 0; i < sequences.length; i++) {
-    var actionName = sequences[i].getAttribute("action");
+    var actionName = sequences[i].hasAttribute("action") ? sequences[i].getAttribute("action") : i + "";
 //if (this.sequences[actionName]) {alert(this.name); return;}
+    if (i == 0) this._action = actionName; // first animation is the default;
     this.sequences[actionName] = {
       action: actionName,
       name: sequences[i].hasAttribute("name") ? sequences[i].getAttribute("name") : actionName,
@@ -198,6 +199,7 @@ Game.Character.prototype = {
     var sequence = this.sequences[this._action];
     if (sequence) {
       for (var i = 0; i < sequence.layers.length; i++) {
+if (!sequence.layers[i][this._frame]) alert ([i, this._frame, this._action, this.name].join(", "));
 //        sequence.layers[i][this._frame].style.visibility = "hidden";
         sequence.layers[i][this._frame].className = "hid";
       }
@@ -326,14 +328,14 @@ Game.Character.prototype = {
     if (this.type == "shooter") {
       this.animateShooter();
     }
-  /*
     else if (this.path) {
       this.setAction("move");
     }
+/*
     else if (this.getAction() == "move") {
       this.setAction("stand");
     }
-  */
+*/
     else if (this.getAction() == "stand" && this.sequences["idle"]) {
       this.nextIdleFrame--;
       if (this.nextIdleFrame == 0) {

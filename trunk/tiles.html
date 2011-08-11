@@ -1,0 +1,100 @@
+<html>
+  <head>
+    <style type="text/css">
+
+#menu, #main {
+  position: fixed;
+  top: 0;
+  height: 600px;
+  overflow: scroll;
+  padding: 1%;
+  background: #bc9;
+}
+#menu {
+  left: 0;
+  width: 31%;
+}
+#main {
+  left: 33%;
+  width: 65%;
+}
+
+    </style>
+    <!-- <script type="text/javascript" src="js/Game.js"></script> -->
+    <script type="text/javascript">
+
+var Game = {
+  createElement: function (tagName, attributes, parentElement) {
+    var newElement = document.createElement(tagName);
+    for (attributeName in attributes) {
+       newElement.setAttribute(attributeName, attributes[attributeName]);
+    }
+    if (parentElement) {
+      parentElement.appendChild(newElement);
+    }
+    return newElement;
+  },
+  ajaxRequest: function (url, arguments, callback) {
+    var body = "";
+    // if arguments is a string, send it as the request body
+    if (typeof (arguments) == "string") {
+      body = arguments;
+    }
+    // if arguments is an object, combine its variables into a string
+    else if (typeof (arguments) == "object") {
+      var argumentList = [];
+      for (var argumentName in arguments) {
+        var argumentValue = encodeURIComponent(arguments[argumentName]);
+        argumentList.push(argumentName + "=" + argumentValue);
+      }
+      body = argumentList.join("&");
+    }
+    // create and send the ajax request
+    var ajax = new XMLHttpRequest();
+    if (callback) ajax.onreadystatechange = function () {
+      if (ajax.readyState == 4) callback(ajax);
+    };
+    ajax.open("POST", url, typeof(callback) == "function");
+    ajax.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    ajax.send(body);
+    return ajax;
+  },
+};
+
+    </script>
+    <script type="text/javascript" src="js/TeamSprite.js"></script>
+    <script type="text/javascript" src="js/Tile.js"></script>
+    <script type="text/javascript" src="js/ImageLoader.js"></script>
+    <script type="text/javascript">
+
+onload = function () {
+  Game.loader = new Game.ImageLoader(function () {return;});
+  var menu = document.getElementById('menu');
+  var main = document.getElementById('main');
+  var tileElements = Game.ajaxRequest("tiles.xml").responseXML.getElementsByTagName("tile");
+  for (var i = 0; i < tileElements.length; i++) {
+    var line = Game.createElement("div", {}, menu);
+    var link = Game.createElement("a", {href: "#"}, line);
+    link.textContent = tileElements[i].getAttribute("name");
+    link.onclick = (
+      function (xml) {
+        return function () {
+          var tile = new Game.Tile(xml);
+          main.innerHTML = "";
+          Game.createElement("h1", {}, main).textContent = tile.name;
+          main.appendChild(tile.element);
+        };
+      }
+    )(tileElements[i]);
+  }
+};
+
+    </script>
+    <link rel="stylesheet" type="text/css" href="game.css" />
+  </head>
+  <body>
+    <div id="main"></div>
+    <div id="menu"></div>
+  </body>
+</html>
+

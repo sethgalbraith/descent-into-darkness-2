@@ -192,12 +192,12 @@ function Palette (handler) {
   // shades of primary and secondary colors
   for (var i = 1, x = 2; i < 6; i++) {
     for (var j = i, k = 0; j < 6; j++, k++, x++) {
-      this._swatch(x, 0, j, k, k); // 
-      this._swatch(x, 1, j, j, k);
-      this._swatch(x, 2, k, j, k);
-      this._swatch(x, 3, k, j, j);
-      this._swatch(x, 4, k, k, j);
-      this._swatch(x, 5, j, k, j);
+      this._swatch(x, 0, j, k, k); // red
+      this._swatch(x, 1, j, j, k); // yellow
+      this._swatch(x, 2, k, j, k); // green
+      this._swatch(x, 3, k, j, j); // cyan
+      this._swatch(x, 4, k, k, j); // blue
+      this._swatch(x, 5, j, k, j); // magenta
     }
   }
   // tints and shades of other colors
@@ -213,28 +213,6 @@ function Palette (handler) {
       }
     }
   }
-/*
-for (
-1 x 000 111 222 333 444 555
-3 x 100 211 322 422 522     200 311 422 533     300 411 522     400 511     500
-3 x 110 221 332 442 552     220 331 442 553     330 441 552     440 551     550
-6 x 210 321 432 542     310 421 532     410 521     510
-6 x 320 431 541     420 531     520
-6 x 430 541     530
-6 x 540
-r-- red
-rg- yellow
--g- green
--gb cyan
---b blue
-b-r magenta
-rgb orange
-grb lime
-gbr teal
-bgr aqua
-brg purple
-rbg fuschia
-*/
 }
 Palette.prototype = {
   _swatch: function (x, y, r, g, b) {
