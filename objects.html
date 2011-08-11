@@ -1,0 +1,105 @@
+<html>
+  <head>
+    <style type="text/css">
+body {
+  background-color: #9c9;
+}
+
+.thing {
+  text-align: center;
+  position: relative;
+  float: left;
+  width: 108px;
+  height: 144px;
+}
+
+.clicker {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 108px;
+  height: 144px;
+  z-index: 100;
+}
+
+    </style>
+    <!-- <script type="text/javascript" src="js/Game.js"></script> -->
+    <script type="text/javascript">
+
+var Game = {
+  createElement: function (tagName, attributes, parentElement) {
+    var newElement = document.createElement(tagName);
+    for (attributeName in attributes) {
+       newElement.setAttribute(attributeName, attributes[attributeName]);
+    }
+    if (parentElement) {
+      parentElement.appendChild(newElement);
+    }
+    return newElement;
+  },
+  ajaxRequest: function (url, arguments, callback) {
+    var body = "";
+    // if arguments is a string, send it as the request body
+    if (typeof (arguments) == "string") {
+      body = arguments;
+    }
+    // if arguments is an object, combine its variables into a string
+    else if (typeof (arguments) == "object") {
+      var argumentList = [];
+      for (var argumentName in arguments) {
+        var argumentValue = encodeURIComponent(arguments[argumentName]);
+        argumentList.push(argumentName + "=" + argumentValue);
+      }
+      body = argumentList.join("&");
+    }
+    // create and send the ajax request
+    var ajax = new XMLHttpRequest();
+    if (callback) ajax.onreadystatechange = function () {
+      if (ajax.readyState == 4) callback(ajax);
+    };
+    ajax.open("POST", url, typeof(callback) == "function");
+    ajax.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    ajax.send(body);
+    return ajax;
+  },
+};
+
+    </script>
+    <script type="text/javascript" src="js/Character.js"></script>
+    <script type="text/javascript" src="js/TeamSprite.js"></script>
+    <script type="text/javascript" src="js/ImageLoader.js"></script>
+    <script type="text/javascript">
+
+var makeCharacter = function (xml) {
+    var element = Game.createElement("div", {"class": "thing"}, document.body);
+    var character = new Game.Character(xml);
+    element.textContent = character.name;
+    element.appendChild(character.element);
+    character.setX(54); character.setY(72);
+    var actions = [];
+    for (var action in character.sequences) actions.push(action);
+    var clicker = Game.createElement("div", {"class": "clicker"}, element);
+    clicker.onclick = function () {
+      actions.push(actions.shift());
+      character.setAction(actions[0]);
+    };
+    return character;
+};
+
+onload = function () {
+  Game.loader = new Game.ImageLoader(function () {return;});
+  var elements = Game.ajaxRequest("objects.xml").responseXML.getElementsByTagName("object");
+  var characters = [];
+  for (var i = 0; i < elements.length; i++) characters.push(makeCharacter(elements[i]));
+  setInterval(function () {for (var i = 0; i < characters.length; i++) characters[i].animate();}, 50);
+};
+
+    </script>
+    <link rel="stylesheet" type="text/css" href="game.css" />
+  </head>
+  <body>
+    <div id="main"></div>
+    <div id="menu"></div>
+  </body>
+</html>
+

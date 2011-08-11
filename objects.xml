@@ -1,0 +1,839 @@
+<objects>
+<!-- stone -->
+	<object name="altar">
+		<sequence loop="loop" action="consecrated"><frame>data/core/images/items/altar.png</frame></sequence>
+		<sequence loop="loop" action="desecrated"><frame>data/core/images/items/altar-evil.png</frame></sequence>
+	</object>
+	<object name="coffin">
+		<sequence loop="loop"><frame>data/core/images/items/coffin-closed.png</frame></sequence>
+	</object>
+	<object name="statue">
+		<sequence loop="loop"><frame>data/core/images/items/dragonstatue.png</frame></sequence>
+	</object>
+	<object name="tablet">
+		<sequence loop="loop"><frame>data/core/images/items/stone-tablet.png</frame></sequence>
+	</object>
+	<object name="rocks">
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/rocks1.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/rocks2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/rocks3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/rocks4.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/rocks5.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/rocks6.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/stones-small.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/stones-small2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/stones-small3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/stones-small4.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/stones-small5.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/stones-small6.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/stones-small7.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/stones-small8.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/misc/rubble.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/misc/rubble2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/misc/rubble3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/water/reef.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/water/reef2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/water/reef3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/water/reef4.png</frame></sequence>
+	</object>
+<!-- equipment -->
+	<object name="ankh">
+		<sequence loop="loop"><frame>data/core/images/items/ankh-necklace.png</frame></sequence>
+	</object>
+	<object name="armor">
+		<sequence loop="loop" action="steel"><frame>data/core/images/items/armor.png</frame></sequence>
+		<sequence loop="loop" action="gold"><frame>data/core/images/items/armor-golden.png</frame></sequence>
+	</object>
+	<object name="axe">
+		<sequence loop="loop" action="axe"><frame>data/core/images/items/axe.png</frame></sequence>
+		<sequence loop="loop" action="hatchet"><frame>data/core/images/projectiles/hatchet-1.png</frame></sequence>
+	</object>
+	<object name="bomb">
+		<sequence loop="loop"><frame>data/core/images/items/bomb.png</frame></sequence>
+	</object>
+	<object name="bow">
+		<sequence loop="loop" action="regular"><frame>data/core/images/items/bow.png</frame></sequence>
+		<sequence loop="loop" action="elven"><frame>data/core/images/items/bow-elven.png</frame></sequence>
+		<sequence loop="loop" action="crystal"><frame>data/core/images/items/bow-crystal.png</frame></sequence>
+	</object>
+	<object name="shield">
+		<sequence loop="loop"><frame>data/core/images/items/buckler.png</frame></sequence>
+	</object>
+	<object name="cloak">
+		<sequence loop="loop"><frame>data/core/images/items/cloak-green.png</frame></sequence>
+	</object>
+	<object name="hammer">
+		<sequence loop="loop" action="rune"><frame>data/core/images/items/hammer-runic.png</frame></sequence>
+	</object>
+	<object name="key">
+		<sequence loop="loop"><frame>data/core/images/items/key.png</frame></sequence>
+	</object>
+	<object name="potion">
+		<sequence loop="loop" action="big"><frame>data/core/images/items/ornate1.png</frame></sequence>
+		<sequence loop="loop" action="small"><frame>data/core/images/items/ornate2.png</frame></sequence>
+		<sequence loop="loop" action="blue"><frame>data/core/images/items/potion-blue.png</frame></sequence>
+		<sequence loop="loop" action="green"><frame>data/core/images/items/potion-green.png</frame></sequence>
+		<sequence loop="loop" action="grey"><frame>data/core/images/items/potion-grey.png</frame></sequence>
+		<sequence loop="loop" action="poison"><frame>data/core/images/items/potion-poison.png</frame></sequence>
+		<sequence loop="loop" action="red"><frame>data/core/images/items/potion-red.png</frame></sequence>
+		<sequence loop="loop" action="yellow"><frame>data/core/images/items/potion-yellow.png</frame></sequence>
+		<sequence loop="loop" action="holy"><frame>data/core/images/items/holy-water.png</frame></sequence>
+	</object>
+	<object name="ring">
+		<sequence loop="loop" action="brown"><frame>data/core/images/items/ring-brown.png</frame></sequence>
+		<sequence loop="loop" action="gold"><frame>data/core/images/items/ring-gold.png</frame></sequence>
+		<sequence loop="loop" action="red"><frame>data/core/images/items/ring-red.png</frame></sequence>
+		<sequence loop="loop" action="silver"><frame>data/core/images/items/ring-silver.png</frame></sequence>
+		<sequence loop="loop" action="white"><frame>data/core/images/items/ring-white.png</frame></sequence>
+	</object>
+	<object name="staff">
+		<sequence loop="loop" action="regular"><frame>data/core/images/items/staff.png</frame></sequence>
+		<sequence loop="loop" action="magic"><frame>data/core/images/items/staff-magic.png</frame></sequence>
+		<sequence loop="loop" action="fire"><frame>data/core/images/items/sceptre-of-fire.png</frame></sequence>
+	</object>
+	<object name="spear">
+		<sequence loop="loop" action="regular"><frame>data/core/images/projectiles/spear-ne.png</frame></sequence>
+		<sequence loop="loop" action="pitchfork"><frame>data/core/images/projectiles/pitchfork-ne.png</frame></sequence>
+		<sequence loop="loop" action="fancy"><frame>data/core/images/items/spear-fancy.png</frame></sequence>
+		<sequence loop="loop" action="trident"><frame>data/core/images/items/storm-trident.png</frame></sequence>
+	</object>
+	<object name="arrow">
+		<sequence loop="loop" action="regular"><frame>data/core/images/projectiles/missile-ne.png</frame></sequence>
+		<sequence loop="loop" action="bone"><frame>data/core/images/projectiles/bone-ne.png</frame></sequence>
+		<sequence loop="loop" action="fire"><frame>data/core/images/projectiles/missile-fire-ne.png</frame></sequence>
+	</object>
+	<object name="bolas">
+		<sequence loop="loop"><frame>data/core/images/projectiles/bolas-ne.png</frame></sequence>
+	</object>
+	<object name="chakram">
+		<sequence loop="loop"><frame>data/core/images/projectiles/chakram.png</frame></sequence>
+	</object>
+	<object name="dagger">
+		<sequence loop="loop"><frame>data/core/images/projectiles/dagger-ne.png</frame></sequence>
+	</object>
+	<object name="net">
+		<sequence loop="loop"><frame>data/core/images/projectiles/web.png</frame></sequence>
+	</object>
+	<object name="sword">
+		<sequence loop="loop" action="regular"><frame>data/core/images/items/sword.png</frame></sequence>
+		<sequence loop="loop" action="fire"><frame>data/core/images/items/flame-sword.png</frame></sequence>
+	</object>
+<!-- tools -->
+	<object name="anvil">
+		<sequence loop="loop"><frame>data/core/images/items/anvil.png</frame></sequence>
+	</object>
+	<object name="ball">
+		<sequence loop="loop"><frame>data/core/images/items/ball-blue.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/items/ball-green.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/items/ball-magenta.png</frame></sequence>
+	</object>
+	<object name="book">
+		<sequence loop="loop"><frame>data/core/images/items/book1.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/items/book2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/items/book3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/items/book4.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/items/book5.png</frame></sequence>
+	</object>
+	<object name="brazier">
+		<sequence loop="loop" action="extinguished"><frame>data/core/images/items/brazier.png</frame></sequence>
+		<sequence loop="loop" action="burning">
+			<frame>data/core/images/items/brazier-lit1.png</frame>
+			<frame>data/core/images/items/brazier-lit2.png</frame>
+			<frame>data/core/images/items/brazier-lit3.png</frame>
+			<frame>data/core/images/items/brazier-lit4.png</frame>
+			<frame>data/core/images/items/brazier-lit5.png</frame>
+			<frame>data/core/images/items/brazier-lit6.png</frame>
+			<frame>data/core/images/items/brazier-lit7.png</frame>
+			<frame>data/core/images/items/brazier-lit8.png</frame>
+		</sequence>
+	</object>
+	<object name="cage">
+		<sequence loop="loop"><frame>data/core/images/items/cage.png</frame></sequence>
+	</object>
+<!-- practice -->
+	<object name="target">
+		<sequence loop="loop"><frame>data/core/images/items/archery-target-right.png</frame></sequence>
+	</object>
+	<object name="dummy">
+		<sequence loop="loop"><frame>data/core/images/items/dummy.png</frame></sequence>
+	</object>
+<!-- containers -->
+	<object name="barrel">
+		<sequence loop="loop"><frame>data/core/images/items/barrel.png</frame></sequence>
+	</object>
+	<object name="box">
+		<sequence loop="loop"><frame>data/core/images/items/box.png</frame></sequence>
+	</object>
+	<object name="chest">
+		<sequence loop="loop" action="closed"><frame>data/core/images/items/chest-plain-closed.png</frame></sequence>
+		<sequence loop="loop" action="open"><frame>data/core/images/items/chest-plain-open.png</frame></sequence>
+		<sequence loop="loop" action="biting">
+			<frame duration="4">data/core/images/items/chest-plain-closed.png</frame>
+			<frame duration="2">data/core/images/items/chest-plain-open.png</frame>
+		</sequence>
+		<sequence loop="loop" action="ornate"><frame>data/core/images/items/chest.png</frame></sequence>
+	</object>
+	<object name="bag">
+		<sequence loop="loop" action="backpack"><frame>data/core/images/items/leather-pack.png</frame></sequence>
+	</object>
+<!-- farm -->
+	<object name="grain">
+		<sequence loop="loop" action="sheaf"><frame>data/core/images/items/grain-sheaf.png</frame></sequence>
+	</object>
+	<object name="scarecrow">
+		<sequence loop="loop"><frame>data/core/images/items/scarecrow.png</frame></sequence>
+	</object>
+	<object name="straw">
+		<sequence loop="loop"><frame>data/core/images/items/straw-bale1.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/items/straw-bale2.png</frame></sequence>
+	</object>
+<!-- vegetation -->
+	<object name="great tree">
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/great-tree-dead.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/great-tree.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/great-tree2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/great-tree3.png</frame></sequence>
+	</object>
+	<object name="deciduous forest in fall">
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-fall-sparse-small.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-fall-sparse.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-fall-sparse2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-fall-sparse3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-fall-small.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-fall.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-fall2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-fall3.png</frame></sequence>
+	</object>
+	<object name="deciduous forest in summer">
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-summer-sparse-small.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-summer-sparse.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-summer-sparse2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-summer-sparse3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-summer-small.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-summer.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-summer2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-summer3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-summer4.png</frame></sequence>
+	</object>
+	<object name="deciduous forest in winter">
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-winter-snow-small.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-winter-snow-sparse-small.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-winter-snow-sparse.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-winter-snow-sparse2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-winter-snow-sparse3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-winter-snow.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-winter-snow2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-winter-sparse-small.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-winter-sparse.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-winter-sparse2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-winter-sparse3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-winter-small.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-winter.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/deciduous-winter2.png</frame></sequence>
+	</object>
+	<object name="mixed forest in fall">
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mixed-fall-sparse-small.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mixed-fall-sparse.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mixed-fall-sparse2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mixed-fall-small.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mixed-fall.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mixed-fall2.png</frame></sequence>
+	</object>
+	<object name="mixed forest in summer">
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mixed-summer-sparse-small.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mixed-summer-sparse.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mixed-summer-sparse2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mixed-summer-small.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mixed-summer.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mixed-summer2.png</frame></sequence>
+	</object>
+	<object name="mixed forest in winter">
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mixed-winter-snow-sparse-small.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mixed-winter-snow-sparse.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mixed-winter-snow-sparse2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mixed-winter-snow-small.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mixed-winter-snow.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mixed-winter-snow2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mixed-winter-sparse-small.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mixed-winter-sparse.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mixed-winter-sparse2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mixed-winter-small.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mixed-winter.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mixed-winter2.png</frame></sequence>
+	</object>
+	<object name="pine forest">
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/pine-sparse-small.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/pine-sparse.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/pine-sparse2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/pine-sparse3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/pine-sparse4.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/pine-small.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/pine-small2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/pine.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/pine2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/pine3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/pine4.png</frame></sequence>
+	</object>
+	<object name="pine forest in snow">
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/snow-forest-sparse-small.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/snow-forest-sparse.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/snow-forest-sparse2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/snow-forest-sparse3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/snow-forest-sparse4.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/snow-forest-small.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/snow-forest.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/snow-forest2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/snow-forest3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/snow-forest4.png</frame></sequence>
+	</object>
+	<object name="tropical forest">
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/tropical-small.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/tropical.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/tropical2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/tropical3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/tropical4.png</frame></sequence>
+	</object>
+	<object name="oasis">
+		<sequence loop="loop"><frame>data/core/images/terrain/village/desert-oasis-1.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/desert-oasis-2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/desert-oasis-3.png</frame></sequence>
+	</object>
+	<object name="desert plants">
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/desert-plant.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/desert-plant2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/desert-plant3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/desert-plant4.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/desert-plant5.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/desert-plant6.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/desert-plant7.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/desert-plant8.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/desert-plant9.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/desert-plant10.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/desert-plant11.png</frame></sequence>
+	</object>
+	<object name="mushrooms">
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/mushroom.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/mushroom2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/mushroom3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/mushroom4.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/mushroom5.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/mushroom6.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/mushroom7.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mushrooms-n.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mushrooms-ne.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mushrooms-nw.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mushrooms-s.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mushrooms-se.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mushrooms-sw.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mushrooms-small.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mushrooms.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mushrooms2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mushrooms3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mushrooms4.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/forest/mushrooms5.png</frame></sequence>
+	</object>
+	<object name="lilies">
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/water-lilies-flower-small.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/water-lilies-flower-small2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/water-lilies-flower-small3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/water-lilies-flower-small4.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/water-lilies-flower-small5.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/water-lilies-flower.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/water-lilies-flower2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/water-lilies-flower3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/water-lilies-flower4.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/water-lilies-flower5.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/water-lilies-small.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/water-lilies-small2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/water-lilies-small3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/water-lilies-small4.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/water-lilies-small5.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/water-lilies.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/water-lilies2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/water-lilies3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/water-lilies4.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/embellishments/water-lilies5.png</frame></sequence>
+	</object>
+	<object name="flower">
+		<sequence loop="loop"><frame>data/core/images/items/flower1.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/items/flower2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/items/flower3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/items/flower4.png</frame></sequence>
+	</object>
+<!-- buildings -->
+	<object name="tent">
+		<sequence loop="loop" action="pavilion"><frame>data/core/images/scenery/tent-fancy-red.png</frame></sequence>
+		<sequence loop="loop" action="merchant"><frame>data/core/images/scenery/tent-shop-weapons.png</frame></sequence>
+		<sequence loop="loop" action="large tent"><frame>data/core/images/terrain/castle/encampment/tent.png</frame></sequence>
+		<sequence loop="loop" action="large snow tent"><frame>data/core/images/terrain/castle/encampment/tent-snow.png</frame></sequence>
+		<sequence loop="loop" action="large ruined tent"><frame>data/core/images/scenery/tent-ruin-1.png</frame></sequence>
+		<sequence loop="loop" action="medium tent"><frame>data/core/images/terrain/castle/encampment/tent2.png</frame></sequence>
+		<sequence loop="loop" action="medium snow tent"><frame>data/core/images/terrain/castle/encampment/tent-snow2.png</frame></sequence>
+		<sequence loop="loop" action="small tent"><frame>data/core/images/terrain/village/camp.png</frame></sequence>
+		<sequence loop="loop" action="desert tent"><frame>data/core/images/terrain/village/desert-camp.png</frame></sequence>
+	</object>
+	<object name="cave house">
+		<sequence loop="loop"><frame>data/core/images/terrain/village/cave.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/cave2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/cave3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/dwarven.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/dwarven2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/dwarven3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/dwarven4.png</frame></sequence>
+	</object>
+	<object name="merfolk house">
+		<sequence loop="loop"><frame>data/core/images/terrain/village/coast.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/coast2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/coast3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/coast4.png</frame></sequence>
+		<sequence loop="loop">
+			<frame duration="2">data/core/images/terrain/village/coast5-A01.png</frame>
+			<frame duration="2">data/core/images/terrain/village/coast5-A02.png</frame>
+			<frame duration="2">data/core/images/terrain/village/coast5-A03.png</frame>
+			<frame duration="2">data/core/images/terrain/village/coast5-A04.png</frame>
+		</sequence>
+	</object>
+	<object name="adobe house">
+		<sequence loop="loop"><frame>data/core/images/terrain/village/desert.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/desert2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/desert3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/desert4.png</frame></sequence>
+	</object>
+	<object name="drake house">
+		<sequence loop="loop">
+			<frame>data/core/images/terrain/village/drake1-A01.png</frame>
+			<frame>data/core/images/terrain/village/drake1-A02.png</frame>
+			<frame>data/core/images/terrain/village/drake1-A03.png</frame>
+		</sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/drake1.png</frame></sequence>
+		<sequence loop="loop">
+			<frame>data/core/images/terrain/village/drake2-A01.png</frame>
+			<frame>data/core/images/terrain/village/drake2-A02.png</frame>
+			<frame>data/core/images/terrain/village/drake2-A03.png</frame>
+			<frame>data/core/images/terrain/village/drake2-A04.png</frame>
+		</sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/drake2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/drake3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/drake4.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/drake5.png</frame></sequence>
+	</object>
+	<object name="elf house">
+		<sequence loop="loop"><frame>data/core/images/terrain/village/elven.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/elven-snow.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/elven2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/elven-snow2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/elven3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/elven-snow3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/elven4.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/elven-snow4.png</frame></sequence>
+	</object>
+	<object name="city house">
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human-city.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human-city-snow.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human-city-ruin.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human-city2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human-city-snow2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human-city-ruin2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human-city3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human-city-snow3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human-city-ruin3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human-city4.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human-city-snow4.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human-city-ruin4.png</frame></sequence>
+	</object>
+	<object name="cottage">
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human-hills.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human-snow-hills.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human-hills-ruin.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/scenery/village-human-burned4.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human-snow.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human-cottage-ruin.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/scenery/village-human-burned1.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human-snow2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human-cottage-ruin2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/scenery/village-human-burned3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human-snow3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human-cottage-ruin3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/scenery/village-human-burned2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human4.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human-snow4.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/human-cottage-ruin4.png</frame></sequence>
+	</object>
+	<object name="log cabin">
+		<sequence loop="loop"><frame>data/core/images/terrain/village/log-cabin-snow.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/log-cabin.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/log-cabin2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/log-cabin3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/log-cabin4.png</frame></sequence>
+	</object>
+	<object name="hut">
+		<sequence loop="loop"><frame>data/core/images/terrain/village/hut.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/hut-snow.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/hut2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/hut-snow2.png</frame></sequence>
+	</object>
+	<object name="igloo">
+		<sequence loop="loop"><frame>data/core/images/terrain/village/igloo.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/igloo2.png</frame></sequence>
+	</object>
+	<object name="orc house">
+		<sequence loop="loop"><frame>data/core/images/terrain/village/orc.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/orc-snow.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/orc2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/orc-snow2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/orc3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/orc-snow3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/orc4.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/orc-snow4.png</frame></sequence>
+	</object>
+	<object name="swamp house">
+		<sequence loop="loop"><frame>data/core/images/terrain/village/swampwater.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/swampwater2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/swampwater3.png</frame></sequence>
+	</object>
+	<object name="tropical forest house">
+		<sequence loop="loop"><frame>data/core/images/terrain/village/tropical-forest.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/tropical-forest2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/village/tropical-forest3.png</frame></sequence>
+	</object>
+	<object name="windmill">
+		<sequence loop="loop">
+			<frame duration="2">data/core/images/terrain/misc/windmill-A01.png</frame>
+			<frame duration="2">data/core/images/terrain/misc/windmill-A02.png</frame>
+			<frame duration="2">data/core/images/terrain/misc/windmill-A03.png</frame>
+			<frame duration="2">data/core/images/terrain/misc/windmill-A04.png</frame>
+			<frame duration="2">data/core/images/terrain/misc/windmill-A05.png</frame>
+			<frame duration="2">data/core/images/terrain/misc/windmill-A06.png</frame>
+			<frame duration="2">data/core/images/terrain/misc/windmill-A07.png</frame>
+			<frame duration="2">data/core/images/terrain/misc/windmill-A08.png</frame>
+			<frame duration="2">data/core/images/terrain/misc/windmill-A09.png</frame>
+			<frame duration="2">data/core/images/terrain/misc/windmill-A10.png</frame>
+			<frame duration="2">data/core/images/terrain/misc/windmill-A11.png</frame>
+			<frame duration="2">data/core/images/terrain/misc/windmill-A12.png</frame>
+			<frame duration="2">data/core/images/terrain/misc/windmill-A13.png</frame>
+			<frame duration="2">data/core/images/terrain/misc/windmill-A14.png</frame>
+			<frame duration="2">data/core/images/terrain/misc/windmill-A15.png</frame>
+			<frame duration="2">data/core/images/terrain/misc/windmill-A16.png</frame>
+			<frame duration="2">data/core/images/terrain/misc/windmill-A17.png</frame>
+			<frame duration="2">data/core/images/terrain/misc/windmill-A18.png</frame>
+		</sequence>
+		<sequence loop="loop">
+			<frame duration="2">data/core/images/scenery/windmill-01.png</frame>
+			<frame duration="2">data/core/images/scenery/windmill-02.png</frame>
+			<frame duration="2">data/core/images/scenery/windmill-03.png</frame>
+			<frame duration="2">data/core/images/scenery/windmill-04.png</frame>
+			<frame duration="2">data/core/images/scenery/windmill-05.png</frame>
+			<frame duration="2">data/core/images/scenery/windmill-06.png</frame>
+			<frame duration="2">data/core/images/scenery/windmill-07.png</frame>
+			<frame duration="2">data/core/images/scenery/windmill-08.png</frame>
+			<frame duration="2">data/core/images/scenery/windmill-09.png</frame>
+			<frame duration="2">data/core/images/scenery/windmill-10.png</frame>
+			<frame duration="2">data/core/images/scenery/windmill-11.png</frame>
+			<frame duration="2">data/core/images/scenery/windmill-12.png</frame>
+			<frame duration="2">data/core/images/scenery/windmill-13.png</frame>
+			<frame duration="2">data/core/images/scenery/windmill-14.png</frame>
+			<frame duration="2">data/core/images/scenery/windmill-15.png</frame>
+			<frame duration="2">data/core/images/scenery/windmill-16.png</frame>
+			<frame duration="2">data/core/images/scenery/windmill-17.png</frame>
+			<frame duration="2">data/core/images/scenery/windmill-18.png</frame>
+		</sequence>
+	</object>
+<!-- ??? -->
+	<object name="bones">
+		<sequence loop="loop" action="skeleton"><frame>data/core/images/items/bones.png</frame></sequence>
+		<sequence loop="loop" action="stack"><frame>data/core/images/items/bonestack.png</frame></sequence>
+		<sequence loop="loop" action="burial"><frame>data/core/images/items/burial.png</frame></sequence>
+	</object>
+	<object name="gold">
+		<sequence loop="loop" action="large"><frame>data/core/images/items/gold-coins-large.png</frame></sequence>
+		<sequence loop="loop" action="medium"><frame>data/core/images/items/gold-coins-medium.png</frame></sequence>
+		<sequence loop="loop" action="small"><frame>data/core/images/items/gold-coins-small.png</frame></sequence>
+	</object>
+	<object name="flag">
+		<sequence loop="loop" action="orcish"><frame>data/core/images/items/orcish-flag.png</frame></sequence>
+	</object>
+	<object name="throne">
+		<sequence loop="loop"><frame>data/core/images/terrain/castle/dwarven-keep.png</frame></sequence>
+	</object>
+	<object name="rays of light">
+		<sequence loop="loop">
+			<frame duration="2">data/core/images/terrain/cave/beam.png</frame>
+			<frame duration="2">data/core/images/terrain/cave/beam2.png</frame>
+			<frame duration="2">data/core/images/terrain/cave/beam3.png</frame>
+		</sequence>
+	</object>
+	<object name="clouds">
+<!--		<sequence loop="loop"><frame>data/core/images/terrain/mountains/cloud1_1.png</frame></sequence> -->
+		<sequence loop="loop"><frame>data/core/images/terrain/mountains/cloud1_2.png</frame></sequence>
+<!--		<sequence loop="loop"><frame>data/core/images/terrain/mountains/cloud1_3.png</frame></sequence> -->
+		<sequence loop="loop"><frame>data/core/images/terrain/mountains/cloud2_2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/mountains/cloud3_2.png</frame></sequence>
+	</object>
+	<object name="mountain peaks">
+		<sequence loop="loop"><frame>data/core/images/terrain/mountains/peak.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/mountains/peak2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/mountains/peak3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/mountains/peak4.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/mountains/peak5.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/mountains/peak_large1.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/terrain/mountains/peak_large2.png</frame></sequence>
+		<sequence loop="loop">
+			<layer><frame>data/core/images/terrain/mountains/peak_range1_1.png</frame></layer>
+			<layer><frame>data/core/images/terrain/mountains/peak_range1_2.png</frame></layer>
+		</sequence>
+	</object>
+	<object name="crater">
+		<sequence loop="loop"><frame>data/core/images/terrain/sand/crater.png</frame></sequence>
+	</object>
+	<object name="castle ruins">
+		<sequence loop="loop"><frame>data/core/images/scenery/castle-ruins.png</frame></sequence>
+	</object>
+	<object name="dwarven doors">
+		<sequence loop="loop"><frame>data/core/images/scenery/dwarven-doors-closed.png</frame></sequence>
+	</object>
+	<object name="fire">
+		<sequence loop="loop">
+			<frame>data/core/images/scenery/fire1.png</frame>
+			<frame>data/core/images/scenery/fire2.png</frame>
+			<frame>data/core/images/scenery/fire3.png</frame>
+			<frame>data/core/images/scenery/fire4.png</frame>
+			<frame>data/core/images/scenery/fire5.png</frame>
+			<frame>data/core/images/scenery/fire6.png</frame>
+			<frame>data/core/images/scenery/fire7.png</frame>
+			<frame>data/core/images/scenery/fire8.png</frame>
+		</sequence>
+	</object>
+	<object name="magic symbols">
+		<sequence loop="loop">
+			<layer>
+				<frame duration="12">data/core/images/scenery/circle-magic.png</frame>
+			</layer>
+			<layer>
+				<frame opacity="0.0">data/core/images/scenery/circle-magic-glow.png</frame>
+				<frame opacity="0.1">data/core/images/scenery/circle-magic-glow.png</frame>
+				<frame opacity="0.3">data/core/images/scenery/circle-magic-glow.png</frame>
+				<frame opacity="0.5">data/core/images/scenery/circle-magic-glow.png</frame>
+				<frame opacity="0.7">data/core/images/scenery/circle-magic-glow.png</frame>
+				<frame opacity="0.9">data/core/images/scenery/circle-magic-glow.png</frame>
+				<frame opacity="1.0">data/core/images/scenery/circle-magic-glow.png</frame>
+				<frame opacity="0.9">data/core/images/scenery/circle-magic-glow.png</frame>
+				<frame opacity="0.7">data/core/images/scenery/circle-magic-glow.png</frame>
+				<frame opacity="0.5">data/core/images/scenery/circle-magic-glow.png</frame>
+				<frame opacity="0.3">data/core/images/scenery/circle-magic-glow.png</frame>
+				<frame opacity="0.1">data/core/images/scenery/circle-magic-glow.png</frame>
+			</layer>
+		</sequence>
+		<sequence loop="loop">
+			<layer>
+				<frame duration="12">data/core/images/scenery/rune1.png</frame>
+			</layer>
+			<layer>
+				<frame opacity="0.0">data/core/images/scenery/rune1-glow.png</frame>
+				<frame opacity="0.1">data/core/images/scenery/rune1-glow.png</frame>
+				<frame opacity="0.3">data/core/images/scenery/rune1-glow.png</frame>
+				<frame opacity="0.5">data/core/images/scenery/rune1-glow.png</frame>
+				<frame opacity="0.7">data/core/images/scenery/rune1-glow.png</frame>
+				<frame opacity="0.9">data/core/images/scenery/rune1-glow.png</frame>
+				<frame opacity="1.0">data/core/images/scenery/rune1-glow.png</frame>
+				<frame opacity="0.9">data/core/images/scenery/rune1-glow.png</frame>
+				<frame opacity="0.7">data/core/images/scenery/rune1-glow.png</frame>
+				<frame opacity="0.5">data/core/images/scenery/rune1-glow.png</frame>
+				<frame opacity="0.3">data/core/images/scenery/rune1-glow.png</frame>
+				<frame opacity="0.1">data/core/images/scenery/rune1-glow.png</frame>
+			</layer>
+		</sequence>
+		<sequence loop="loop">
+			<layer>
+				<frame duration="12">data/core/images/scenery/rune2.png</frame>
+			</layer>
+			<layer>
+				<frame opacity="0.0">data/core/images/scenery/rune2-glow.png</frame>
+				<frame opacity="0.1">data/core/images/scenery/rune2-glow.png</frame>
+				<frame opacity="0.3">data/core/images/scenery/rune2-glow.png</frame>
+				<frame opacity="0.5">data/core/images/scenery/rune2-glow.png</frame>
+				<frame opacity="0.7">data/core/images/scenery/rune2-glow.png</frame>
+				<frame opacity="0.9">data/core/images/scenery/rune2-glow.png</frame>
+				<frame opacity="1.0">data/core/images/scenery/rune2-glow.png</frame>
+				<frame opacity="0.9">data/core/images/scenery/rune2-glow.png</frame>
+				<frame opacity="0.7">data/core/images/scenery/rune2-glow.png</frame>
+				<frame opacity="0.5">data/core/images/scenery/rune2-glow.png</frame>
+				<frame opacity="0.3">data/core/images/scenery/rune2-glow.png</frame>
+				<frame opacity="0.1">data/core/images/scenery/rune2-glow.png</frame>
+			</layer>
+		</sequence>
+		<sequence loop="loop">
+			<layer>
+				<frame duration="12">data/core/images/scenery/rune3.png</frame>
+			</layer>
+			<layer>
+				<frame opacity="0.0">data/core/images/scenery/rune3-glow.png</frame>
+				<frame opacity="0.1">data/core/images/scenery/rune3-glow.png</frame>
+				<frame opacity="0.3">data/core/images/scenery/rune3-glow.png</frame>
+				<frame opacity="0.5">data/core/images/scenery/rune3-glow.png</frame>
+				<frame opacity="0.7">data/core/images/scenery/rune3-glow.png</frame>
+				<frame opacity="0.9">data/core/images/scenery/rune3-glow.png</frame>
+				<frame opacity="1.0">data/core/images/scenery/rune3-glow.png</frame>
+				<frame opacity="0.9">data/core/images/scenery/rune3-glow.png</frame>
+				<frame opacity="0.7">data/core/images/scenery/rune3-glow.png</frame>
+				<frame opacity="0.5">data/core/images/scenery/rune3-glow.png</frame>
+				<frame opacity="0.3">data/core/images/scenery/rune3-glow.png</frame>
+				<frame opacity="0.1">data/core/images/scenery/rune3-glow.png</frame>
+			</layer>
+		</sequence>
+		<sequence loop="loop">
+			<layer>
+				<frame duration="12">data/core/images/scenery/rune4.png</frame>
+			</layer>
+			<layer>
+				<frame opacity="0.0">data/core/images/scenery/rune4-glow.png</frame>
+				<frame opacity="0.1">data/core/images/scenery/rune4-glow.png</frame>
+				<frame opacity="0.3">data/core/images/scenery/rune4-glow.png</frame>
+				<frame opacity="0.5">data/core/images/scenery/rune4-glow.png</frame>
+				<frame opacity="0.7">data/core/images/scenery/rune4-glow.png</frame>
+				<frame opacity="0.9">data/core/images/scenery/rune4-glow.png</frame>
+				<frame opacity="1.0">data/core/images/scenery/rune4-glow.png</frame>
+				<frame opacity="0.9">data/core/images/scenery/rune4-glow.png</frame>
+				<frame opacity="0.7">data/core/images/scenery/rune4-glow.png</frame>
+				<frame opacity="0.5">data/core/images/scenery/rune4-glow.png</frame>
+				<frame opacity="0.3">data/core/images/scenery/rune4-glow.png</frame>
+				<frame opacity="0.1">data/core/images/scenery/rune4-glow.png</frame>
+			</layer>
+		</sequence>
+		<sequence loop="loop">
+			<layer>
+				<frame duration="12">data/core/images/scenery/rune5.png</frame>
+			</layer>
+			<layer>
+				<frame opacity="0.0">data/core/images/scenery/rune5-glow.png</frame>
+				<frame opacity="0.1">data/core/images/scenery/rune5-glow.png</frame>
+				<frame opacity="0.3">data/core/images/scenery/rune5-glow.png</frame>
+				<frame opacity="0.5">data/core/images/scenery/rune5-glow.png</frame>
+				<frame opacity="0.7">data/core/images/scenery/rune5-glow.png</frame>
+				<frame opacity="0.9">data/core/images/scenery/rune5-glow.png</frame>
+				<frame opacity="1.0">data/core/images/scenery/rune5-glow.png</frame>
+				<frame opacity="0.9">data/core/images/scenery/rune5-glow.png</frame>
+				<frame opacity="0.7">data/core/images/scenery/rune5-glow.png</frame>
+				<frame opacity="0.5">data/core/images/scenery/rune5-glow.png</frame>
+				<frame opacity="0.3">data/core/images/scenery/rune5-glow.png</frame>
+				<frame opacity="0.1">data/core/images/scenery/rune5-glow.png</frame>
+			</layer>
+		</sequence>
+		<sequence loop="loop">
+			<layer>
+				<frame duration="12">data/core/images/scenery/rune6.png</frame>
+			</layer>
+			<layer>
+				<frame opacity="0.0">data/core/images/scenery/rune6-glow.png</frame>
+				<frame opacity="0.1">data/core/images/scenery/rune6-glow.png</frame>
+				<frame opacity="0.3">data/core/images/scenery/rune6-glow.png</frame>
+				<frame opacity="0.5">data/core/images/scenery/rune6-glow.png</frame>
+				<frame opacity="0.7">data/core/images/scenery/rune6-glow.png</frame>
+				<frame opacity="0.9">data/core/images/scenery/rune6-glow.png</frame>
+				<frame opacity="1.0">data/core/images/scenery/rune6-glow.png</frame>
+				<frame opacity="0.9">data/core/images/scenery/rune6-glow.png</frame>
+				<frame opacity="0.7">data/core/images/scenery/rune6-glow.png</frame>
+				<frame opacity="0.5">data/core/images/scenery/rune6-glow.png</frame>
+				<frame opacity="0.3">data/core/images/scenery/rune6-glow.png</frame>
+				<frame opacity="0.1">data/core/images/scenery/rune6-glow.png</frame>
+			</layer>
+		</sequence>
+	</object>
+	<object name="rusty gate">
+		<sequence loop="loop"><frame>data/core/images/scenery/gate-rusty-se.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/scenery/gate-rusty-sw.png</frame></sequence>
+	</object>
+	<object name="ice pack">
+		<sequence loop="loop"><frame>data/core/images/scenery/icepack-1.png</frame></sequence>
+	</object>
+	<object name="lean-to">
+		<sequence loop="loop"><frame>data/core/images/scenery/leanto.png</frame></sequence>
+	</object>
+	<object name="lighthouse">
+		<sequence loop="loop"><frame>data/core/images/scenery/lighthouse.png</frame></sequence>
+	</object>
+	<object name="mausoleum">
+		<sequence loop="loop">
+			<frame>data/core/images/scenery/mausoleum01.png</frame>
+			<frame>data/core/images/scenery/mausoleum02.png</frame>
+			<frame>data/core/images/scenery/mausoleum03.png</frame>
+			<frame>data/core/images/scenery/mausoleum04.png</frame>
+			<frame>data/core/images/scenery/mausoleum05.png</frame>
+			<frame>data/core/images/scenery/mausoleum06.png</frame>
+			<frame>data/core/images/scenery/mausoleum07.png</frame>
+			<frame>data/core/images/scenery/mausoleum08.png</frame>
+			<frame>data/core/images/scenery/mausoleum09.png</frame>
+			<frame>data/core/images/scenery/mausoleum10.png</frame>
+			<frame>data/core/images/scenery/mausoleum11.png</frame>
+			<frame>data/core/images/scenery/mausoleum12.png</frame>
+			<frame>data/core/images/scenery/mausoleum13.png</frame>
+			<frame>data/core/images/scenery/mausoleum14.png</frame>
+			<frame>data/core/images/scenery/mausoleum15.png</frame>
+			<frame>data/core/images/scenery/mausoleum16.png</frame>
+			<frame>data/core/images/scenery/mausoleum17.png</frame>
+			<frame>data/core/images/scenery/mausoleum18.png</frame>
+			<frame>data/core/images/scenery/mausoleum19.png</frame>
+			<frame>data/core/images/scenery/mausoleum20.png</frame>
+			<frame>data/core/images/scenery/mausoleum21.png</frame>
+			<frame>data/core/images/scenery/mausoleum22.png</frame>
+		</sequence>
+	</object>
+	<object name="abandoned mine">
+		<sequence loop="loop"><frame>data/core/images/scenery/mine-abandoned.png</frame></sequence>
+	</object>
+	<object name="standing stone">
+		<sequence loop="loop"><frame>data/core/images/scenery/monolith1.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/scenery/monolith2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/scenery/monolith3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/scenery/monolith4.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/scenery/rock-cairn.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/scenery/rock1.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/scenery/rock2.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/scenery/rock3.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/scenery/rock4.png</frame></sequence>
+	</object>
+	<object name="rubble">
+		<sequence loop="loop"><frame>data/core/images/scenery/rubble.png</frame></sequence>
+	</object>
+	<object name="shipwreck">
+		<sequence loop="loop"><frame>data/core/images/scenery/shipwreck-1.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/scenery/wreck.png</frame></sequence>
+	</object>
+	<object name="nest">
+		<sequence loop="loop"><frame>data/core/images/scenery/nest-empty.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/scenery/nest-full.png</frame></sequence>
+	</object>
+	<object name="tree">
+		<sequence loop="loop"><frame>data/core/images/scenery/oak-leaning.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/scenery/pine1.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/scenery/pine2.png</frame></sequence>
+	</object>
+	<object name="sign">
+		<sequence loop="loop"><frame>data/core/images/scenery/signpost.png</frame></sequence>
+	</object>
+	<object name="trap door">
+		<sequence loop="loop"><frame>data/core/images/scenery/trapdoor-closed.png</frame></sequence>
+		<sequence loop="loop"><frame>data/core/images/scenery/trapdoor-open.png</frame></sequence>
+	</object>
+	<object name="slab">
+		<sequence loop="loop"><frame>data/core/images/scenery/slab1.png</frame></sequence>
+	</object>
+	<object name="snow">
+		<sequence loop="loop"><frame>data/core/images/scenery/snowbits.png</frame></sequence>
+	</object>
+	<object name="temple">
+		<sequence loop="loop"><frame>data/core/images/scenery/temple1.png</frame></sequence>
+	</object>
+	<object name="trash">
+		<sequence loop="loop"><frame>data/core/images/scenery/trash.png</frame></sequence>
+	</object>
+	<object name="well">
+		<sequence loop="loop"><frame>data/core/images/scenery/well.png</frame></sequence>
+	</object>
+	<object name="whirlpool">
+		<sequence loop="loop"><frame>data/core/images/scenery/whirlpool.png</frame></sequence>
+	</object>
+</objects>
+
